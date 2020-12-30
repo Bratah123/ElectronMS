@@ -20,7 +20,7 @@ function action(M, T, S)
 	if(St == 0)
 	{
 			//	cm.getPlayer().gainRC(140000);
-cm.sendSimple("#fs11#Hello~! Welcome to #dAzureMS#k. I am #dHalocat#k and this is the #bWarp System#k. It will take you to the place you want for free.#b\r\n"
+cm.sendSimple("#fs11#Hello~! Welcome to #dElectronMS#k. I am #dHalocat#k and this is the #bWarp System#k. It will take you to the place you want for free.#b\r\n"
 + "#k#d#fs11##L0##fUI/GuildMark.img/Mark/Pattern/00004001/10# #e#fc0xFFff8888#1~99 training grounds#k#n#d.#l\r\n"
 + "#k#d#fs11##L1111##fUI/GuildMark.img/Mark/Pattern/00004001/12# #e#fc0xFFff6666#100~199 training grounds#k#n#d.#l\r\n"
 + "#k#d#fs11##L500##fUI/GuildMark.img/Mark/Pattern/00004001/13# #e#fc0xFFff3333#200~275 training grounds#k#n#d.#l\r\n"

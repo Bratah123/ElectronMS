@@ -17,7 +17,7 @@ function action(mode, type, selection) {
    return;
     }
     if (status == 0) {
-   var chat = "#k#d#fs11##fUI/GuildMark.img/Mark/Pattern/00004001/14# Hi. #h #sir! #rAzureMS Cash Shop#k #dis.#k#fs11#\r\n";
+   var chat = "#k#d#fs11##fUI/GuildMark.img/Mark/Pattern/00004001/14# Hi. #h #sir! #rElectronMS Cash Shop#k #dis.#k#fs11#\r\n";
         chat += "#k#d#fs11##L5##fUI/GuildMark.img/Mark/Pattern/00004001/11# #rCody Shop#k#dI will enter.#k\r\n";
        // chat += "#k#d#fs11##L0##fUI/GuildMark.img/Mark/Pattern/00004001/13# #rCash shop#k#dI will enter.#k\r\n";
         //chat += "#k#d#fs11##L1##fUI/GuildMark.img/Mark/Pattern/00004001/12# #rSearch cash#k#dI will use.#k#k";

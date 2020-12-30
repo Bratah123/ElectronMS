@@ -20,7 +20,7 @@ function action(mode, type, selection) {
         }
     }
     if (status == 0) {
-        var chat = "#fnSharing Ghotic Extrabold##fs13# Would you like to let AzureMS know your strength?";
+        var chat = "#fnSharing Ghotic Extrabold##fs13# Would you like to let ElectronMS know your strength?";
 	chat += "\r\n#b#L0#I wonder what the damage meter is.#l";
 	chat += "\r\n#L1#We update damage amount meter.#l";
 	chat += "\r\n#L2#I want to check the damage meter ranking.#l";

@@ -23,7 +23,7 @@ function action(mode, type, selection) {
         status++;
     }
     if (status == 0) {
-     var choose = "          #fnSharing Ghotic Extrabold##fs17##fUI/FarmUI.img/objectStatus/star/whole#AzureMS Boss System#fUI/FarmUI.img/objectStatus/star/whole#\r\n#fs11##Cgray#    #fUI/FarmUI.img/objectStatus/star/whole3##dWelcome to the AzureMS Boss System.#fUI/FarmUI.img/objectStatus/star/whole3##k\r\n\r\n#fs11#";
+     var choose = "          #fnSharing Ghotic Extrabold##fs17##fUI/FarmUI.img/objectStatus/star/whole#ElectronMS Boss System#fUI/FarmUI.img/objectStatus/star/whole#\r\n#fs11##Cgray#    #fUI/FarmUI.img/objectStatus/star/whole3##dWelcome to the ElectronMS Boss System.#fUI/FarmUI.img/objectStatus/star/whole3##k\r\n\r\n#fs11#";
         if (cm.getPlayer().getKeyValue("AddDamageAccess") == null) {
             choose += "  #rPlease finish Justice prequest before talking to me.";
             cm.sendOk(choose);

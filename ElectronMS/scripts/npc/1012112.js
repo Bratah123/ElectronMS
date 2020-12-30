@@ -25,7 +25,7 @@ function action(mode, type, selection) {
 	switch (status) {
 		case 0:
 			var m = ""
-			m += "#Cgray##e[ AzureMS Methodist NPC : #p" + cm.getNpc() + "# ]#n#k\r\n\r\n"
+			m += "#Cgray##e[ ElectronMS Methodist NPC : #p" + cm.getNpc() + "# ]#n#k\r\n\r\n"
 			m += " I am #z" + 주흔 + "# To exchange for Meso #p" + cm.getNpc() + "#is. Do you want to exchange? (25,000 meso each)\r\n"
 			m += "#b#L0#Yeah, #z" + 주흔 + "# I would like to exchange.#l\r\n"
 			cm.sendSimple(m);
@@ -36,7 +36,7 @@ function action(mode, type, selection) {
 			최대 = Math.min(개수, 회수);
 
 			var m = ""
-			m += "\r\n#Cgray##e[ AzureMS Present #h #'S data ]#n#k\r\n\r\n"
+			m += "\r\n#Cgray##e[ ElectronMS Present #h #'S data ]#n#k\r\n\r\n"
 			m += "- Item Count : " + 개수 + " QTY\r\n"
 			m += "- Exchangeable : " + 최대 + " time\r\n"
 			m += "- Max meso available : " + (최대 * 메소) + " Mesos\r\n\r\n"

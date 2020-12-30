@@ -19,7 +19,7 @@ function action(mode, type, selection) {
         else
             status--;
         if (status == 0) {
-            cps = "                     #e<AzureMS Story All-round Store>#n\r\n";
+            cps = "                     #e<ElectronMS Story All-round Store>#n\r\n";
             cps = " #fnSharing Ghotic Extrabold##fs15##b#h ##k #fnSharing Ghotic Extrabold##fs15#'S Info.#fnSharing Ghotic Extrabold##fs12#\r\n Level : "+ cm.getPlayer().getLevel() +"¡¡Meso's : " + cm.getPlayer().getMeso();
             cps += "\r\n#L1##fs 13##e#r  Job shop#d ( Equipment Shops by Job )#k";
            cps += "\r\n#L2##fs 13##e#b  Infinity store#d ( Special Equips )#k";

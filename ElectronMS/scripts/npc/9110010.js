@@ -32,7 +32,7 @@ function action(mode, type, selection) {
 		case 1:
 			if (selection == 0) {
 				var m = ""
-				m += "#Cgray##e[ AzureMS Chair list ]#n#k\r\n\r\n"
+				m += "#Cgray##e[ ElectronMS Chair list ]#n#k\r\n\r\n"
 				for (i = 0; i < 의자.length; i++) {
 					m += "#i" + 의자[i] + "# #b#z" + 의자[i] + "#\r\n"
 				}

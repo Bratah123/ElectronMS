@@ -19,7 +19,7 @@ function action(mode, type, selection) {
         else
             status--;
         if (status == 0) {
-            cps = "                     #e<AzureMS Store>#n\r\n";
+            cps = "                     #e<ElectronMS Store>#n\r\n";
             cps = "#fUI/CashShop.img/CSStatus/BtN/normal/0# #fnSharing Gothic Extrabold##fs15##b#h ##k #fnSharing Gothic Extrabold##fs15# 'S Info.#fnSharing Gothic Extrabold##fs12#\r\n Level : "+ cm.getPlayer().getLevel() +"¡¡Meso : " + cm.getPlayer().getMeso()+ " Won#n\r\n\r\n";
             cps += "#L100006##fs 13##i2920006##e#r  Accessories Store\n";
            cps += "#L100007##fs 13##i1190900##e#r  Emblem\n\r\n";

@@ -48,7 +48,7 @@ function action(mode, type, selection) {
 
         if (status == 0) {
             
-            cm.sendSimple("#bAzureMS #kHello sir, #b#h # #kSincerely welcome. How can I  help you?\r\n#b" + "#L1##rGame Terms of Use #eAll agree #nAnd start the game.#l");
+            cm.sendSimple("#bElectronMS #kHello sir, #b#h # #kSincerely welcome. How can I  help you?\r\n#b" + "#L1##rGame Terms of Use #eAll agree #nAnd start the game.#l");
             if (cm.getPlayer().getJob() == 2004) {
                 cm.teachSkill(27000106, 5, 5);
                 cm.teachSkill(27000207, 5, 5);

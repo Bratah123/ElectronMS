@@ -22,7 +22,7 @@ function action(mode, type, selection) {
         else
             status--;
 	if (status == 0) {
-		var jessica = "       #fnSharing Ghotic Extrabold##fs17#"+별+"#e#r AzureMS Rebirth System "+별+"\r\n#fs10##Cgray#       You are connected to the Rebirth System of AzureMS.#k\r\n#fs12#";
+		var jessica = "       #fnSharing Ghotic Extrabold##fs17#"+별+"#e#r ElectronMS Rebirth System "+별+"\r\n#fs10##Cgray#       You are connected to the Rebirth System of ElectronMS.#k\r\n#fs12#";
                 jessica += "#L0##fs12##d Rebirth UI#k#r#fs11# ( Rebirthing Section )\r\n\r\n#k";
                 jessica += "#L99# More Coming Soon.."
                 

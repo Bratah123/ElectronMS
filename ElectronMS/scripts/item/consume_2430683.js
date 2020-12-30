@@ -29,7 +29,7 @@ function action(mode, type, selection) {
 		case 1:
 			if (selection == 0) {
 				var m = ""
-				m += "#Cgray##e[ AzureMS soul item list ]#n#k\r\n\r\n"
+				m += "#Cgray##e[ ElectronMS soul item list ]#n#k\r\n\r\n"
 				for (i = 0; i < 소울.length; i++) {
 					m += "#i" + 소울[i] + "# #b#z" + 소울[i] + "#\r\n"
 				}

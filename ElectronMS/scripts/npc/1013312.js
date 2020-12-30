@@ -20,7 +20,7 @@ function action(mode, type, selection) {
         else
             status--;
         if (status == 0) {
-           var  chat = "          #fnSharing Ghotic Extrabold##fs17##fUI/FarmUI.img/objectStatus/star/whole#AzureMS Exchange System#fUI/FarmUI.img/objectStatus/star/whole#\r\n#fs11##Cgray#    #fUI/FarmUI.img/objectStatus/star/whole4##dWelcome to the AzureMS Exchange System.#fUI/FarmUI.img/objectStatus/star/whole4##k\r\n\r\n#fs11#";
+           var  chat = "          #fnSharing Ghotic Extrabold##fs17##fUI/FarmUI.img/objectStatus/star/whole#ElectronMS Exchange System#fUI/FarmUI.img/objectStatus/star/whole#\r\n#fs11##Cgray#    #fUI/FarmUI.img/objectStatus/star/whole4##dWelcome to the ElectronMS Exchange System.#fUI/FarmUI.img/objectStatus/star/whole4##k\r\n\r\n#fs11#";
                 chat += "#fs11#Defeat the Boss and collect #bAzure Orbs!#k\r\nExchange them for unique items!\r\n\r\n#r*Warning* Blue Orbs are common.#k\r\n";
                 chat += "-----------------------#fUI/FarmUI.img/objectStatus/star/whole5#---------------------------#l\r\n";
                 chat += "#k#d#fs11##L1##fUI/FarmUI.img/objectStatus/star/whole# #r Chaos Zakum#d Orbs#k#l\r\n";

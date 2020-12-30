@@ -71,7 +71,7 @@ public class Start {
    
     public static void main(String[] args) throws IOException {
         System.out.println("KMS v1.2.316 Source");
-        System.out.println("--> AzureMS Starting");
+        System.out.println("--> ElectronMS Starting");
         
         InetAddress local = InetAddress.getLocalHost();
         System.out.println("[Notice] Server IP =  " + local.getHostAddress() + "\r\n");

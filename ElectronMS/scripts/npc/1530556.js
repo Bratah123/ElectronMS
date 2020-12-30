@@ -14,7 +14,7 @@ function action(mode, type, selection) {
     }
     if (status == 0) {
   
-        var choose = "#fnSharing Ghotic Extrabold##fs13# Shandi on charge of drawing for AzureMS !#k";
+        var choose = "#fnSharing Ghotic Extrabold##fs13# Shandi on charge of drawing for ElectronMS !#k";
            choose += "\r\n#L1##fs 13##i3010097##e#b  Random chair draw#d ( Let's get a pretty chair!)#k";
            //choose += "\r\n#L5##fs 13##i2432291##e#b  Overseas Cash Drawer#d (Even more beautiful overseas cash?)#n#l#k";
        if (cm.getPlayer().hasGmLevel(6)){

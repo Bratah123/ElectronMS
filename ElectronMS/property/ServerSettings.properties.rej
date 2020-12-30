@@ -1,4 +1,4 @@
-diff a/AzureMSv316/property/ServerSettings.properties b/AzureMSv316/property/ServerSettings.properties	(rejected hunks)
+diff a/ElectronMSv316/property/ServerSettings.properties b/ElectronMSv316/property/ServerSettings.properties	(rejected hunks)
 @@ -11,7 +11,7 @@
  #   [��������]
  MaxDrop = 4

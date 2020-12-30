@@ -10,7 +10,7 @@ var second = new Array("Naruto","Garbage","Armpit hair","Person","Beast","Microb
 
 function start() {
 	if(cm.getPlayer().getGMLevel() > 0){
-		cm.getPlayer().send(MainPacketCreator.sendHint("#fnSharing Gothic Extrabold# If you win the lucky winner of AzureMS, you will receive an item?!", 400, 20));
+		cm.getPlayer().send(MainPacketCreator.sendHint("#fnSharing Gothic Extrabold# If you win the lucky winner of ElectronMS, you will receive an item?!", 400, 20));
 	}
 
 	var str = "";

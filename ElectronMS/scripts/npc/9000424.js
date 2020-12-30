@@ -27,14 +27,14 @@ function action(mode, type, selection) {
 
     if (status == 0) {
     if (cm.getPlayer().getKeyValue("AddDamageAccess") == null) {
-        var chat = "    #fs14# AzureMS Damage Upgrade System!#n#k\r\n#fs11##Cgray#\r\n#k";
+        var chat = "    #fs14# ElectronMS Damage Upgrade System!#n#k\r\n#fs11##Cgray#\r\n#k";
         chat += "#L5#"+ Star2 +" #e#bQuest to learn Additional Damage#k\r\n";
         chat += "#L6#"+ Star2 +" #e#bPlease explain Additional Damage#k";
 
 
 
        } else {
-        var chat = "          #fnSharing Ghotic Extrabold##fs13# AzureMS Damage Upgrade shop!#n#k\r\n#fs11##Cgray#\r\n";
+        var chat = "          #fnSharing Ghotic Extrabold##fs13# ElectronMS Damage Upgrade shop!#n#k\r\n#fs11##Cgray#\r\n";
               chat += " #fs12#You can exchange your coins/box for special Damage!#fs12#\r\n\r\n";
               chat += "    #i4001623#   #i4310034#   #i4032101#   #i4031102#\r\n";
               chat += "#L1#" + Star  + " #d[#k#gExchange#k#d]#k #gEmerald Coins\r\n";

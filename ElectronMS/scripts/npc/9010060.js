@@ -113,7 +113,7 @@ cm.getPlayer().send(MainPacketCreator.getGMText(19, "[MapleStory] Successfully s
         cm.fakeRelog();
         cm.updateChar();
         cm.sendOk("#fs 50##fnArchery# #bEnhanced!#k");
-WorldBroadcasting.broadcast(MainPacketCreator.getGMText(5, "AzureMS¡º "+ cm.getPlayer().getName()+" ¡» Has completed ¡¼Support Enhancement¡½. Congratulations."));
+WorldBroadcasting.broadcast(MainPacketCreator.getGMText(5, "ElectronMS¡º "+ cm.getPlayer().getName()+" ¡» Has completed ¡¼Support Enhancement¡½. Congratulations."));
         cm.dispose();
 }
 }

@@ -20,7 +20,7 @@ function action(M, T, S)
 	if(St == 0)
 	{
 			//	cm.getPlayer().gainRC(140000);
-		cm.sendSimple("#fs11#Good Morning~! We can help you move to AzureMS #dHalocate#k is! Want to move quickly and safely elsewhere? If so, customer satisfaction is the first priority #bWarp System #kTry it. Specially free! We will take you to the place you want.#b\r\n"
+		cm.sendSimple("#fs11#Good Morning~! We can help you move to ElectronMS #dHalocate#k is! Want to move quickly and safely elsewhere? If so, customer satisfaction is the first priority #bWarp System #kTry it. Specially free! We will take you to the place you want.#b\r\n"
 		+ "#k#d#fs11##L0##fUI/GuildMark.img/Mark/Pattern/00004001/10# #e#rLevel Hunting ground#k#n#d로 이동하고 싶습니다.#l\r\n"
 		+ "#k#d#fs11##L500##fUI/GuildMark.img/Mark/Pattern/00004001/10# #e#rLevel Hunting Ground2#k#n#d로 이동하고 싶습니다.#l\r\n"
 		+ "#k#d#fs11##L7##fUI/GuildMark.img/Mark/Pattern/00004001/14# #e#rExploration#k#n#dI want to use.#l\r\n"

@@ -30,7 +30,7 @@ function action(mode, type, selection) {
         return;
     }
     if (mode == 0 && status == 2) {
-       cm.sendNext("Happy #dAzureMS#k Have"); // Message to decline when asked to accept quest
+       cm.sendNext("Happy #dElectronMS#k Have"); // Message to decline when asked to accept quest
        cm.dispose();
        return;
     }

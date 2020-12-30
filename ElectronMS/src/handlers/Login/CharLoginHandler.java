@@ -75,7 +75,7 @@ public class CharLoginHandler {
                     break;
             case 1:
                 // Account Failed
-                c.send(MainPacketCreator.serverNotice(1, "No account found.\r\n" + ServerConstants.serverName + "\r\nPlease register an account at\r\nAzureMS.online"));
+                c.send(MainPacketCreator.serverNotice(1, "No account found.\r\n" + ServerConstants.serverName + "\r\nPlease register an account at\r\nElectronMS.online"));
                 c.send(LoginPacket.getLoginFailed(20));
                 return;
             case 2:

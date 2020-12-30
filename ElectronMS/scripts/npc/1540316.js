@@ -19,7 +19,7 @@ function action(mode, type, selection) {
         else
             status--;
         if (status == 0) {
-		var jessica = "            #e#rAzureMS#k Welcome to the fishing world. #n\r\n";
+		var jessica = "            #e#rElectronMS#k Welcome to the fishing world. #n\r\n";
 		jessica += "#e#b#L0# "+time+" Fishing guide " +time+"#n#k\r\n";
 		jessica += "#e#b#L1# "+time+" Buy fishing supplies " +time+"#n#k\r\n";
 		jessica += "#e#b#L8# "+time+" Fishing bead shops " +time+"#n#k\r\n";

@@ -48,7 +48,7 @@ function action(mode, type, sel) {
 		return;
     	}
 	if (status == 0) {
-		var msg = "#fs11##k#k#d#fs15##i1162003##e#r Hello AzureMS Beauty shop.#k#n#fs11##b"+enter;
+		var msg = "#fs11##k#k#d#fs15##i1162003##e#r Hello ElectronMS Beauty shop.#k#n#fs11##b"+enter;
 		msg += "#k#d#fs11##L1##i5680222##e#r 헤어 샵#k#n #r(Hair shop)#k"+enter;
 		msg += "#k#d#fs11##L2##i5680222##e#r 성형 샵#k#n #r(Plastic surgery)#k"+enter;
 		msg += "#k#d#fs11##L3##i5680222##e#r 스킨 케어#k#n #r(Skin care)#k"+enter;
@@ -64,7 +64,7 @@ function action(mode, type, sel) {
 
 		switch (sel) {
 			case 1:
-				var msg = "#fs11##d#eAzureMS Hair Shop.#n#k#fs11#"+enter;
+				var msg = "#fs11##d#eElectronMS Hair Shop.#n#k#fs11#"+enter;
 				msg += "#L1##e#rHair1#n#k I want to use a shop."+enter;
 				msg += "#L2##r#eHair2#n#k I want to use a shop."+enter;
 				msg += "#L3##e#rHair3#n#k I want to use a shop."+enter;
@@ -74,7 +74,7 @@ function action(mode, type, sel) {
 				cm.sendSimple(msg);
 			break;
 			case 2:
-				var msg = "#fs11##d#eAzureMS Plastic Surgery Shop.#n#k#fs11#"+enter;
+				var msg = "#fs11##d#eElectronMS Plastic Surgery Shop.#n#k#fs11#"+enter;
 				msg += "#L1##e#rLatest#n#k I want to use a shop."+enter;
 				msg += "#L3##e#r　Sphere Surgery#n#k I want to use a shop."+enter;
 				//msg += "#L2##e해외 성형#n I want to use a shop."+enter;
@@ -126,7 +126,7 @@ function action(mode, type, sel) {
             				cm.dispose();
             				return;
         			}
-				var msg = "#fs11##dAzureMS Android Looks Changes#k#fs11##b"+enter;
+				var msg = "#fs11##dElectronMS Android Looks Changes#k#fs11##b"+enter;
 				msg += "#L1#I want to look around the hair shop."+enter;
 				msg += "#L2#I want to look around the plastic shop. "+enter;
 				msg += "#L3#I want to have skin care."+enter;
@@ -283,7 +283,7 @@ function action(mode, type, sel) {
 				android = true;
 				switch (sel) {
 					case 1: // hair
-						var msg = "#fs11##d#eAzureMS Android Hair Shop.#n#k#fs11#"+enter;
+						var msg = "#fs11##d#eElectronMS Android Hair Shop.#n#k#fs11#"+enter;
 				msg += "#L1##e#r헤어1#n#k I want to use a shop."+enter;
 				msg += "#L2##r#e헤어2#n#k I want to use a shop."+enter;
 				msg += "#L3##e#r헤어3#n#k I want to use a shop."+enter;
@@ -294,7 +294,7 @@ function action(mode, type, sel) {
 						cm.sendSimple(msg);
 					break;
 					case 2: // Plastic Surgery
-						var msg = "#fs11##d#eAzureMS Android Plastic Surgery Shop.#n#k#fs11#"+enter;
+						var msg = "#fs11##d#eElectronMS Android Plastic Surgery Shop.#n#k#fs11#"+enter;
 						msg += "#L1##e#rLatest molding#n#k I want to use a shop."+enter;
 						//msg += "#L2##eOverseas molding#n I want to use a shop."+enter;
 						msg += "#L3##e#r　Sphere molding#n#k I want to use a shop."+enter;

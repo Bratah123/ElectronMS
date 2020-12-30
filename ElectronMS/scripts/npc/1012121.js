@@ -20,7 +20,7 @@ function action(mode, type, selection) {
 	}
 	status++;
 	if (status == 1) {
-		var txt = "#fnSharing Ghotic Extrabold##fs17#"+별+" AzureMS Disposal "+별+"\r\n#fs10##Cgray# Please select your desired inventory window.#k\r\n#fs12#";
+		var txt = "#fnSharing Ghotic Extrabold##fs17#"+별+" ElectronMS Disposal "+별+"\r\n#fs10##Cgray# Please select your desired inventory window.#k\r\n#fs12#";
 		txt += "\r\n#d* Drop requires 100,000 mesos.#k\r\n";
 		txt += "#L1##rCash items#k Let's drop.#k\r\n";
 		txt += "#L2##bEquipment items#k Let's drop.#k\r\n";

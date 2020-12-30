@@ -61,7 +61,7 @@ function action(mode, type, selection) {
                     + "#i" + ccoin + "# #b#z" + ccoin + "# 100 #kParty #bmonster#k #bI'll charge 1!\r\n\r\nI want to use it right now~?");
             }
         } else {
-            富 = "Coolest hunting ground in AzureMS!\r\n";
+            富 = "Coolest hunting ground in ElectronMS!\r\n";
             富 += "#b<Frozen-Link>#kSincerely welcome to FZL~!\r\n\r\n";
             富 += "#b#L0#I want to changed monster type.\r\n";
             富 += "#b#L1# I'll charge #k to hunt monsters.\r\n";

@@ -42,7 +42,7 @@ function action(mode, type, selection) {
 		bossin = parseInt(cm.getPlayer().getDateKey("저코보스", false));
 		lastlimited = in_limited - bossin;
 		var ms = "#fnSharing Gothic##fs13#"
-		ms += "		   " + star + "#r[ AzureMS boss system ]#n#k" + star + "\r\n\r\n"
+		ms += "		   " + star + "#r[ ElectronMS boss system ]#n#k" + star + "\r\n\r\n"
 		ms += "		       My remaining boss entry: " + lastlimited + "\r\n";
 		for (i = 0; i < bossname.length; i++) {
 			ui = "#fUI/UIWindow2.img/MobGage/Mob/" + bosscode[i] + "#"

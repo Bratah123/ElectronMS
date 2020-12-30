@@ -22,7 +22,7 @@ function action(mode, type, selection) {
     }
 
     if (status == 0) {
-	var msg = "#e#fnSharing Gothic##fs20##e#r  #fUI/FarmUI.img/objectStatus/star/whole5#   AzureMS Utility Shop   #fUI/FarmUI.img/objectStatus/star/whole5#\r\n\r\n#fs13##fc0xFF6B66FF#";
+	var msg = "#e#fnSharing Gothic##fs20##e#r  #fUI/FarmUI.img/objectStatus/star/whole5#   ElectronMS Utility Shop   #fUI/FarmUI.img/objectStatus/star/whole5#\r\n\r\n#fs13##fc0xFF6B66FF#";
         msg += "#L0##fUI/FarmUI.img/objectStatus/star/whole7# Blue Orb Shop\r\n";
         msg += "#L1##fUI/FarmUI.img/objectStatus/star/whole16# Purple Orb Shop\r\n";
         msg += "#L2##fUI/FarmUI.img/objectStatus/star/whole2# Meso Exchange Shop\r\n";
