@@ -39,10 +39,7 @@ import constants.ServerConstants;
 import constants.Data.ServerType;
 import connections.Database.MYSQL;
 import io.netty.bootstrap.ServerBootstrap;
-import io.netty.channel.ChannelFuture;
-import io.netty.channel.ChannelInitializer;
-import io.netty.channel.ChannelOption;
-import io.netty.channel.EventLoopGroup;
+import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
@@ -884,6 +881,17 @@ public class ChannelServer {
         for (ChannelServer cserv : ChannelServer.getAllInstances()) {
             Timer.WorldTimer.getInstance().schedule(new ServerShutdown(cserv.getChannel()), time);
         }
+    }
+
+    public static MapleCharacter getCharByName(String name) {
+        Collection<ChannelServer> channels = ChannelServer.getAllInstances();
+        for (ChannelServer channel : channels) {
+            MapleCharacter player = channel.getPlayerStorage().getCharacterByName(name);
+            if(player != null) {
+                return player;
+            }
+        }
+        return null;
     }
 
     public int getChannelCount() {
