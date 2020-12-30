@@ -7228,8 +7228,8 @@ public class MainPacketCreator {
         packet.writeInt(Randomizer.rand(10, 16));
         packet.writeInt(Randomizer.rand(40, 52));
         packet.writeInt(20);
-        packet.writeInt(0); // Start.x
-        packet.writeInt(0); // Start.y
+        packet.writeInt(0); // launcher.Start.x
+        packet.writeInt(0); // launcher.Start.y
         packet.writeInt(0);// CreateTime
         packet.writeInt(0); // MaxHitCount
         packet.writeInt(0); // EffectIdx
@@ -7481,8 +7481,8 @@ public class MainPacketCreator {
             packet.writeInt(8 + i); // Second
             packet.writeInt(Randomizer.rand(5, 171)); // Angle
             packet.writeInt(Randomizer.rand(0, 55)); // StartDelay
-            packet.writeInt(0); // Start X
-            packet.writeInt(0); // Start Y
+            packet.writeInt(0); // launcher.Start X
+            packet.writeInt(0); // launcher.Start Y
             packet.writeInt(Randomizer.nextInt()); // CreateTime
             packet.writeInt(0); // MaxHitCOunt
             packet.writeInt(0); // EffectIdx

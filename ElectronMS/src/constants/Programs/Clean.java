@@ -18,7 +18,7 @@ public class Clean {
                 public void run() {
                     if (timeo == 0) {
                         CPUSampler.getInstance().start();
-                        System.out.println("CPUSampler Thread Start!!");
+                        System.out.println("CPUSampler Thread launcher.Start!!");
                         DeadLockDetector clean = new DeadLockDetector(10, (byte) 1);
                         clean.run();
                         timeo++;
@@ -26,7 +26,7 @@ public class Clean {
                         timeo = 0;
                     } else if (timeo != 0) {
                         CPUSampler.getInstance().start();
-                        System.out.println("CPUSampler Thread Start!!");
+                        System.out.println("CPUSampler Thread launcher.Start!!");
                         DeadLockDetector clean = new DeadLockDetector(10, (byte) 1);
                         clean.run();
                         WorldBroadcasting.broadcast(

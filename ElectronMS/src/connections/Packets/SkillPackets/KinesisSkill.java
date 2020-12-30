@@ -42,7 +42,7 @@ public class KinesisSkill {
     public static void PsychicGrep(ReadingMaple rh, final MapleClient c) {
         WritingPacket packet = new WritingPacket();
         packet.writeShort(SendPacketOpcode.PSYCHIC_GREP.getValue());
-        /* First AttackInfo Start */
+        /* First AttackInfo launcher.Start */
         packet.writeInt(c.getPlayer().getId());
         packet.write(1);
         final int skillid = rh.readInt();

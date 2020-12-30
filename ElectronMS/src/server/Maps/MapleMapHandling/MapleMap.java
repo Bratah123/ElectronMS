@@ -2711,7 +2711,7 @@ public class MapleMap {
         }
         final MapleWorldMapItem mdrop = new MapleWorldMapItem(idrop, dropPos, mob, chr, droptype, false, questid);
         checkMaxItemInMap();
-        // Start nx block from fm
+        // launcher.Start nx block from fm
         int[] nxItems = {5150030, 5151025, 5152033, 5152035, 1002186, 1082102, 1002999, 1052211, 1072175, 1003000,
                 1052212, 1003001, 1052213, 1072406, 1002998, 1052210, 1072404};
         if (mapid != 104040000) { // HHG1

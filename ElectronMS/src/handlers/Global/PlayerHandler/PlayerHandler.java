@@ -567,7 +567,7 @@ public class PlayerHandler {
             }
         }
 
-        //Aesop Barrier Start
+        //Aesop Barrier launcher.Start
         if (GameConstants.isZero(chr.getJob()) && chr.getGender() == 1) {
             SkillStatEffect zero = Objects.requireNonNull(SkillFactory.getSkill(101120109)).getEffect(chr.getSkillLevel(101120109));
             if (zero != null) {

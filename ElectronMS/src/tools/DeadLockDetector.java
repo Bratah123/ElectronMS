@@ -18,7 +18,7 @@ public class DeadLockDetector extends Thread {
 
     public DeadLockDetector(int sleepTime, byte doWhenDL) {
         super("DeadLockDetector");
-        System.out.println("DeadLockSearch Start!!");
+        System.out.println("DeadLockSearch launcher.Start!!");
         this.sleepTime = sleepTime * 1000;
         this.tmx = ManagementFactory.getThreadMXBean();
     }

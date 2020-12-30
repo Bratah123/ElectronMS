@@ -62,7 +62,7 @@ public class ShopMaker2 {
         }
         System.out.println();
 
-        System.out.println("Start creating all item store files.");
+        System.out.println("launcher.Start creating all item store files.");
         long start = System.currentTimeMillis();
         boolean isLast;
         try {

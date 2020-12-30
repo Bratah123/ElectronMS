@@ -211,7 +211,7 @@ public class BossPacket {
     /**
      * @param type should be 1/2/5.<br />
      * 1 : ???<br />
-     * 2 : Start skill action<br />
+     * 2 : launcher.Start skill action<br />
      * 5 : Stop skill action (for delaying or... idk)<br />
      * 0/3/4 see below
      * @See FieldPacket.BossLucid.doShoot

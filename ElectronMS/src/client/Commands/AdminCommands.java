@@ -2096,7 +2096,7 @@ public class AdminCommands {
 	public static class SaveAll extends AdminCommand {
 		@Override
 		public int execute(MapleCharacter c, String[] splitted) {
-			c.dropMessage(6, "Start saving...");
+			c.dropMessage(6, "launcher.Start saving...");
 			for (ChannelServer cserv : ChannelServer.getAllInstances()) {
 				cserv.saveAllMerchant();
 				for (MapleCharacter hp : cserv.getPlayerStorage().getAllCharacters().values()) {

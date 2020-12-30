@@ -268,11 +268,11 @@ public class MapleLifeProvider {
             
             // Bosses HP
             // New Boss System
-            /* Green Side Start */
+            /* Green Side launcher.Start */
             if (mid == 8800102){ // Chaos Zakum 1.00 Trillion
                 stats.setHp(1000000000000L);
             }
-            /* Horntail Start */ 
+            /* Horntail launcher.Start */
             if (mid == 8810102) { // Chaos Horntail Left Head 300 Billion
                 stats.setHp(300000000000L);
             }
@@ -308,7 +308,7 @@ public class MapleLifeProvider {
             }
             /* Green Side End */
             
-            /* Blue Side Start */
+            /* Blue Side launcher.Start */
             if (mid == 8870000) { // Hilla 10.0 Trillion
                 stats.setHp(10000000000000L);
             }
@@ -340,7 +340,7 @@ public class MapleLifeProvider {
             // Total Pink 400 Trillion
             /* Blue Side End */
             
-            /* Red Side Start */
+            /* Red Side launcher.Start */
             if (mid == 8900000) { //Chaos Pierre 600 Trillion
                 stats.setHp(600000000000000L);
             }   
@@ -355,7 +355,7 @@ public class MapleLifeProvider {
             }
             /* Red Side End */
             
-            /* Pink Side Start */
+            /* Pink Side launcher.Start */
             if (mid == 9801028) { // Lotus 1 phase 800 Trillion
                 stats.setHp(800000000000000L);
             }      
@@ -396,7 +396,7 @@ public class MapleLifeProvider {
             
             /* Pink Side End */
             
-            /* Purple Side Start */
+            /* Purple Side launcher.Start */
             if (mid == 8880301) { //Will 1 Phase 20
                 stats.setHp(5000000000000000L); // 5 Quadrillion
             }

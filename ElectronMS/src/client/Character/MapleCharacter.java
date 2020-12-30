@@ -8708,7 +8708,7 @@ public class MapleCharacter extends AnimatedHinaMapObjectExtend implements Inven
             BULLET_SKILL_ID = skillid;
             lastBulletUsedTime = System.currentTimeMillis();
         }
-        /* Start of increase and decrease condition */
+        /* launcher.Start of increase and decrease condition */
         switch (skillid) {
             case 37001001: //When using linked skills
             case 37000009:

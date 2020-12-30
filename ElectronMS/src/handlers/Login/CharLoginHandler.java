@@ -24,7 +24,6 @@ import constants.GameConstants;
 import constants.ServerConstants;
 import connections.Database.MYSQL;
 import launcher.ServerPortInitialize.LoginServer;
-import Start;
 import launcher.LauncherHandlers.MapleLoginHelper;
 import launcher.LauncherHandlers.MapleLoginWorker;
 import launcher.LauncherHandlers.MapleNewCharJobType.JobType;
@@ -35,6 +34,7 @@ import connections.Opcodes.SendPacketOpcode;
 import connections.Packets.PacketUtility.ReadingMaple;
 import client.ItemInventory.Items.ItemInformation;
 import tools.KoreanDateUtil;
+import launcher.Start;
 
 public class CharLoginHandler {
 

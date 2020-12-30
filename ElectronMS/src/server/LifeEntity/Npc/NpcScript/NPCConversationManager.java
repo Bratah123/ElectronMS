@@ -2847,7 +2847,7 @@ public class NPCConversationManager extends AbstractPlayerInteraction {
 	}
 
 	/*
-	 * Start of Custom Features
+	 * launcher.Start of Custom Features
 	 */
 	public void gainAPS(int gain)
 	{

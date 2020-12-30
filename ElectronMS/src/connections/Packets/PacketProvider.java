@@ -586,7 +586,7 @@ public class PacketProvider {
         for (IItem item : equippedC) {
             equipped.add((IItem) item);
         }
-        /* Start wearing item */
+        /* launcher.Start wearing item */
         Collections.sort(equipped);
         for (IItem item : equipped) {
             if (item.getPosition() < 0 && item.getPosition() > -100) {
@@ -604,7 +604,7 @@ public class PacketProvider {
         /* Exiting cache item */
         w.writeShort(0);
 
-        /* Start Equipment Inventory */
+        /* launcher.Start Equipment Inventory */
         iv = chr.getInventory(MapleInventoryType.EQUIP);
         for (IItem item : iv.list()) {
             addItemInfo(w, item, false, false, null);
@@ -612,7 +612,7 @@ public class PacketProvider {
         /* Terminate Equipment Inventory */
         w.writeShort(0);
 
-        // NonBPEquip Start
+        // NonBPEquip launcher.Start
         // Launch Evan Equipment Inventory
         for (IItem item : equipped) {
             if (item.getPosition() <= -1000 && item.getPosition() > -1100) {
@@ -621,7 +621,7 @@ public class PacketProvider {
         }
         // Evan Equipment Inventory Shutdown
         w.writeShort(0);
-        // Start Mechanic Equipment Inventory
+        // launcher.Start Mechanic Equipment Inventory
         for (IItem item : equipped) {
             if (item.getPosition() <= -1100 && item.getPosition() > -1200) {
                 addItemInfo(w, item, false, false, null);
@@ -669,28 +669,28 @@ public class PacketProvider {
 
         w.writeInt(0);
 
-        /* Start consumption inventory */
+        /* launcher.Start consumption inventory */
         iv = chr.getInventory(MapleInventoryType.USE);
         for (IItem item : iv.list()) {
             addItemInfo(w, item, false, false, null);
         }
         /* Exit consumption inventory */
         w.write(0);
-        /* Start installation inventory */
+        /* launcher.Start installation inventory */
         iv = chr.getInventory(MapleInventoryType.SETUP);
         for (IItem item : iv.list()) {
             addItemInfo(w, item, false, false, null);
         }
         /* Exit installation inventory */
         w.write(0);
-        /* Start other inventory */
+        /* launcher.Start other inventory */
         iv = chr.getInventory(MapleInventoryType.ETC);
         for (IItem item : iv.list()) {
             addItemInfo(w, item, false, false, chr);
         }
         /* Exit other inventory */
         w.write(0);
-        /* Start Cache Inventory */
+        /* launcher.Start Cache Inventory */
         iv = chr.getInventory(MapleInventoryType.CASH);
         for (IItem item : iv.list()) {
             addItemInfo(w, item, false, false, chr);

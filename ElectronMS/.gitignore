@@ -13,3 +13,4 @@ Log/*
 property/ServerSettings.properties
 out/*
 AzureSrc.iml
+target

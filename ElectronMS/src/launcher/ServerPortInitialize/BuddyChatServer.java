@@ -25,7 +25,7 @@ public class BuddyChatServer {
 
     public final void InitConfig() {
         try {
-            /* Start Socket Configuration */
+            /* launcher.Start Socket Configuration */
             ByteBuffer.setUseDirectBuffers(false);
             ByteBuffer.setAllocator(new SimpleByteBufferAllocator());
 

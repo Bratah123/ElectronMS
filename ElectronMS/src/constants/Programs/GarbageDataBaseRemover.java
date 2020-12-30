@@ -9,7 +9,7 @@ import java.sql.ResultSet;
 public class GarbageDataBaseRemover {
 
     public static void main(String args[]) {
-        System.out.println("[Notice] Start Database Cleanup\r\n");
+        System.out.println("[Notice] launcher.Start Database Cleanup\r\n");
         int deletedrows = 0;
 
         ServerConstants.Host = "localhost";

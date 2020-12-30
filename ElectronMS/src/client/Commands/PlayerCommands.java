@@ -349,7 +349,7 @@ public class PlayerCommands {
 	public static class Save extends PlayerCommand {
 		@Override
 		public int execute(MapleCharacter c, String[] splitted) {
-			c.dropMessage(6, "[SAVE] Start saving... You should never exit the game before the save is complete.");
+			c.dropMessage(6, "[SAVE] launcher.Start saving... You should never exit the game before the save is complete.");
 			c.saveToDB(false, false);
 			c.dropMessage(5, "[SAVE] Save completed.");
 			return 1;

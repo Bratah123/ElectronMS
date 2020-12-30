@@ -15,7 +15,7 @@ public class MulongDojo implements Runnable {
         this.numTimes = 0;
         boolean isfirst = false;
         long lastSaveAuctionTime = System.currentTimeMillis();
-        System.out.println("[Loading Completed] Start MulongDojo");
+        System.out.println("[Loading Completed] launcher.Start MulongDojo");
     }
 
     @Override

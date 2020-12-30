@@ -145,7 +145,7 @@ public class PetHandler {
 
     public static void MovePet(ReadingMaple rh, MapleCharacter chr) {
         long slot = rh.readInt();
-        rh.skip(13); // Start POS
+        rh.skip(13); // launcher.Start POS
         String originalrh = rh.toString();
         List<LifeMovementFragment> res = MovementParse.parseMovement(rh);
         if (chr.getPet(slot) != null) {

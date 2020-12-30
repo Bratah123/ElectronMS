@@ -1,4 +1,4 @@
-/**
+package launcher; /**
  *
  * @author SoulGirlJP
  *
@@ -98,7 +98,7 @@ public class Start {
             ex.printStackTrace();
         }
          
-         /* Start Timer */
+         /* launcher.Start Timer */
         tools.Timer.WorldTimer.getInstance().start();
         tools.Timer.EtcTimer.getInstance().start();
         tools.Timer.MapTimer.getInstance().start();
