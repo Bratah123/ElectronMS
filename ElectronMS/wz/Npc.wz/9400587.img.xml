@@ -1,0 +1,1258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><imgdir name="9400587.img"><imgdir name="info"><imgdir name="illustration2"><imgdir name="face"><canvas name="rakan.png" width="1024" height="512"><vector name="origin" x="512" y="256"/><int name="z" value="0"/><string name="_hash" value="07e9bf5ccf42b2c6e3e21f4c23b87caccc731b85cb9c1863a10ac5f8a5b45a50"/></canvas><string name="spine" value="rakan"/><string name="rakan.atlas" value="
+rakan.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 752, 238
+  size: 274, 148
+  orig: 274, 148
+  offset: 0, 0
+  index: -1
+bow
+  rotate: true
+  xy: 0, 5
+  size: 85, 230
+  orig: 85, 230
+  offset: 0, 0
+  index: -1
+eye_0_l
+  rotate: false
+  xy: 720, 130
+  size: 66, 52
+  orig: 66, 52
+  offset: 0, 0
+  index: -1
+eye_0_r
+  rotate: true
+  xy: 978, 371
+  size: 141, 46
+  orig: 141, 46
+  offset: 0, 0
+  index: -1
+eye_1_l
+  rotate: true
+  xy: 975, 205
+  size: 54, 46
+  orig: 54, 46
+  offset: 0, 0
+  index: -1
+eye_1_r
+  rotate: false
+  xy: 897, 193
+  size: 62, 38
+  orig: 62, 38
+  offset: 0, 0
+  index: -1
+eye_2_l
+  rotate: false
+  xy: 710, 92
+  size: 57, 38
+  orig: 57, 38
+  offset: 0, 0
+  index: -1
+eye_2_r
+  rotate: false
+  xy: 900, 231
+  size: 75, 35
+  orig: 75, 35
+  offset: 0, 0
+  index: -1
+eye_3_l
+  rotate: true
+  xy: 838, 125
+  size: 57, 32
+  orig: 57, 32
+  offset: 0, 0
+  index: -1
+eye_3_r
+  rotate: true
+  xy: 324, 14
+  size: 76, 23
+  orig: 76, 23
+  offset: 0, 0
+  index: -1
+eye_help_l
+  rotate: false
+  xy: 786, 131
+  size: 52, 51
+  orig: 52, 51
+  offset: 0, 0
+  index: -1
+eye_help_nose
+  rotate: true
+  xy: 0, 0
+  size: 5, 31
+  orig: 5, 31
+  offset: 0, 0
+  index: -1
+eye_help_r
+  rotate: false
+  xy: 230, 17
+  size: 94, 73
+  orig: 94, 73
+  offset: 0, 0
+  index: -1
+eye_help_r copy
+  rotate: true
+  xy: 346, 141
+  size: 89, 34
+  orig: 89, 34
+  offset: 0, 0
+  index: -1
+eye_help_r copy 3
+  rotate: false
+  xy: 637, 148
+  size: 83, 73
+  orig: 83, 73
+  offset: 0, 0
+  index: -1
+eyebrow_help_l
+  rotate: true
+  xy: 870, 132
+  size: 53, 22
+  orig: 53, 22
+  offset: 0, 0
+  index: -1
+eyebrow_l
+  rotate: false
+  xy: 720, 182
+  size: 66, 56
+  orig: 66, 56
+  offset: 0, 0
+  index: -1
+eyebrow_r
+  rotate: false
+  xy: 633, 67
+  size: 76, 23
+  orig: 76, 23
+  offset: 0, 0
+  index: -1
+eyebrow_shadow_l
+  rotate: false
+  xy: 786, 182
+  size: 66, 56
+  orig: 66, 56
+  offset: 0, 0
+  index: -1
+eyebrow_shadow_l copy
+  rotate: false
+  xy: 969, 307
+  size: 55, 56
+  orig: 55, 56
+  offset: 0, 0
+  index: -1
+eyebrow_shadow_r
+  rotate: false
+  xy: 633, 90
+  size: 77, 58
+  orig: 77, 58
+  offset: 0, 0
+  index: -1
+hair_b_l
+  rotate: true
+  xy: 546, 74
+  size: 74, 87
+  orig: 74, 87
+  offset: 0, 0
+  index: -1
+hair_b_r
+  rotate: false
+  xy: 900, 363
+  size: 78, 149
+  orig: 78, 149
+  offset: 0, 0
+  index: -1
+hair_f_l
+  rotate: false
+  xy: 900, 266
+  size: 69, 97
+  orig: 69, 97
+  offset: 0, 0
+  index: -1
+hair_f_r
+  rotate: true
+  xy: 546, 221
+  size: 42, 156
+  orig: 42, 156
+  offset: 0, 0
+  index: -1
+hat
+  rotate: false
+  xy: 0, 230
+  size: 386, 282
+  orig: 386, 282
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 386, 117
+  size: 160, 146
+  orig: 160, 146
+  offset: 0, 0
+  index: -1
+horn
+  rotate: false
+  xy: 386, 263
+  size: 366, 249
+  orig: 366, 249
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 897, 174
+  size: 60, 19
+  orig: 60, 19
+  offset: 0, 0
+  index: -1
+mouth_help_c
+  rotate: true
+  xy: 346, 95
+  size: 46, 12
+  orig: 46, 12
+  offset: 0, 0
+  index: -1
+mouth_help_o
+  rotate: false
+  xy: 230, 0
+  size: 51, 17
+  orig: 51, 17
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 0, 90
+  size: 346, 140
+  orig: 346, 140
+  offset: 0, 0
+  index: -1
+nose
+  rotate: false
+  xy: 380, 204
+  size: 6, 26
+  orig: 6, 26
+  offset: 0, 0
+  index: -1
+sweat_1
+  rotate: true
+  xy: 978, 364
+  size: 7, 11
+  orig: 7, 11
+  offset: 0, 0
+  index: -1
+sweat_2
+  rotate: false
+  xy: 281, 6
+  size: 7, 11
+  orig: 7, 11
+  offset: 0, 0
+  index: -1
+wrinkle_help_l
+  rotate: false
+  xy: 852, 185
+  size: 45, 53
+  orig: 45, 53
+  offset: 0, 0
+  index: -1
+wrinkle_help_r
+  rotate: false
+  xy: 546, 148
+  size: 91, 73
+  orig: 91, 73
+  offset: 0, 0
+  index: -1
+wrinkle_l
+  rotate: true
+  xy: 975, 259
+  size: 48, 49
+  orig: 48, 49
+  offset: 0, 0
+  index: -1
+wrinkle_r
+  rotate: true
+  xy: 969, 297
+  size: 10, 6
+  orig: 10, 6
+  offset: 0, 0
+  index: -1
+"/><string name="rakan.json" value="{
+&quot;skeleton&quot;: { &quot;hash&quot;: &quot;Fb9tdcJ9Cod1TA8o+BEaLcL1YpU&quot;, &quot;spine&quot;: &quot;2.1.27&quot;, &quot;width&quot;: 323.42, &quot;height&quot;: 360.54, &quot;images&quot;: &quot;./images/rakan/&quot; },
+&quot;bones&quot;: [
+	{ &quot;name&quot;: &quot;root&quot; },
+	{ &quot;name&quot;: &quot;body&quot;, &quot;parent&quot;: &quot;root&quot;, &quot;length&quot;: 156.09, &quot;x&quot;: -0.79, &quot;y&quot;: 1.49, &quot;scaleX&quot;: 0.7, &quot;scaleY&quot;: 0.7, &quot;rotation&quot;: 88.64 },
+	{ &quot;name&quot;: &quot;bow&quot;, &quot;parent&quot;: &quot;body&quot;, &quot;length&quot;: 286, &quot;x&quot;: 4.52, &quot;y&quot;: -51.03, &quot;rotation&quot;: -16.24 },
+	{ &quot;name&quot;: &quot;head&quot;, &quot;parent&quot;: &quot;body&quot;, &quot;length&quot;: 197.87, &quot;x&quot;: 96.34, &quot;y&quot;: -1.71, &quot;rotation&quot;: 0.9 },
+	{ &quot;name&quot;: &quot;eye_l&quot;, &quot;parent&quot;: &quot;head&quot;, &quot;x&quot;: 68.53, &quot;y&quot;: 66.27 },
+	{ &quot;name&quot;: &quot;eye_r&quot;, &quot;parent&quot;: &quot;head&quot;, &quot;x&quot;: 71.82, &quot;y&quot;: -14.7 },
+	{ &quot;name&quot;: &quot;eyebrow_l&quot;, &quot;parent&quot;: &quot;head&quot;, &quot;x&quot;: 89.71, &quot;y&quot;: 75.07 },
+	{ &quot;name&quot;: &quot;eyebrow_r&quot;, &quot;parent&quot;: &quot;head&quot;, &quot;x&quot;: 97.7, &quot;y&quot;: -12.51 },
+	{ &quot;name&quot;: &quot;hair_l&quot;, &quot;parent&quot;: &quot;head&quot;, &quot;length&quot;: 63.81, &quot;x&quot;: 41.92, &quot;y&quot;: 73.37, &quot;rotation&quot;: 168.86 },
+	{ &quot;name&quot;: &quot;hair_r&quot;, &quot;parent&quot;: &quot;head&quot;, &quot;length&quot;: 72.63, &quot;x&quot;: 50.91, &quot;y&quot;: -56.7, &quot;rotation&quot;: -165.43 },
+	{ &quot;name&quot;: &quot;hat&quot;, &quot;parent&quot;: &quot;head&quot;, &quot;length&quot;: 97.7, &quot;x&quot;: 106.15, &quot;y&quot;: 11.45, &quot;rotation&quot;: 9.82 },
+	{ &quot;name&quot;: &quot;horn&quot;, &quot;parent&quot;: &quot;head&quot;, &quot;length&quot;: 199.21, &quot;x&quot;: 175.55, &quot;y&quot;: 52.5, &quot;rotation&quot;: 14.14 },
+	{ &quot;name&quot;: &quot;mouth&quot;, &quot;parent&quot;: &quot;head&quot;, &quot;x&quot;: 20.39, &quot;y&quot;: 24.06 },
+	{ &quot;name&quot;: &quot;nose&quot;, &quot;parent&quot;: &quot;head&quot;, &quot;x&quot;: 58.79, &quot;y&quot;: 38.97 },
+	{ &quot;name&quot;: &quot;sweat&quot;, &quot;parent&quot;: &quot;head&quot;, &quot;x&quot;: 52.71, &quot;y&quot;: -32.12 },
+	{ &quot;name&quot;: &quot;hat_l&quot;, &quot;parent&quot;: &quot;hat&quot;, &quot;length&quot;: 70.38, &quot;x&quot;: 19.52, &quot;y&quot;: 77.53, &quot;rotation&quot;: 170.17 },
+	{ &quot;name&quot;: &quot;hat_r&quot;, &quot;parent&quot;: &quot;hat&quot;, &quot;length&quot;: 85.03, &quot;x&quot;: 4.95, &quot;y&quot;: -96.38, &quot;rotation&quot;: 171.99 }
+],
+&quot;slots&quot;: [
+	{ &quot;name&quot;: &quot;bow&quot;, &quot;bone&quot;: &quot;bow&quot;, &quot;attachment&quot;: &quot;bow&quot; },
+	{ &quot;name&quot;: &quot;body&quot;, &quot;bone&quot;: &quot;body&quot;, &quot;attachment&quot;: &quot;body&quot; },
+	{ &quot;name&quot;: &quot;neck&quot;, &quot;bone&quot;: &quot;body&quot;, &quot;attachment&quot;: &quot;neck&quot; },
+	{ &quot;name&quot;: &quot;hair_b_l&quot;, &quot;bone&quot;: &quot;head&quot;, &quot;attachment&quot;: &quot;hair_b_l&quot; },
+	{ &quot;name&quot;: &quot;hair_f_l&quot;, &quot;bone&quot;: &quot;hair_l&quot;, &quot;attachment&quot;: &quot;hair_f_l&quot; },
+	{ &quot;name&quot;: &quot;head&quot;, &quot;bone&quot;: &quot;head&quot;, &quot;attachment&quot;: &quot;head&quot; },
+	{ &quot;name&quot;: &quot;hair_b_r&quot;, &quot;bone&quot;: &quot;head&quot;, &quot;attachment&quot;: &quot;hair_b_r&quot; },
+	{ &quot;name&quot;: &quot;hair_f_r&quot;, &quot;bone&quot;: &quot;hair_r&quot;, &quot;attachment&quot;: &quot;hair_f_r&quot; },
+	{ &quot;name&quot;: &quot;mouth&quot;, &quot;bone&quot;: &quot;mouth&quot;, &quot;attachment&quot;: &quot;mouth&quot; },
+	{ &quot;name&quot;: &quot;nose&quot;, &quot;bone&quot;: &quot;nose&quot;, &quot;attachment&quot;: &quot;nose&quot; },
+	{ &quot;name&quot;: &quot;eyebrow_shadow_r&quot;, &quot;bone&quot;: &quot;eyebrow_r&quot;, &quot;attachment&quot;: &quot;eye_help_r copy 3&quot; },
+	{ &quot;name&quot;: &quot;eyebrow_shadow_l&quot;, &quot;bone&quot;: &quot;eyebrow_l&quot;, &quot;attachment&quot;: &quot;eyebrow_shadow_l copy&quot; },
+	{ &quot;name&quot;: &quot;wrinkle_r&quot;, &quot;bone&quot;: &quot;eye_r&quot;, &quot;attachment&quot;: &quot;wrinkle_help_r&quot; },
+	{ &quot;name&quot;: &quot;wrinkle_l&quot;, &quot;bone&quot;: &quot;eye_l&quot;, &quot;attachment&quot;: &quot;wrinkle_l&quot; },
+	{ &quot;name&quot;: &quot;eye_0_l&quot;, &quot;bone&quot;: &quot;eye_l&quot;, &quot;attachment&quot;: &quot;eye_0_l&quot; },
+	{ &quot;name&quot;: &quot;eye_0_r&quot;, &quot;bone&quot;: &quot;eye_r&quot;, &quot;attachment&quot;: &quot;eye_0_r&quot; },
+	{ &quot;name&quot;: &quot;eyebrow_l&quot;, &quot;bone&quot;: &quot;eyebrow_l&quot;, &quot;attachment&quot;: &quot;eyebrow_l&quot; },
+	{ &quot;name&quot;: &quot;eyebrow_r&quot;, &quot;bone&quot;: &quot;eyebrow_r&quot;, &quot;attachment&quot;: &quot;eyebrow_r&quot; },
+	{ &quot;name&quot;: &quot;sweat_1&quot;, &quot;bone&quot;: &quot;sweat&quot; },
+	{ &quot;name&quot;: &quot;sweat_2&quot;, &quot;bone&quot;: &quot;sweat&quot; },
+	{ &quot;name&quot;: &quot;hat&quot;, &quot;bone&quot;: &quot;hat&quot;, &quot;attachment&quot;: &quot;hat&quot; },
+	{ &quot;name&quot;: &quot;horn&quot;, &quot;bone&quot;: &quot;horn&quot;, &quot;attachment&quot;: &quot;horn&quot; }
+],
+&quot;skins&quot;: {
+	&quot;default&quot;: {
+		&quot;body&quot;: {
+			&quot;body&quot;: {
+				&quot;type&quot;: &quot;mesh&quot;,
+				&quot;uvs&quot;: [ 0.68055, 0.03739, 0.83759, 0.13356, 0.93544, 0.38181, 1, 0.64572, 1, 0.8716, 0.90403, 0.96106, 0.67451, 1, 0.23599, 1, 0.12848, 1, 0.05116, 0.91409, 0, 0.80003, 0, 0.63677, 0.19854, 0.18947, 0.37008, 0, 0.58874, 0, 0.10069, 0.43549, 0.05358, 0.54955, 0.3423, 0.88278, 0.40391, 0.9454, 0.60082, 0.95659, 0.6733, 0.86265, 0.75786, 0.95882, 0.28794, 0.57638, 0.25894, 0.69268, 0.31814, 0.80674, 0.69867, 0.59428, 0.6733, 0.69492, 0.66726, 0.81792, 0.8098, 0.54284, 0.81101, 0.69715, 0.89195, 0.47798, 0.93906, 0.66137, 0.91974, 0.82016, 0.81826, 0.85147, 0.22512, 0.90291, 0.12727, 0.83134, 0.08136, 0.69492, 0.13452, 0.5406, 0.18767, 0.41759, 0.20942, 0.5406, 0.17559, 0.72847, 0.26257, 0.85594, 0.38579, 0.60322, 0.41236, 0.82016, 0.51988, 0.82016, 0.5682, 0.61664, 0.60927, 0.45561, 0.37612, 0.43549 ],
+				&quot;triangles&quot;: [ 38, 15, 12, 47, 13, 14, 12, 13, 47, 38, 12, 47, 46, 14, 0, 46, 0, 1, 46, 1, 2, 47, 14, 46, 30, 46, 2, 37, 15, 38, 39, 38, 47, 37, 38, 39, 28, 46, 30, 12, 15, 11, 16, 15, 37, 22, 39, 47, 25, 46, 28, 45, 42, 47, 46, 45, 47, 22, 47, 42, 25, 45, 46, 16, 11, 15, 30, 2, 3, 31, 28, 30, 3, 31, 30, 23, 39, 22, 23, 22, 42, 36, 16, 37, 11, 16, 36, 26, 45, 25, 29, 28, 31, 25, 28, 29, 26, 25, 29, 40, 37, 39, 40, 39, 23, 36, 37, 40, 10, 11, 36, 24, 23, 42, 26, 44, 45, 44, 43, 42, 45, 44, 42, 24, 42, 43, 26, 27, 44, 32, 29, 31, 35, 36, 40, 10, 36, 35, 33, 29, 32, 24, 40, 23, 41, 40, 24, 35, 40, 41, 27, 33, 20, 29, 27, 26, 33, 27, 29, 32, 31, 3, 4, 32, 3, 17, 24, 43, 41, 24, 17, 34, 35, 41, 9, 10, 35, 18, 17, 43, 20, 19, 44, 20, 44, 27, 21, 20, 33, 6, 19, 20, 5, 33, 32, 5, 32, 4, 21, 33, 5, 8, 35, 34, 9, 35, 8, 17, 7, 34, 17, 34, 41, 7, 17, 18, 8, 34, 7, 21, 6, 20, 18, 43, 44, 19, 18, 44, 6, 7, 18, 6, 18, 19, 6, 21, 5 ],
+				&quot;vertices&quot;: [ 120.16, -49.44, 106.95, -92.79, 70.85, -120.46, 32.22, -139.07, -1.19, -139.86, -15.04, -113.88, -22.29, -51.15, -25.12, 68.96, -25.82, 98.41, -13.61, 119.89, 2.93, 134.3, 27.08, 134.87, 94.55, 82.05, 123.69, 35.72, 125.1, -24.16, 57.52, 107.99, 40.34, 120.5, -7.09, 40.25, -15.96, 23.16, -16.34, -30.81, -1.98, -50.34, -15.66, -73.83, 37.88, 56.21, 20.49, 63.75, 3.99, 47.14, 37.89, -56.35, 22.83, -49.75, 4.59, -48.53, 46.22, -86.61, 23.39, -87.48, 56.34, -108.89, 29.51, -122.43, 5.89, -117.69, 0.61, -90.01, -10.83, 72.28, -0.87, 99.33, 19.01, 112.38, 42.18, 98.36, 60.73, 84.23, 42.67, 77.85, 14.65, 86.46, -3.64, 62.19, 34.54, 29.31, 2.61999, 21.28, 3.31, -8.16, 33.73, -20.69, 55.25, -34.41999, 59.41, 27.58 ],
+				&quot;hull&quot;: 15,
+				&quot;edges&quot;: [ 20, 22, 14, 16, 12, 14, 8, 6, 26, 28, 22, 24, 24, 26, 2, 4, 4, 6, 28, 0, 0, 2, 8, 10, 10, 12, 16, 18, 18, 20 ],
+				&quot;width&quot;: 274,
+				&quot;height&quot;: 148
+			}
+		},
+		&quot;bow&quot;: {
+			&quot;bow&quot;: { &quot;x&quot;: 190.91, &quot;y&quot;: -22.52, &quot;rotation&quot;: -72.4, &quot;width&quot;: 85, &quot;height&quot;: 230 }
+		},
+		&quot;eye_0_l&quot;: {
+			&quot;eye_0_l&quot;: { &quot;x&quot;: -1.82, &quot;y&quot;: -0.56, &quot;rotation&quot;: -89.54, &quot;width&quot;: 66, &quot;height&quot;: 52 },
+			&quot;eye_1_l&quot;: { &quot;x&quot;: -4.87, &quot;y&quot;: 5.41, &quot;rotation&quot;: -89.54, &quot;width&quot;: 54, &quot;height&quot;: 46 },
+			&quot;eye_2_l&quot;: { &quot;x&quot;: -7.88, &quot;y&quot;: 6.89, &quot;rotation&quot;: -89.54, &quot;width&quot;: 57, &quot;height&quot;: 38 },
+			&quot;eye_3_l&quot;: { &quot;x&quot;: -10.87, &quot;y&quot;: 5.86, &quot;rotation&quot;: -89.54, &quot;width&quot;: 57, &quot;height&quot;: 32 },
+			&quot;eye_help_l&quot;: { &quot;x&quot;: -2.36, &quot;y&quot;: 4.43, &quot;rotation&quot;: -89.54, &quot;width&quot;: 52, &quot;height&quot;: 51 }
+		},
+		&quot;eye_0_r&quot;: {
+			&quot;eye_0_r&quot;: { &quot;x&quot;: -3.77, &quot;y&quot;: 36.93, &quot;rotation&quot;: -89.54, &quot;width&quot;: 141, &quot;height&quot;: 46 },
+			&quot;eye_1_r&quot;: { &quot;x&quot;: -2.46, &quot;y&quot;: -2.55, &quot;rotation&quot;: -89.54, &quot;width&quot;: 62, &quot;height&quot;: 38 },
+			&quot;eye_2_r&quot;: { &quot;x&quot;: -4.01, &quot;y&quot;: 3.92, &quot;rotation&quot;: -89.54, &quot;width&quot;: 75, &quot;height&quot;: 35 },
+			&quot;eye_3_r&quot;: { &quot;x&quot;: -7.01, &quot;y&quot;: 3.4, &quot;rotation&quot;: -89.54, &quot;width&quot;: 76, &quot;height&quot;: 23 },
+			&quot;eye_help_r&quot;: { &quot;x&quot;: 2.97, &quot;y&quot;: 4.48, &quot;rotation&quot;: -89.54, &quot;width&quot;: 94, &quot;height&quot;: 73 }
+		},
+		&quot;eyebrow_l&quot;: {
+			&quot;eyebrow_help_l&quot;: { &quot;x&quot;: -4.04, &quot;y&quot;: -4.71, &quot;rotation&quot;: -89.54, &quot;width&quot;: 53, &quot;height&quot;: 22 },
+			&quot;eyebrow_l&quot;: { &quot;x&quot;: -21, &quot;y&quot;: -9.34, &quot;rotation&quot;: -89.54, &quot;width&quot;: 66, &quot;height&quot;: 56 }
+		},
+		&quot;eyebrow_r&quot;: {
+			&quot;eye_help_r copy&quot;: { &quot;x&quot;: -3.38, &quot;y&quot;: -0.05, &quot;rotation&quot;: -89.54, &quot;width&quot;: 89, &quot;height&quot;: 34 },
+			&quot;eyebrow_r&quot;: { &quot;x&quot;: -0.9, &quot;y&quot;: 2.46, &quot;rotation&quot;: -89.54, &quot;width&quot;: 76, &quot;height&quot;: 23 }
+		},
+		&quot;eyebrow_shadow_l&quot;: {
+			&quot;eyebrow_shadow_l&quot;: { &quot;x&quot;: -21, &quot;y&quot;: -9.34, &quot;rotation&quot;: -89.54, &quot;width&quot;: 66, &quot;height&quot;: 56 },
+			&quot;eyebrow_shadow_l copy&quot;: { &quot;x&quot;: -21.03, &quot;y&quot;: -5.84, &quot;rotation&quot;: -89.54, &quot;width&quot;: 55, &quot;height&quot;: 56 }
+		},
+		&quot;eyebrow_shadow_r&quot;: {
+			&quot;eye_help_r copy 3&quot;: { &quot;x&quot;: -22.94, &quot;y&quot;: 7.78, &quot;rotation&quot;: -89.54, &quot;width&quot;: 83, &quot;height&quot;: 73 },
+			&quot;eyebrow_shadow_r&quot;: { &quot;x&quot;: -16.41, &quot;y&quot;: 3.83, &quot;rotation&quot;: -89.54, &quot;width&quot;: 77, &quot;height&quot;: 58 }
+		},
+		&quot;hair_b_l&quot;: {
+			&quot;hair_b_l&quot;: { &quot;x&quot;: 17.01, &quot;y&quot;: 90.32, &quot;rotation&quot;: -89.54, &quot;width&quot;: 74, &quot;height&quot;: 87 }
+		},
+		&quot;hair_b_r&quot;: {
+			&quot;hair_b_r&quot;: { &quot;x&quot;: 40.29, &quot;y&quot;: -72.49, &quot;rotation&quot;: -89.54, &quot;width&quot;: 78, &quot;height&quot;: 149 }
+		},
+		&quot;hair_f_l&quot;: {
+			&quot;hair_f_l&quot;: {
+				&quot;type&quot;: &quot;mesh&quot;,
+				&quot;uvs&quot;: [ 1, 0.59009, 1, 0.7831, 0.84472, 0.91318, 0.45542, 1, 0, 1, 0, 0.90059, 0.35514, 0, 0.5144, 0, 0.49081, 0.90478, 0.34924, 0.92996, 0.25486, 0.64044, 0.34334, 0.29638, 0.37873, 0.79569, 0.57339, 0.56072, 0.65007, 0.31317, 0.76214, 0.84604, 0.85652, 0.66982, 0.64417, 0.76632, 0.76214, 0.52716 ],
+				&quot;triangles&quot;: [ 0, 14, 7, 0, 18, 14, 7, 11, 6, 13, 14, 18, 6, 11, 5, 7, 14, 11, 13, 11, 14, 16, 18, 0, 17, 13, 18, 17, 18, 16, 16, 0, 1, 13, 10, 11, 12, 13, 17, 12, 10, 13, 15, 17, 16, 2, 15, 16, 10, 5, 11, 9, 5, 10, 8, 12, 17, 1, 2, 16, 12, 9, 10, 9, 12, 8, 4, 5, 9, 3, 9, 8, 4, 9, 3, 15, 3, 8, 15, 8, 17, 3, 15, 2 ],
+				&quot;vertices&quot;: [ 25.87, 30.67, 44.21, 34.43, 58.72, 26.47, 72.37, 1.85, 78.68, -28.92, 69.24, -30.86, -21.25, -24.41, -23.46, -13.64, 62.83, 2.39, 67.19, -6.68, 40.98, -18.7, 7.06, -19.43, 54.02, -7.31, 28.99, 1.26, 4.41, 1.62, 53.49, 19.58, 35.43, 22.53, 47.55, 10.05, 23.19, 13.37 ],
+				&quot;hull&quot;: 8,
+				&quot;edges&quot;: [ 0, 2, 6, 8, 8, 10, 12, 14, 14, 0, 2, 4, 4, 6, 10, 12 ],
+				&quot;width&quot;: 69,
+				&quot;height&quot;: 97
+			}
+		},
+		&quot;hair_f_r&quot;: {
+			&quot;hair_f_r&quot;: {
+				&quot;type&quot;: &quot;mesh&quot;,
+				&quot;uvs&quot;: [ 1, 0.17085, 1, 0.75526, 1, 0.89615, 0.70909, 1, 0.40868, 1, 0.16642, 1, 0, 1, 0, 0.95354, 0, 0.45262, 0, 0, 0.76723, 0, 0.53466, 0.28826, 0.72847, 0.43697, 0.56373, 0.94572, 0.1858, 0.8831, 0.26332, 0.72395, 0.39899, 0.5048, 0.67032, 0.73961, 0.7963, 0.86223, 0.45713, 0.8831 ],
+				&quot;triangles&quot;: [ 11, 9, 10, 12, 11, 10, 12, 10, 0, 8, 9, 11, 16, 8, 11, 16, 11, 12, 15, 8, 16, 17, 16, 12, 19, 15, 16, 12, 0, 1, 17, 12, 1, 18, 17, 1, 17, 19, 16, 14, 8, 15, 14, 15, 19, 18, 1, 2, 13, 19, 17, 13, 17, 18, 7, 8, 14, 5, 6, 7, 14, 5, 7, 4, 14, 19, 4, 19, 13, 5, 14, 4, 3, 13, 18, 4, 13, 3, 3, 18, 2 ],
+				&quot;vertices&quot;: [ -32.61, 38.83, 55.79, 16.6, 77.1, 11.23, 89.84, -4.56, 86.76, -16.79, 84.28, -26.66, 82.57, -33.43999, 75.54, -31.67, -0.23, -12.61, -68.71, 4.6, -60.85, 35.84999, -19.62, 15.41, 4.85, 17.65, 80.12999, -8.41, 66.79, -21.42, 43.51, -12.21, 11.74, 1.65, 50.04, 3.76, 69.89, 4.23, 69.57, -10.37 ],
+				&quot;hull&quot;: 11,
+				&quot;edges&quot;: [ 18, 20, 0, 2, 2, 4, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 20, 0, 4, 6 ],
+				&quot;width&quot;: 42,
+				&quot;height&quot;: 156
+			}
+		},
+		&quot;hat&quot;: {
+			&quot;hat&quot;: {
+				&quot;type&quot;: &quot;skinnedmesh&quot;,
+				&quot;uvs&quot;: [ 0.78801, 0.02505, 0.89165, 0.07711, 0.94774, 0.11745, 1, 0.17732, 1, 0.36732, 0.82795, 0.91782, 0.7766, 1, 0.71005, 1, 0.34305, 1, 0.2841, 1, 0.23086, 0.92303, 0.0312, 0.58336, 0, 0.48836, 0, 0.39856, 0.01979, 0.31136, 0.08919, 0.21636, 0.33735, 0.0654, 0.43242, 0.02765, 0.52085, 0, 0.62258, 0, 0.67867, 0, 0.85647, 0.78117, 0.86408, 0.63411, 0.85552, 0.55733, 0.88499, 0.46493, 0.91447, 0.46883, 0.93633, 0.42198, 0.9525, 0.1643, 0.91161, 0.13177, 0.84791, 0.08362, 0.8308, 0.05889, 0.81273, 0.0654, 0.75188, 0.04848, 0.73382, 0.02375, 0.71385, 0.03416, 0.65491, 0.02635, 0.49517, 0.04457, 0.4695, 0.05498, 0.41151, 0.0719, 0.38488, 0.05498, 0.37062, 0.08882, 0.31643, 0.11355, 0.29741, 0.11225, 0.26414, 0.11615, 0.24892, 0.14608, 0.22896, 0.14999, 0.21755, 0.1643, 0.19093, 0.1578, 0.18616, 0.19299, 0.14624, 0.18382, 0.14148, 0.22027, 0.07683, 0.27102, 0.05497, 0.27753, 0.05306, 0.30225, 0.03025, 0.37124, 0.04451, 0.53651, 0.07018, 0.58596, 0.07493, 0.6172, 0.12722, 0.6172, 0.1529, 0.64192, 0.17571, 0.64843, 0.20899, 0.70439, 0.20899, 0.76165, 0.19853, 0.79809, 0.21755, 0.83844, 0.21375, 0.87488, 0.23276, 0.8918, 0.35731, 0.93214, 0.29456, 0.76035, 0.37062, 0.79679, 0.52655, 0.78508, 0.63589, 0.74213, 0.65205, 0.8944, 0.67487, 0.96988, 0.09395, 0.35561, 0.07873, 0.4363, 0.10155, 0.51438, 0.13578, 0.55863, 0.21184, 0.58986, 0.7747, 0.10574, 0.89355, 0.18252, 0.94109, 0.26321, 0.91637, 0.3426, 0.87929, 0.39596 ],
+				&quot;triangles&quot;: [ 1, 30, 0, 31, 0, 30, 32, 0, 31, 29, 30, 1, 79, 32, 31, 28, 1, 2, 3, 27, 2, 28, 2, 27, 28, 29, 1, 80, 28, 27, 80, 29, 28, 81, 80, 27, 81, 27, 3, 82, 80, 81, 81, 3, 4, 82, 81, 4, 80, 79, 29, 83, 80, 82, 26, 82, 4, 83, 82, 26, 24, 83, 26, 25, 24, 26, 80, 83, 79, 23, 83, 24, 23, 24, 25, 22, 23, 25, 71, 38, 83, 31, 30, 29, 79, 31, 29, 23, 71, 83, 22, 71, 23, 21, 71, 22, 72, 71, 21, 70, 71, 72, 5, 72, 21, 4, 21, 22, 25, 4, 22, 4, 25, 26, 5, 21, 4, 73, 72, 5, 6, 7, 73, 73, 67, 72, 8, 73, 7, 5, 6, 73, 48, 49, 47, 48, 47, 46, 49, 15, 47, 50, 15, 49, 50, 49, 48, 51, 52, 15, 15, 52, 14, 53, 14, 52, 50, 51, 15, 74, 51, 50, 53, 52, 51, 74, 53, 51, 54, 14, 53, 54, 53, 74, 13, 14, 54, 75, 54, 74, 13, 54, 75, 12, 13, 75, 78, 77, 76, 76, 75, 78, 55, 12, 75, 76, 55, 75, 78, 75, 74, 11, 12, 55, 56, 55, 76, 56, 76, 77, 11, 55, 56, 44, 78, 48, 74, 50, 48, 48, 78, 74, 58, 57, 56, 77, 58, 56, 58, 77, 78, 59, 58, 78, 60, 59, 78, 61, 60, 78, 69, 68, 78, 61, 78, 68, 61, 59, 60, 62, 61, 68, 70, 69, 78, 61, 62, 59, 68, 63, 62, 64, 63, 68, 65, 63, 64, 66, 64, 68, 66, 68, 69, 65, 64, 66, 10, 65, 66, 63, 59, 62, 57, 58, 59, 63, 57, 59, 57, 63, 65, 11, 57, 65, 11, 56, 57, 10, 11, 65, 67, 66, 69, 10, 66, 67, 9, 10, 67, 8, 9, 67, 67, 69, 70, 8, 67, 73, 0, 33, 20, 35, 19, 20, 34, 20, 33, 35, 20, 34, 36, 17, 18, 32, 33, 0, 37, 17, 36, 39, 16, 17, 38, 39, 17, 38, 17, 37, 40, 16, 39, 40, 39, 38, 41, 42, 16, 41, 16, 40, 42, 43, 16, 47, 16, 43, 44, 45, 43, 45, 47, 43, 46, 47, 45, 16, 47, 15, 44, 43, 42, 41, 44, 42, 36, 18, 19, 35, 36, 19, 79, 37, 36, 83, 38, 37, 34, 33, 32, 35, 79, 36, 34, 79, 35, 32, 79, 34, 40, 38, 71, 78, 41, 40, 79, 83, 37, 41, 78, 44, 40, 71, 78, 46, 45, 44, 46, 44, 48, 71, 70, 78, 70, 72, 67 ],
+				&quot;vertices&quot;: [ 2, 10, 178.79, -138.52, 0.45958, 16, -178, 17.54, 0.54041, 2, 10, 157.8, -175.6, 0.30741, 16, -162.38, 57.18, 0.69257, 2, 10, 143.06, -195.12, 0.24389, 16, -150.5, 78.56, 0.7561, 2, 10, 123.13, -212.28, 0.20307, 16, -133.15, 98.33, 0.79692, 2, 10, 70.26, -203.57, 0.12389, 16, -79.58, 97.06, 0.8761, 1, 16, 74.04, 27.01, 1, 1, 16, 96.74, 6.65, 1, 3, 10, -87.6, -64.16, 0.09729, 15, 81.37999, 157.89, 0.00113, 16, 96.13, -19.02, 0.90155, 3, 10, -64.58, 75.61, 0.08964, 15, 82.55, 16.23, 0.90778, 16, 92.79, -160.64, 0.00256, 1, 15, 82.74, -6.51, 1, 1, 15, 61.2, -27.24, 1, 2, 10, 70.89, 175.3, 0.07072, 15, -33.93999, -105.1, 0.92927, 2, 10, 99.29, 182.83, 0.11297, 15, -60.63, -117.36, 0.88702, 2, 10, 124.27, 178.72, 0.15572, 15, -85.95, -117.57, 0.84427, 2, 10, 147.29, 167.19, 0.20633, 15, -110.6, -110.13, 0.79366, 2, 10, 169.38, 136.4, 0.30996, 15, -137.61, -83.56, 0.69003, 3, 10, 195.82, 34.97, 0.81822, 15, -180.97, 11.86, 0.17133, 16, -170.73, -156.63, 0.01044, 3, 10, 200.36, -2.96, 0.8869, 15, -191.92, 48.47, 0.05277, 16, -180.51, -119.69, 0.06032, 3, 10, 202.51, -37.91, 0.84626, 15, -200, 82.54, 0.0081, 16, -187.5, -85.38, 0.14563, 2, 10, 196.13, -76.65, 0.71703, 16, -186.57, -46.13, 0.28296, 2, 10, 192.62, -98.02, 0.63085, 16, -186.06, -24.48, 0.36914, 1, 16, 35.78, 38.93, 1, 2, 10, 4.54, -139.58, 0.00485, 16, -5.6, 42.84, 0.99514, 2, 10, 26.45, -139.84, 0.03016, 16, -27.33, 40.05, 0.96983, 2, 10, 50.31, -155.3, 0.08345, 16, -53.11, 52.04, 0.91654, 2, 10, 47.37, -166.35, 0.07231, 16, -51.74, 63.38, 0.92768, 2, 10, 59.04, -176.82, 0.11126, 16, -64.75, 72.12999, 0.88873, 2, 10, 129.73, -194.79, 0.23208, 16, -137.25, 80.08999, 0.76791, 2, 10, 141.34, -180.7, 0.27821, 16, -146.79, 64.51999, 0.72178, 2, 10, 158.74, -158.65, 0.3803, 16, -160.95, 40.25999, 0.61969, 2, 10, 166.69, -153.26, 0.3803, 16, -168.08, 33.82, 0.61969, 2, 10, 166.01, -146.08, 0.4112, 16, -166.41, 26.81, 0.58879, 2, 10, 174.54, -123.68, 0.52871, 16, -171.73, 3.44, 0.47128, 2, 10, 182.55, -117.94, 0.54502, 16, -178.86, -3.36, 0.45497, 2, 10, 180.9, -109.85, 0.57428, 16, -176.11, -11.13, 0.4257, 2, 10, 186.77, -87.76, 0.63085, 16, -178.85, -33.83, 0.36914, 3, 10, 191.72, -26.09, 0.87451, 15, -187.35, 72.73, 0.02371, 16, -175.17, -95.59, 0.10177, 3, 10, 190.43, -15.83, 0.87451, 15, -184.33, 62.85, 0.02371, 16, -172.46, -105.56, 0.10177, 3, 10, 189.36, 7.02, 0.86713, 15, -179.37, 40.5, 0.10356, 16, -168.22, -128.06, 0.02929, 3, 10, 195.74, 16.39, 0.86713, 15, -184.06, 30.18, 0.10356, 16, -173.24, -138.22, 0.02929, 3, 10, 187.22, 23.37, 0.84795, 15, -174.47, 24.76, 0.13527, 16, -163.83, -143.94, 0.01677, 3, 10, 183.74, 45.14, 0.81822, 15, -167.33, 3.9, 0.17133, 16, -157.35, -165.02, 0.01044, 2, 10, 185.29, 52.32, 0.65704, 15, -167.63, -3.44, 0.34295, 2, 10, 186.29, 65.18, 0.65704, 15, -166.43, -16.27, 0.34295, 2, 10, 178.92, 72.33999, 0.65704, 15, -157.94, -22.07, 0.34295, 2, 10, 179.08, 80.12999, 0.65704, 15, -156.77, -29.77, 0.34295, 2, 10, 175.81, 85.13, 0.54702, 15, -152.7, -34.14, 0.45296, 2, 10, 179.29, 94.97, 0.4605, 15, -154.45, -44.43, 0.53949, 2, 10, 169.8, 98.4, 0.4605, 15, -144.51, -46.19, 0.53949, 2, 10, 174.85, 113.18, 0.4605, 15, -146.97, -61.62, 0.53949, 2, 10, 165.01, 116.66, 0.36136, 15, -136.67, -63.37, 0.63862, 2, 10, 154.94, 143.61, 0.2525, 15, -122.16, -88.21, 0.74749, 2, 10, 154.5, 152.24, 0.2525, 15, -120.25, -96.63, 0.74749, 2, 10, 147.74, 154.09, 0.22567, 15, -113.28, -97.31, 0.77432, 2, 10, 129.98, 165.95, 0.18472, 15, -93.75, -105.96, 0.81527, 2, 10, 83.1, 168.09, 0.10051, 15, -47.19, -100.07, 0.89948, 2, 10, 67.73, 160.57, 0.05469, 15, -33.33, -90.04, 0.9453, 2, 10, 58.74, 160.19, 0.05469, 15, -24.53, -88.14, 0.9453, 2, 10, 55.46, 140.28, 0.04447, 15, -24.7, -67.94999, 0.95552, 2, 10, 46.97, 131.63, 0.02022, 15, -17.81, -57.99, 0.97977, 2, 10, 43.73, 123.24, 0.02022, 15, -16.04999, -49.16, 0.97977, 2, 10, 26.07, 113.13, 0.01358, 15, -0.37, -36.18999, 0.98641, 1, 15, 15.76, -36.06, 1, 1, 15, 26.07, -40.00999, 1, 1, 15, 37.39, -32.57, 1, 1, 15, 47.68, -33.96, 1, 1, 15, 52.39, -26.58, 1, 3, 10, -46.59, 67.07, 0.09899, 15, 63.37, 21.58, 0.89935, 16, 73.79, -154.69, 0.00164, 1, 15, 15.12, -3.03, 1, 2, 10, -9.77, 55.8, 0.19471, 15, 25.16, 26.4, 0.80528, 3, 10, -16.29, -4.11, 0.81358, 15, 21.36, 86.56, 0.11413, 16, 33.87, -88.4, 0.07227, 2, 10, -11.19, -47.73, 0.33639, 16, 22.76, -45.92, 0.6636, 3, 10, -54.58, -46.91, 0.24616, 15, 51.79, 135.26, 0.00476, 16, 65.83999, -40.7, 0.74906, 3, 10, -77.01, -52.14, 0.24616, 15, 73, 144.24, 0.00476, 16, 87.32, -32.4, 0.74906, 2, 10, 130.33, 140.97, 0.21491, 15, -98.36, -81.41, 0.78508, 2, 10, 108.83, 150.46, 0.14178, 15, -75.56, -87.09, 0.85821, 2, 10, 85.67, 145.34, 0.12912, 15, -53.61, -78.1, 0.87087, 2, 10, 71.22, 134.34, 0.09346, 15, -41.24, -64.79, 0.90653, 2, 10, 57.76, 106.8, 0.08424, 15, -32.68, -35.34999, 0.91575, 2, 10, 157.17, -129.75, 0.45115, 16, -155.38, 11.86, 0.54884, 2, 10, 128.35, -171.5, 0.27821, 16, -132.65, 57.22, 0.72178, 2, 10, 102.92, -185.91, 0.19491, 16, -109.47, 75.01999, 0.80508, 2, 10, 82.37999, -172.86, 0.19012, 16, -87.31, 64.96, 0.80987, 2, 10, 69.86, -156.29, 0.17307, 16, -72.61, 50.29, 0.82692 ],
+				&quot;hull&quot;: 21,
+				&quot;edges&quot;: [ 8, 6, 38, 40, 36, 38, 24, 26, 16, 18, 12, 14, 14, 16, 30, 32, 26, 28, 28, 30, 32, 34, 34, 36, 40, 0, 0, 2, 2, 4, 4, 6, 8, 10, 10, 12, 22, 24, 18, 20, 20, 22 ],
+				&quot;width&quot;: 386,
+				&quot;height&quot;: 282
+			}
+		},
+		&quot;head&quot;: {
+			&quot;head&quot;: { &quot;x&quot;: 54.02, &quot;y&quot;: 25.61, &quot;rotation&quot;: -89.54, &quot;width&quot;: 160, &quot;height&quot;: 146 }
+		},
+		&quot;horn&quot;: {
+			&quot;horn&quot;: { &quot;x&quot;: 103.68, &quot;y&quot;: 25.22, &quot;rotation&quot;: -103.69, &quot;width&quot;: 366, &quot;height&quot;: 249 }
+		},
+		&quot;mouth&quot;: {
+			&quot;mouth&quot;: { &quot;x&quot;: 4.14, &quot;y&quot;: -0.68, &quot;rotation&quot;: -89.54, &quot;width&quot;: 60, &quot;height&quot;: 19 },
+			&quot;mouth_help_c&quot;: { &quot;x&quot;: 0.67, &quot;y&quot;: -3.71, &quot;rotation&quot;: -89.54, &quot;width&quot;: 46, &quot;height&quot;: 12 },
+			&quot;mouth_help_o&quot;: { &quot;x&quot;: 2.19, &quot;y&quot;: -6.19, &quot;rotation&quot;: -89.54, &quot;width&quot;: 51, &quot;height&quot;: 17 }
+		},
+		&quot;neck&quot;: {
+			&quot;neck&quot;: {
+				&quot;type&quot;: &quot;mesh&quot;,
+				&quot;uvs&quot;: [ 0.83897, 0.17101, 0.90689, 0.29632, 0.95281, 0.39089, 0.93176, 0.62259, 0.85905, 0.75736, 0.73469, 0.85902, 0.65625, 0.87793, 0.32238, 0.89685, 0.21715, 0.88975, 0.14827, 0.87084, 0.08704, 0.79046, 0.04208, 0.59422, 0.08417, 0.33651, 0.15401, 0.2183, 0.22193, 0.16392, 0.25159, 0.14737, 0.58832, 0, 0.68399, 0, 0.71078, 0.12846, 0.76626, 0.12137, 0.87341, 0.24194, 0.92602, 0.48783, 0.91741, 0.5493, 0.87819, 0.65806, 0.86384, 0.68879, 0.80453, 0.75263, 0.79018, 0.79755, 0.76817, 0.77627, 0.69738, 0.80464, 0.67441, 0.82356, 0.61989, 0.81883, 0.56157, 0.86847, 0.54049, 0.81174, 0.51462, 0.83303, 0.50892, 0.79755, 0.45338, 0.87559, 0.44291, 0.77154, 0.41709, 0.78809, 0.38934, 0.75263, 0.38072, 0.7881, 0.3616, 0.77391, 0.28985, 0.82356, 0.26785, 0.86139, 0.25446, 0.84011, 0.20758, 0.82356, 0.14922, 0.80464, 0.12052, 0.8141, 0.10713, 0.74081, 0.09565, 0.71007, 0.07748, 0.69589, 0.07843, 0.65333, 0.08609, 0.49492, 0.08513, 0.44764, 0.10044, 0.41926, 0.13296, 0.30105, 0.15401, 0.27031, 0.20471, 0.21357, 0.23528, 0.1923, 0.27838, 0.17101, 0.51849, 0.12609, 0.86288, 0.42872, 0.86575, 0.55403, 0.80931, 0.61786, 0.73086, 0.71716, 0.65146, 0.72189, 0.57876, 0.71953, 0.48883, 0.71007, 0.18079, 0.68879, 0.13774, 0.58949, 0.14922, 0.43345, 0.21141, 0.34124, 0.27359, 0.69352, 0.33481, 0.70771, 0.81888, 0.29632, 0.81792, 0.49729 ],
+				&quot;triangles&quot;: [ 0, 19, 17, 18, 17, 19, 59, 15, 16, 58, 15, 59, 57, 14, 15, 57, 15, 58, 56, 14, 57, 56, 13, 14, 1, 20, 0, 55, 13, 56, 73, 19, 0, 73, 0, 20, 73, 20, 1, 55, 54, 13, 54, 12, 13, 70, 56, 57, 55, 56, 70, 54, 55, 70, 69, 53, 12, 54, 69, 12, 60, 73, 1, 60, 1, 2, 70, 69, 54, 52, 12, 53, 21, 60, 2, 69, 51, 52, 69, 52, 53, 73, 18, 19, 74, 73, 60, 74, 60, 21, 21, 61, 74, 22, 61, 21, 68, 51, 69, 16, 17, 18, 59, 16, 18, 11, 12, 52, 11, 52, 51, 11, 51, 68, 73, 74, 18, 62, 74, 61, 18, 74, 59, 3, 21, 2, 22, 21, 3, 50, 11, 68, 3, 23, 61, 3, 61, 22, 62, 61, 23, 69, 71, 68, 71, 67, 68, 50, 68, 67, 24, 62, 23, 58, 70, 57, 72, 71, 70, 70, 71, 69, 49, 11, 50, 48, 49, 50, 59, 70, 58, 70, 74, 72, 59, 74, 70, 74, 66, 72, 74, 65, 66, 67, 48, 50, 74, 62, 65, 25, 63, 62, 62, 64, 65, 63, 64, 62, 47, 48, 67, 38, 72, 66, 24, 25, 62, 4, 25, 24, 3, 4, 24, 3, 24, 23, 36, 38, 66, 40, 72, 38, 27, 63, 25, 37, 38, 36, 39, 40, 38, 39, 38, 37, 47, 10, 49, 47, 49, 48, 11, 49, 10, 34, 66, 65, 36, 66, 34, 26, 27, 25, 45, 47, 67, 46, 10, 47, 28, 64, 63, 28, 63, 27, 32, 34, 65, 45, 46, 47, 30, 65, 64, 29, 30, 64, 32, 65, 30, 44, 67, 71, 45, 67, 44, 41, 71, 72, 41, 72, 40, 44, 71, 41, 28, 29, 64, 33, 34, 32, 43, 44, 41, 5, 28, 27, 5, 27, 26, 29, 28, 5, 26, 25, 4, 5, 26, 4, 42, 43, 41, 31, 32, 30, 33, 32, 31, 9, 46, 45, 9, 45, 44, 10, 46, 9, 35, 36, 34, 35, 34, 33, 37, 36, 35, 6, 30, 29, 6, 29, 5, 31, 30, 6, 8, 44, 43, 8, 43, 42, 9, 44, 8, 39, 7, 41, 39, 41, 40, 42, 41, 7, 35, 7, 39, 35, 39, 37, 35, 33, 31, 35, 31, 6, 7, 35, 6, 8, 42, 7 ],
+				&quot;vertices&quot;: [ 132.49, -122.98, 115.51, -146.89, 102.65, -163.09, 70.05, -156.57, 50.59, -131.87, 35.34999, -89.18, 32.06, -62.12, 26.69, 53.3, 26.83, 89.72, 28.91, 113.61, 39.66, 135.05, 66.76, 151.25, 103.17, 137.54, 120.29, 113.78, 128.45, 90.46, 131.01, 80.26, 154.39, -35.72, 155.17, -68.81, 137.4, -78.5, 138.85, -97.67, 122.85, -135.13, 88.86, -154.14, 80.19, -151.37, 64.65, -138.16, 60.23, -133.3, 50.81, -112.99, 44.41, -108.17, 47.21, -100.49, 42.66, -76.1, 39.82, -68.22, 40.04, -49.34, 32.62, -29.33, 40.38, -21.86, 37.18999, -12.98, 42.11, -10.89, 30.74, 8.05, 45.21, 12.02, 42.69, 20.9, 47.42, 30.61, 42.39, 33.48, 44.22, 40.14, 36.68, 64.79, 31.21, 72.28, 34.08, 76.98, 36.00999, 93.25, 38.18, 113.5, 36.63, 123.39, 46.78, 128.27, 50.98, 132.34, 52.82, 138.67, 58.78, 138.48, 81.01999, 136.36, 87.63, 136.85, 91.72, 131.65, 108.53, 120.79, 113.01, 113.61, 121.36, 96.26, 124.59, 85.75, 127.92, 70.91, 136.17, -11.98, 96.62, -132.11, 79.11, -133.51, 69.71, -114.2, 55.17, -87.39, 53.86, -59.94, 53.6, -34.79, 54.19, -3.65, 54.66, 102.96, 68.19999, 118.18, 90.14, 114.72, 103.55, 93.52, 54.75, 70.85, 53.27, 49.62, 114.79, -116.45, 86.66, -116.78 ],
+				&quot;hull&quot;: 18,
+				&quot;edges&quot;: [ 32, 34, 24, 26, 26, 28, 22, 24, 28, 30, 30, 32, 34, 0, 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 18, 20, 20, 22, 12, 14, 14, 16, 16, 18 ],
+				&quot;width&quot;: 346,
+				&quot;height&quot;: 140
+			}
+		},
+		&quot;nose&quot;: {
+			&quot;eye_help_nose&quot;: { &quot;x&quot;: 1.63, &quot;y&quot;: -0.81, &quot;rotation&quot;: -89.54, &quot;width&quot;: 5, &quot;height&quot;: 31 },
+			&quot;nose&quot;: { &quot;x&quot;: -2.86, &quot;y&quot;: -0.34, &quot;rotation&quot;: -89.54, &quot;width&quot;: 6, &quot;height&quot;: 26 }
+		},
+		&quot;sweat_1&quot;: {
+			&quot;sweat_1&quot;: { &quot;x&quot;: 4.29, &quot;y&quot;: -2.74, &quot;rotation&quot;: -89.54, &quot;width&quot;: 7, &quot;height&quot;: 11 }
+		},
+		&quot;sweat_2&quot;: {
+			&quot;sweat_2&quot;: { &quot;x&quot;: -2.76, &quot;y&quot;: 4.2, &quot;rotation&quot;: -89.54, &quot;width&quot;: 7, &quot;height&quot;: 11 }
+		},
+		&quot;wrinkle_l&quot;: {
+			&quot;wrinkle_help_l&quot;: { &quot;x&quot;: -1.34, &quot;y&quot;: 1.94, &quot;rotation&quot;: -89.54, &quot;width&quot;: 45, &quot;height&quot;: 53 },
+			&quot;wrinkle_l&quot;: { &quot;x&quot;: -3.34, &quot;y&quot;: 2.42, &quot;rotation&quot;: -89.54, &quot;width&quot;: 48, &quot;height&quot;: 49 }
+		},
+		&quot;wrinkle_r&quot;: {
+			&quot;wrinkle_help_r&quot;: { &quot;x&quot;: 2.99, &quot;y&quot;: 2.98, &quot;rotation&quot;: -89.54, &quot;width&quot;: 91, &quot;height&quot;: 73 },
+			&quot;wrinkle_r&quot;: { &quot;x&quot;: 15.19, &quot;y&quot;: 40.58, &quot;rotation&quot;: -89.54, &quot;width&quot;: 10, &quot;height&quot;: 6 }
+		}
+	}
+},
+&quot;animations&quot;: {
+	&quot;0&quot;: {
+		&quot;slots&quot;: {
+			&quot;eye_0_l&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eye_0_l&quot; },
+					{ &quot;time&quot;: 1.4666, &quot;name&quot;: &quot;eye_3_l&quot; },
+					{ &quot;time&quot;: 1.5666, &quot;name&quot;: &quot;eye_0_l&quot; }
+				]
+			},
+			&quot;eye_0_r&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eye_0_r&quot; },
+					{ &quot;time&quot;: 1.4666, &quot;name&quot;: &quot;eye_3_r&quot; },
+					{ &quot;time&quot;: 1.5666, &quot;name&quot;: &quot;eye_0_r&quot; }
+				]
+			},
+			&quot;eyebrow_shadow_l&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eyebrow_shadow_l&quot; },
+					{ &quot;time&quot;: 1.4666, &quot;name&quot;: &quot;eyebrow_shadow_l&quot; }
+				]
+			},
+			&quot;eyebrow_shadow_r&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eyebrow_shadow_r&quot; },
+					{ &quot;time&quot;: 1.4666, &quot;name&quot;: &quot;eyebrow_shadow_r&quot; }
+				]
+			}
+		},
+		&quot;bones&quot;: {
+			&quot;head&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0 },
+					{ &quot;time&quot;: 1.1666, &quot;angle&quot;: 2.25 },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;bow&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0 },
+					{ &quot;time&quot;: 1.1666, &quot;angle&quot;: -0.9 },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;horn&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0 },
+					{ &quot;time&quot;: 1.1666, &quot;angle&quot;: 1.67 },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;body&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;hat_l&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;hat_r&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0 },
+					{ &quot;time&quot;: 1.1666, &quot;angle&quot;: 3.99 },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;hat&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;hair_r&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0 },
+					{ &quot;time&quot;: 1.1666, &quot;angle&quot;: -12.89 },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;hair_l&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0 },
+					{ &quot;time&quot;: 1.1666, &quot;angle&quot;: 4.83 },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;eye_r&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.4333, &quot;x&quot;: 0.75, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.4666, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5333, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5666, &quot;x&quot;: 0.75, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.6666, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;eye_l&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.4666, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.4333, &quot;x&quot;: 0.75, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.4666, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5333, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5666, &quot;x&quot;: 0.75, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.6666, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;eyebrow_l&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.4333, &quot;x&quot;: 0, &quot;y&quot;: 0 },
+					{ &quot;time&quot;: 1.4666, &quot;x&quot;: -15.03, &quot;y&quot;: -1.68, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.5, &quot;x&quot;: -15.03, &quot;y&quot;: -1.68, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.5333, &quot;x&quot;: -15.03, &quot;y&quot;: -1.68 },
+					{ &quot;time&quot;: 1.5666, &quot;x&quot;: -1.02, &quot;y&quot;: -0.93 },
+					{ &quot;time&quot;: 1.6666, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.4333, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.4666, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5333, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5666, &quot;x&quot;: 1, &quot;y&quot;: 0.999, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 0.999 }
+				]
+			},
+			&quot;eyebrow_r&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.4333, &quot;x&quot;: 0, &quot;y&quot;: 0 },
+					{ &quot;time&quot;: 1.4666, &quot;x&quot;: -14.01, &quot;y&quot;: -0.7 },
+					{ &quot;time&quot;: 1.5333, &quot;x&quot;: -13.01, &quot;y&quot;: -0.72 },
+					{ &quot;time&quot;: 1.5666, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.4333, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.4666, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5333, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5666, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;root&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;mouth&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;nose&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;sweat&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			}
+		},
+		&quot;ffd&quot;: {
+			&quot;default&quot;: {
+				&quot;body&quot;: {
+					&quot;body&quot;: [
+						{ &quot;time&quot;: 0 },
+						{
+							&quot;time&quot;: 1.1666,
+							&quot;offset&quot;: 4,
+							&quot;vertices&quot;: [ 1.44414, -5.24738, 0.07263, -3.07916, -0.30497, -5.72876, -1.10171, -9.26852, 0, 0, 0, 0, -0.87974, -0.02075, -0.89015, 0.41916, -1.24698, -3.1103, -3.91735, -1.85294, 0, 0, 0, 0, 0, 0, 0, 0, -0.90049, 0.859, 0, 0, 0, 0, 0, 0, 0, 0, -0.31535, -5.2889, 0, 0, 0.0415, -1.75952, 0.03112, -1.31964, 0.03113, -1.31964, -0.36723, -3.0895, -0.42949, -0.45027, 0.49175, -2.18902, 0.15564, -6.59815, 0, 0, 0.56438, -5.26812, 0.07263, -3.07914, 0.10376, -4.39877, -1.29886, -0.91087, 0, 0, -2.64964, 0.37762, 0, 0, 0, 0, 0, 0, 0.90053, -0.859, 0.49175, -2.18904, -2.07942, -0.04906, 1.27644, -1.53037, -1.32999, 0.40876, 0.03113, -1.31964 ]
+						},
+						{ &quot;time&quot;: 2.3333 }
+					]
+				},
+				&quot;hair_f_l&quot;: {
+					&quot;hair_f_l&quot;: [
+						{
+							&quot;time&quot;: 0,
+							&quot;offset&quot;: 2,
+							&quot;vertices&quot;: [ -1.64675, 2.09597, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.46408, 0.7036, -0.5913, 1.39979, -1.35476, 2.15591 ]
+						},
+						{
+							&quot;time&quot;: 1.1666,
+							&quot;vertices&quot;: [ -7.22346, 0.62804, 0, 0, 0, 0, 0, 0, -1.81642, -7.31678, -2.92033, -2.55813, -0.09246, -0.96643, -7.22346, 0.62804, -0.89131, -0.07003, 0.96115, -0.82118, 10.39637, 0.81716, 0, 0, -0.03039, 4.18249, 0.79776, 1.25837, 0, 0, 0, 0, 0, 0, -0.7109, 1.43873 ]
+						},
+						{
+							&quot;time&quot;: 2.3333,
+							&quot;offset&quot;: 2,
+							&quot;vertices&quot;: [ -1.64675, 2.09597, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.46408, 0.7036, -0.5913, 1.39979, -1.35476, 2.15591 ]
+						}
+					]
+				},
+				&quot;hair_f_r&quot;: {
+					&quot;hair_f_r&quot;: [
+						{ &quot;time&quot;: 0 },
+						{
+							&quot;time&quot;: 1.1666,
+							&quot;offset&quot;: 2,
+							&quot;vertices&quot;: [ 2.55433, 0.68319, 1.40957, -0.92279, 1.07397, -2.99562, 1.0558, 0.14529, 0.21409, -3.3631, -1.75952, -8.26821, -1.18273, -2.23113, 1.24626, 3.27462, 0, 0, 0, 0, 0, 0, -1.24612, -3.27339, 0, 0, -1.85766, 3.88256, -0.06897, 2.30802, 0.07617, 1.2518, 1.08837, 4.12227, 1.53651, 1.16331, 1.03036, -0.27134 ]
+						},
+						{ &quot;time&quot;: 2.3333 }
+					]
+				},
+				&quot;hat&quot;: {
+					&quot;hat&quot;: [
+						{ &quot;time&quot;: 0 },
+						{
+							&quot;time&quot;: 1.1666,
+							&quot;vertices&quot;: [ -3.39163, 1.38964, 3.48054, -1.14836, 11.81002, -3.12303, -12.00009, 2.28718, 0, 0, 0, 0, 0.08831, 5.25787, 0.28045, -5.25112, -0.08836, -5.25791, -0.28065, 5.25118, 2.46293, 5.45172, 0.68328, 5.11158, -1.04008, -5.05106, 0.16319, 5.15442, 0.68328, 5.11155, -4.62191, -2.55851, 4.11773, 3.3094, 4.43103, 2.8763, 3.52697, 2.75479, 5.7453, 0.39143, -3.07424, -5.55255, 2.08207, 5.99554, -4.68385, 4.80984, 5.43566, -3.94041, 1.03991, 5.05102, -0.16308, -5.15439, 0, 0, 0, 0, 8.01345, 1.42689, -7.65258, -2.773, -8.01351, -1.4269, 7.65269, 2.77294, 7.89363, 1.98532, 0, 0, 0, 0, 0, 0, -4.09509, 0.23564, 4.07543, 0.46636, 4.10139, 0.05211, 4.09503, -0.23566, -4.10177, -0.05207, 0, 0, 0, 0, 3.48344, 0.11238, -0.99044, 3.71399, 1.24824, -3.63543, 0, 0, 1.0E-5, 1.0E-5, 0, 0, 0, 0, -11.19198, -11.73621, 10.34108, 12.49207, -3.28497, -4.58882, 2.95501, 4.80787, 0, 0, 0, 0, 1.12246, -0.2311, -1.13592, 0.15183, 2.80615, -0.57779, -2.83976, 0.3796, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -6.3056, -2.21183, 5.83583, 3.25497, -10.00296, -0.28054, 9.80853, 1.98272, -3.49955, -2.78963, 2.97235, 3.34567, -4.15972, -0.31355, 4.04524, 1.0185, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2.29087, -0.0725, 0, 0, 3.45445, 0.46397, 2.86361, -0.09062, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -0.2311, -1.12247, 0.03625, 1.14543, 0.15176, 1.1359, -0.57792, -2.80613, 0.09074, 2.86353, 0.37959, 2.83972, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1.22149, 2.59156, 1.64566, -2.34521, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1.71698, -5.49671, 1.32716, 5.60357 ]
+						},
+						{ &quot;time&quot;: 2.3333 }
+					]
+				},
+				&quot;neck&quot;: {
+					&quot;neck&quot;: [
+						{ &quot;time&quot;: 0 },
+						{
+							&quot;time&quot;: 1.1666,
+							&quot;vertices&quot;: [ 2.74685, 2.87956, 1.30047, -3.99043, -1.51274, -4.05678, 3.37631, -6.75629, -1.8672, -6.07573, -4.9364, 4.7089, 0, 0, -4.39231, -1.30997, -6.53446, 4.26906, 0, 0, -3.89881, 8.20402, 7.28551, 1.38854, 3.33218, 2.94662, -2.95872, -1.73145, 5.5506, 3.34781, 0, 0, 0, 0, 0, 0, 0, 0, 1.54118, 2.85112, 2.39236, 0.86067, 0, 0, 1.6265, -0.76583, 0.06636, -2.8132, 0.02844, -1.20564, 0, 0, -2.78477, -1.27202, 0, 0, 0, 0, 0, 0, -2.40185, -0.45876, -5.20556, -0.92701, -3.34205, 0.72539, -10.43078, 1.01431, -3.95709, 2.88348, -0.04879, -1.2375, -3.44872, 0.66885, -3.20186, 0.38062, 0, 0, 0, 0, 0.84169, -1.58858, 0, 0, 0, 0, -1.61701, 0.36396, 0, 0, 0, 0, 0, 0, 1.56014, 2.04736, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2.7658, 2.07579, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -2.03785, 1.15823, -1.59808, -0.4398, 0, 0, -0.95477, 1.80197, -2.10641, 1.77484, 1.5412, 2.85113, 4.47766, -2.30706, 0, 0, 0, 0, 0.79431, 0.42085, 1.99994, 0.44928 ]
+						},
+						{ &quot;time&quot;: 2.3333 }
+					]
+				}
+			}
+		}
+	},
+	&quot;1&quot;: {
+		&quot;slots&quot;: {
+			&quot;eye_0_l&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eye_help_l&quot; },
+					{ &quot;time&quot;: 1.4666, &quot;name&quot;: &quot;eye_3_l&quot; },
+					{ &quot;time&quot;: 1.5666, &quot;name&quot;: &quot;eye_help_l&quot; },
+					{ &quot;time&quot;: 1.6666, &quot;name&quot;: &quot;eye_help_l&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;name&quot;: &quot;eye_help_l&quot; }
+				]
+			},
+			&quot;eye_0_r&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eye_help_r&quot; },
+					{ &quot;time&quot;: 1.4666, &quot;name&quot;: &quot;eye_3_r&quot; },
+					{ &quot;time&quot;: 1.5666, &quot;name&quot;: &quot;eye_help_r&quot; },
+					{ &quot;time&quot;: 1.6666, &quot;name&quot;: &quot;eye_help_r&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;name&quot;: &quot;eye_help_r&quot; }
+				]
+			},
+			&quot;eyebrow_l&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eyebrow_help_l&quot; }
+				]
+			},
+			&quot;eyebrow_r&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eye_help_r copy&quot; }
+				]
+			},
+			&quot;eyebrow_shadow_l&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eyebrow_shadow_l copy&quot; },
+					{ &quot;time&quot;: 1.4666, &quot;name&quot;: &quot;eyebrow_shadow_l copy&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;name&quot;: &quot;eyebrow_shadow_l copy&quot; }
+				]
+			},
+			&quot;eyebrow_shadow_r&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eye_help_r copy 3&quot; },
+					{ &quot;time&quot;: 1.4666, &quot;name&quot;: &quot;eye_help_r copy 3&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;name&quot;: &quot;eye_help_r copy 3&quot; }
+				]
+			},
+			&quot;mouth&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;mouth_help_c&quot; },
+					{ &quot;time&quot;: 0.5666, &quot;name&quot;: &quot;mouth_help_o&quot; },
+					{ &quot;time&quot;: 0.6666, &quot;name&quot;: &quot;mouth_help_o&quot; },
+					{ &quot;time&quot;: 0.7, &quot;name&quot;: &quot;mouth_help_c&quot; },
+					{ &quot;time&quot;: 0.8, &quot;name&quot;: &quot;mouth_help_o&quot; },
+					{ &quot;time&quot;: 0.9, &quot;name&quot;: &quot;mouth_help_c&quot; },
+					{ &quot;time&quot;: 1.0333, &quot;name&quot;: &quot;mouth_help_o&quot; },
+					{ &quot;time&quot;: 1.1333, &quot;name&quot;: &quot;mouth_help_c&quot; }
+				]
+			},
+			&quot;nose&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eye_help_nose&quot; }
+				]
+			},
+			&quot;wrinkle_l&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;wrinkle_help_l&quot; },
+					{ &quot;time&quot;: 1.4666, &quot;name&quot;: &quot;wrinkle_help_l&quot; }
+				]
+			}
+		},
+		&quot;bones&quot;: {
+			&quot;head&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0 },
+					{ &quot;time&quot;: 1.1666, &quot;angle&quot;: 2.25 },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;bow&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0 },
+					{ &quot;time&quot;: 1.1666, &quot;angle&quot;: -0.9 },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;horn&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0 },
+					{ &quot;time&quot;: 1.1666, &quot;angle&quot;: 1.67 },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;body&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;hat_l&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;hat_r&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0 },
+					{ &quot;time&quot;: 1.1666, &quot;angle&quot;: 3.99 },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;hat&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;hair_r&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0 },
+					{ &quot;time&quot;: 1.1666, &quot;angle&quot;: -12.89 },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;hair_l&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0 },
+					{ &quot;time&quot;: 1.1666, &quot;angle&quot;: 4.83 },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;eye_r&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.4333, &quot;x&quot;: 0.75, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.4666, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5333, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5666, &quot;x&quot;: 0.75, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.6666, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;eye_l&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.4666, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.4333, &quot;x&quot;: 0.75, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.4666, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5333, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5666, &quot;x&quot;: 0.75, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.6666, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;eyebrow_l&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.4333, &quot;x&quot;: 0, &quot;y&quot;: 0 },
+					{ &quot;time&quot;: 1.4666, &quot;x&quot;: -15.03, &quot;y&quot;: -1.68, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.5, &quot;x&quot;: -15.03, &quot;y&quot;: -1.68, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.5333, &quot;x&quot;: -15.03, &quot;y&quot;: -1.68 },
+					{ &quot;time&quot;: 1.5666, &quot;x&quot;: -1.02, &quot;y&quot;: -0.93 },
+					{ &quot;time&quot;: 1.6666, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.3666, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.4666, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5333, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5666, &quot;x&quot;: 1, &quot;y&quot;: 0.999, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 0.999 }
+				]
+			},
+			&quot;eyebrow_r&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.4333, &quot;x&quot;: 0, &quot;y&quot;: 0 },
+					{ &quot;time&quot;: 1.4666, &quot;x&quot;: -14.01, &quot;y&quot;: -0.7 },
+					{ &quot;time&quot;: 1.5333, &quot;x&quot;: -13.01, &quot;y&quot;: -0.72 },
+					{ &quot;time&quot;: 1.5666, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.4333, &quot;x&quot;: 0.75, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.4666, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5333, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5666, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;root&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;mouth&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 0.5333, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 0.5666, &quot;x&quot;: 0.75, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 0.6666, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 0.7666, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 0.8, &quot;x&quot;: 0.75, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 0.9, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.0333, &quot;x&quot;: 0.75, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.1333, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;nose&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;sweat&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			}
+		},
+		&quot;ffd&quot;: {
+			&quot;default&quot;: {
+				&quot;body&quot;: {
+					&quot;body&quot;: [
+						{ &quot;time&quot;: 0 },
+						{
+							&quot;time&quot;: 1.1666,
+							&quot;offset&quot;: 4,
+							&quot;vertices&quot;: [ 1.44414, -5.24738, 0.07263, -3.07916, -0.30497, -5.72876, -1.10171, -9.26852, 0, 0, 0, 0, -0.87974, -0.02075, -0.89015, 0.41916, -1.24698, -3.1103, -3.91735, -1.85294, 0, 0, 0, 0, 0, 0, 0, 0, -0.90049, 0.859, 0, 0, 0, 0, 0, 0, 0, 0, -0.31535, -5.2889, 0, 0, 0.0415, -1.75952, 0.03112, -1.31964, 0.03113, -1.31964, -0.36723, -3.0895, -0.42949, -0.45027, 0.49175, -2.18902, 0.15564, -6.59815, 0, 0, 0.56438, -5.26812, 0.07263, -3.07914, 0.10376, -4.39877, -1.29886, -0.91087, 0, 0, -2.64964, 0.37762, 0, 0, 0, 0, 0, 0, 0.90053, -0.859, 0.49175, -2.18904, -2.07942, -0.04906, 1.27644, -1.53037, -1.32999, 0.40876, 0.03113, -1.31964 ]
+						},
+						{ &quot;time&quot;: 2.3333 }
+					]
+				},
+				&quot;hair_f_l&quot;: {
+					&quot;hair_f_l&quot;: [
+						{
+							&quot;time&quot;: 0,
+							&quot;offset&quot;: 2,
+							&quot;vertices&quot;: [ -1.64675, 2.09597, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.46408, 0.7036, -0.5913, 1.39979, -1.35476, 2.15591 ]
+						},
+						{
+							&quot;time&quot;: 1.1666,
+							&quot;vertices&quot;: [ -7.22346, 0.62804, 0, 0, 0, 0, 0, 0, -1.81642, -7.31678, -2.92033, -2.55813, -0.09246, -0.96643, -7.22346, 0.62804, -0.89131, -0.07003, 0.96115, -0.82118, 10.39637, 0.81716, 0, 0, -0.03039, 4.18249, 0.79776, 1.25837, 0, 0, 0, 0, 0, 0, -0.7109, 1.43873 ]
+						},
+						{
+							&quot;time&quot;: 2.3333,
+							&quot;offset&quot;: 2,
+							&quot;vertices&quot;: [ -1.64675, 2.09597, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.46408, 0.7036, -0.5913, 1.39979, -1.35476, 2.15591 ]
+						}
+					]
+				},
+				&quot;hair_f_r&quot;: {
+					&quot;hair_f_r&quot;: [
+						{ &quot;time&quot;: 0 },
+						{
+							&quot;time&quot;: 1.1666,
+							&quot;offset&quot;: 2,
+							&quot;vertices&quot;: [ 2.55433, 0.68319, 1.40957, -0.92279, 1.07397, -2.99562, 1.0558, 0.14529, 0.21409, -3.3631, -1.75952, -8.26821, -1.18273, -2.23113, 1.24626, 3.27462, 0, 0, 0, 0, 0, 0, -1.24612, -3.27339, 0, 0, -1.85766, 3.88256, -0.06897, 2.30802, 0.07617, 1.2518, 1.08837, 4.12227, 1.53651, 1.16331, 1.03036, -0.27134 ]
+						},
+						{ &quot;time&quot;: 2.3333 }
+					]
+				},
+				&quot;hat&quot;: {
+					&quot;hat&quot;: [
+						{ &quot;time&quot;: 0 },
+						{
+							&quot;time&quot;: 1.1666,
+							&quot;vertices&quot;: [ -3.39163, 1.38964, 3.48054, -1.14836, 11.81002, -3.12303, -12.00009, 2.28718, 0, 0, 0, 0, 0.08831, 5.25787, 0.28045, -5.25112, -0.08836, -5.25791, -0.28065, 5.25118, 2.46293, 5.45172, 0.68328, 5.11158, -1.04008, -5.05106, 0.16319, 5.15442, 0.68328, 5.11155, -4.62191, -2.55851, 4.11773, 3.3094, 4.43103, 2.8763, 3.52697, 2.75479, 5.7453, 0.39143, -3.07424, -5.55255, 2.08207, 5.99554, -4.68385, 4.80984, 5.43566, -3.94041, 1.03991, 5.05102, -0.16308, -5.15439, 0, 0, 0, 0, 8.01345, 1.42689, -7.65258, -2.773, -8.01351, -1.4269, 7.65269, 2.77294, 7.89363, 1.98532, 0, 0, 0, 0, 0, 0, -4.09509, 0.23564, 4.07543, 0.46636, 4.10139, 0.05211, 4.09503, -0.23566, -4.10177, -0.05207, 0, 0, 0, 0, 3.48344, 0.11238, -0.99044, 3.71399, 1.24824, -3.63543, 0, 0, 1.0E-5, 1.0E-5, 0, 0, 0, 0, -11.19198, -11.73621, 10.34108, 12.49207, -3.28497, -4.58882, 2.95501, 4.80787, 0, 0, 0, 0, 1.12246, -0.2311, -1.13592, 0.15183, 2.80615, -0.57779, -2.83976, 0.3796, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -6.3056, -2.21183, 5.83583, 3.25497, -10.00296, -0.28054, 9.80853, 1.98272, -3.49955, -2.78963, 2.97235, 3.34567, -4.15972, -0.31355, 4.04524, 1.0185, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2.29087, -0.0725, 0, 0, 3.45445, 0.46397, 2.86361, -0.09062, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -0.2311, -1.12247, 0.03625, 1.14543, 0.15176, 1.1359, -0.57792, -2.80613, 0.09074, 2.86353, 0.37959, 2.83972, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1.22149, 2.59156, 1.64566, -2.34521, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1.71698, -5.49671, 1.32716, 5.60357 ]
+						},
+						{ &quot;time&quot;: 2.3333 }
+					]
+				},
+				&quot;neck&quot;: {
+					&quot;neck&quot;: [
+						{ &quot;time&quot;: 0 },
+						{
+							&quot;time&quot;: 1.1666,
+							&quot;vertices&quot;: [ 2.74685, 2.87956, 1.30047, -3.99043, -1.51274, -4.05678, 3.37631, -6.75629, -1.8672, -6.07573, -4.9364, 4.7089, 0, 0, -4.39231, -1.30997, -6.53446, 4.26906, 0, 0, -3.89881, 8.20402, 7.28551, 1.38854, 3.33218, 2.94662, -2.95872, -1.73145, 5.5506, 3.34781, 0, 0, 0, 0, 0, 0, 0, 0, 1.54118, 2.85112, 2.39236, 0.86067, 0, 0, 1.6265, -0.76583, 0.06636, -2.8132, 0.02844, -1.20564, 0, 0, -2.78477, -1.27202, 0, 0, 0, 0, 0, 0, -2.40185, -0.45876, -5.20556, -0.92701, -3.34205, 0.72539, -10.43078, 1.01431, -3.95709, 2.88348, -0.04879, -1.2375, -3.44872, 0.66885, -3.20186, 0.38062, 0, 0, 0, 0, 0.84169, -1.58858, 0, 0, 0, 0, -1.61701, 0.36396, 0, 0, 0, 0, 0, 0, 1.56014, 2.04736, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2.7658, 2.07579, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -2.03785, 1.15823, -1.59808, -0.4398, 0, 0, -0.95477, 1.80197, -2.10641, 1.77484, 1.5412, 2.85113, 4.47766, -2.30706, 0, 0, 0, 0, 0.79431, 0.42085, 1.99994, 0.44928 ]
+						},
+						{ &quot;time&quot;: 2.3333 }
+					]
+				}
+			}
+		}
+	}
+}
+}"/></imgdir><canvas name="base" width="1" height="1"><vector name="origin" x="44" y="51"/><int name="delay" value="3000"/><string name="_hash" value="5ccf4a5238e7bfaa40c11bbfbef1ae5b6e454d3ed83b199f184e0cc33695f330"/><string name="_outlink" value="Npc/9400584.img/info/illustration2/base"/></canvas></imgdir><int name="forceMove" value="1"/><canvas name="CaravanDialog" width="100" height="100"><vector name="origin" x="50" y="50"/><string name="_hash" value="8fe3f000bd255955770e509fb308d90ad54fc458d760c9e91890a450939eacb8"/></canvas></imgdir><imgdir name="stand"><canvas name="0" width="63" height="112"><vector name="origin" x="30" y="112"/><int name="z" value="0"/><int name="delay" value="1200"/><string name="_hash" value="48094ebc8a261fa704c6067e036a00d3ad5c9ca5dd14ec8d37317bebff8559dd"/></canvas></imgdir><imgdir name="stand2"><canvas name="0" width="68" height="112"><vector name="origin" x="35" y="112"/><int name="z" value="0"/><int name="delay" value="1200"/><string name="_hash" value="5e335021adf7ed7aa42a1f18744d43e3ef9432fd423130aa572af2b83a1ce0af"/></canvas></imgdir><imgdir name="eye"><canvas name="0" width="1" height="1"><vector name="origin" x="30" y="112"/><int name="z" value="0"/><string name="_inlink" value="stand/0"/></canvas><canvas name="1" width="63" height="112"><vector name="origin" x="30" y="112"/><int name="z" value="0"/><string name="_hash" value="f66289cc65bed2fb265e232d2ecd315658ec4ad379d9bbab859cf7fd062ca06d"/></canvas><canvas name="2" width="63" height="112"><vector name="origin" x="30" y="112"/><int name="z" value="0"/><string name="_hash" value="27fd915a9b146c8512e05acaa18c03cebb4518510f7fd76a826ab03a05ee6cf0"/></canvas><canvas name="3" width="1" height="1"><vector name="origin" x="30" y="112"/><int name="z" value="0"/><string name="_inlink" value="stand/0"/></canvas></imgdir><imgdir name="eye2"><canvas name="0" width="1" height="1"><vector name="origin" x="35" y="112"/><int name="z" value="0"/><string name="_inlink" value="stand2/0"/></canvas><canvas name="1" width="68" height="112"><vector name="origin" x="35" y="112"/><int name="z" value="0"/><string name="_hash" value="908de0765ed6d5d78267527134dd1a8f744750c0c73352a763e2d81271e16353"/></canvas><canvas name="2" width="68" height="112"><vector name="origin" x="35" y="112"/><int name="z" value="0"/><string name="_hash" value="8df6f7a727a0ab0a2ea9264570334d681386649c4bedde6f6d143574caf46fea"/></canvas><canvas name="3" width="1" height="1"><vector name="origin" x="35" y="112"/><int name="z" value="0"/><string name="_inlink" value="stand2/0"/></canvas></imgdir><imgdir name="say"><canvas name="0" width="1" height="1"><vector name="origin" x="30" y="112"/><int name="z" value="0"/><string name="_inlink" value="stand/0"/></canvas><canvas name="1" width="63" height="112"><vector name="origin" x="30" y="112"/><int name="z" value="0"/><string name="_hash" value="1bc22edde429928a0846fe70f35c4f68538d6985fb390b846312c0a561e28fda"/></canvas><canvas name="2" width="1" height="1"><vector name="origin" x="30" y="112"/><int name="z" value="0"/><string name="_inlink" value="stand/0"/></canvas><canvas name="3" width="1" height="1"><vector name="origin" x="30" y="112"/><int name="z" value="0"/><string name="_inlink" value="say/1"/></canvas><canvas name="4" width="1" height="1"><vector name="origin" x="30" y="112"/><int name="z" value="0"/><string name="_inlink" value="stand/0"/></canvas><canvas name="5" width="1" height="1"><vector name="origin" x="30" y="112"/><int name="z" value="0"/><string name="_inlink" value="say/1"/></canvas><canvas name="6" width="1" height="1"><vector name="origin" x="30" y="112"/><int name="z" value="0"/><string name="_inlink" value="stand/0"/></canvas></imgdir><imgdir name="move"><canvas name="0" width="63" height="112"><vector name="origin" x="30" y="112"/><int name="z" value="0"/><int name="delay" value="210"/><string name="_hash" value="c447f32bbe0f8e7ad32830b9daf3c3f7760fbf9a8964c55aed8b9e458823639f"/></canvas><canvas name="1" width="63" height="113"><vector name="origin" x="30" y="113"/><int name="z" value="0"/><int name="delay" value="210"/><string name="_hash" value="24787e53701fe7af1ba144e7053a622e92bec8641277193a7d09742b90f682d9"/></canvas><canvas name="2" width="63" height="112"><vector name="origin" x="30" y="112"/><int name="z" value="0"/><int name="delay" value="210"/><string name="_hash" value="b9d6036dc4f899a1177a61cb55c3a6ee05f04c148de4f1b0e04a93ce2a770e7c"/></canvas><canvas name="3" width="63" height="113"><vector name="origin" x="30" y="113"/><int name="z" value="0"/><int name="delay" value="210"/><string name="_hash" value="ddc5a474fce56b0b15aec20570b7584d32dc1ecb06a63d9b9959e73b6f2d03e1"/></canvas><int name="special" value="1"/></imgdir><imgdir name="attack1"><canvas name="0" width="68" height="112"><vector name="origin" x="35" y="112"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="89f46a236ce2431a93622fb7580de5ac89f3a01aa10329769a42e5d318bd6d7f"/></canvas><canvas name="1" width="129" height="135"><vector name="origin" x="83" y="123"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="4cd50bedae85ba390bd84c601aeae5210d70def98ff168fc38adb33855db0c1c"/></canvas><canvas name="2" width="123" height="136"><vector name="origin" x="74" y="123"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="1f805b938ccbd228aef5473e139f0c752fdf3bfd05b832d76f7370922cb45e5d"/></canvas><canvas name="3" width="123" height="138"><vector name="origin" x="73" y="124"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="8d6b7182cd9d6e0e85e83d914a58dc5e7bb75b5ccee53a8228922ebe6c3aba7b"/></canvas><canvas name="4" width="123" height="138"><vector name="origin" x="73" y="124"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="be4c08c2040bb2c3d5f1fa2d9cefcaec57f9576b8572d2faea6b5569e26a1e99"/></canvas><canvas name="5" width="123" height="138"><vector name="origin" x="73" y="124"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="f55d705eeff53fdd9f5b0a7c9ec02f787c6dd41e0d0fdf5622df1ba08bc6899c"/></canvas><canvas name="6" width="1" height="1"><vector name="origin" x="73" y="124"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_inlink" value="attack1/5"/></canvas><canvas name="7" width="406" height="166"><vector name="origin" x="272" y="123"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="14afe0bb0f0081cb5a9f3242762e9adbfe7ffa4fffded83f78b40cd106ac7dc7"/></canvas><canvas name="8" width="414" height="169"><vector name="origin" x="277" y="124"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="751aa8ddf35b7473227a1a7abab323448ed0554f42b0c9a16e0168d1c52ccce7"/></canvas><canvas name="9" width="413" height="172"><vector name="origin" x="276" y="125"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="e06b1d078fbc93ce5da79c6ba680906c43a1440915903195df3147eda2550643"/></canvas><canvas name="10" width="396" height="177"><vector name="origin" x="260" y="124"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="793720638081a50405d8660647e18d51af76feffe10fc5dffee87ae11be8d80a"/></canvas><canvas name="11" width="379" height="179"><vector name="origin" x="244" y="124"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="05da25752818788cd94a28149ccef94d748c6db5ff573ff171d8bbe7582bd9f9"/></canvas><canvas name="12" width="274" height="168"><vector name="origin" x="241" y="121"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_hash" value="801860f0068eeaab30c90cf019067ddfa74ce72f659f338eded15ee6c40db0f8"/></canvas><canvas name="13" width="1" height="1"><vector name="origin" x="35" y="112"/><int name="z" value="0"/><int name="delay" value="120"/><string name="_inlink" value="stand2/0"/></canvas><int name="special" value="1"/></imgdir><imgdir name="hit"><canvas name="0" width="108" height="112"><vector name="origin" x="54" y="112"/><int name="z" value="0"/><string name="_hash" value="aa0474f1111a895ca985cec435727a5494a67c40a350464e2c0d69e3125befcc"/></canvas><int name="special" value="1"/></imgdir><imgdir name="die"><canvas name="0" width="101" height="112"><vector name="origin" x="56" y="112"/><int name="z" value="0"/><string name="_hash" value="1d89967371b0679e541aeeea2c08efb56b5f4f59e3a458b11d6c18405058fb79"/></canvas><canvas name="1" width="103" height="112"><vector name="origin" x="57" y="112"/><int name="z" value="0"/><string name="_hash" value="a0b55af3c9f2a707044337646ae2f1f1de548afaffb79b1956bede40b0bffd15"/></canvas><canvas name="2" width="105" height="112"><vector name="origin" x="58" y="112"/><int name="z" value="0"/><string name="_hash" value="af9095c5f603c938ebfc7ea6412fba466477a6c1743666878b4f709af911d582"/></canvas><canvas name="3" width="106" height="112"><vector name="origin" x="59" y="112"/><int name="z" value="0"/><string name="_hash" value="c1ffff435a88b33f9999cfb177d7b5413a5981ea62da6b31f1f7601b6e1f405b"/></canvas><canvas name="4" width="84" height="106"><vector name="origin" x="24" y="102"/><int name="z" value="0"/><string name="_hash" value="689b0fa51465ce2a9140521fd967e91af1284b3887359e79f22b42570a410299"/></canvas><canvas name="5" width="88" height="104"><vector name="origin" x="26" y="100"/><int name="z" value="0"/><string name="_hash" value="5c4037743f1b390a32b0d2e31aaccda9c29047392e844b0029cf996c8c09b06d"/></canvas><canvas name="6" width="91" height="103"><vector name="origin" x="29" y="99"/><int name="z" value="0"/><string name="_hash" value="068ce595d78924f88e78af9c4fe5c60fb906a7058d3ffaf5bac64dabadcde323"/></canvas><canvas name="7" width="86" height="102"><vector name="origin" x="24" y="99"/><int name="z" value="0"/><string name="_hash" value="ace6b6f03c4bf084dc0558b87c6200fd2ebbffc74f4adb6d6c6d8c035f5ff332"/></canvas><canvas name="8" width="28" height="20"><vector name="origin" x="10" y="24"/><int name="z" value="0"/><string name="_hash" value="fac95a00b96dade3f006f0006e3089f67d45c1bfdb1e1bfd12b36ad5855c5eea"/></canvas><int name="special" value="1"/></imgdir><imgdir name="rest"><canvas name="0" width="1" height="1"><vector name="origin" x="24" y="102"/><int name="z" value="0"/><string name="_inlink" value="die/4"/></canvas><int name="special" value="1"/></imgdir></imgdir>

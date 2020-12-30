@@ -1,0 +1,1494 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><imgdir name="9400581.img"><imgdir name="info"><imgdir name="illustration2"><imgdir name="face"><canvas name="butler01.png" width="1024" height="512"><vector name="origin" x="512" y="256"/><int name="z" value="0"/><string name="_hash" value="b89848861482a43963e7ebb7513a6a2fe1fb0e15ca47f4c2c0853d50ccfa61a9"/></canvas><string name="spine" value="butler01"/><string name="butler01.atlas" value="
+butler01.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_acc
+  rotate: false
+  xy: 571, 214
+  size: 121, 132
+  orig: 121, 132
+  offset: 0, 0
+  index: -1
+arm_l
+  rotate: true
+  xy: 0, 41
+  size: 36, 99
+  orig: 36, 99
+  offset: 0, 0
+  index: -1
+arm_r
+  rotate: true
+  xy: 356, 57
+  size: 90, 141
+  orig: 90, 141
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 364, 147
+  size: 199, 207
+  orig: 199, 207
+  offset: 0, 0
+  index: -1
+cape
+  rotate: false
+  xy: 364, 346
+  size: 387, 166
+  orig: 387, 166
+  offset: 0, 0
+  index: -1
+eye_0_l
+  rotate: false
+  xy: 800, 217
+  size: 42, 49
+  orig: 42, 49
+  offset: 0, 0
+  index: -1
+eye_0_r
+  rotate: false
+  xy: 187, 44
+  size: 89, 33
+  orig: 89, 33
+  offset: 0, 0
+  index: -1
+eye_1_l
+  rotate: false
+  xy: 757, 211
+  size: 43, 55
+  orig: 43, 55
+  offset: 0, 0
+  index: -1
+eye_1_r
+  rotate: false
+  xy: 355, 21
+  size: 85, 36
+  orig: 85, 36
+  offset: 0, 0
+  index: -1
+eye_2_l
+  rotate: true
+  xy: 169, 2
+  size: 39, 17
+  orig: 39, 17
+  offset: 0, 0
+  index: -1
+eye_2_r
+  rotate: false
+  xy: 842, 253
+  size: 73, 23
+  orig: 73, 23
+  offset: 0, 0
+  index: -1
+eye_3_l
+  rotate: true
+  xy: 253, 8
+  size: 36, 23
+  orig: 36, 23
+  offset: 0, 0
+  index: -1
+eye_3_r
+  rotate: false
+  xy: 842, 223
+  size: 61, 30
+  orig: 61, 30
+  offset: 0, 0
+  index: -1
+eye_angry_l
+  rotate: true
+  xy: 625, 25
+  size: 36, 27
+  orig: 36, 27
+  offset: 0, 0
+  index: -1
+eye_angry_r
+  rotate: false
+  xy: 690, 183
+  size: 61, 26
+  orig: 61, 26
+  offset: 0, 0
+  index: -1
+eye_angryshadow_l 1
+  rotate: true
+  xy: 83, 2
+  size: 39, 86
+  orig: 39, 86
+  offset: 0, 0
+  index: -1
+eye_angryshadow_r1
+  rotate: true
+  xy: 497, 57
+  size: 90, 88
+  orig: 90, 88
+  offset: 0, 0
+  index: -1
+eye_help_l copy 2
+  rotate: true
+  xy: 599, 19
+  size: 42, 26
+  orig: 42, 26
+  offset: 0, 0
+  index: -1
+eye_help_r copy 2
+  rotate: false
+  xy: 571, 167
+  size: 83, 47
+  orig: 83, 47
+  offset: 0, 0
+  index: -1
+eye_helpshadow1_l1
+  rotate: false
+  xy: 220, 7
+  size: 33, 37
+  orig: 33, 37
+  offset: 0, 0
+  index: -1
+eye_helpshadow1_r1
+  rotate: true
+  xy: 692, 255
+  size: 91, 59
+  orig: 91, 59
+  offset: 0, 0
+  index: -1
+eyeb_shadow2_l
+  rotate: true
+  xy: 187, 0
+  size: 44, 33
+  orig: 44, 33
+  offset: 0, 0
+  index: -1
+eyeb_shadow2_r
+  rotate: false
+  xy: 523, 19
+  size: 76, 38
+  orig: 76, 38
+  offset: 0, 0
+  index: -1
+eyebrow_angry_l
+  rotate: true
+  xy: 692, 209
+  size: 46, 65
+  orig: 46, 65
+  offset: 0, 0
+  index: -1
+eyebrow_angry_r
+  rotate: false
+  xy: 99, 41
+  size: 88, 36
+  orig: 88, 36
+  offset: 0, 0
+  index: -1
+eyebrow_angryshadow_l1l
+  rotate: true
+  xy: 751, 266
+  size: 47, 85
+  orig: 47, 85
+  offset: 0, 0
+  index: -1
+eyebrow_angryshadow_r1
+  rotate: false
+  xy: 276, 37
+  size: 79, 40
+  orig: 79, 40
+  offset: 0, 0
+  index: -1
+eyebrow_help_l
+  rotate: false
+  xy: 585, 107
+  size: 43, 42
+  orig: 43, 42
+  offset: 0, 0
+  index: -1
+eyebrow_help_r
+  rotate: false
+  xy: 440, 19
+  size: 83, 38
+  orig: 83, 38
+  offset: 0, 0
+  index: -1
+eyebrow_helpshadow1_l
+  rotate: true
+  xy: 654, 170
+  size: 44, 36
+  orig: 44, 36
+  offset: 0, 0
+  index: -1
+eyebrow_helpshadow1_r
+  rotate: false
+  xy: 0, 0
+  size: 83, 41
+  orig: 83, 41
+  offset: 0, 0
+  index: -1
+eyebrow_l copy
+  rotate: true
+  xy: 585, 61
+  size: 46, 33
+  orig: 46, 33
+  offset: 0, 0
+  index: -1
+eyebrow_r copy
+  rotate: false
+  xy: 836, 276
+  size: 89, 37
+  orig: 89, 37
+  offset: 0, 0
+  index: -1
+eyebrow_shadow1_l
+  rotate: true
+  xy: 618, 61
+  size: 46, 24
+  orig: 46, 24
+  offset: 0, 0
+  index: -1
+eyebrow_shadow1_r
+  rotate: false
+  xy: 925, 280
+  size: 90, 33
+  orig: 90, 33
+  offset: 0, 0
+  index: -1
+fur
+  rotate: false
+  xy: 0, 77
+  size: 356, 158
+  orig: 356, 158
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 0, 235
+  size: 364, 277
+  orig: 364, 277
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 571, 149
+  size: 61, 18
+  orig: 61, 18
+  offset: 0, 0
+  index: -1
+mouth_angry_l
+  rotate: false
+  xy: 690, 166
+  size: 61, 17
+  orig: 61, 17
+  offset: 0, 0
+  index: -1
+mouth_help_c
+  rotate: false
+  xy: 842, 208
+  size: 62, 15
+  orig: 62, 15
+  offset: 0, 0
+  index: -1
+mouth_help_o
+  rotate: false
+  xy: 276, 21
+  size: 60, 16
+  orig: 60, 16
+  offset: 0, 0
+  index: -1
+nose
+  rotate: true
+  xy: 220, 0
+  size: 7, 51
+  orig: 7, 51
+  offset: 0, 0
+  index: -1
+nose_shadow
+  rotate: true
+  xy: 276, 2
+  size: 19, 46
+  orig: 19, 46
+  offset: 0, 0
+  index: -1
+sweat1
+  rotate: false
+  xy: 356, 221
+  size: 7, 14
+  orig: 7, 14
+  offset: 0, 0
+  index: -1
+sweat2
+  rotate: false
+  xy: 751, 257
+  size: 6, 9
+  orig: 6, 9
+  offset: 0, 0
+  index: -1
+sword
+  rotate: true
+  xy: 751, 313
+  size: 199, 271
+  orig: 199, 271
+  offset: 0, 0
+  index: -1
+wrinkle_e
+  rotate: false
+  xy: 925, 258
+  size: 10, 22
+  orig: 10, 22
+  offset: 0, 0
+  index: -1
+wrinkle_m
+  rotate: true
+  xy: 1015, 303
+  size: 10, 9
+  orig: 10, 9
+  offset: 0, 0
+  index: -1
+wrinklw_angry_e
+  rotate: false
+  xy: 915, 253
+  size: 10, 23
+  orig: 10, 23
+  offset: 0, 0
+  index: -1
+"/><string name="butler01.json" value="{
+&quot;skeleton&quot;: { &quot;hash&quot;: &quot;M73f3H5YBIjlYDxDVAysvtVUYZE&quot;, &quot;spine&quot;: &quot;2.1.27&quot;, &quot;width&quot;: 319.99, &quot;height&quot;: 357.58, &quot;images&quot;: &quot;./images/butler/&quot; },
+&quot;bones&quot;: [
+	{ &quot;name&quot;: &quot;root&quot; },
+	{ &quot;name&quot;: &quot;body&quot;, &quot;parent&quot;: &quot;root&quot;, &quot;length&quot;: 185.07, &quot;x&quot;: -1.29, &quot;y&quot;: -0.58, &quot;scaleX&quot;: 0.8, &quot;scaleY&quot;: 0.8, &quot;rotation&quot;: 89.54 },
+	{ &quot;name&quot;: &quot;arm_l&quot;, &quot;parent&quot;: &quot;body&quot;, &quot;length&quot;: 156.46, &quot;x&quot;: 156.8, &quot;y&quot;: 116.3, &quot;rotation&quot;: 179.54 },
+	{ &quot;name&quot;: &quot;cape_up&quot;, &quot;parent&quot;: &quot;body&quot;, &quot;x&quot;: 200.77, &quot;y&quot;: -105.48, &quot;rotation&quot;: 1.35 },
+	{ &quot;name&quot;: &quot;head&quot;, &quot;parent&quot;: &quot;body&quot;, &quot;length&quot;: 202.09, &quot;x&quot;: 169.44, &quot;y&quot;: 2.04, &quot;rotation&quot;: 1.35 },
+	{ &quot;name&quot;: &quot;r_arm&quot;, &quot;parent&quot;: &quot;body&quot;, &quot;length&quot;: 182.18, &quot;x&quot;: 179.43, &quot;y&quot;: -97.14, &quot;rotation&quot;: -167.56 },
+	{ &quot;name&quot;: &quot;sholder_R&quot;, &quot;parent&quot;: &quot;body&quot;, &quot;x&quot;: 143.54, &quot;y&quot;: -131.45 },
+	{ &quot;name&quot;: &quot;sholder_up&quot;, &quot;parent&quot;: &quot;body&quot;, &quot;x&quot;: 194.52, &quot;y&quot;: -16.33 },
+	{ &quot;name&quot;: &quot;eye_l&quot;, &quot;parent&quot;: &quot;head&quot;, &quot;x&quot;: 77.45, &quot;y&quot;: 54.78 },
+	{ &quot;name&quot;: &quot;eye_r&quot;, &quot;parent&quot;: &quot;head&quot;, &quot;x&quot;: 76.2, &quot;y&quot;: -23.9 },
+	{ &quot;name&quot;: &quot;eyebrow_l&quot;, &quot;parent&quot;: &quot;head&quot;, &quot;x&quot;: 94.52, &quot;y&quot;: 58.05 },
+	{ &quot;name&quot;: &quot;eyebrow_r&quot;, &quot;parent&quot;: &quot;head&quot;, &quot;x&quot;: 98.33, &quot;y&quot;: -14.32 },
+	{ &quot;name&quot;: &quot;mouth&quot;, &quot;parent&quot;: &quot;head&quot;, &quot;x&quot;: 18.81, &quot;y&quot;: 23.8 },
+	{ &quot;name&quot;: &quot;sweat&quot;, &quot;parent&quot;: &quot;head&quot;, &quot;x&quot;: 118.29, &quot;y&quot;: -52.22 }
+],
+&quot;slots&quot;: [
+	{ &quot;name&quot;: &quot;cape&quot;, &quot;bone&quot;: &quot;body&quot;, &quot;attachment&quot;: &quot;cape&quot; },
+	{ &quot;name&quot;: &quot;arm_r&quot;, &quot;bone&quot;: &quot;r_arm&quot;, &quot;attachment&quot;: &quot;arm_r&quot; },
+	{ &quot;name&quot;: &quot;body&quot;, &quot;bone&quot;: &quot;body&quot;, &quot;attachment&quot;: &quot;body&quot; },
+	{ &quot;name&quot;: &quot;arm_acc&quot;, &quot;bone&quot;: &quot;sholder_R&quot;, &quot;attachment&quot;: &quot;arm_acc&quot; },
+	{ &quot;name&quot;: &quot;fur&quot;, &quot;bone&quot;: &quot;sholder_up&quot;, &quot;attachment&quot;: &quot;fur&quot; },
+	{ &quot;name&quot;: &quot;head&quot;, &quot;bone&quot;: &quot;head&quot;, &quot;attachment&quot;: &quot;head&quot; },
+	{ &quot;name&quot;: &quot;arm_l&quot;, &quot;bone&quot;: &quot;arm_l&quot;, &quot;attachment&quot;: &quot;arm_l&quot; },
+	{ &quot;name&quot;: &quot;mouth&quot;, &quot;bone&quot;: &quot;mouth&quot;, &quot;attachment&quot;: &quot;mouth&quot; },
+	{ &quot;name&quot;: &quot;nose_shadow&quot;, &quot;bone&quot;: &quot;head&quot;, &quot;attachment&quot;: &quot;nose_shadow&quot; },
+	{ &quot;name&quot;: &quot;wrinkle_e&quot;, &quot;bone&quot;: &quot;head&quot;, &quot;attachment&quot;: &quot;wrinklw_angry_e&quot; },
+	{ &quot;name&quot;: &quot;nose&quot;, &quot;bone&quot;: &quot;head&quot;, &quot;attachment&quot;: &quot;nose&quot; },
+	{ &quot;name&quot;: &quot;sweat2&quot;, &quot;bone&quot;: &quot;sweat&quot;, &quot;attachment&quot;: &quot;sweat2&quot; },
+	{ &quot;name&quot;: &quot;sweat1&quot;, &quot;bone&quot;: &quot;sweat&quot;, &quot;attachment&quot;: &quot;sweat1&quot; },
+	{ &quot;name&quot;: &quot;eyebrow_shadow1_l&quot;, &quot;bone&quot;: &quot;eyebrow_l&quot;, &quot;attachment&quot;: &quot;eyebrow_angryshadow_l1l&quot; },
+	{ &quot;name&quot;: &quot;eyebrow_shadow1_r&quot;, &quot;bone&quot;: &quot;eyebrow_r&quot;, &quot;attachment&quot;: &quot;eyebrow_shadow1_r&quot; },
+	{ &quot;name&quot;: &quot;eye_shadow_r&quot;, &quot;bone&quot;: &quot;eye_r&quot;, &quot;attachment&quot;: &quot;eye_angryshadow_r1&quot; },
+	{ &quot;name&quot;: &quot;eye_shadow_l&quot;, &quot;bone&quot;: &quot;eye_l&quot;, &quot;attachment&quot;: &quot;eye_angryshadow_l 1&quot; },
+	{ &quot;name&quot;: &quot;eye_0_l&quot;, &quot;bone&quot;: &quot;eye_l&quot;, &quot;attachment&quot;: &quot;eye_angry_l&quot; },
+	{ &quot;name&quot;: &quot;eye_0_r&quot;, &quot;bone&quot;: &quot;eye_r&quot;, &quot;attachment&quot;: &quot;eye_angry_r&quot; },
+	{ &quot;name&quot;: &quot;eyebrow_l copy&quot;, &quot;bone&quot;: &quot;eyebrow_l&quot;, &quot;attachment&quot;: &quot;eyebrow_angry_l&quot; },
+	{ &quot;name&quot;: &quot;eyebrow_r copy&quot;, &quot;bone&quot;: &quot;eyebrow_r&quot;, &quot;attachment&quot;: &quot;eyebrow_angry_r&quot; },
+	{ &quot;name&quot;: &quot;sword&quot;, &quot;bone&quot;: &quot;arm_l&quot;, &quot;attachment&quot;: &quot;sword&quot; }
+],
+&quot;skins&quot;: {
+	&quot;default&quot;: {
+		&quot;arm_acc&quot;: {
+			&quot;arm_acc&quot;: { &quot;x&quot;: -3.38, &quot;y&quot;: 14.49, &quot;rotation&quot;: -89.54, &quot;width&quot;: 121, &quot;height&quot;: 132 }
+		},
+		&quot;arm_l&quot;: {
+			&quot;arm_l&quot;: { &quot;x&quot;: 45.48, &quot;y&quot;: 31.35, &quot;rotation&quot;: 90.9, &quot;width&quot;: 36, &quot;height&quot;: 99 }
+		},
+		&quot;arm_r&quot;: {
+			&quot;arm_r&quot;: { &quot;x&quot;: 122.36, &quot;y&quot;: 3.67, &quot;rotation&quot;: 78.01, &quot;width&quot;: 90, &quot;height&quot;: 141 }
+		},
+		&quot;body&quot;: {
+			&quot;body&quot;: { &quot;x&quot;: 96.77, &quot;y&quot;: -4.29, &quot;rotation&quot;: -89.54, &quot;width&quot;: 199, &quot;height&quot;: 207 }
+		},
+		&quot;cape&quot;: {
+			&quot;cape&quot;: {
+				&quot;type&quot;: &quot;mesh&quot;,
+				&quot;uvs&quot;: [ 0.81205, 0.06603, 0.95567, 0.26279, 1, 1, 0, 1, 0, 0.92208, 0.32789, 0.07984, 0.59588, 0, 0.09099, 0.69771, 0.23165, 0.53548, 0.30124, 0.25243, 0.96752, 0.73913, 0.88608, 0.84614, 0.87868, 0.45263, 0.14429, 0.93244, 0.23017, 0.68045, 0.35454, 0.54583, 0.40784, 0.27314 ],
+				&quot;triangles&quot;: [ 16, 5, 6, 9, 5, 16, 12, 0, 1, 5, 9, 7, 15, 8, 9, 16, 15, 9, 16, 6, 0, 9, 8, 7, 14, 8, 15, 14, 7, 8, 2, 10, 1, 12, 1, 10, 11, 12, 10, 7, 4, 5, 13, 7, 14, 4, 7, 13, 16, 0, 12, 3, 4, 13, 11, 10, 2, 15, 16, 12, 11, 15, 12, 14, 15, 11, 13, 14, 11, 2, 3, 13, 2, 13, 11 ],
+				&quot;vertices&quot;: [ 155.12, -106.6, 122.89, -162.44, 0.66, -180.56, -2.38, 206.42, 10.55, 206.52, 151.35, 80.73, 165.42, -22.86, 48.07, 171.6, 75.43, 117.38, 122.62, 90.82, 43.86, -167.65, 25.85, -136.27, 91.15, -132.89, 9.27, 150.67, 51.36, 117.76, 74.08, 69.81, 119.51, 49.54 ],
+				&quot;hull&quot;: 7,
+				&quot;edges&quot;: [ 4, 6, 6, 8, 8, 10, 10, 12, 2, 4, 12, 0, 0, 2 ],
+				&quot;width&quot;: 387,
+				&quot;height&quot;: 166
+			}
+		},
+		&quot;eye_0_l&quot;: {
+			&quot;eye_0_l&quot;: { &quot;x&quot;: -12.28, &quot;y&quot;: -0.08, &quot;rotation&quot;: -90.9, &quot;width&quot;: 42, &quot;height&quot;: 49 },
+			&quot;eye_1_l&quot;: { &quot;x&quot;: -15.29, &quot;y&quot;: -0.53, &quot;rotation&quot;: -90.9, &quot;width&quot;: 43, &quot;height&quot;: 55 },
+			&quot;eye_2_l&quot;: { &quot;x&quot;: -1.29, &quot;y&quot;: -0.76, &quot;rotation&quot;: -90.9, &quot;width&quot;: 39, &quot;height&quot;: 17 },
+			&quot;eye_3_l&quot;: { &quot;x&quot;: -8.31, &quot;y&quot;: -2.14, &quot;rotation&quot;: -90.9, &quot;width&quot;: 36, &quot;height&quot;: 23 },
+			&quot;eye_angry_l&quot;: { &quot;x&quot;: -2.32, &quot;y&quot;: -2.74, &quot;rotation&quot;: -90.9, &quot;width&quot;: 36, &quot;height&quot;: 27 },
+			&quot;eye_help_l copy 2&quot;: { &quot;x&quot;: 3.24, &quot;y&quot;: 1.66, &quot;rotation&quot;: -90.9, &quot;width&quot;: 42, &quot;height&quot;: 26 }
+		},
+		&quot;eye_0_r&quot;: {
+			&quot;eye_0_r&quot;: { &quot;x&quot;: 6.92, &quot;y&quot;: 12.8, &quot;rotation&quot;: -90.9, &quot;width&quot;: 89, &quot;height&quot;: 33 },
+			&quot;eye_1_r&quot;: { &quot;x&quot;: 8.36, &quot;y&quot;: 8.78, &quot;rotation&quot;: -90.9, &quot;width&quot;: 85, &quot;height&quot;: 36 },
+			&quot;eye_2_r&quot;: { &quot;x&quot;: 1.79, &quot;y&quot;: 4.89, &quot;rotation&quot;: -90.9, &quot;width&quot;: 73, &quot;height&quot;: 23 },
+			&quot;eye_3_r&quot;: { &quot;x&quot;: 8.26, &quot;y&quot;: 2.78, &quot;rotation&quot;: -90.9, &quot;width&quot;: 61, &quot;height&quot;: 30 },
+			&quot;eye_angry_r&quot;: { &quot;x&quot;: 0.29, &quot;y&quot;: 0.48, &quot;rotation&quot;: -90.9, &quot;width&quot;: 61, &quot;height&quot;: 26 },
+			&quot;eye_help_r copy 2&quot;: { &quot;x&quot;: 14.85, &quot;y&quot;: 8.68, &quot;rotation&quot;: -90.9, &quot;width&quot;: 83, &quot;height&quot;: 47 }
+		},
+		&quot;eye_shadow_l&quot;: {
+			&quot;eye_angryshadow_l 1&quot;: { &quot;x&quot;: -21.85, &quot;y&quot;: -4.43, &quot;rotation&quot;: -90.9, &quot;width&quot;: 39, &quot;height&quot;: 86 },
+			&quot;eye_helpshadow1_l1&quot;: { &quot;x&quot;: 4.27, &quot;y&quot;: 3.15, &quot;rotation&quot;: -90.9, &quot;width&quot;: 33, &quot;height&quot;: 37 },
+			&quot;eyeb_shadow2_l&quot;: { &quot;x&quot;: 5.77, &quot;y&quot;: 3.62, &quot;rotation&quot;: -90.9, &quot;width&quot;: 44, &quot;height&quot;: 33 }
+		},
+		&quot;eye_shadow_r&quot;: {
+			&quot;eye_angryshadow_r1&quot;: { &quot;x&quot;: -24.57, &quot;y&quot;: 12.81, &quot;rotation&quot;: -90.9, &quot;width&quot;: 90, &quot;height&quot;: 88 },
+			&quot;eye_helpshadow1_r1&quot;: { &quot;x&quot;: 14.76, &quot;y&quot;: 18.23, &quot;rotation&quot;: -90.9, &quot;width&quot;: 91, &quot;height&quot;: 59 },
+			&quot;eyeb_shadow2_r&quot;: { &quot;x&quot;: 11.7, &quot;y&quot;: 3.83, &quot;rotation&quot;: -90.9, &quot;width&quot;: 76, &quot;height&quot;: 38 }
+		},
+		&quot;eyebrow_l copy&quot;: {
+			&quot;eyebrow_angry_l&quot;: { &quot;x&quot;: -22.83, &quot;y&quot;: -2.46, &quot;rotation&quot;: -90.9, &quot;width&quot;: 46, &quot;height&quot;: 65 },
+			&quot;eyebrow_help_l&quot;: { &quot;x&quot;: 0.21, &quot;y&quot;: 0.67, &quot;rotation&quot;: -90.9, &quot;width&quot;: 43, &quot;height&quot;: 42 },
+			&quot;eyebrow_l copy&quot;: { &quot;x&quot;: -9.3, &quot;y&quot;: -0.67, &quot;rotation&quot;: -90.9, &quot;width&quot;: 46, &quot;height&quot;: 33 }
+		},
+		&quot;eyebrow_r copy&quot;: {
+			&quot;eyebrow_angry_r&quot;: { &quot;x&quot;: 0.22, &quot;y&quot;: 0.89, &quot;rotation&quot;: -90.9, &quot;width&quot;: 88, &quot;height&quot;: 36 },
+			&quot;eyebrow_help_r&quot;: { &quot;x&quot;: -1.77, &quot;y&quot;: -0.97, &quot;rotation&quot;: -90.9, &quot;width&quot;: 83, &quot;height&quot;: 38 },
+			&quot;eyebrow_r copy&quot;: { &quot;x&quot;: -6.22, &quot;y&quot;: 2.09, &quot;rotation&quot;: -90.9, &quot;width&quot;: 89, &quot;height&quot;: 37 }
+		},
+		&quot;eyebrow_shadow1_l&quot;: {
+			&quot;eyebrow_angryshadow_l1l&quot;: { &quot;x&quot;: -38.37, &quot;y&quot;: -4.71, &quot;rotation&quot;: -90.9, &quot;width&quot;: 47, &quot;height&quot;: 85 },
+			&quot;eyebrow_helpshadow1_l&quot;: { &quot;x&quot;: 3.2, &quot;y&quot;: 0.12, &quot;rotation&quot;: -90.9, &quot;width&quot;: 44, &quot;height&quot;: 36 },
+			&quot;eyebrow_shadow1_l&quot;: { &quot;x&quot;: -5.8, &quot;y&quot;: -0.73, &quot;rotation&quot;: -90.9, &quot;width&quot;: 46, &quot;height&quot;: 24 }
+		},
+		&quot;eyebrow_shadow1_r&quot;: {
+			&quot;eye_helpshadow1_r1&quot;: { &quot;x&quot;: -6.77, &quot;y&quot;: -0.89, &quot;rotation&quot;: -90.9, &quot;width&quot;: 91, &quot;height&quot;: 59 },
+			&quot;eyeb_shadow2_r&quot;: { &quot;x&quot;: -9.84, &quot;y&quot;: -5.35, &quot;rotation&quot;: -90.9, &quot;width&quot;: 76, &quot;height&quot;: 38 },
+			&quot;eyebrow_angryshadow_r1&quot;: { &quot;x&quot;: -8.82, &quot;y&quot;: -3.86, &quot;rotation&quot;: -90.9, &quot;width&quot;: 79, &quot;height&quot;: 40 },
+			&quot;eyebrow_helpshadow1_r&quot;: { &quot;x&quot;: -3.27, &quot;y&quot;: -0.95, &quot;rotation&quot;: -90.9, &quot;width&quot;: 83, &quot;height&quot;: 41 },
+			&quot;eyebrow_shadow1_r&quot;: { &quot;x&quot;: -4.23, &quot;y&quot;: 1.55, &quot;rotation&quot;: -90.9, &quot;width&quot;: 90, &quot;height&quot;: 33 }
+		},
+		&quot;fur&quot;: {
+			&quot;fur&quot;: {
+				&quot;type&quot;: &quot;mesh&quot;,
+				&quot;uvs&quot;: [ 0.94105, 0.12979, 1, 0.41992, 1, 0.51784, 1, 0.64114, 1, 0.70642, 0.933, 0.78983, 0.84769, 0.89138, 0.63201, 1, 0.21192, 1, 0.06867, 1, 0, 0.73181, 0, 0.5541, 0.02682, 0.45981, 0.11535, 0.15155, 0.21675, 0.06452, 0.70605, 0, 0.82838, 0, 0.26021, 0.06452, 0.18617, 0.12254, 0.15559, 0.17331, 0.1234, 0.22771, 0.12179, 0.28574, 0.07189, 0.39816, 0.07028, 0.48157, 0.04292, 0.55773, 0.0397, 0.65202, 0.03648, 0.75357, 0.04775, 0.80796, 0.05258, 0.90951, 0.33103, 0.8805, 0.38575, 0.80796, 0.50164, 0.80434, 0.5451, 0.87324, 0.5966, 0.895, 0.64811, 0.91314, 0.69157, 0.92039, 0.72054, 0.88412, 0.77526, 0.92764, 0.81067, 0.84423, 0.86701, 0.8261, 0.88793, 0.78983, 0.94266, 0.73543, 0.96197, 0.61938, 0.94588, 0.34739, 0.9668, 0.31112, 0.9153, 0.21683, 0.88954, 0.14067, 0.82838, 0.08627, 0.55637, 0.21321, 0.49681, 0.3764, 0.34873, 0.1987, 0.13305, 0.69554, 0.16203, 0.47432, 0.22158, 0.27848, 0.28274, 0.41267, 0.22319, 0.74269, 0.79941, 0.64477, 0.83804, 0.37277, 0.76883, 0.25672 ],
+				&quot;triangles&quot;: [ 17, 14, 15, 0, 47, 16, 15, 16, 47, 46, 47, 0, 18, 13, 14, 19, 13, 18, 48, 50, 17, 15, 48, 17, 58, 48, 15, 45, 46, 0, 20, 13, 19, 47, 58, 15, 58, 47, 46, 58, 46, 45, 17, 18, 14, 50, 18, 17, 50, 53, 18, 19, 18, 53, 20, 19, 53, 20, 22, 13, 21, 20, 53, 1, 44, 0, 45, 0, 44, 43, 45, 44, 57, 58, 45, 43, 57, 45, 49, 50, 48, 21, 22, 20, 54, 53, 50, 54, 50, 49, 43, 44, 1, 22, 12, 13, 52, 21, 53, 52, 53, 54, 22, 21, 52, 23, 12, 22, 52, 23, 22, 57, 43, 1, 24, 11, 12, 23, 24, 12, 1, 2, 57, 2, 56, 57, 42, 2, 3, 57, 49, 58, 42, 56, 2, 25, 11, 24, 52, 24, 23, 51, 24, 52, 25, 24, 51, 42, 3, 4, 10, 11, 25, 41, 56, 42, 41, 42, 4, 55, 52, 54, 51, 52, 55, 26, 10, 25, 26, 25, 51, 40, 56, 41, 5, 40, 41, 5, 41, 4, 49, 56, 31, 58, 49, 48, 57, 56, 49, 30, 54, 49, 30, 55, 54, 49, 31, 30, 27, 26, 51, 40, 38, 56, 32, 31, 33, 40, 39, 38, 31, 56, 36, 29, 55, 30, 38, 36, 56, 6, 38, 39, 5, 6, 39, 5, 39, 40, 36, 33, 31, 55, 28, 27, 55, 27, 51, 8, 28, 55, 34, 33, 36, 35, 34, 36, 37, 36, 38, 37, 38, 6, 8, 9, 28, 10, 26, 27, 28, 10, 27, 10, 28, 9, 55, 29, 8, 7, 33, 34, 7, 34, 35, 32, 33, 7, 30, 31, 32, 29, 30, 32, 7, 8, 29, 7, 29, 32, 37, 7, 35, 37, 35, 36, 7, 37, 6 ],
+				&quot;vertices&quot;: [ 74.55, -154.12, 28.88, -175.47, 13.41, -175.59, -6.06, -175.74, -16.37999, -175.82, -29.74, -152.08, -46.02, -121.84, -63.79, -45.19, -64.96, 104.35, -65.37, 155.34, -23.19, 180.12, 4.88, 180.34, 19.85, 170.91, 68.8, 139.78, 82.83999, 103.79, 94.4, -70.31, 94.74, -113.85, 82.96, 88.32, 73.58999, 114.6, 65.48, 125.43, 56.79, 136.82, 47.62, 137.32, 29.72, 154.94, 16.54, 155.41, 4.42999, 165.06, -10.47, 166.09, -26.52, 167.11, -35.08, 163.03, -51.11, 161.18, -45.75, 62.09, -34.14, 42.7, -33.24, 1.45, -44.01, -14.09, -47.3, -32.46, -50.02, -50.81, -51.05, -66.29, -45.23, -76.56, -51.96, -96.1, -38.68, -108.6, -35.66, -128.63, -29.87, -136.03, -21.12, -155.45, -2.73, -162.18, 40.18999, -156.11, 45.98, -163.52, 60.73, -145.06, 72.69, -135.8, 81.11, -113.96, 60.3, -17.28, 34.34999, 3.7, 62.01, 56.64, -17.08, 132.8, 17.94, 122.76, 49.05, 101.8, 28.02, 79.86, -24.28, 100.65, -7.2, -104.34, 35.87, -117.75, 54.02, -92.97 ],
+				&quot;hull&quot;: 17,
+				&quot;edges&quot;: [ 20, 22, 16, 18, 14, 16, 8, 6, 6, 4, 4, 2, 30, 32, 32, 0, 0, 2, 12, 14, 8, 10, 10, 12, 18, 20, 28, 30, 26, 28, 22, 24, 24, 26 ],
+				&quot;width&quot;: 356,
+				&quot;height&quot;: 158
+			}
+		},
+		&quot;head&quot;: {
+			&quot;head&quot;: {
+				&quot;type&quot;: &quot;mesh&quot;,
+				&quot;uvs&quot;: [ 0.60368, 0.03533, 0.84453, 0.13255, 0.9075, 0.37458, 0.87759, 0.71383, 0.71388, 1, 0.38015, 1, 0.12828, 0.37458, 0.15662, 0.20082, 0.18181, 0.11394, 0.35496, 0, 0.21171, 0.31459, 0.17393, 0.31459, 0.20699, 0.37251, 0.17866, 0.48835, 0.24162, 0.57523, 0.30617, 0.6166, 0.37858, 0.87518, 0.86657, 0.59385, 0.43997, 0.03326, 0.47775, 0.0767, 0.40691, 0.07049, 0.32191, 0.06843, 0.29042, 0.13669, 0.29829, 0.19668, 0.21959, 0.15531 ],
+				&quot;triangles&quot;: [ 0, 18, 9, 20, 9, 18, 21, 9, 20, 19, 18, 0, 20, 18, 19, 21, 8, 9, 22, 8, 21, 24, 8, 22, 20, 23, 22, 24, 22, 23, 7, 8, 24, 23, 10, 7, 23, 7, 24, 11, 7, 10, 12, 11, 10, 20, 22, 21, 23, 20, 19, 6, 7, 11, 6, 11, 12, 13, 6, 12, 23, 12, 10, 15, 14, 12, 13, 12, 14, 2, 0, 1, 15, 23, 19, 15, 12, 23, 2, 19, 0, 3, 17, 2, 15, 2, 16, 19, 2, 15, 17, 16, 2, 16, 17, 3, 4, 5, 16, 14, 15, 16, 5, 14, 16, 13, 14, 5, 6, 13, 5, 3, 4, 16 ],
+				&quot;vertices&quot;: [ 256.63, -26.05, 228.34, -113.29, 160.95, -135.16, 67.16, -122.82, -11.16, -62, -9.28, 59.45, 165.36, 148.43, 213.32, 137.37, 237.25, 127.83, 267.82, 64.32, 181.5, 117.81, 181.71, 131.56, 165.49, 119.77, 133.56, 130.58, 109.14, 108.04, 97.32, 84.73, 25.29, 59.49, 100.45, -119.32, 258.13, 33.52, 245.88, 19.95999, 248, 45.71, 249.06, 76.64, 230.33, 88.39, 213.67, 85.79, 225.57, 114.26 ],
+				&quot;hull&quot;: 10,
+				&quot;edges&quot;: [ 8, 10, 16, 18, 14, 16, 10, 12, 12, 14, 6, 8, 2, 4, 4, 6, 18, 0, 0, 2 ],
+				&quot;width&quot;: 364,
+				&quot;height&quot;: 277
+			}
+		},
+		&quot;mouth&quot;: {
+			&quot;mouth&quot;: { &quot;x&quot;: -3.91, &quot;y&quot;: -16.81, &quot;rotation&quot;: -90.9, &quot;width&quot;: 61, &quot;height&quot;: 18 },
+			&quot;mouth_angry_l&quot;: { &quot;x&quot;: -3.41, &quot;y&quot;: -16.82, &quot;rotation&quot;: -90.9, &quot;width&quot;: 61, &quot;height&quot;: 17 },
+			&quot;mouth_help_c&quot;: { &quot;x&quot;: -0.4, &quot;y&quot;: -16.37, &quot;rotation&quot;: -90.9, &quot;width&quot;: 62, &quot;height&quot;: 15 },
+			&quot;mouth_help_o&quot;: { &quot;x&quot;: -0.91, &quot;y&quot;: -17.36, &quot;rotation&quot;: -90.9, &quot;width&quot;: 60, &quot;height&quot;: 16 }
+		},
+		&quot;nose&quot;: {
+			&quot;nose&quot;: { &quot;x&quot;: 57.86, &quot;y&quot;: 35.31, &quot;rotation&quot;: -90.9, &quot;width&quot;: 7, &quot;height&quot;: 51 }
+		},
+		&quot;nose_shadow&quot;: {
+			&quot;nose_shadow&quot;: { &quot;x&quot;: 63.48, &quot;y&quot;: 43.22, &quot;rotation&quot;: -90.9, &quot;width&quot;: 19, &quot;height&quot;: 46 }
+		},
+		&quot;sweat1&quot;: {
+			&quot;sweat1&quot;: { &quot;x&quot;: -1.32, &quot;y&quot;: -0.4, &quot;rotation&quot;: -90.9, &quot;width&quot;: 7, &quot;height&quot;: 14 }
+		},
+		&quot;sweat2&quot;: {
+			&quot;sweat2&quot;: { &quot;x&quot;: -10.89, &quot;y&quot;: -4.75, &quot;rotation&quot;: -90.9, &quot;width&quot;: 6, &quot;height&quot;: 9 }
+		},
+		&quot;sword&quot;: {
+			&quot;sword&quot;: { &quot;x&quot;: 24.81, &quot;y&quot;: 10.52, &quot;rotation&quot;: 90.9, &quot;width&quot;: 199, &quot;height&quot;: 271 }
+		},
+		&quot;wrinkle_e&quot;: {
+			&quot;wrinkle_e&quot;: { &quot;x&quot;: 87.23, &quot;y&quot;: 27.34, &quot;rotation&quot;: -90.9, &quot;width&quot;: 10, &quot;height&quot;: 22 },
+			&quot;wrinkle_m&quot;: { &quot;x&quot;: 16.99, &quot;y&quot;: -18.54, &quot;rotation&quot;: -90.9, &quot;width&quot;: 10, &quot;height&quot;: 9 },
+			&quot;wrinklw_angry_e&quot;: { &quot;x&quot;: 91.73, &quot;y&quot;: 27.27, &quot;rotation&quot;: -90.9, &quot;width&quot;: 10, &quot;height&quot;: 23 }
+		}
+	}
+},
+&quot;animations&quot;: {
+	&quot;0&quot;: {
+		&quot;slots&quot;: {
+			&quot;eye_0_l&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eye_0_l&quot; },
+					{ &quot;time&quot;: 1.3333, &quot;name&quot;: &quot;eye_0_l&quot; },
+					{ &quot;time&quot;: 1.4666, &quot;name&quot;: &quot;eye_3_l&quot; },
+					{ &quot;time&quot;: 1.5666, &quot;name&quot;: &quot;eye_0_l&quot; }
+				]
+			},
+			&quot;eye_0_r&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eye_0_r&quot; },
+					{ &quot;time&quot;: 1.3333, &quot;name&quot;: &quot;eye_0_r&quot; },
+					{ &quot;time&quot;: 1.4666, &quot;name&quot;: &quot;eye_3_r&quot; },
+					{ &quot;time&quot;: 1.5666, &quot;name&quot;: &quot;eye_0_r&quot; }
+				]
+			},
+			&quot;eyebrow_l copy&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eyebrow_l copy&quot; }
+				]
+			},
+			&quot;eyebrow_r copy&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eyebrow_r copy&quot; }
+				]
+			},
+			&quot;sweat1&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: null }
+				]
+			},
+			&quot;sweat2&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: null }
+				]
+			}
+		},
+		&quot;bones&quot;: {
+			&quot;head&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0 },
+					{ &quot;time&quot;: 1.1666, &quot;angle&quot;: 2.09 },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;r_arm&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0.01 },
+					{ &quot;time&quot;: 1.3333, &quot;angle&quot;: -6.13 },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0.01 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;sholder_R&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: -0.54 },
+					{ &quot;time&quot;: 1.1666, &quot;angle&quot;: 1.45 },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: -0.54 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0 },
+					{ &quot;time&quot;: 1.1666, &quot;x&quot;: 3.99, &quot;y&quot;: 0.03 },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;sholder_up&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;body&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;arm_l&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;eyebrow_l&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.3333, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.4333, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;eyebrow_r&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.3333, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.4333, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;eye_r&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.4333, &quot;x&quot;: 0.75, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.4666, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5333, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5666, &quot;x&quot;: 0.75, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.6666, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;eye_l&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.4333, &quot;x&quot;: 0.75, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.4666, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5333, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5666, &quot;x&quot;: 0.75, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.6666, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;sweat&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;root&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;cape_up&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;mouth&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			}
+		},
+		&quot;ffd&quot;: {
+			&quot;default&quot;: {
+				&quot;cape&quot;: {
+					&quot;cape&quot;: [
+						{ &quot;time&quot;: 0 },
+						{
+							&quot;time&quot;: 1.1666,
+							&quot;offset&quot;: 2,
+							&quot;vertices&quot;: [ 1.71646, 18.64405, 0.03907, -4.96984, 2.29223, 10.66836, 9.392, 10.72421, 9.12922, 12.85222, 0, 0, 15.30209, 12.76479, 12.00824, 7.90465, 0, 0, 7.24136, 6.85211, 0, 0, 0, 0, -1.06288, 13.59202, 8.15086, 8.83032 ]
+						},
+						{ &quot;time&quot;: 2.3333 }
+					]
+				},
+				&quot;fur&quot;: {
+					&quot;fur&quot;: [
+						{ &quot;time&quot;: 0 },
+						{
+							&quot;time&quot;: 1.1666,
+							&quot;vertices&quot;: [ 12.04708, 2.14624, 6.02571, -4.92273, 2.51683, -7.49044, 0, 0, 0, 0, 1.24092, -2.83375, -2.83064, -1.6471, -0.87625, 8.11751, 0, 0, 0, 0, -7.18336, -0.82801, -10.19201, 7.43397, 0.82511, -1.61839, 4.86788, 0.85075, 0, 0, 0, 0, 2.43078, 0.83157, 0, 0, 0, 0, 2.84335, 0.02236, -1.22816, 1.20899, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -2.80281, -0.0016, 0, 0, 3.62698, 3.68448, 0, 0, 0, 0, 0, 0, 2.78901, 6.92767, -1.65029, 3.23678, -5.30278, 2.80189, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.72669, -2.12435, 6.80644, -0.82043, 14.18597, -1.98109, 2.38204, -0.77322, 6.80316, 0.05349, 2.01055, 0.01581, 0, 0, 0, 0, 0, 0, 0, 0, 0.7996, 1.63116, 2.11309, 2.14673, 0, 0, 0, 0, 2.87889, -4.94752, 2.12982, 0.01675, 2.12986, 0.01674 ]
+						},
+						{ &quot;time&quot;: 2.3333 }
+					]
+				},
+				&quot;head&quot;: {
+					&quot;head&quot;: [
+						{ &quot;time&quot;: 0 },
+						{
+							&quot;time&quot;: 1.1666,
+							&quot;offset&quot;: 12,
+							&quot;vertices&quot;: [ -5.25747, 0.27551, -6.86969, 5.11849, -1.69041, 7.98346, 7.13558, -9.16089, -3.03939, 2.53851, 0.16571, 3.16368, -2.92102, 0.15305, -4.12002, -0.36992, 0, 0, 0, 0, 0, 0, 0, 0, 0.0613, 1.16842, 0, 0, 0, 0, 0.03067, 0.58419, -1.66079, 1.84443, 0, 0, -2.06024, 2.19287 ]
+						},
+						{ &quot;time&quot;: 2.3333 }
+					]
+				}
+			}
+		}
+	},
+	&quot;1&quot;: {
+		&quot;slots&quot;: {
+			&quot;eye_0_l&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eye_angry_l&quot; },
+					{ &quot;time&quot;: 1.3333, &quot;name&quot;: &quot;eye_angry_l&quot; },
+					{ &quot;time&quot;: 1.4666, &quot;name&quot;: &quot;eye_3_l&quot; },
+					{ &quot;time&quot;: 1.5666, &quot;name&quot;: &quot;eye_angry_l&quot; }
+				]
+			},
+			&quot;eye_0_r&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eye_angry_r&quot; },
+					{ &quot;time&quot;: 1.3333, &quot;name&quot;: &quot;eye_angry_r&quot; },
+					{ &quot;time&quot;: 1.4666, &quot;name&quot;: &quot;eye_3_r&quot; },
+					{ &quot;time&quot;: 1.5666, &quot;name&quot;: &quot;eye_angry_r&quot; }
+				]
+			},
+			&quot;eye_shadow_l&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eye_angryshadow_l 1&quot; }
+				]
+			},
+			&quot;eye_shadow_r&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eye_angryshadow_r1&quot; }
+				]
+			},
+			&quot;eyebrow_l copy&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eyebrow_angry_l&quot; }
+				]
+			},
+			&quot;eyebrow_r copy&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eyebrow_angry_r&quot; },
+					{ &quot;time&quot;: 1.3333, &quot;name&quot;: &quot;eyebrow_angry_r&quot; }
+				]
+			},
+			&quot;eyebrow_shadow1_r&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eyebrow_angryshadow_r1&quot; },
+					{ &quot;time&quot;: 1.5666, &quot;name&quot;: &quot;eyebrow_angryshadow_r1&quot; }
+				]
+			},
+			&quot;mouth&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;mouth_angry_l&quot; }
+				]
+			},
+			&quot;sweat1&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: null }
+				]
+			},
+			&quot;sweat2&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: null }
+				]
+			}
+		},
+		&quot;bones&quot;: {
+			&quot;head&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0 },
+					{ &quot;time&quot;: 1.1666, &quot;angle&quot;: 2.09 },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;r_arm&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0.01 },
+					{ &quot;time&quot;: 1.3333, &quot;angle&quot;: -6.13 },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0.01 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;sholder_R&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: -0.54 },
+					{ &quot;time&quot;: 1.1666, &quot;angle&quot;: 1.45 },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: -0.54 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0 },
+					{ &quot;time&quot;: 1.1666, &quot;x&quot;: 7.99, &quot;y&quot;: 0.06 },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;sholder_up&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;body&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0 },
+					{ &quot;time&quot;: 1.1666, &quot;x&quot;: 0.99, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0.99, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;arm_l&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0 },
+					{ &quot;time&quot;: 0.5, &quot;x&quot;: -2.02, &quot;y&quot;: 2.98 },
+					{ &quot;time&quot;: 0.5666, &quot;x&quot;: 0, &quot;y&quot;: 0 },
+					{ &quot;time&quot;: 0.7666, &quot;x&quot;: -3.01, &quot;y&quot;: 1.97 },
+					{ &quot;time&quot;: 0.8, &quot;x&quot;: 0, &quot;y&quot;: 0 },
+					{ &quot;time&quot;: 1.1333, &quot;x&quot;: -3.03, &quot;y&quot;: 3.97 },
+					{ &quot;time&quot;: 1.1666, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;eyebrow_l&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.3333, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.4333, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;eyebrow_r&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.3333, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.4333, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;eye_r&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.4333, &quot;x&quot;: 0.75, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.4666, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5333, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5666, &quot;x&quot;: 0.75, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.6666, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;eye_l&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.4333, &quot;x&quot;: 0.75, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.4666, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5333, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5666, &quot;x&quot;: 0.75, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.6666, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;sweat&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;mouth&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 0.2666, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 0.3666, &quot;x&quot;: 0.7, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 0.4666, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 0.6333, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 0.7333, &quot;x&quot;: 0.7, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 0.8333, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;root&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0 },
+					{ &quot;time&quot;: 1.1666, &quot;x&quot;: -1, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: -1, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;cape_up&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			}
+		},
+		&quot;ffd&quot;: {
+			&quot;default&quot;: {
+				&quot;cape&quot;: {
+					&quot;cape&quot;: [
+						{ &quot;time&quot;: 0 },
+						{
+							&quot;time&quot;: 1.1666,
+							&quot;offset&quot;: 2,
+							&quot;vertices&quot;: [ 1.71646, 18.64405, 0.03907, -4.96984, 2.29223, 10.66836, 9.392, 10.72421, 9.12922, 12.85222, 0, 0, 15.30209, 12.76479, 12.00824, 7.90465, 0, 0, 7.24136, 6.85211, 0, 0, 0, 0, -1.06288, 13.59202, 8.15086, 8.83032 ]
+						},
+						{ &quot;time&quot;: 2.3333 }
+					]
+				},
+				&quot;fur&quot;: {
+					&quot;fur&quot;: [
+						{ &quot;time&quot;: 0 },
+						{
+							&quot;time&quot;: 1.1666,
+							&quot;vertices&quot;: [ 17.04693, 2.18556, 11.02555, -4.88341, 7.51667, -7.45112, 4.99984, 0.03931, 4.99984, 0.03931, 6.24076, -2.79443, 2.1692, -1.60778, 4.12359, 8.15683, 4.99984, 0.03931, 4.99984, 0.03931, -2.18351, -0.78869, -5.19216, 7.47329, 5.82496, -1.57907, 9.86773, 0.89007, 4.99984, 0.03931, 4.99984, 0.03931, 7.43063, 0.87089, 4.99984, 0.03931, 4.99984, 0.03931, 7.8432, 0.06168, 3.77168, 1.24831, 4.99984, 0.03931, 4.99984, 0.03931, 4.99984, 0.03931, 4.99984, 0.03931, 4.99984, 0.03931, 2.19703, 0.03771, 4.99984, 0.03931, 8.62683, 3.7238, 4.99984, 0.03931, 4.99984, 0.03931, 4.99984, 0.03931, 7.78886, 6.96699, 3.34954, 3.2761, -0.30293, 2.84121, 4.99984, 0.03931, 4.99984, 0.03931, 4.99984, 0.03931, 4.99984, 0.03931, 4.99984, 0.03931, 4.99984, 0.03931, 4.99984, 0.03931, 5.72654, -2.08503, 11.80629, -0.78111, 19.18582, -1.94177, 7.38189, -0.7339, 11.803, 0.09281, 7.0104, 0.05513, 4.99984, 0.03931, 4.99984, 0.03931, 4.99984, 0.03931, 4.99984, 0.03931, 5.79945, 1.67048, 7.11294, 2.18605, 4.99984, 0.03931, 4.99984, 0.03931, 7.87873, -4.9082, 7.12966, 0.05607, 7.12971, 0.05606 ]
+						},
+						{ &quot;time&quot;: 2.3333 }
+					]
+				},
+				&quot;head&quot;: {
+					&quot;head&quot;: [
+						{ &quot;time&quot;: 0 },
+						{
+							&quot;time&quot;: 1.1666,
+							&quot;offset&quot;: 12,
+							&quot;vertices&quot;: [ -5.25747, 0.27551, -6.86969, 5.11849, -1.69041, 7.98346, 7.13558, -9.16089, -3.03939, 2.53851, 0.16571, 3.16368, -2.92102, 0.15305, -4.12002, -0.36992, 0, 0, 0, 0, 0, 0, 0, 0, 0.0613, 1.16842, 0, 0, 0, 0, 0.03067, 0.58419, -1.66079, 1.84443, 0, 0, -2.06024, 2.19287 ]
+						},
+						{ &quot;time&quot;: 2.3333 }
+					]
+				}
+			}
+		}
+	},
+	&quot;2&quot;: {
+		&quot;slots&quot;: {
+			&quot;eye_0_l&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eye_help_l copy 2&quot; },
+					{ &quot;time&quot;: 1.3333, &quot;name&quot;: &quot;eye_help_l copy 2&quot; },
+					{ &quot;time&quot;: 1.4666, &quot;name&quot;: &quot;eye_3_l&quot; },
+					{ &quot;time&quot;: 1.5666, &quot;name&quot;: &quot;eye_help_l copy 2&quot; }
+				]
+			},
+			&quot;eye_0_r&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eye_help_r copy 2&quot; },
+					{ &quot;time&quot;: 1.3333, &quot;name&quot;: &quot;eye_help_r copy 2&quot; },
+					{ &quot;time&quot;: 1.4666, &quot;name&quot;: &quot;eye_3_r&quot; },
+					{ &quot;time&quot;: 1.5666, &quot;name&quot;: &quot;eye_help_r copy 2&quot; }
+				]
+			},
+			&quot;eye_shadow_l&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eye_helpshadow1_l1&quot; }
+				]
+			},
+			&quot;eye_shadow_r&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eye_helpshadow1_r1&quot; }
+				]
+			},
+			&quot;eyebrow_l copy&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eyebrow_help_l&quot; }
+				]
+			},
+			&quot;eyebrow_r copy&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eyebrow_help_r&quot; }
+				]
+			},
+			&quot;eyebrow_shadow1_l&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eyebrow_helpshadow1_l&quot; }
+				]
+			},
+			&quot;eyebrow_shadow1_r&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;eye_helpshadow1_r1&quot; }
+				]
+			},
+			&quot;mouth&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;mouth_help_c&quot; },
+					{ &quot;time&quot;: 0.6666, &quot;name&quot;: &quot;mouth_help_o&quot; },
+					{ &quot;time&quot;: 0.7666, &quot;name&quot;: &quot;mouth_help_c&quot; },
+					{ &quot;time&quot;: 0.8333, &quot;name&quot;: &quot;mouth_help_o&quot; },
+					{ &quot;time&quot;: 0.9666, &quot;name&quot;: &quot;mouth_help_c&quot; },
+					{ &quot;time&quot;: 1.0333, &quot;name&quot;: &quot;mouth_help_o&quot; },
+					{ &quot;time&quot;: 1.2, &quot;name&quot;: &quot;mouth_help_c&quot; }
+				]
+			},
+			&quot;sweat1&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;sweat1&quot; }
+				],
+				&quot;color&quot;: [
+					{ &quot;time&quot;: 0, &quot;color&quot;: &quot;ffffff00&quot; },
+					{ &quot;time&quot;: 0.1, &quot;color&quot;: &quot;ffffffff&quot;, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 0.8666, &quot;color&quot;: &quot;ffffffff&quot; },
+					{ &quot;time&quot;: 0.9666, &quot;color&quot;: &quot;ffffff00&quot; }
+				]
+			},
+			&quot;sweat2&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: &quot;sweat2&quot; }
+				],
+				&quot;color&quot;: [
+					{ &quot;time&quot;: 0, &quot;color&quot;: &quot;ffffff00&quot;, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 0.0666, &quot;color&quot;: &quot;ffffff00&quot; },
+					{ &quot;time&quot;: 0.1666, &quot;color&quot;: &quot;ffffffff&quot;, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 0.9, &quot;color&quot;: &quot;ffffffff&quot; },
+					{ &quot;time&quot;: 1, &quot;color&quot;: &quot;ffffff00&quot; }
+				]
+			},
+			&quot;wrinkle_e&quot;: {
+				&quot;attachment&quot;: [
+					{ &quot;time&quot;: 0, &quot;name&quot;: null }
+				]
+			}
+		},
+		&quot;bones&quot;: {
+			&quot;head&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0 },
+					{ &quot;time&quot;: 1.1666, &quot;angle&quot;: 2.09 },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;r_arm&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0.01 },
+					{ &quot;time&quot;: 1.3333, &quot;angle&quot;: -6.13 },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0.01 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;sholder_R&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: -0.54 },
+					{ &quot;time&quot;: 1.1666, &quot;angle&quot;: 1.45 },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: -0.54 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0 },
+					{ &quot;time&quot;: 1.1666, &quot;x&quot;: 3.99, &quot;y&quot;: 0.03 },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;sholder_up&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;body&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;arm_l&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;eyebrow_l&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.3333, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.4333, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;eyebrow_r&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.3333, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.4333, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;eye_r&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.4333, &quot;x&quot;: 0.75, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.4666, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5333, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5666, &quot;x&quot;: 0.75, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.6666, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;eye_l&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 1.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.4333, &quot;x&quot;: 0.75, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.4666, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5, &quot;x&quot;: 1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5333, &quot;x&quot;: 1.1, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.5666, &quot;x&quot;: 0.75, &quot;y&quot;: 1 },
+					{ &quot;time&quot;: 1.6666, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;sweat&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0 },
+					{ &quot;time&quot;: 1, &quot;x&quot;: -9.99, &quot;y&quot;: 0.36, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: -9.99, &quot;y&quot;: 0.36 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;mouth&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;root&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			},
+			&quot;cape_up&quot;: {
+				&quot;rotate&quot;: [
+					{ &quot;time&quot;: 0, &quot;angle&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;angle&quot;: 0 }
+				],
+				&quot;translate&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 0, &quot;y&quot;: 0, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 0, &quot;y&quot;: 0 }
+				],
+				&quot;scale&quot;: [
+					{ &quot;time&quot;: 0, &quot;x&quot;: 1, &quot;y&quot;: 1, &quot;curve&quot;: &quot;stepped&quot; },
+					{ &quot;time&quot;: 2.3333, &quot;x&quot;: 1, &quot;y&quot;: 1 }
+				]
+			}
+		},
+		&quot;ffd&quot;: {
+			&quot;default&quot;: {
+				&quot;cape&quot;: {
+					&quot;cape&quot;: [
+						{ &quot;time&quot;: 0 },
+						{
+							&quot;time&quot;: 1.1666,
+							&quot;offset&quot;: 2,
+							&quot;vertices&quot;: [ 1.71646, 18.64405, 0.03907, -4.96984, 2.29223, 10.66836, 9.392, 10.72421, 9.12922, 12.85222, 0, 0, 15.30209, 12.76479, 12.00824, 7.90465, 0, 0, 7.24136, 6.85211, 0, 0, 0, 0, -1.06288, 13.59202, 8.15086, 8.83032 ]
+						},
+						{ &quot;time&quot;: 2.3333 }
+					]
+				},
+				&quot;fur&quot;: {
+					&quot;fur&quot;: [
+						{ &quot;time&quot;: 0 },
+						{
+							&quot;time&quot;: 1.1666,
+							&quot;vertices&quot;: [ 12.04708, 2.14624, 6.02571, -4.92273, 2.51683, -7.49044, 0, 0, 0, 0, 1.24092, -2.83375, -2.83064, -1.6471, -0.87625, 8.11751, 0, 0, 0, 0, -7.18336, -0.82801, -10.19201, 7.43397, 0.82511, -1.61839, 4.86788, 0.85075, 0, 0, 0, 0, 2.43078, 0.83157, 0, 0, 0, 0, 2.84335, 0.02236, -1.22816, 1.20899, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -2.80281, -0.0016, 0, 0, 3.62698, 3.68448, 0, 0, 0, 0, 0, 0, 2.78901, 6.92767, -1.65029, 3.23678, -5.30278, 2.80189, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.72669, -2.12435, 6.80644, -0.82043, 14.18597, -1.98109, 2.38204, -0.77322, 6.80316, 0.05349, 2.01055, 0.01581, 0, 0, 0, 0, 0, 0, 0, 0, 0.7996, 1.63116, 2.11309, 2.14673, 0, 0, 0, 0, 2.87889, -4.94752, 2.12982, 0.01675, 2.12986, 0.01674 ]
+						},
+						{ &quot;time&quot;: 2.3333 }
+					]
+				},
+				&quot;head&quot;: {
+					&quot;head&quot;: [
+						{ &quot;time&quot;: 0 },
+						{
+							&quot;time&quot;: 1.1666,
+							&quot;offset&quot;: 12,
+							&quot;vertices&quot;: [ -5.25747, 0.27551, -6.86969, 5.11849, -1.69041, 7.98346, 7.13558, -9.16089, -3.03939, 2.53851, 0.16571, 3.16368, -2.92102, 0.15305, -4.12002, -0.36992, 0, 0, 0, 0, 0, 0, 0, 0, 0.0613, 1.16842, 0, 0, 0, 0, 0.03067, 0.58419, -1.66079, 1.84443, 0, 0, -2.06024, 2.19287 ]
+						},
+						{ &quot;time&quot;: 2.3333 }
+					]
+				}
+			}
+		}
+	}
+}
+}"/></imgdir><canvas name="base" width="1" height="1"><vector name="origin" x="44" y="51"/><int name="delay" value="3000"/><string name="_hash" value="5ccf4a5238e7bfaa40c11bbfbef1ae5b6e454d3ed83b199f184e0cc33695f330"/><string name="_outlink" value="Npc/9400584.img/info/illustration2/base"/></canvas></imgdir><int name="forceMove" value="1"/><canvas name="CaravanDialog" width="100" height="100"><vector name="origin" x="50" y="50"/><int name="z" value="0"/><string name="_hash" value="4e4e8e0f0ccd82e6d0d8ed2a1bab23ad8e5884a33269d6b71dfe32eed97f2588"/></canvas></imgdir><imgdir name="stand"><canvas name="0" width="166" height="121"><vector name="origin" x="99" y="104"/><int name="z" value="0"/><int name="delay" value="1200"/><string name="_hash" value="01dae30c65b7f7376508eaae6f7e84d63d11a16a02c96254765959e869223762"/></canvas></imgdir><imgdir name="eye"><canvas name="0" width="1" height="1"><vector name="origin" x="99" y="104"/><int name="z" value="0"/><string name="_inlink" value="stand/0"/></canvas><canvas name="1" width="166" height="120"><vector name="origin" x="99" y="103"/><int name="z" value="0"/><string name="_hash" value="383b860839a5528f8435b91ea0eaf007240ae0d92189a6fae3d1aa0db9584c92"/></canvas><canvas name="2" width="166" height="120"><vector name="origin" x="99" y="103"/><int name="z" value="0"/><string name="_hash" value="e4f7556470beb354907b508aa8c43964a274183a9084b00860374321a2e4ccfd"/></canvas><canvas name="3" width="166" height="120"><vector name="origin" x="99" y="103"/><int name="z" value="0"/><string name="_hash" value="c301ccd4b8700b69037b82dd356cf9c66739d394f65153261dbcababb6903280"/></canvas><canvas name="4" width="1" height="1"><vector name="origin" x="99" y="104"/><int name="z" value="0"/><string name="_inlink" value="stand/0"/></canvas><canvas name="5" width="166" height="121"><vector name="origin" x="99" y="104"/><int name="z" value="0"/><string name="_hash" value="368b52e3e2d32d0571149d0f2485402a6fdc02cf66ac6e947e9cac1cb248c4dc"/></canvas><canvas name="6" width="166" height="122"><vector name="origin" x="99" y="105"/><int name="z" value="0"/><string name="_hash" value="c6b1f1968540c5029a4e640173154c110c6d2dd04579e0fb12287975e32601c6"/></canvas><canvas name="7" width="1" height="1"><vector name="origin" x="99" y="104"/><int name="z" value="0"/><string name="_inlink" value="eye/5"/></canvas></imgdir><imgdir name="say"><canvas name="0" width="166" height="121"><vector name="origin" x="99" y="104"/><int name="z" value="0"/><string name="_hash" value="27641f25b04c89cec6777bdc44056b0bfc4519102c21404c209fb47903acc9e1"/></canvas><canvas name="1" width="166" height="121"><vector name="origin" x="99" y="104"/><int name="z" value="0"/><string name="_hash" value="98af80d6206e0c187f7f87cbe92c13ce3e62da70dc0c07aa3686ffb64a554547"/></canvas><canvas name="2" width="1" height="1"><vector name="origin" x="99" y="104"/><int name="z" value="0"/><string name="_inlink" value="say/0"/></canvas><canvas name="3" width="1" height="1"><vector name="origin" x="99" y="104"/><int name="z" value="0"/><string name="_inlink" value="say/1"/></canvas><canvas name="4" width="1" height="1"><vector name="origin" x="99" y="104"/><int name="z" value="0"/><string name="_inlink" value="say/0"/></canvas><canvas name="5" width="1" height="1"><vector name="origin" x="99" y="104"/><int name="z" value="0"/><string name="_inlink" value="say/1"/></canvas><canvas name="6" width="1" height="1"><vector name="origin" x="99" y="104"/><int name="z" value="0"/><string name="_inlink" value="say/0"/></canvas></imgdir><imgdir name="move"><canvas name="0" width="166" height="121"><vector name="origin" x="99" y="104"/><int name="z" value="0"/><string name="_hash" value="2bf1594ff7ba8d4d76189a482d3e810ff15b9ee68da9f0d34d694635b43192dd"/></canvas><canvas name="1" width="166" height="121"><vector name="origin" x="100" y="105"/><int name="z" value="0"/><string name="_hash" value="18820a015b0df777d6c6d461fe317f71fff913f9c09773d0d3ae509957b7a71c"/></canvas><canvas name="2" width="167" height="121"><vector name="origin" x="100" y="103"/><int name="z" value="0"/><string name="_hash" value="d51910a7bc05fe066993f50389e2b5a1aaeb9532b55ca24cfea8d149bfb502e1"/></canvas><canvas name="3" width="166" height="121"><vector name="origin" x="99" y="104"/><int name="z" value="0"/><string name="_hash" value="1cf494b4df483292a609873a417df637fed94cd31ab40fea0000d632e4c76571"/></canvas><canvas name="4" width="164" height="121"><vector name="origin" x="98" y="105"/><int name="z" value="0"/><string name="_hash" value="f55909bc1ec8c6301cf4e1b4819ca8cdea2671c0abbd14161be8a91de37b8ea8"/></canvas><canvas name="5" width="165" height="121"><vector name="origin" x="98" y="103"/><int name="z" value="0"/><string name="_hash" value="a5d27d4cfaca1cebf1443e89db9529fec3d9f6d06bcd3f49353ecc7fd9624e41"/></canvas><int name="special" value="1"/></imgdir><imgdir name="attack1"><canvas name="0" width="147" height="144"><vector name="origin" x="80" y="144"/><int name="z" value="0"/><string name="_hash" value="b8846821fa032ba349f8608625c1c51227fc1c7d465d4cf10a09f2424f6e6010"/></canvas><canvas name="1" width="192" height="166"><vector name="origin" x="113" y="154"/><int name="z" value="0"/><string name="_hash" value="8cf41744289c8647ccbf70636653d3c6dcb91c81b1c813ed02f0f78dbfa0d96f"/></canvas><canvas name="2" width="163" height="190"><vector name="origin" x="78" y="177"/><int name="z" value="0"/><string name="_hash" value="48a253f713acdf1261645ea2abc02715ad6ecc5a6dbbf14ca2040c09b2c998b1"/></canvas><canvas name="3" width="164" height="193"><vector name="origin" x="76" y="179"/><int name="z" value="0"/><string name="_hash" value="cc1b0cea68d9a0b204fd745c653d36035816534e56fd57c05b7958d312f36fe2"/></canvas><canvas name="4" width="164" height="192"><vector name="origin" x="78" y="178"/><int name="z" value="0"/><string name="_hash" value="d36a7e4ef2f67b17f9c853f1787f458c51563b9a5baa2be0c43df1fd67364910"/></canvas><canvas name="5" width="312" height="213"><vector name="origin" x="213" y="199"/><int name="z" value="0"/><string name="_hash" value="2cb7cceace26bbd9cf8a17f7cf279b7a1f8ba1769eddef36c7c72367635b7346"/></canvas><canvas name="6" width="314" height="210"><vector name="origin" x="212" y="196"/><int name="z" value="0"/><string name="_hash" value="376ae0780968865142676125e10b2f03f92171045ddb3322342b72d0df013c2a"/></canvas><canvas name="7" width="313" height="200"><vector name="origin" x="212" y="186"/><int name="z" value="0"/><string name="_hash" value="f4f33d03edff05599fb076c6a502e6c417d771676888685f60c9ccbdaa5230ae"/></canvas><canvas name="8" width="316" height="167"><vector name="origin" x="212" y="152"/><int name="z" value="0"/><string name="_hash" value="b4dc1ce5c5881abf4a22d49f1c48072de7418e55475510b2d56a8a825d656bf5"/></canvas><canvas name="9" width="318" height="145"><vector name="origin" x="212" y="142"/><int name="z" value="0"/><string name="_hash" value="b63efac77c03e37eef253476f0eaaf39030df7f10833cd39d47c2a00c3ed1120"/></canvas><canvas name="10" width="277" height="145"><vector name="origin" x="210" y="143"/><int name="z" value="0"/><string name="_hash" value="c221a4370eb57c446958932e4dc4da3a104f2b22a7690437ad1ca630e883c4ac"/></canvas><canvas name="11" width="147" height="144"><vector name="origin" x="80" y="144"/><int name="z" value="0"/><string name="_hash" value="fdf613f9d327fba9fa0b2b45e3bac844c184178b5cceadca8fcedda657c617a7"/></canvas><int name="special" value="1"/></imgdir><imgdir name="skill"><canvas name="0" width="1" height="1"><vector name="origin" x="80" y="144"/><int name="z" value="0"/><string name="_inlink" value="attack1/0"/></canvas><canvas name="1" width="1" height="1"><vector name="origin" x="80" y="144"/><int name="z" value="0"/><string name="_inlink" value="attack1/0"/></canvas><canvas name="2" width="1" height="1"><vector name="origin" x="80" y="144"/><int name="z" value="0"/><string name="_inlink" value="attack1/0"/></canvas><canvas name="3" width="1" height="1"><vector name="origin" x="80" y="144"/><int name="z" value="0"/><string name="_inlink" value="attack1/0"/></canvas><canvas name="4" width="148" height="143"><vector name="origin" x="81" y="143"/><int name="z" value="0"/><string name="_hash" value="88fa78edb359f29a9b42bea47efda425cbcb9a3c38ba8c105acea8236a95ee45"/></canvas><canvas name="5" width="174" height="140"><vector name="origin" x="102" y="140"/><int name="z" value="0"/><string name="_hash" value="4d41f45e1a2cb5eb0ffff0481710b48ac07a5ec1714a802a1a19e57565cbdfe8"/></canvas><canvas name="6" width="146" height="180"><vector name="origin" x="63" y="180"/><int name="z" value="0"/><string name="_hash" value="c4dea65f1d78c50cbd02400b29e4bdfbbe19a0f462686e6e0a409a840f3061c3"/></canvas><canvas name="7" width="261" height="291"><vector name="origin" x="153" y="277"/><int name="z" value="0"/><string name="_hash" value="a4272dbc88128510332d7f1db9737a8dbc42f7a7dd566d4cb2508ee106834457"/></canvas><canvas name="8" width="258" height="291"><vector name="origin" x="152" y="277"/><int name="z" value="0"/><string name="_hash" value="712fb62bc89266faf899d43785c9f63438ba2ddba6ab42b261e0918c6ef21361"/></canvas><canvas name="9" width="257" height="290"><vector name="origin" x="151" y="276"/><int name="z" value="0"/><string name="_hash" value="cbaccb827e05b6c08b909120f37749fa14111c16d62e45e71e34a39a0384c9cc"/></canvas><canvas name="10" width="255" height="289"><vector name="origin" x="150" y="276"/><int name="z" value="0"/><string name="_hash" value="cd84e7d39650fd0f393e67fc50ed697f52ae6621d274f9731487d72dd1767967"/></canvas><canvas name="11" width="204" height="287"><vector name="origin" x="99" y="275"/><int name="z" value="0"/><string name="_hash" value="46451fa48bf42561dbbb19a70a91067d2c1f72bd9291739f61f1f800eb4ef172"/></canvas><canvas name="12" width="169" height="143"><vector name="origin" x="102" y="143"/><int name="z" value="0"/><string name="_hash" value="945ee518d3f3e56940a0bd770d9e5974f26bf7b8a20a5f6906653f49b4724b95"/></canvas><canvas name="13" width="1" height="1"><vector name="origin" x="80" y="144"/><int name="z" value="0"/><string name="_inlink" value="attack1/11"/></canvas><int name="special" value="1"/></imgdir><imgdir name="hit"><canvas name="0" width="195" height="153"><vector name="origin" x="102" y="153"/><int name="z" value="0"/><string name="_hash" value="ce2e79abf793c4fcccbfb594d4e60d83fe745bd419bdf3d524b2a0da863d921c"/></canvas><int name="special" value="1"/></imgdir><imgdir name="die"><canvas name="0" width="197" height="139"><vector name="origin" x="110" y="139"/><int name="z" value="0"/><string name="_hash" value="2f006575852e2cdec1602d4f4af30b362015bff75bdab25187cbd65a0f88deb6"/></canvas><canvas name="1" width="202" height="140"><vector name="origin" x="117" y="140"/><int name="z" value="0"/><string name="_hash" value="118d3b92e670e2b937ffee3c78680f6d1fa8702f81a6bcdd46d6f13249039c91"/></canvas><canvas name="2" width="234" height="123"><vector name="origin" x="118" y="119"/><int name="z" value="0"/><string name="_hash" value="c3c03d8ab39ccff5deea13d2ee7ba724c1ee46d102731f15229d6de0e9f424d1"/></canvas><canvas name="3" width="171" height="126"><vector name="origin" x="52" y="122"/><int name="z" value="0"/><string name="_hash" value="37dd7aee2d5a642b7c9e16ef616d36b6e25749398d2a5e9f20e54dd5166eb322"/></canvas><canvas name="4" width="177" height="125"><vector name="origin" x="58" y="121"/><int name="z" value="0"/><string name="_hash" value="eadffc26ed8fecaf6a845f65769784fbbc8f82c077103a79833ff023c0f33e15"/></canvas><canvas name="5" width="168" height="122"><vector name="origin" x="49" y="120"/><int name="z" value="0"/><string name="_hash" value="f3dc4dd9795cf50a49e293e18787c8d45c3164bada021631f2b63244eb7d6fcf"/></canvas><canvas name="6" width="55" height="27"><vector name="origin" x="21" y="33"/><int name="z" value="0"/><string name="_hash" value="a1a687fa67a9bfd56fe385b6e0258e485efd5c0eb4fbdcd98cfd4541df4f7488"/></canvas><int name="special" value="1"/></imgdir><imgdir name="condition1"><imgdir name="64163"><string name="value" value="riding"/></imgdir><imgdir name="stand"><canvas name="0" width="136" height="147"><vector name="origin" x="69" y="147"/><int name="z" value="0"/><int name="delay" value="210"/><string name="_hash" value="9961183137c545eda613fac8063b6ac505c10918266df6b6abb5c34f3f065945"/></canvas></imgdir><imgdir name="eye"><canvas name="0" width="1" height="1"><vector name="origin" x="69" y="147"/><int name="z" value="0"/><int name="delay" value="210"/><string name="_inlink" value="condition1/stand/0"/></canvas><canvas name="1" width="136" height="147"><vector name="origin" x="69" y="147"/><int name="z" value="0"/><int name="delay" value="210"/><string name="_hash" value="b3c05458b75d2495fae58242d0d6bbfdbe8d963fc4d281b70c9731c9d31c564c"/></canvas><canvas name="2" width="136" height="147"><vector name="origin" x="69" y="147"/><int name="z" value="0"/><int name="delay" value="210"/><string name="_hash" value="5c1db988c84cb57f4af78c835cff48880c4c9d05ea84659ac5084a5d43db2d6c"/></canvas><canvas name="3" width="1" height="1"><vector name="origin" x="69" y="147"/><int name="z" value="0"/><int name="delay" value="210"/><string name="_inlink" value="condition1/stand/0"/></canvas></imgdir><imgdir name="move"><canvas name="0" width="167" height="143"><vector name="origin" x="69" y="143"/><int name="z" value="0"/><string name="_hash" value="51ef411165d1e7eec57f64ec43be48cabd1e8d593cc484b38938ba1d62197db0"/></canvas><canvas name="1" width="172" height="143"><vector name="origin" x="73" y="143"/><int name="z" value="0"/><string name="_hash" value="11e180124704f2293df94d0f3b4e9d51cb1a64a65d0f5e4dcbbeb394b900b1c0"/></canvas><canvas name="2" width="175" height="146"><vector name="origin" x="76" y="146"/><int name="z" value="0"/><string name="_hash" value="642d0ea9046d6ee5862f7537327a02277f0e602569fbdbfbb47d6bcc344f58a9"/></canvas><canvas name="3" width="170" height="146"><vector name="origin" x="69" y="146"/><int name="z" value="0"/><string name="_hash" value="05646b3484aa6c83a8f97a929ca53c20a01c43598708188e9bffddb13a60e9d5"/></canvas></imgdir><uol name="say" value="eye"/><uol name="attack1" value="../attack1"/><uol name="skill" value="../skill"/><uol name="hit" value="../hit"/><uol name="die" value="../die"/></imgdir><imgdir name="condition2"><imgdir name="64163"><string name="value" value="fight"/></imgdir><imgdir name="stand"><canvas name="0" width="147" height="144"><vector name="origin" x="80" y="144"/><int name="z" value="0"/><string name="_hash" value="11fa13df436447252997b7d7d88084f9b8adb26b24e63667b10be79656a09073"/></canvas></imgdir><imgdir name="eye"><canvas name="0" width="1" height="1"><vector name="origin" x="80" y="144"/><int name="z" value="0"/><string name="_inlink" value="condition2/stand/0"/></canvas><canvas name="1" width="151" height="144"><vector name="origin" x="80" y="144"/><int name="z" value="0"/><string name="_hash" value="4de1509ef503fb86f7d7732f016f462e088baec2a82619931239bfc6c7a30386"/></canvas><canvas name="2" width="154" height="144"><vector name="origin" x="80" y="144"/><int name="z" value="0"/><string name="_hash" value="b881b803bfb1ecf572e2a23b2eda57bdcf1d31ddfaec501cbc6e9cf8d18fce28"/></canvas><canvas name="3" width="156" height="144"><vector name="origin" x="80" y="144"/><int name="z" value="0"/><string name="_hash" value="2879ccf9f043775b074d16c0ec8119fe3ae8506e093fffc42d816090cc3ea438"/></canvas><canvas name="4" width="156" height="144"><vector name="origin" x="80" y="144"/><int name="z" value="0"/><string name="_hash" value="070e922aebd684f0f0de3b8cb39bee83b15532e2cacdd57afdfdc86ef20cfc31"/></canvas><canvas name="5" width="154" height="144"><vector name="origin" x="80" y="144"/><int name="z" value="0"/><string name="_hash" value="144add637adbc2851042976a3d4c6ca0ecd70cab4abb8662918fd6545f121561"/></canvas></imgdir><imgdir name="move"><canvas name="0" width="193" height="140"><vector name="origin" x="95" y="140"/><int name="z" value="0"/><string name="_hash" value="fb34e91f63d6d1e753fba4ad98cfdf2607dd08f3ce4ff13e1aef29cf63ac66a2"/></canvas><canvas name="1" width="200" height="140"><vector name="origin" x="101" y="140"/><int name="z" value="0"/><string name="_hash" value="a3bf97bf25d9c12b1306554fc7f2d72b9dc0ffd2c9f8316ec7895b6ff5591894"/></canvas><canvas name="2" width="202" height="143"><vector name="origin" x="103" y="143"/><int name="z" value="0"/><string name="_hash" value="1a3a5bed69b007213bba12a57fcaf0682b69d65e9dc7bcafd2521ea3bf3b36b6"/></canvas><canvas name="3" width="198" height="143"><vector name="origin" x="97" y="143"/><int name="z" value="0"/><string name="_hash" value="f54703fdc28d7a9722a9f17afd58e0d4b51ff9ecd7cac045e12b8f8262fcfe1b"/></canvas></imgdir><uol name="say" value="eye"/><uol name="attack1" value="../attack1"/><uol name="skill" value="../skill"/><uol name="hit" value="../hit"/><uol name="die" value="../die"/></imgdir></imgdir>

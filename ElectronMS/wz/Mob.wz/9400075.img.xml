@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><imgdir name="9400075.img"><imgdir name="info"><int name="boss" value="1"/><int name="level" value="160"/><string name="mobType" value="7N"/><int name="summonType" value="1"/><int name="category" value="1"/><string name="elemAttr" value=""/><int name="skeleton" value="1"/><int name="ignoreFieldOut" value="1"/><int name="ignoreMoveImpact" value="1"/><int name="showNotRemoteDam" value="1"/><int name="useReaction" value="1"/><imgdir name="option_skeleton"><string name="luaEventListener" value="EventListener_Tengu"/><imgdir name="noMixAnimation"><imgdir name="80_fly"></imgdir></imgdir></imgdir><int name="invincible" value="1"/><int name="firstAttack" value="1"/><int name="bodyAttack" value="1"/><int name="maxHP" value="2100000000"/><int name="maxMP" value="1500000"/><int name="PADamage" value="10000"/><int name="MADamage" value="10000"/><int name="PDRate" value="10"/><int name="MDRate" value="10"/><int name="acc" value="3000"/><int name="eva" value="144"/><int name="pushed" value="1000000000"/><float name="fs" value="10.0"/><int name="removeAfter" value="7"/><int name="noFlip" value="1"/></imgdir><imgdir name="stand"><string name="aniName" value="80_fly"/></imgdir><imgdir name="die1"><string name="aniName" value="00_idle"/></imgdir><imgdir name="HitParts"><imgdir name="bbox"><imgdir name="0"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="durability" value="100"/><int name="hardness" value="40"/></imgdir><imgdir name="hitEvent"><string name="info" value="해당 부위 타격시 처리해야할 내용들"/><string name="replaceHitEffect" value="Mob/9400080.img/HitEffect/0"/><string name="replaceHitSound" value="Sound/SoundEff.img/urus/midHit"/></imgdir></imgdir></imgdir></imgdir><imgdir name="HitEffect"><imgdir name="0"><canvas name="0" width="83" height="109"><vector name="origin" x="38" y="58"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="abeb346ce012816c54fd03120df87fbeca07ce2a92d4529376a4565169f1874c"/></canvas><canvas name="1" width="238" height="214"><vector name="origin" x="122" y="116"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="344006732a14a3aa44adab1524b662fd02da7dfadc75360dee7559369ff7ca69"/></canvas><canvas name="2" width="243" height="233"><vector name="origin" x="126" y="127"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="c0a0361542c4f8d8a776a6297f8963fb17feb96bab392f296016c6bf7cf48b89"/></canvas><canvas name="3" width="237" height="229"><vector name="origin" x="125" y="125"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="1495995087f60a4d1c063d06330ee524a77bb65e0d2db19dc9184b58d80ab6ef"/></canvas><canvas name="4" width="214" height="210"><vector name="origin" x="120" y="115"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="299d9dd95216b4cce1a729fb015c955c97785dde4377e0a90d82d6433bd195dc"/></canvas><canvas name="5" width="205" height="211"><vector name="origin" x="114" y="113"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="592cb247c183b7fa6f351ab64e3d249216a61b46df0991aa0fa8d3da3fe29377"/></canvas><canvas name="6" width="21" height="27"><vector name="origin" x="12" y="13"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="cdfd443018704d2f265d43a0bf18ca22a4943e5dc83e92dd1eb36e261c28237a"/></canvas></imgdir></imgdir><string name="9400075.atlas" value="
+tengou.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/drum_2
+  rotate: false
+  xy: 667, 312
+  size: 204, 176
+  orig: 204, 176
+  offset: 0, 0
+  index: -1
+effect/ef_eye_light00
+  rotate: false
+  xy: 667, 503
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+effect/eff_aura03
+  rotate: false
+  xy: 733, 490
+  size: 289, 133
+  orig: 289, 133
+  offset: 0, 0
+  index: -1
+effect/eff_feather_blur_0
+  rotate: true
+  xy: 734, 625
+  size: 15, 284
+  orig: 15, 284
+  offset: 0, 0
+  index: -1
+effect/eff_grab_0
+  rotate: false
+  xy: 873, 288
+  size: 142, 200
+  orig: 142, 200
+  offset: 0, 0
+  index: -1
+effect/eff_rock/eff_rock00
+  rotate: false
+  xy: 667, 555
+  size: 64, 85
+  orig: 64, 85
+  offset: 0, 0
+  index: -1
+effect/eff_rock/eff_rock04
+  rotate: false
+  xy: 903, 261
+  size: 34, 25
+  orig: 34, 25
+  offset: 0, 0
+  index: -1
+effect/eff_rock/eff_rock05
+  rotate: true
+  xy: 870, 260
+  size: 26, 31
+  orig: 26, 31
+  offset: 0, 0
+  index: -1
+effect/eff_rock/eff_rock06
+  rotate: true
+  xy: 939, 268
+  size: 18, 16
+  orig: 18, 16
+  offset: 0, 0
+  index: -1
+effect/eff_rock/eff_rock07
+  rotate: true
+  xy: 992, 267
+  size: 19, 30
+  orig: 19, 30
+  offset: 0, 0
+  index: -1
+effect/eff_wind_ready1
+  rotate: false
+  xy: 734, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+eye_l
+  rotate: true
+  xy: 992, 230
+  size: 35, 28
+  orig: 35, 28
+  offset: 0, 0
+  index: -1
+eye_r
+  rotate: true
+  xy: 992, 193
+  size: 35, 28
+  orig: 35, 28
+  offset: 0, 0
+  index: -1
+face_5
+  rotate: true
+  xy: 2, 8
+  size: 292, 398
+  orig: 292, 398
+  offset: 0, 0
+  index: -1
+foot_3
+  rotate: false
+  xy: 734, 260
+  size: 134, 50
+  orig: 134, 50
+  offset: 0, 0
+  index: -1
+gagose
+  rotate: false
+  xy: 364, 305
+  size: 301, 335
+  orig: 301, 335
+  offset: 0, 0
+  index: -1
+horn_0
+  rotate: false
+  xy: 402, 3
+  size: 330, 300
+  orig: 330, 300
+  offset: 0, 0
+  index: -1
+n_wing_1
+  rotate: false
+  xy: 364, 642
+  size: 656, 380
+  orig: 656, 380
+  offset: 0, 0
+  index: -1
+n_wing_3
+  rotate: false
+  xy: 2, 302
+  size: 360, 720
+  orig: 360, 720
+  offset: 0, 0
+  index: -1
+
+tengou2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/drum_0
+  rotate: true
+  xy: 444, 23
+  size: 91, 39
+  orig: 91, 39
+  offset: 0, 0
+  index: -1
+effect/drum_3
+  rotate: false
+  xy: 674, 2
+  size: 190, 176
+  orig: 190, 176
+  offset: 0, 0
+  index: -1
+effect/eff_aura02
+  rotate: false
+  xy: 674, 180
+  size: 345, 428
+  orig: 345, 428
+  offset: 0, 0
+  index: -1
+effect/eff_ground_shock0_0
+  rotate: false
+  xy: 2, 794
+  size: 670, 224
+  orig: 670, 224
+  offset: 0, 0
+  index: -1
+effect/eff_ground_shock0_1
+  rotate: false
+  xy: 2, 568
+  size: 670, 224
+  orig: 670, 224
+  offset: 0, 0
+  index: -1
+effect/eff_ground_shock0_2
+  rotate: false
+  xy: 2, 342
+  size: 670, 224
+  orig: 670, 224
+  offset: 0, 0
+  index: -1
+effect/eff_ground_shock0_3
+  rotate: false
+  xy: 2, 116
+  size: 670, 224
+  orig: 670, 224
+  offset: 0, 0
+  index: -1
+effect/fly_wind_2
+  rotate: false
+  xy: 866, 28
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+face_6
+  rotate: false
+  xy: 674, 610
+  size: 346, 408
+  orig: 346, 408
+  offset: 0, 0
+  index: -1
+foot_0
+  rotate: true
+  xy: 2, 10
+  size: 104, 120
+  orig: 104, 120
+  offset: 0, 0
+  index: -1
+foot_1
+  rotate: true
+  xy: 485, 24
+  size: 90, 88
+  orig: 90, 88
+  offset: 0, 0
+  index: -1
+foot_2
+  rotate: false
+  xy: 124, 10
+  size: 90, 104
+  orig: 90, 104
+  offset: 0, 0
+  index: -1
+foot_5
+  rotate: false
+  xy: 575, 26
+  size: 90, 88
+  orig: 90, 88
+  offset: 0, 0
+  index: -1
+leg_l_2a
+  rotate: true
+  xy: 312, 22
+  size: 92, 130
+  orig: 92, 130
+  offset: 0, 0
+  index: -1
+leg_r_1d
+  rotate: true
+  xy: 216, 18
+  size: 96, 94
+  orig: 96, 94
+  offset: 0, 0
+  index: -1
+
+tengou3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ball_0
+  rotate: false
+  xy: 956, 4
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+ball_1
+  rotate: false
+  xy: 584, 475
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+effect/ef_ora_0
+  rotate: false
+  xy: 880, 48
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+effect/eff_dust_0
+  rotate: true
+  xy: 886, 820
+  size: 199, 121
+  orig: 199, 121
+  offset: 0, 0
+  index: -1
+effect/eff_ground_shock0_4
+  rotate: true
+  xy: 654, 25
+  size: 670, 224
+  orig: 670, 224
+  offset: 0, 0
+  index: -1
+effect/eff_rock/eff_rock01
+  rotate: false
+  xy: 584, 519
+  size: 35, 84
+  orig: 35, 84
+  offset: 0, 0
+  index: -1
+effect/eff_rock/eff_rock02
+  rotate: false
+  xy: 584, 519
+  size: 35, 84
+  orig: 35, 84
+  offset: 0, 0
+  index: -1
+effect/shout_stock_1
+  rotate: false
+  xy: 584, 697
+  size: 300, 322
+  orig: 300, 322
+  offset: 0, 0
+  index: -1
+ex_1_l
+  rotate: true
+  xy: 2, 5
+  size: 150, 228
+  orig: 150, 228
+  offset: 0, 0
+  index: -1
+ex_1_r
+  rotate: true
+  xy: 232, 5
+  size: 150, 228
+  orig: 150, 228
+  offset: 0, 0
+  index: -1
+face_1_b
+  rotate: false
+  xy: 462, 5
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+foot_1b
+  rotate: true
+  xy: 880, 2
+  size: 44, 74
+  orig: 44, 74
+  offset: 0, 0
+  index: -1
+foot_4
+  rotate: true
+  xy: 584, 605
+  size: 90, 50
+  orig: 90, 50
+  offset: 0, 0
+  index: -1
+leg_l_0
+  rotate: false
+  xy: 880, 514
+  size: 120, 170
+  orig: 120, 170
+  offset: 0, 0
+  index: -1
+leg_l_1
+  rotate: false
+  xy: 880, 342
+  size: 120, 170
+  orig: 120, 170
+  offset: 0, 0
+  index: -1
+leg_r_1
+  rotate: false
+  xy: 880, 170
+  size: 120, 170
+  orig: 120, 170
+  offset: 0, 0
+  index: -1
+leg_r_1a
+  rotate: false
+  xy: 614, 109
+  size: 38, 46
+  orig: 38, 46
+  offset: 0, 0
+  index: -1
+leg_r_2a
+  rotate: false
+  xy: 886, 686
+  size: 128, 132
+  orig: 128, 132
+  offset: 0, 0
+  index: -1
+n_wing_0
+  rotate: false
+  xy: 2, 459
+  size: 580, 560
+  orig: 580, 560
+  offset: 0, 0
+  index: -1
+n_wing_2
+  rotate: false
+  xy: 2, 157
+  size: 650, 300
+  orig: 650, 300
+  offset: 0, 0
+  index: -1
+
+tengou4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body_0
+  rotate: true
+  xy: 331, 19
+  size: 220, 320
+  orig: 220, 320
+  offset: 0, 0
+  index: -1
+body_1
+  rotate: true
+  xy: 653, 2
+  size: 250, 280
+  orig: 250, 280
+  offset: 0, 0
+  index: -1
+effect/beak_attack_eff1
+  rotate: false
+  xy: 2, 430
+  size: 187, 592
+  orig: 187, 592
+  offset: 0, 0
+  index: -1
+effect/beak_attack_eff2
+  rotate: false
+  xy: 191, 430
+  size: 187, 592
+  orig: 187, 592
+  offset: 0, 0
+  index: -1
+effect/beak_attack_eff3
+  rotate: false
+  xy: 380, 430
+  size: 187, 592
+  orig: 187, 592
+  offset: 0, 0
+  index: -1
+effect/beak_attack_eff4
+  rotate: false
+  xy: 569, 430
+  size: 187, 592
+  orig: 187, 592
+  offset: 0, 0
+  index: -1
+effect/beak_attack_eff5
+  rotate: true
+  xy: 2, 241
+  size: 187, 592
+  orig: 187, 592
+  offset: 0, 0
+  index: -1
+effect/eff_aura01
+  rotate: false
+  xy: 758, 698
+  size: 256, 324
+  orig: 256, 324
+  offset: 0, 0
+  index: -1
+effect/eff_rock/eff_rock03
+  rotate: false
+  xy: 948, 294
+  size: 40, 69
+  orig: 40, 69
+  offset: 0, 0
+  index: -1
+effect/shout_1
+  rotate: false
+  xy: 758, 434
+  size: 262, 262
+  orig: 262, 262
+  offset: 0, 0
+  index: -1
+effect/tengu_blur_0
+  rotate: false
+  xy: 2, 21
+  size: 327, 218
+  orig: 327, 218
+  offset: 0, 0
+  index: -1
+ex_0
+  rotate: true
+  xy: 596, 254
+  size: 174, 228
+  orig: 174, 228
+  offset: 0, 0
+  index: -1
+foot_2b
+  rotate: false
+  xy: 948, 365
+  size: 67, 67
+  orig: 67, 67
+  offset: 0, 0
+  index: -1
+leg_r_3
+  rotate: false
+  xy: 826, 262
+  size: 120, 170
+  orig: 120, 170
+  offset: 0, 0
+  index: -1
+
+tengou5.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/drum_1
+  rotate: false
+  xy: 284, 718
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+effect/ef_ora_1
+  rotate: false
+  xy: 2, 35
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+effect/ef_ora_2
+  rotate: false
+  xy: 124, 35
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+effect/ef_ora_3
+  rotate: false
+  xy: 886, 338
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+effect/ef_ora_4
+  rotate: false
+  xy: 886, 216
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+effect/ef_ora_5
+  rotate: false
+  xy: 888, 898
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+effect/ef_ora_6
+  rotate: false
+  xy: 888, 776
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+effect/ef_ora_7
+  rotate: false
+  xy: 246, 2
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+effect/ef_ora_8
+  rotate: false
+  xy: 368, 2
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+effect/fly_wind_0
+  rotate: false
+  xy: 604, 12
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+effect/shout_0
+  rotate: false
+  xy: 312, 416
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+effect/shout_2
+  rotate: false
+  xy: 2, 389
+  size: 308, 307
+  orig: 308, 307
+  offset: 0, 0
+  index: -1
+effect/shout_stock_0
+  rotate: false
+  xy: 806, 12
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+face_0
+  rotate: false
+  xy: 614, 496
+  size: 220, 220
+  orig: 220, 220
+  offset: 0, 0
+  index: -1
+face_2
+  rotate: false
+  xy: 2, 157
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+head_0
+  rotate: false
+  xy: 312, 124
+  size: 290, 290
+  orig: 290, 290
+  offset: 0, 0
+  index: -1
+head_1
+  rotate: false
+  xy: 586, 718
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+horn_1
+  rotate: false
+  xy: 2, 698
+  size: 280, 320
+  orig: 280, 320
+  offset: 0, 0
+  index: -1
+tail_0
+  rotate: true
+  xy: 604, 214
+  size: 200, 280
+  orig: 200, 280
+  offset: 0, 0
+  index: -1
+tail_1
+  rotate: false
+  xy: 836, 460
+  size: 164, 256
+  orig: 164, 256
+  offset: 0, 0
+  index: -1
+
+tengou6.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/ef_ora_9
+  rotate: false
+  xy: 386, 102
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+face_4
+  rotate: false
+  xy: 2, 2
+  size: 220, 220
+  orig: 220, 220
+  offset: 0, 0
+  index: -1
+leg_r_0
+  rotate: true
+  xy: 224, 2
+  size: 220, 160
+  orig: 220, 160
+  offset: 0, 0
+  index: -1
+"/><sound name="9400075"/><canvas name="tengou6.png" width="512" height="256"><vector name="origin" x="256" y="128"/><int name="z" value="0"/><string name="_hash" value="b5c6acd4299656ec252a40e5946da2bbe4e4da2ddd032ce0940f19bcbb58b52b"/></canvas><canvas name="tengou5.png" width="1024" height="1024"><vector name="origin" x="512" y="512"/><int name="z" value="0"/><string name="_hash" value="8426ac8c12c27c89fa9f2de3fee9f16784ff12798a51b8f9d4a0311f32a50cbc"/></canvas><canvas name="tengou3.png" width="1024" height="1024"><vector name="origin" x="512" y="512"/><int name="z" value="0"/><string name="_hash" value="8ce23778070165b0d64826ea91a49c400e3fd8ae5323402cbae3758e003ff661"/></canvas><canvas name="tengou4.png" width="1024" height="1024"><vector name="origin" x="512" y="512"/><int name="z" value="0"/><string name="_hash" value="8ada8156cf79314c6df0e19115c5631680ff2892c93a67fb016cef09ef1a3265"/></canvas><canvas name="tengou2.png" width="1024" height="1024"><vector name="origin" x="512" y="512"/><int name="z" value="0"/><string name="_hash" value="07780b9dbf7b1a82699ed66b51b3cbeba5a7b23b9ffb36dd4c9c1c8171849ac4"/></canvas><canvas name="tengou.png" width="1024" height="1024"><vector name="origin" x="512" y="512"/><int name="z" value="0"/><string name="_hash" value="dcb95a0cc902a54b375c024d8b235b7b37e5d4fe6f7296507ad22d37bb19d379"/></canvas></imgdir>

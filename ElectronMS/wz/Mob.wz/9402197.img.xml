@@ -1,0 +1,1619 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><imgdir name="9402197.img"><imgdir name="info"><int name="level" value="33"/><int name="boss" value="1"/><int name="hpTagColor" value="1"/><int name="hpTagBgcolor" value="5"/><int name="bodyAttack" value="1"/><int name="fixedBodyAttackDamageR" value="10"/><int name="maxHP" value="1470000000"/><int name="maxMP" value="999999999"/><int name="speed" value="80"/><int name="PADamage" value="64"/><int name="PDDamage" value="130"/><int name="PDRate" value="30"/><int name="MADamage" value="59"/><int name="MDDamage" value="100"/><int name="MDRate" value="30"/><int name="acc" value="23"/><int name="eva" value="1"/><int name="pushed" value="999999999"/><float name="fs" value="10.0"/><int name="exp" value="0"/><int name="summonType" value="1"/><int name="category" value="1"/><string name="mobType" value="7N"/><int name="firstAttack" value="1"/><int name="ignoreMoveImpact" value="1"/><int name="ignoreMovable" value="1"/><int name="charismaEXP" value="100"/><int name="explosiveReward" value="1"/><int name="skeleton" value="1"/><int name="skelAniMixRate" value="20"/><int name="useCreateScript" value="1"/><int name="useReaction" value="1"/><string name="default_skin" value="bhlr"/><int name="notLevelPenalty" value="1"/><int name="DamageScale_PL" value="1"/><imgdir name="skill"><imgdir name="0"><string name="info" value="왼팔_무중력 스킬"/><int name="action" value="1"/><int name="skill" value="240"/><int name="level" value="1"/><int name="effectAfter" value="2500"/><int name="skillAfter" value="2500"/><int name="onlyFsm" value="1"/></imgdir><imgdir name="1"><string name="info" value="오른팔_영혼전이 스킬"/><int name="action" value="2"/><int name="skill" value="171"/><int name="level" value="10"/><int name="effectAfter" value="2500"/><int name="skillAfter" value="2500"/><int name="onlyFsm" value="1"/></imgdir><imgdir name="2"><string name="info" value="영혼_회오리 스킬"/><int name="action" value="3"/><int name="skill" value="227"/><int name="level" value="6"/><int name="effectAfter" value="600"/><int name="skillAfter" value="3200"/><int name="onlyFsm" value="1"/></imgdir></imgdir><imgdir name="attack"><imgdir name="0"><string name="info" value="머리_창조 소환스킬"/><int name="action" value="1"/><int name="attackRatio" value="100"/><int name="type" value="0"/><int name="fixAttack" value="1"/><int name="cooltime" value="20000"/></imgdir><imgdir name="1"><string name="info" value="왼팔_무중력 스킬"/><int name="action" value="2"/><int name="attackRatio" value="100"/><int name="type" value="0"/><imgdir name="callSkillWithData"><int name="skill" value="240"/><int name="level" value="1"/></imgdir><int name="fixAttack" value="1"/><int name="cooltime" value="17000"/></imgdir><imgdir name="2"><string name="info" value="왼팔_바닥치기 공격"/><int name="action" value="3"/><int name="attackRatio" value="100"/><int name="type" value="200"/><int name="ignoreStance" value="100"/><int name="fixDamR" value="20"/><int name="cooltime" value="15000"/><int name="notMissAttack" value="1"/><int name="duration" value="4000"/><int name="fixAttack" value="1"/></imgdir><imgdir name="3"><string name="info" value="왼팔_휘두르기 공격"/><int name="action" value="4"/><int name="attackRatio" value="100"/><int name="type" value="0"/><int name="ignoreStance" value="100"/><int name="knockback" value="1"/><int name="fixDamR" value="35"/><int name="cooltime" value="12000"/></imgdir><imgdir name="4"><string name="info" value="오른팔_영혼전이"/><int name="action" value="5"/><int name="attackRatio" value="100"/><int name="type" value="0"/><imgdir name="callSkillWithData"><int name="skill" value="171"/><int name="level" value="10"/><int name="delay" value="3000"/></imgdir><int name="fixAttack" value="1"/><int name="cooltime" value="25000"/></imgdir><imgdir name="5"><string name="info" value="오른팔_바닥치기 공격"/><int name="action" value="6"/><int name="attackRatio" value="100"/><int name="type" value="200"/><int name="ignoreStance" value="100"/><int name="fixDamR" value="20"/><int name="cooltime" value="10000"/><int name="notMissAttack" value="1"/><int name="duration" value="4000"/></imgdir><imgdir name="6"><string name="info" value="오른팔_짓누르기 공격"/><int name="action" value="7"/><int name="attackRatio" value="100"/><int name="type" value="0"/><int name="fixDamR" value="45"/><int name="disease" value="128"/><int name="level" value="41"/><int name="cooltime" value="10000"/><int name="notMissAttack" value="1"/></imgdir><imgdir name="7"><string name="info" value="몸통_확장(회전) 공격"/><int name="action" value="8"/><int name="attackRatio" value="100"/><int name="type" value="200"/><int name="knockback" value="1"/><int name="tremble" value="1"/><int name="ignoreStance" value="100"/><int name="fixDamR" value="40"/><int name="cooltime" value="15000"/><int name="notMissAttack" value="1"/><int name="duration" value="4000"/></imgdir><imgdir name="8"><string name="info" value="몸통_분해(영혼상태로 페이즈 변경)"/><int name="action" value="9"/><int name="attackRatio" value="100"/><int name="type" value="0"/><int name="fixAttack" value="1"/></imgdir><imgdir name="9"><string name="info" value="영혼_회오리 스킬"/><int name="action" value="10"/><int name="attackRatio" value="100"/><int name="type" value="200"/><int name="ignoreStance" value="100"/><int name="fixDamR" value="10"/><int name="fixAttack" value="1"/><imgdir name="callSkillWithData"><int name="skill" value="227"/><int name="level" value="6"/></imgdir><int name="cooltime" value="20000"/><int name="duration" value="5000"/></imgdir><imgdir name="10"><string name="info" value="영혼_재결합(골렘상태로 페이즈 변경)"/><int name="action" value="11"/><int name="attackRatio" value="100"/><int name="type" value="0"/><int name="fixAttack" value="1"/></imgdir><imgdir name="11"><string name="info" value="머리 파괴"/><int name="action" value="12"/><int name="attackRatio" value="100"/><int name="type" value="0"/><int name="fixAttack" value="1"/></imgdir><imgdir name="12"><string name="info" value="왼팔 파괴"/><int name="action" value="13"/><int name="attackRatio" value="100"/><int name="type" value="0"/><int name="fixAttack" value="1"/></imgdir><imgdir name="13"><string name="info" value="오른팔 파괴"/><int name="action" value="14"/><int name="attackRatio" value="100"/><int name="type" value="0"/><int name="fixAttack" value="1"/></imgdir></imgdir><int name="jsonLoad" value="0"/></imgdir><imgdir name="stand"><string name="aniName" value="golem_body_idle"/><imgdir name="phaseData"><string name="0" value="golem_body_idle"/><string name="1" value="soul_body_idle"/></imgdir></imgdir><imgdir name="regen"><string name="aniName" value="soul_change_golem"/></imgdir><imgdir name="move"><string name="aniName" value="golem_body_move"/><imgdir name="phaseData"><string name="0" value="golem_body_move"/><string name="1" value="soul_body_move"/></imgdir></imgdir><imgdir name="skill1"><string name="aniName" value="golem_leftarm_zero_gravity"/></imgdir><imgdir name="skill2"><string name="aniName" value="golem_rightarm_soul_metastais"/></imgdir><imgdir name="skill3"><string name="aniName" value="soul_body_tornado"/></imgdir><imgdir name="attack1"><imgdir name="info"><imgdir name="range"><vector name="lt" x="0" y="0"/><vector name="rb" x="0" y="0"/></imgdir></imgdir><imgdir name="AttackParts"><imgdir name="info"><int name="fixDamR" value="5"/></imgdir><imgdir name="bbox_body"></imgdir><imgdir name="bbox_leftarm"></imgdir><imgdir name="bbox_r_hand"></imgdir></imgdir><string name="aniName" value="golem_head_create"/></imgdir><imgdir name="attack2"><imgdir name="info"><imgdir name="range"><vector name="lt" x="0" y="0"/><vector name="rb" x="0" y="0"/></imgdir></imgdir><imgdir name="AttackParts"><imgdir name="info"><int name="fixDamR" value="5"/></imgdir><imgdir name="bbox_body"></imgdir><imgdir name="bbox_leftarm"></imgdir><imgdir name="bbox_r_hand"></imgdir></imgdir><string name="aniName" value="golem_leftarm_zero_gravity"/></imgdir><imgdir name="attack3"><imgdir name="info"><imgdir name="range"><vector name="lt" x="-320" y="-500"/><vector name="rb" x="-160" y="5"/></imgdir><imgdir name="effect"><canvas name="0" width="1" height="1"><int name="delay" value="2000"/><vector name="origin" x="240" y="0"/><int name="z" value="0"/></canvas><canvas name="1" width="307" height="575"><vector name="origin" x="394" y="473"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="2a129eb6068cc633759fab9393efa14350899172565ef1da338dafba8375dd94"/></canvas><canvas name="2" width="308" height="615"><vector name="origin" x="394" y="513"/><int name="z" value="0"/><int name="delay" value="60"/><string name="_hash" value="9196e94cb99da35195d3934b6125027952e8f47852cc21f38e784c6cb2c4d618"/></canvas><canvas name="3" width="308" height="632"><vector name="origin" x="394" y="530"/><int name="z" value="0"/><int name="delay" value="60"/><string name="_hash" value="c199fca24c01d17426236567be76af9d53d0653827bf2152c452c6f57730da0b"/></canvas><canvas name="4" width="308" height="650"><vector name="origin" x="394" y="548"/><int name="z" value="0"/><int name="delay" value="60"/><string name="_hash" value="704533a900bd7e12d4d4095b6a80b2309d619f97ea8ad719a21cedb47151b058"/></canvas><canvas name="5" width="308" height="650"><vector name="origin" x="394" y="548"/><int name="z" value="0"/><int name="delay" value="60"/><string name="_hash" value="fc7a946908a61e557b47b266af422ae4707637a4cf4c46dc605e59bcdc6f107c"/></canvas><canvas name="6" width="308" height="650"><vector name="origin" x="394" y="548"/><int name="z" value="0"/><int name="delay" value="60"/><string name="_hash" value="20119e203e4e04457b385d8ef5b1c2294f15f96c607b4faefe6ca84c0790a168"/></canvas><canvas name="7" width="308" height="650"><vector name="origin" x="394" y="548"/><int name="z" value="0"/><int name="delay" value="60"/><string name="_hash" value="0c8875adef7693bbab3ee1cd77d396fde86c7d274f05b124f812b807a81bea72"/></canvas><canvas name="8" width="308" height="650"><vector name="origin" x="395" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="b0021d8250f33b780109a2ed977c2bc59f967adf952a434990616e4579fd67e5"/></canvas><canvas name="9" width="318" height="650"><vector name="origin" x="405" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="05d40a6533f48918bc7f4ef364418ca4fd95f54c2aece6882a4a8aff17e5adee"/></canvas><canvas name="10" width="340" height="650"><vector name="origin" x="417" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="9e865d0f97dcd3b9f1094b09b981201debcd6ada6e6ebf325b42bfd6722d49a1"/></canvas><canvas name="11" width="351" height="650"><vector name="origin" x="422" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="2bb3e5cdae937ac7122934c5d4c489901b331e84181e5cd9df3268a90cd92a0d"/></canvas><canvas name="12" width="358" height="650"><vector name="origin" x="422" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="1c9470d3a2d8baf080a73a99cb2a7e80de9093a2d2cf800e8a51165be388b4f4"/></canvas><canvas name="13" width="356" height="650"><vector name="origin" x="417" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="e205adc66be049a48cc1113be9057eaa650c0f68549fbb6c1d429b0fa0999dfc"/></canvas><canvas name="14" width="351" height="650"><vector name="origin" x="410" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="bcc98eeede8e8d00e4e77d437d5292835e8f2217614ee5726ea4450910702dd2"/></canvas><canvas name="15" width="358" height="650"><vector name="origin" x="414" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="df7e52cc4d2813a2a9e7111d5d461ffb00c144696fdf9dc21277ad790314dc16"/></canvas><canvas name="16" width="364" height="650"><vector name="origin" x="414" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="6a5758f1d2c44f9652644d4d629bc75ff9914bd7eb0cbf59f32bf9f7fd778090"/></canvas><canvas name="17" width="359" height="650"><vector name="origin" x="395" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="ca769fe3a7603019f955fa085047b11f9c67159c72b41a17c994e615e711476c"/></canvas><canvas name="18" width="360" height="650"><vector name="origin" x="395" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="a9b813e2cffa53b88797de2f6d5a8b64278c96eb2a06d84fea45a16923dde799"/></canvas><uol name="19" value="6"/><uol name="20" value="7"/><uol name="21" value="8"/><uol name="22" value="9"/><uol name="23" value="10"/><uol name="24" value="11"/><uol name="25" value="12"/><uol name="26" value="13"/><uol name="27" value="14"/><uol name="28" value="15"/><uol name="29" value="16"/><uol name="30" value="17"/><canvas name="31" width="308" height="650"><vector name="origin" x="394" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="485736b1822de17588910c3ba714b91f9c7b99104d0cac2b5cc071bd2f678286"/></canvas><canvas name="32" width="307" height="650"><vector name="origin" x="394" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="077ad754502a8a442905b1d6e012d6faa6452e7bdcd6c197dd1eacd55391933b"/></canvas><canvas name="33" width="308" height="650"><vector name="origin" x="394" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="82087b6cc96ad972e1470c1ee474b5ff3d11f1998ba100b6c4a1c045f959dfd3"/></canvas><canvas name="34" width="308" height="650"><vector name="origin" x="394" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="94be334360d17502cb57a526afd2e43f9b9f98e147a7e1ccaed0eadb2826c2b8"/></canvas><canvas name="35" width="308" height="632"><vector name="origin" x="394" y="530"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="370a52d992bb00e9f66b72aa419a2fd9aaff2827fd0cc6c494ba51bfee831578"/></canvas><canvas name="36" width="308" height="435"><vector name="origin" x="394" y="388"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="c1c1b8c1a2146c0e37f35d1acfbc49e2ffd880241e9a7f77a4de86b431497275"/></canvas><canvas name="37" width="308" height="417"><vector name="origin" x="394" y="370"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="9191a01f384ea3368166aed4df144f30714080b123d24c3f8ec2f7f974584375"/></canvas></imgdir><imgdir name="hit"><canvas name="0" width="109" height="107"><vector name="origin" x="50" y="85"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="f7ede3c6f117896449c94778e98bdd8ff55cbd95a67b54cd129fd4a3ed6ff728"/></canvas><canvas name="1" width="163" height="161"><vector name="origin" x="75" y="112"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="b681d2998f54a362cbfe8860713b51d46a41b03480fb2572e7dec123c9061b08"/></canvas><canvas name="2" width="166" height="164"><vector name="origin" x="77" y="114"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="77e310e0f1cf34149ab9e7d516b11ba7b940dbca2a89b3207f8d00a74fd6ec72"/></canvas><canvas name="3" width="170" height="170"><vector name="origin" x="77" y="116"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="b9164b2f47dd02a26ca91460ddbf517351a9a529c218513368eca4df0dc2a57c"/></canvas></imgdir><int name="attackAfter" value="1920"/></imgdir><imgdir name="AttackParts"><imgdir name="info"><int name="fixDamR" value="5"/></imgdir><imgdir name="bbox_body"></imgdir><imgdir name="bbox_leftarm"></imgdir><imgdir name="bbox_r_hand"></imgdir></imgdir><string name="aniName" value="golem_leftarm_smash"/></imgdir><imgdir name="attack4"><imgdir name="info"><imgdir name="range"><vector name="lt" x="-250" y="-430"/><vector name="rb" x="400" y="20"/></imgdir><imgdir name="hit"><canvas name="0" width="178" height="128"><vector name="origin" x="99" y="104"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="eaa85500a27b77792eb9ac73ac9c17e20ca634a64a858b82628f0d17cbefd979"/></canvas><canvas name="1" width="208" height="168"><vector name="origin" x="109" y="123"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="2ca226d7cbb2072896931393526b72846f8e1212d22f1b7a938c50bc7458c7bf"/></canvas><canvas name="2" width="216" height="202"><vector name="origin" x="115" y="137"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="5430e6fdb30cbf04a5af28f45e2cee802ea4b354b8d7d1d95bf232002339b70b"/></canvas><canvas name="3" width="217" height="215"><vector name="origin" x="116" y="138"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="781b52576ca0ffeb8b806f54d49ceb9a7fa073e2d27933193895c97608fa0a62"/></canvas></imgdir><int name="attach" value="1"/><int name="attackAfter" value="2220"/></imgdir><imgdir name="AttackParts"><imgdir name="info"><int name="fixDamR" value="5"/><vector name="impactX" x="50" y="200"/></imgdir><imgdir name="bbox_body"></imgdir><imgdir name="bbox_leftarm"></imgdir><imgdir name="bbox_r_hand"></imgdir></imgdir><string name="aniName" value="golem_leftarm_swing"/></imgdir><imgdir name="attack5"><imgdir name="info"><imgdir name="range"><vector name="lt" x="0" y="0"/><vector name="rb" x="0" y="0"/></imgdir></imgdir><imgdir name="AttackParts"><imgdir name="info"><int name="fixDamR" value="5"/><vector name="impactX" x="50" y="200"/></imgdir><imgdir name="bbox_body"></imgdir><imgdir name="bbox_leftarm"></imgdir><imgdir name="bbox_r_hand"></imgdir></imgdir><string name="aniName" value="golem_rightarm_soul_metastais"/></imgdir><imgdir name="attack6"><imgdir name="info"><imgdir name="range"><vector name="lt" x="-330" y="-500"/><vector name="rb" x="-170" y="5"/></imgdir><imgdir name="effect"><canvas name="0" width="1" height="1"><int name="delay" value="2000"/><vector name="origin" x="250" y="0"/><int name="z" value="0"/></canvas><canvas name="1" width="1" height="1"><vector name="origin" x="404" y="473"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/effect/1"/></canvas><canvas name="2" width="1" height="1"><vector name="origin" x="404" y="513"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/effect/2"/></canvas><canvas name="3" width="1" height="1"><vector name="origin" x="404" y="530"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/effect/3"/></canvas><canvas name="4" width="1" height="1"><vector name="origin" x="404" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/effect/4"/></canvas><canvas name="5" width="1" height="1"><vector name="origin" x="404" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/effect/5"/></canvas><canvas name="6" width="1" height="1"><vector name="origin" x="404" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/effect/6"/></canvas><canvas name="7" width="1" height="1"><vector name="origin" x="404" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/effect/7"/></canvas><canvas name="8" width="1" height="1"><vector name="origin" x="405" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/effect/8"/></canvas><canvas name="9" width="1" height="1"><vector name="origin" x="415" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/effect/9"/></canvas><canvas name="10" width="1" height="1"><vector name="origin" x="427" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/effect/10"/></canvas><canvas name="11" width="1" height="1"><vector name="origin" x="432" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/effect/11"/></canvas><canvas name="12" width="1" height="1"><vector name="origin" x="432" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/effect/12"/></canvas><canvas name="13" width="1" height="1"><vector name="origin" x="427" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/effect/13"/></canvas><canvas name="14" width="1" height="1"><vector name="origin" x="420" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/effect/14"/></canvas><canvas name="15" width="1" height="1"><vector name="origin" x="424" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/effect/15"/></canvas><canvas name="16" width="1" height="1"><vector name="origin" x="424" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/effect/16"/></canvas><canvas name="17" width="1" height="1"><vector name="origin" x="405" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/effect/17"/></canvas><canvas name="18" width="1" height="1"><vector name="origin" x="405" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/effect/18"/></canvas><uol name="19" value="6"/><uol name="20" value="7"/><uol name="21" value="8"/><uol name="22" value="9"/><uol name="23" value="10"/><uol name="24" value="11"/><uol name="25" value="12"/><uol name="26" value="13"/><uol name="27" value="14"/><uol name="28" value="15"/><uol name="29" value="16"/><uol name="30" value="17"/><canvas name="31" width="1" height="1"><vector name="origin" x="404" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/effect/31"/></canvas><canvas name="32" width="1" height="1"><vector name="origin" x="404" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/effect/32"/></canvas><canvas name="33" width="1" height="1"><vector name="origin" x="404" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/effect/33"/></canvas><canvas name="34" width="1" height="1"><vector name="origin" x="404" y="548"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/effect/34"/></canvas><canvas name="35" width="1" height="1"><vector name="origin" x="404" y="530"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/effect/35"/></canvas><canvas name="36" width="1" height="1"><vector name="origin" x="404" y="388"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/effect/36"/></canvas><canvas name="37" width="1" height="1"><vector name="origin" x="404" y="370"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/effect/37"/></canvas></imgdir><imgdir name="hit"><canvas name="0" width="1" height="1"><vector name="origin" x="50" y="85"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/hit/0"/></canvas><canvas name="1" width="1" height="1"><vector name="origin" x="75" y="112"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/hit/1"/></canvas><canvas name="2" width="1" height="1"><vector name="origin" x="77" y="114"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/hit/2"/></canvas><canvas name="3" width="1" height="1"><vector name="origin" x="77" y="116"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_inlink" value="attack3/info/hit/3"/></canvas></imgdir><int name="attackAfter" value="1920"/></imgdir><imgdir name="AttackParts"><imgdir name="info"><int name="fixDamR" value="5"/><vector name="impactX" x="50" y="200"/></imgdir><imgdir name="bbox_body"></imgdir><imgdir name="bbox_leftarm"></imgdir><imgdir name="bbox_r_hand"></imgdir></imgdir><string name="aniName" value="golem_rightarm_smash"/></imgdir><imgdir name="attack7"><imgdir name="info"><imgdir name="range"><vector name="lt" x="-500" y="-500"/><vector name="rb" x="-90" y="100"/></imgdir><imgdir name="hit"><canvas name="0" width="151" height="133"><vector name="origin" x="76" y="108"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="79ddcc8285a181de27e9d6cab2d1cc5cb3579dd88cf03a88d17849fd9e6f99e9"/></canvas><canvas name="1" width="169" height="138"><vector name="origin" x="85" y="112"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="66440c1d436aaee4539f6b44b25d22559b9ab9f6792d38e295a7feec1637f272"/></canvas><canvas name="2" width="161" height="141"><vector name="origin" x="81" y="115"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="8821673fdfc1994e9be8d1ae41ac572e79b7a9ac2fd5c64060963a595da256b4"/></canvas><canvas name="3" width="146" height="147"><vector name="origin" x="76" y="121"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="ca11ce866c47ad5f3f601ab8f2426763f4e353592095b09e51c77a25b8f1e1f5"/></canvas></imgdir><int name="attach" value="1"/><int name="attackAfter" value="1600"/></imgdir><string name="aniName" value="golem_rightarm_press"/><imgdir name="AttackParts"><imgdir name="info"><int name="fixDamR" value="5"/><vector name="impactX" x="50" y="200"/></imgdir><imgdir name="bbox_r_arm_press"></imgdir><imgdir name="bbox_body"></imgdir><imgdir name="bbox_leftarm"></imgdir></imgdir></imgdir><imgdir name="attack8"><imgdir name="info"><imgdir name="range"><vector name="lt" x="-500" y="-540"/><vector name="rb" x="500" y="50"/></imgdir><imgdir name="hit"><canvas name="0" width="158" height="111"><vector name="origin" x="98" y="93"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="0c7a3eb3f83b5d74109bbb3aae8e2d15bd152adbee8590b7c14454f04835c66e"/></canvas><canvas name="1" width="179" height="146"><vector name="origin" x="101" y="117"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="8ab018f64d7227495d7c3cf84f9a1dbb41fb67328882a6ea2d6e7e2bdb69c005"/></canvas><canvas name="2" width="174" height="145"><vector name="origin" x="98" y="116"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="fe7ef9c3adaebbcf027d14a8e74de93b298f5a83804bd559c02e82cd36335235"/></canvas><canvas name="3" width="165" height="139"><vector name="origin" x="100" y="110"/><int name="z" value="0"/><int name="delay" value="90"/><string name="_hash" value="207cc058255870f2f3d11ad8222131dd270e79051b52eb5e2b045291ae7f123f"/></canvas></imgdir><int name="attach" value="1"/><int name="attackAfter" value="810"/></imgdir><imgdir name="AttackParts"><imgdir name="_all_"></imgdir><imgdir name="info"><int name="fixDamR" value="40"/><int name="knockback" value="1"/></imgdir></imgdir><string name="aniName" value="golem_body_spin"/></imgdir><imgdir name="attack9"><imgdir name="info"><imgdir name="range"><vector name="lt" x="0" y="0"/><vector name="rb" x="0" y="0"/></imgdir><int name="onlyFsm" value="1"/></imgdir><string name="aniName" value="golem_change_soul"/></imgdir><imgdir name="attack10"><imgdir name="info"><imgdir name="range"><vector name="lt" x="-150" y="-600"/><vector name="rb" x="150" y="10"/></imgdir><imgdir name="AttackParts"><imgdir name="_all_"></imgdir><imgdir name="info"><int name="fixDamR" value="40"/><int name="knockback" value="1"/></imgdir></imgdir><int name="attackAfter" value="3200"/><int name="onlyFsm" value="1"/></imgdir><string name="aniName" value="soul_body_tornado"/></imgdir><imgdir name="attack11"><imgdir name="info"><imgdir name="range"><vector name="lt" x="0" y="0"/><vector name="rb" x="0" y="0"/></imgdir><int name="onlyFsm" value="1"/></imgdir><string name="aniName" value="soul_change_golem"/></imgdir><imgdir name="attack12"><imgdir name="info"><imgdir name="range"><vector name="lt" x="0" y="0"/><vector name="rb" x="0" y="0"/></imgdir><int name="onlyFsm" value="1"/></imgdir><string name="aniName" value="golem_head_destroy"/></imgdir><imgdir name="attack13"><imgdir name="info"><imgdir name="range"><vector name="lt" x="0" y="0"/><vector name="rb" x="0" y="0"/></imgdir><int name="onlyFsm" value="1"/></imgdir><string name="aniName" value="golem_leftarm_destroy"/></imgdir><imgdir name="attack14"><imgdir name="info"><imgdir name="range"><vector name="lt" x="0" y="0"/><vector name="rb" x="0" y="0"/></imgdir><int name="onlyFsm" value="1"/></imgdir><string name="aniName" value="golem_rightarm_destroy"/></imgdir><imgdir name="hit1"><string name="aniName" value="golem_body_hit"/></imgdir><imgdir name="die1"><string name="aniName" value="golem_body_death"/></imgdir><imgdir name="HitParts"><imgdir name="bbox_body"><imgdir name="0"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="durability" value="15000"/><int name="hardness" value="40"/></imgdir><imgdir name="hitEvent"><string name="info" value="해당 부위 타격시 처리해야할 내용들"/></imgdir></imgdir><imgdir name="1"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="durability" value="-1"/></imgdir></imgdir><string name="group" value="body"/></imgdir><imgdir name="bbox_spin"><string name="group" value="body"/></imgdir><imgdir name="bbox_head"><imgdir name="0"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="durability" value="1000"/><int name="hardness" value="10"/></imgdir><imgdir name="hitEvent"><string name="info" value="해당 부위 타격시 처리해야할 내용들"/></imgdir></imgdir><imgdir name="1"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="durability" value="-1"/></imgdir></imgdir><string name="group" value="head"/></imgdir><imgdir name="bbox_l_shoulder"><imgdir name="0"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="durability" value="3500"/><int name="hardness" value="25"/></imgdir><imgdir name="hitEvent"><string name="info" value="해당 부위 타격시 처리해야할 내용들"/></imgdir></imgdir><imgdir name="1"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="durability" value="-1"/></imgdir></imgdir><string name="group" value="left"/></imgdir><imgdir name="bbox_leftarm"><string name="group" value="left"/></imgdir><imgdir name="bbox_r_arm"><imgdir name="0"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="durability" value="3000"/><int name="hardness" value="30"/></imgdir><imgdir name="hitEvent"><string name="info" value="해당 부위 타격시 처리해야할 내용들"/></imgdir></imgdir><imgdir name="1"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="durability" value="-1"/></imgdir></imgdir><string name="group" value="right"/></imgdir><imgdir name="bbox_r_arm_press"><string name="group" value="right"/></imgdir><imgdir name="bbox_r_hand"><string name="group" value="right"/></imgdir><imgdir name="bbox_r_shoulder_cone"><string name="group" value="right"/></imgdir></imgdir><string name="9402197.atlas" value="
+golem.png
+size: 1020,1020
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body_cover4
+  rotate: false
+  xy: 984, 332
+  size: 33, 43
+  orig: 33, 43
+  offset: 0, 0
+  index: -1
+body_cover_reflect_light1
+  rotate: false
+  xy: 0, 11
+  size: 232, 95
+  orig: 232, 95
+  offset: 0, 0
+  index: -1
+body_front0
+  rotate: false
+  xy: 984, 377
+  size: 32, 46
+  orig: 32, 46
+  offset: 0, 0
+  index: -1
+body_front10
+  rotate: false
+  xy: 984, 248
+  size: 32, 39
+  orig: 32, 39
+  offset: 0, 0
+  index: -1
+body_front11
+  rotate: false
+  xy: 984, 792
+  size: 36, 52
+  orig: 36, 52
+  offset: 0, 0
+  index: -1
+body_front12
+  rotate: false
+  xy: 984, 903
+  size: 36, 56
+  orig: 36, 56
+  offset: 0, 0
+  index: -1
+body_front13
+  rotate: true
+  xy: 847, 22
+  size: 84, 156
+  orig: 84, 156
+  offset: 0, 0
+  index: -1
+body_front3
+  rotate: false
+  xy: 984, 846
+  size: 36, 55
+  orig: 36, 55
+  offset: 0, 0
+  index: -1
+body_front8
+  rotate: false
+  xy: 984, 679
+  size: 35, 61
+  orig: 35, 61
+  offset: 0, 0
+  index: -1
+body_front9
+  rotate: false
+  xy: 984, 742
+  size: 36, 48
+  orig: 36, 48
+  offset: 0, 0
+  index: -1
+body_front_reflect_light3
+  rotate: false
+  xy: 984, 961
+  size: 36, 59
+  orig: 36, 59
+  offset: 0, 0
+  index: -1
+body_front_reflect_light8
+  rotate: false
+  xy: 984, 425
+  size: 33, 47
+  orig: 33, 47
+  offset: 0, 0
+  index: -1
+eff_tornado/tonado00
+  rotate: false
+  xy: 0, 565
+  size: 490, 455
+  orig: 490, 455
+  offset: 0, 0
+  index: -1
+eff_tornado/tonado01
+  rotate: false
+  xy: 0, 108
+  size: 490, 455
+  orig: 490, 455
+  offset: 0, 0
+  index: -1
+eff_tornado/tonado02
+  rotate: false
+  xy: 492, 565
+  size: 490, 455
+  orig: 490, 455
+  offset: 0, 0
+  index: -1
+eff_tornado/tonado03
+  rotate: false
+  xy: 492, 108
+  size: 490, 455
+  orig: 490, 455
+  offset: 0, 0
+  index: -1
+head_core_shadow
+  rotate: true
+  xy: 984, 526
+  size: 62, 21
+  orig: 62, 21
+  offset: 0, 0
+  index: -1
+head_shadow0
+  rotate: false
+  xy: 932, 1
+  size: 40, 19
+  orig: 40, 19
+  offset: 0, 0
+  index: -1
+head_shadow1
+  rotate: false
+  xy: 667, 1
+  size: 102, 25
+  orig: 102, 25
+  offset: 0, 0
+  index: -1
+head_shadow2
+  rotate: false
+  xy: 840, 6
+  size: 46, 14
+  orig: 46, 14
+  offset: 0, 0
+  index: -1
+head_shadow3
+  rotate: false
+  xy: 888, 3
+  size: 42, 17
+  orig: 42, 17
+  offset: 0, 0
+  index: -1
+head_symbol0
+  rotate: false
+  xy: 984, 117
+  size: 21, 45
+  orig: 21, 45
+  offset: 0, 0
+  index: -1
+head_symbol2
+  rotate: false
+  xy: 984, 208
+  size: 33, 38
+  orig: 33, 38
+  offset: 0, 0
+  index: -1
+head_symbol3
+  rotate: false
+  xy: 984, 164
+  size: 27, 42
+  orig: 27, 42
+  offset: 0, 0
+  index: -1
+l_hand_back_stone6
+  rotate: true
+  xy: 414, 1
+  size: 105, 169
+  orig: 105, 169
+  offset: 0, 0
+  index: -1
+l_hand_crystal_10a
+  rotate: false
+  xy: 814, 3
+  size: 24, 23
+  orig: 24, 23
+  offset: 0, 0
+  index: -1
+l_hand_crystal_1b
+  rotate: false
+  xy: 771, 0
+  size: 41, 26
+  orig: 41, 26
+  offset: 0, 0
+  index: -1
+l_hand_link_crystal_light1
+  rotate: false
+  xy: 984, 474
+  size: 28, 50
+  orig: 28, 50
+  offset: 0, 0
+  index: -1
+l_hand_symbol0
+  rotate: false
+  xy: 585, 0
+  size: 80, 106
+  orig: 80, 106
+  offset: 0, 0
+  index: -1
+r_hand1
+  rotate: false
+  xy: 984, 289
+  size: 32, 41
+  orig: 32, 41
+  offset: 0, 0
+  index: -1
+r_hand3
+  rotate: true
+  xy: 984, 649
+  size: 28, 36
+  orig: 28, 36
+  offset: 0, 0
+  index: -1
+r_hand6
+  rotate: false
+  xy: 984, 590
+  size: 35, 57
+  orig: 35, 57
+  offset: 0, 0
+  index: -1
+r_hand_back0
+  rotate: true
+  xy: 667, 28
+  size: 78, 178
+  orig: 78, 178
+  offset: 0, 0
+  index: -1
+r_hand_eff
+  rotate: true
+  xy: 234, 3
+  size: 103, 178
+  orig: 103, 178
+  offset: 0, 0
+  index: -1
+r_shoulder1
+  rotate: true
+  xy: 974, 2
+  size: 18, 27
+  orig: 18, 27
+  offset: 0, 0
+  index: -1
+
+golem2.png
+size: 1020,1020
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body_core_symbol
+  rotate: false
+  xy: 548, 5
+  size: 92, 66
+  orig: 92, 66
+  offset: 0, 0
+  index: -1
+body_cover11
+  rotate: true
+  xy: 300, 3
+  size: 68, 113
+  orig: 68, 113
+  offset: 0, 0
+  index: -1
+body_cover13
+  rotate: true
+  xy: 984, 864
+  size: 27, 28
+  orig: 27, 28
+  offset: 0, 0
+  index: -1
+body_cover2
+  rotate: false
+  xy: 928, 12
+  size: 44, 60
+  orig: 44, 60
+  offset: 0, 0
+  index: -1
+body_cover7
+  rotate: true
+  xy: 928, 139
+  size: 77, 91
+  orig: 77, 91
+  offset: 0, 0
+  index: -1
+body_front1
+  rotate: true
+  xy: 928, 374
+  size: 89, 92
+  orig: 89, 92
+  offset: 0, 0
+  index: -1
+body_front2
+  rotate: false
+  xy: 502, 4
+  size: 44, 67
+  orig: 44, 67
+  offset: 0, 0
+  index: -1
+body_front_reflect_light1
+  rotate: false
+  xy: 93, 0
+  size: 55, 71
+  orig: 55, 71
+  offset: 0, 0
+  index: -1
+body_front_reflect_light2
+  rotate: false
+  xy: 837, 6
+  size: 40, 65
+  orig: 40, 65
+  offset: 0, 0
+  index: -1
+body_front_reflect_light7
+  rotate: false
+  xy: 984, 759
+  size: 25, 19
+  orig: 25, 19
+  offset: 0, 0
+  index: -1
+eff_tornado/tonado04
+  rotate: false
+  xy: 0, 565
+  size: 490, 455
+  orig: 490, 455
+  offset: 0, 0
+  index: -1
+eff_tornado/tonado05
+  rotate: false
+  xy: 492, 565
+  size: 490, 455
+  orig: 490, 455
+  offset: 0, 0
+  index: -1
+eff_tornado/tonado06
+  rotate: true
+  xy: 0, 73
+  size: 490, 455
+  orig: 490, 455
+  offset: 0, 0
+  index: -1
+eff_tornado/tonado07
+  rotate: true
+  xy: 457, 73
+  size: 490, 455
+  orig: 490, 455
+  offset: 0, 0
+  index: -1
+head0
+  rotate: true
+  xy: 415, 4
+  size: 67, 85
+  orig: 67, 85
+  offset: 0, 0
+  index: -1
+head3
+  rotate: true
+  xy: 150, 1
+  size: 70, 79
+  orig: 70, 79
+  offset: 0, 0
+  index: -1
+l_hand_back_stone4
+  rotate: true
+  xy: 914, 465
+  size: 98, 102
+  orig: 98, 102
+  offset: 0, 0
+  index: -1
+l_hand_back_stone5
+  rotate: true
+  xy: 928, 295
+  size: 77, 92
+  orig: 77, 92
+  offset: 0, 0
+  index: -1
+l_hand_crystal_10c
+  rotate: false
+  xy: 984, 893
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+l_hand_crystal_1a
+  rotate: true
+  xy: 975, 77
+  size: 60, 45
+  orig: 60, 45
+  offset: 0, 0
+  index: -1
+l_hand_crystal_9a
+  rotate: false
+  xy: 984, 993
+  size: 29, 27
+  orig: 29, 27
+  offset: 0, 0
+  index: -1
+l_hand_link1
+  rotate: false
+  xy: 231, 1
+  size: 67, 70
+  orig: 67, 70
+  offset: 0, 0
+  index: -1
+l_hand_stone11
+  rotate: false
+  xy: 914, 74
+  size: 59, 63
+  orig: 59, 63
+  offset: 0, 0
+  index: -1
+l_hand_stone2
+  rotate: true
+  xy: 642, 5
+  size: 66, 82
+  orig: 66, 82
+  offset: 0, 0
+  index: -1
+l_hand_stone9
+  rotate: true
+  xy: 928, 218
+  size: 75, 92
+  orig: 75, 92
+  offset: 0, 0
+  index: -1
+r_arm
+  rotate: false
+  xy: 726, 6
+  size: 109, 65
+  orig: 109, 65
+  offset: 0, 0
+  index: -1
+r_hand10
+  rotate: false
+  xy: 984, 923
+  size: 28, 39
+  orig: 28, 39
+  offset: 0, 0
+  index: -1
+r_hand2
+  rotate: true
+  xy: 984, 964
+  size: 27, 29
+  orig: 27, 29
+  offset: 0, 0
+  index: -1
+r_hand5
+  rotate: false
+  xy: 879, 7
+  size: 47, 64
+  orig: 47, 64
+  offset: 0, 0
+  index: -1
+r_hand9
+  rotate: false
+  xy: 984, 804
+  size: 25, 38
+  orig: 25, 38
+  offset: 0, 0
+  index: -1
+r_hand_back4
+  rotate: false
+  xy: 975, 17
+  size: 45, 58
+  orig: 45, 58
+  offset: 0, 0
+  index: -1
+r_hand_symbol1
+  rotate: true
+  xy: 0, 0
+  size: 71, 91
+  orig: 71, 91
+  offset: 0, 0
+  index: -1
+r_shoulder2
+  rotate: true
+  xy: 984, 844
+  size: 18, 27
+  orig: 18, 27
+  offset: 0, 0
+  index: -1
+r_shoulder3
+  rotate: true
+  xy: 984, 780
+  size: 22, 25
+  orig: 22, 25
+  offset: 0, 0
+  index: -1
+
+golem3.png
+size: 1019,1019
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body_core_eff
+  rotate: false
+  xy: 887, 415
+  size: 126, 126
+  orig: 126, 126
+  offset: 0, 0
+  index: -1
+body_cover6
+  rotate: true
+  xy: 887, 673
+  size: 143, 131
+  orig: 143, 131
+  offset: 0, 0
+  index: -1
+body_cover9
+  rotate: false
+  xy: 556, 24
+  size: 153, 108
+  orig: 153, 108
+  offset: 0, 0
+  index: -1
+body_front_light13
+  rotate: true
+  xy: 887, 818
+  size: 201, 132
+  orig: 201, 132
+  offset: 0, 0
+  index: -1
+body_soul
+  rotate: false
+  xy: 887, 287
+  size: 126, 126
+  orig: 126, 126
+  offset: 0, 0
+  index: -1
+eff/common_light0
+  rotate: false
+  xy: 887, 543
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+eff/death_light
+  rotate: true
+  xy: 125, 21
+  size: 111, 268
+  orig: 111, 268
+  offset: 0, 0
+  index: -1
+eff/eff_dust_0
+  rotate: true
+  xy: 887, 86
+  size: 199, 121
+  orig: 199, 121
+  offset: 0, 0
+  index: -1
+eff_press/down_at_a00
+  rotate: false
+  xy: 0, 592
+  size: 456, 427
+  orig: 456, 427
+  offset: 0, 0
+  index: -1
+eff_press/down_at_a01
+  rotate: true
+  xy: 458, 563
+  size: 456, 427
+  orig: 456, 427
+  offset: 0, 0
+  index: -1
+eff_press/down_at_a02
+  rotate: true
+  xy: 0, 134
+  size: 456, 427
+  orig: 456, 427
+  offset: 0, 0
+  index: -1
+eff_press/down_at_a03
+  rotate: false
+  xy: 429, 134
+  size: 456, 427
+  orig: 456, 427
+  offset: 0, 0
+  index: -1
+l_hand_back_stone1
+  rotate: true
+  xy: 865, 2
+  size: 82, 149
+  orig: 82, 149
+  offset: 0, 0
+  index: -1
+l_hand_back_stone7
+  rotate: true
+  xy: 395, 22
+  size: 110, 159
+  orig: 110, 159
+  offset: 0, 0
+  index: -1
+l_hand_link_effect0
+  rotate: true
+  xy: 0, 16
+  size: 116, 123
+  orig: 116, 123
+  offset: 0, 0
+  index: -1
+l_hand_stone6
+  rotate: true
+  xy: 711, 0
+  size: 46, 75
+  orig: 46, 75
+  offset: 0, 0
+  index: -1
+r_hand7
+  rotate: true
+  xy: 788, 7
+  size: 39, 74
+  orig: 39, 74
+  offset: 0, 0
+  index: -1
+r_shoulder0
+  rotate: true
+  xy: 711, 48
+  size: 84, 152
+  orig: 84, 152
+  offset: 0, 0
+  index: -1
+
+golem4.png
+size: 1014,1020
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body_cover1
+  rotate: false
+  xy: 916, 630
+  size: 89, 125
+  orig: 89, 125
+  offset: 0, 0
+  index: -1
+body_cover12
+  rotate: false
+  xy: 916, 493
+  size: 77, 135
+  orig: 77, 135
+  offset: 0, 0
+  index: -1
+eff_dust_stream/ef_a_00
+  rotate: true
+  xy: 0, 24
+  size: 138, 230
+  orig: 138, 230
+  offset: 0, 0
+  index: -1
+eff_dust_stream/ef_a_01
+  rotate: true
+  xy: 232, 24
+  size: 138, 230
+  orig: 138, 230
+  offset: 0, 0
+  index: -1
+eff_dust_stream/ef_a_02
+  rotate: true
+  xy: 464, 24
+  size: 138, 230
+  orig: 138, 230
+  offset: 0, 0
+  index: -1
+eff_dust_stream/ef_a_03
+  rotate: true
+  xy: 696, 24
+  size: 138, 230
+  orig: 138, 230
+  offset: 0, 0
+  index: -1
+eff_press/down_at_a04
+  rotate: false
+  xy: 0, 593
+  size: 456, 427
+  orig: 456, 427
+  offset: 0, 0
+  index: -1
+eff_press/down_at_a05
+  rotate: false
+  xy: 0, 164
+  size: 456, 427
+  orig: 456, 427
+  offset: 0, 0
+  index: -1
+eff_press/down_at_b00
+  rotate: false
+  xy: 458, 593
+  size: 456, 427
+  orig: 456, 427
+  offset: 0, 0
+  index: -1
+eff_press/down_at_b01
+  rotate: false
+  xy: 458, 164
+  size: 456, 427
+  orig: 456, 427
+  offset: 0, 0
+  index: -1
+head_core
+  rotate: false
+  xy: 916, 280
+  size: 89, 93
+  orig: 89, 93
+  offset: 0, 0
+  index: -1
+l_hand_back_stone0
+  rotate: false
+  xy: 916, 879
+  size: 98, 141
+  orig: 98, 141
+  offset: 0, 0
+  index: -1
+l_hand_back_stone2
+  rotate: false
+  xy: 916, 757
+  size: 95, 120
+  orig: 95, 120
+  offset: 0, 0
+  index: -1
+l_hand_back_stone3
+  rotate: false
+  xy: 916, 375
+  size: 86, 116
+  orig: 86, 116
+  offset: 0, 0
+  index: -1
+l_hand_link3
+  rotate: false
+  xy: 928, 83
+  size: 62, 99
+  orig: 62, 99
+  offset: 0, 0
+  index: -1
+l_hand_stone10
+  rotate: true
+  xy: 928, 0
+  size: 81, 75
+  orig: 81, 75
+  offset: 0, 0
+  index: -1
+r_hand_symbol0
+  rotate: false
+  xy: 916, 184
+  size: 75, 94
+  orig: 75, 94
+  offset: 0, 0
+  index: -1
+
+golem5.png
+size: 1020,996
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body_cover10
+  rotate: false
+  xy: 928, 0
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+body_cover3
+  rotate: false
+  xy: 916, 407
+  size: 77, 76
+  orig: 77, 76
+  offset: 0, 0
+  index: -1
+body_cover5
+  rotate: false
+  xy: 928, 64
+  size: 49, 86
+  orig: 49, 86
+  offset: 0, 0
+  index: -1
+body_cover8
+  rotate: true
+  xy: 916, 567
+  size: 80, 77
+  orig: 80, 77
+  offset: 0, 0
+  index: -1
+body_front4
+  rotate: false
+  xy: 916, 649
+  size: 62, 93
+  orig: 62, 93
+  offset: 0, 0
+  index: -1
+body_front5
+  rotate: false
+  xy: 916, 247
+  size: 60, 82
+  orig: 60, 82
+  offset: 0, 0
+  index: -1
+body_front6
+  rotate: false
+  xy: 979, 235
+  size: 41, 50
+  orig: 41, 50
+  offset: 0, 0
+  index: -1
+body_front_reflect_light4
+  rotate: false
+  xy: 916, 152
+  size: 49, 93
+  orig: 49, 93
+  offset: 0, 0
+  index: -1
+body_front_reflect_light5
+  rotate: true
+  xy: 980, 656
+  size: 41, 40
+  orig: 41, 40
+  offset: 0, 0
+  index: -1
+body_front_reflect_light6
+  rotate: false
+  xy: 979, 146
+  size: 41, 46
+  orig: 41, 46
+  offset: 0, 0
+  index: -1
+eff_dust_stream/ef_a_04
+  rotate: true
+  xy: 0, 0
+  size: 138, 230
+  orig: 138, 230
+  offset: 0, 0
+  index: -1
+eff_dust_stream/ef_a_05
+  rotate: true
+  xy: 232, 0
+  size: 138, 230
+  orig: 138, 230
+  offset: 0, 0
+  index: -1
+eff_dust_stream/ef_a_06
+  rotate: true
+  xy: 464, 0
+  size: 138, 230
+  orig: 138, 230
+  offset: 0, 0
+  index: -1
+eff_dust_stream/ef_a_07
+  rotate: true
+  xy: 696, 0
+  size: 138, 230
+  orig: 138, 230
+  offset: 0, 0
+  index: -1
+eff_press/down_at_b02
+  rotate: false
+  xy: 0, 569
+  size: 456, 427
+  orig: 456, 427
+  offset: 0, 0
+  index: -1
+eff_press/down_at_b03
+  rotate: false
+  xy: 0, 140
+  size: 456, 427
+  orig: 456, 427
+  offset: 0, 0
+  index: -1
+eff_press/down_at_b04
+  rotate: false
+  xy: 458, 569
+  size: 456, 427
+  orig: 456, 427
+  offset: 0, 0
+  index: -1
+eff_press/down_at_b05
+  rotate: false
+  xy: 458, 140
+  size: 456, 427
+  orig: 456, 427
+  offset: 0, 0
+  index: -1
+head1
+  rotate: false
+  xy: 916, 916
+  size: 85, 80
+  orig: 85, 80
+  offset: 0, 0
+  index: -1
+head2
+  rotate: false
+  xy: 916, 331
+  size: 73, 74
+  orig: 73, 74
+  offset: 0, 0
+  index: -1
+l_hand_back_crystal1
+  rotate: false
+  xy: 980, 699
+  size: 40, 43
+  orig: 40, 43
+  offset: 0, 0
+  index: -1
+l_hand_crystal_10b
+  rotate: false
+  xy: 978, 287
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+l_hand_crystal_9b
+  rotate: true
+  xy: 979, 94
+  size: 50, 39
+  orig: 50, 39
+  offset: 0, 0
+  index: -1
+l_hand_link2
+  rotate: false
+  xy: 916, 829
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+l_hand_link_crystal_light3
+  rotate: true
+  xy: 967, 194
+  size: 39, 53
+  orig: 39, 53
+  offset: 0, 0
+  index: -1
+l_hand_stone1
+  rotate: true
+  xy: 916, 744
+  size: 83, 74
+  orig: 83, 74
+  offset: 0, 0
+  index: -1
+l_hand_stone4
+  rotate: false
+  xy: 916, 485
+  size: 77, 80
+  orig: 77, 80
+  offset: 0, 0
+  index: -1
+
+golem6.png
+size: 1015,996
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body_front7
+  rotate: false
+  xy: 916, 492
+  size: 46, 60
+  orig: 46, 60
+  offset: 0, 0
+  index: -1
+eff_dust_stream/ef_a_08
+  rotate: true
+  xy: 0, 0
+  size: 138, 230
+  orig: 138, 230
+  offset: 0, 0
+  index: -1
+eff_dust_stream/ef_a_09
+  rotate: true
+  xy: 232, 0
+  size: 138, 230
+  orig: 138, 230
+  offset: 0, 0
+  index: -1
+eff_dust_stream/ef_a_10
+  rotate: true
+  xy: 464, 0
+  size: 138, 230
+  orig: 138, 230
+  offset: 0, 0
+  index: -1
+eff_dust_stream/ef_a_11
+  rotate: true
+  xy: 696, 0
+  size: 138, 230
+  orig: 138, 230
+  offset: 0, 0
+  index: -1
+eff_press/down_at_b06
+  rotate: false
+  xy: 0, 569
+  size: 456, 427
+  orig: 456, 427
+  offset: 0, 0
+  index: -1
+eff_press/down_at_b07
+  rotate: false
+  xy: 0, 140
+  size: 456, 427
+  orig: 456, 427
+  offset: 0, 0
+  index: -1
+eff_press/down_at_b08
+  rotate: false
+  xy: 458, 569
+  size: 456, 427
+  orig: 456, 427
+  offset: 0, 0
+  index: -1
+eff_press/down_at_b09
+  rotate: false
+  xy: 458, 140
+  size: 456, 427
+  orig: 456, 427
+  offset: 0, 0
+  index: -1
+head_symbol1
+  rotate: true
+  xy: 916, 308
+  size: 39, 37
+  orig: 39, 37
+  offset: 0, 0
+  index: -1
+l_hand_back_crystal0
+  rotate: true
+  xy: 977, 948
+  size: 48, 38
+  orig: 48, 38
+  offset: 0, 0
+  index: -1
+l_hand_back_crystal_light0
+  rotate: true
+  xy: 977, 948
+  size: 48, 38
+  orig: 48, 38
+  offset: 0, 0
+  index: -1
+l_hand_back_crystal2
+  rotate: false
+  xy: 916, 391
+  size: 48, 46
+  orig: 48, 46
+  offset: 0, 0
+  index: -1
+l_hand_stone3
+  rotate: false
+  xy: 916, 834
+  size: 57, 77
+  orig: 57, 77
+  offset: 0, 0
+  index: -1
+l_hand_stone5
+  rotate: false
+  xy: 916, 679
+  size: 55, 74
+  orig: 55, 74
+  offset: 0, 0
+  index: -1
+l_hand_stone7
+  rotate: false
+  xy: 916, 267
+  size: 37, 39
+  orig: 37, 39
+  offset: 0, 0
+  index: -1
+l_hand_stone8
+  rotate: false
+  xy: 916, 439
+  size: 49, 51
+  orig: 49, 51
+  offset: 0, 0
+  index: -1
+r_hand4
+  rotate: false
+  xy: 916, 755
+  size: 57, 77
+  orig: 57, 77
+  offset: 0, 0
+  index: -1
+r_hand8
+  rotate: false
+  xy: 916, 349
+  size: 38, 40
+  orig: 38, 40
+  offset: 0, 0
+  index: -1
+r_hand_back1
+  rotate: false
+  xy: 916, 616
+  size: 48, 61
+  orig: 48, 61
+  offset: 0, 0
+  index: -1
+r_hand_back2
+  rotate: false
+  xy: 916, 913
+  size: 59, 83
+  orig: 59, 83
+  offset: 0, 0
+  index: -1
+r_hand_back3
+  rotate: false
+  xy: 916, 554
+  size: 48, 60
+  orig: 48, 60
+  offset: 0, 0
+  index: -1
+
+golem7.png
+size: 1010,1019
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body_cover
+  rotate: false
+  xy: 0, 594
+  size: 391, 425
+  orig: 391, 425
+  offset: 0, 0
+  index: -1
+body_cover_back
+  rotate: false
+  xy: 0, 167
+  size: 391, 425
+  orig: 391, 425
+  offset: 0, 0
+  index: -1
+eff/sh00
+  rotate: false
+  xy: 393, 619
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+eff_spin/h1-1
+  rotate: true
+  xy: 393, 186
+  size: 431, 307
+  orig: 431, 307
+  offset: 0, 0
+  index: -1
+eff_spin/h1-2
+  rotate: true
+  xy: 702, 155
+  size: 431, 307
+  orig: 431, 307
+  offset: 0, 0
+  index: -1
+eff_spin/wind_all00
+  rotate: true
+  xy: 795, 588
+  size: 431, 215
+  orig: 431, 215
+  offset: 0, 0
+  index: -1
+eff_swing/attack02
+  rotate: true
+  xy: 0, 0
+  size: 165, 194
+  orig: 165, 194
+  offset: 0, 0
+  index: -1
+l_hand_stone12
+  rotate: true
+  xy: 397, 1
+  size: 183, 254
+  orig: 183, 254
+  offset: 0, 0
+  index: -1
+l_shoulder0
+  rotate: false
+  xy: 653, 16
+  size: 142, 137
+  orig: 142, 137
+  offset: 0, 0
+  index: -1
+r_hand0
+  rotate: true
+  xy: 196, 22
+  size: 143, 199
+  orig: 143, 199
+  offset: 0, 0
+  index: -1
+
+golem8.png
+size: 1009,1011
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff_ground_smash/ground_smash00
+  rotate: true
+  xy: 704, 0
+  size: 350, 305
+  orig: 350, 305
+  offset: 0, 0
+  index: -1
+eff_soul/pp_00
+  rotate: false
+  xy: 433, 661
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+eff_soul/pp_01
+  rotate: false
+  xy: 0, 352
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+eff_soul/pp_02
+  rotate: false
+  xy: 0, 0
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+eff_soul/pp_03
+  rotate: false
+  xy: 352, 0
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+eff_spin/h1-3
+  rotate: false
+  xy: 0, 704
+  size: 431, 307
+  orig: 431, 307
+  offset: 0, 0
+  index: -1
+eff_spin/h1-4
+  rotate: false
+  xy: 352, 352
+  size: 431, 307
+  orig: 431, 307
+  offset: 0, 0
+  index: -1
+eff_spin/wind_all01
+  rotate: true
+  xy: 785, 580
+  size: 431, 215
+  orig: 431, 215
+  offset: 0, 0
+  index: -1
+l_hand_link_effect1
+  rotate: true
+  xy: 785, 380
+  size: 198, 210
+  orig: 198, 210
+  offset: 0, 0
+  index: -1
+
+golem9.png
+size: 1009,1011
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff_ground_smash/ground_smash01
+  rotate: true
+  xy: 704, 0
+  size: 350, 305
+  orig: 350, 305
+  offset: 0, 0
+  index: -1
+eff_head_create/l_loop00
+  rotate: false
+  xy: 785, 378
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+eff_soul/pp_04
+  rotate: false
+  xy: 433, 661
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+eff_soul/pp_05
+  rotate: false
+  xy: 0, 352
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+eff_soul/pp_06
+  rotate: false
+  xy: 0, 0
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+eff_soul/pp_07
+  rotate: false
+  xy: 352, 0
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+eff_spin/h2-1
+  rotate: false
+  xy: 0, 704
+  size: 431, 307
+  orig: 431, 307
+  offset: 0, 0
+  index: -1
+eff_spin/h2-2
+  rotate: false
+  xy: 352, 352
+  size: 431, 307
+  orig: 431, 307
+  offset: 0, 0
+  index: -1
+eff_spin/wind_all02
+  rotate: true
+  xy: 785, 580
+  size: 431, 215
+  orig: 431, 215
+  offset: 0, 0
+  index: -1
+
+golem10.png
+size: 1009,1011
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff_ground_smash/ground_smash02
+  rotate: true
+  xy: 704, 0
+  size: 350, 305
+  orig: 350, 305
+  offset: 0, 0
+  index: -1
+eff_head_create/l_loop01
+  rotate: false
+  xy: 785, 378
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+eff_soul/pp_08
+  rotate: false
+  xy: 433, 661
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+eff_soul/pp_09
+  rotate: false
+  xy: 0, 352
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+eff_soul/pp_10
+  rotate: false
+  xy: 0, 0
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+eff_soul/pp_11
+  rotate: false
+  xy: 352, 0
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1
+eff_spin/h2-3
+  rotate: false
+  xy: 0, 704
+  size: 431, 307
+  orig: 431, 307
+  offset: 0, 0
+  index: -1
+eff_spin/h2-4
+  rotate: false
+  xy: 352, 352
+  size: 431, 307
+  orig: 431, 307
+  offset: 0, 0
+  index: -1
+eff_spin/wind_all03
+  rotate: true
+  xy: 785, 580
+  size: 431, 215
+  orig: 431, 215
+  offset: 0, 0
+  index: -1
+
+golem11.png
+size: 1009,1017
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff/eff_aura0
+  rotate: false
+  xy: 704, 0
+  size: 256, 324
+  orig: 256, 324
+  offset: 0, 0
+  index: -1
+eff_ground_smash/ground_smash03
+  rotate: false
+  xy: 0, 712
+  size: 350, 305
+  orig: 350, 305
+  offset: 0, 0
+  index: -1
+eff_ground_smash/ground_smash04
+  rotate: false
+  xy: 352, 712
+  size: 350, 305
+  orig: 350, 305
+  offset: 0, 0
+  index: -1
+eff_ground_smash/ground_smash05
+  rotate: true
+  xy: 704, 667
+  size: 350, 305
+  orig: 350, 305
+  offset: 0, 0
+  index: -1
+eff_ground_smash/ground_smash06
+  rotate: true
+  xy: 0, 315
+  size: 350, 305
+  orig: 350, 305
+  offset: 0, 0
+  index: -1
+eff_ground_smash/ground_smash07
+  rotate: false
+  xy: 0, 8
+  size: 350, 305
+  orig: 350, 305
+  offset: 0, 0
+  index: -1
+eff_ground_smash/ground_smash08
+  rotate: true
+  xy: 307, 315
+  size: 350, 305
+  orig: 350, 305
+  offset: 0, 0
+  index: -1
+eff_ground_smash/ground_smash09
+  rotate: false
+  xy: 352, 8
+  size: 350, 305
+  orig: 350, 305
+  offset: 0, 0
+  index: -1
+eff_spin/ballwind0
+  rotate: true
+  xy: 614, 326
+  size: 339, 167
+  orig: 339, 167
+  offset: 0, 0
+  index: -1
+eff_spin/ballwind1
+  rotate: true
+  xy: 783, 326
+  size: 339, 167
+  orig: 339, 167
+  offset: 0, 0
+  index: -1
+
+golem12.png
+size: 1008,1019
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body_core
+  rotate: false
+  xy: 0, 0
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+body_core_light
+  rotate: false
+  xy: 172, 0
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+body_cover_back_light
+  rotate: false
+  xy: 300, 597
+  size: 294, 253
+  orig: 294, 253
+  offset: 0, 0
+  index: -1
+eff/cloud00
+  rotate: false
+  xy: 0, 374
+  size: 207, 194
+  orig: 207, 194
+  offset: 0, 0
+  index: -1
+eff/shout_0
+  rotate: false
+  xy: 682, 719
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+eff_head_create/l_loop02
+  rotate: false
+  xy: 0, 172
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+eff_head_create/l_loop03
+  rotate: false
+  xy: 202, 172
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+eff_head_create/l_loop04
+  rotate: false
+  xy: 404, 204
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+eff_head_create/l_loop05
+  rotate: false
+  xy: 404, 2
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+eff_head_create/l_loop06
+  rotate: false
+  xy: 606, 241
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+eff_head_create/l_loop07
+  rotate: false
+  xy: 808, 241
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+eff_head_create/l_loop08
+  rotate: false
+  xy: 606, 39
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+eff_head_create/l_loop09
+  rotate: false
+  xy: 808, 39
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+eff_spin/ballwind2
+  rotate: false
+  xy: 0, 852
+  size: 339, 167
+  orig: 339, 167
+  offset: 0, 0
+  index: -1
+eff_spin/ballwind3
+  rotate: false
+  xy: 341, 852
+  size: 339, 167
+  orig: 339, 167
+  offset: 0, 0
+  index: -1
+l_body_effect0
+  rotate: true
+  xy: 596, 443
+  size: 274, 290
+  orig: 274, 290
+  offset: 0, 0
+  index: -1
+l_body_effect1
+  rotate: true
+  xy: 0, 570
+  size: 280, 298
+  orig: 280, 298
+  offset: 0, 0
+  index: -1
+l_hand_eff
+  rotate: true
+  xy: 300, 406
+  size: 189, 271
+  orig: 189, 271
+  offset: 0, 0
+  index: -1
+
+golem13.png
+size: 401,200
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff_head_create/l_loop10
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+eff_head_create/light_0
+  rotate: false
+  xy: 202, 2
+  size: 199, 198
+  orig: 199, 198
+  offset: 0, 0
+  index: -1
+"/><sound name="9402197"/><canvas name="golem.png" width="1020" height="1020"><vector name="origin" x="298" y="558"/><int name="z" value="0"/><string name="_hash" value="9f828255ffeab4842534f17d8ba0e7b91210bc7e0a8c255ed7a4ac9928399a2f"/></canvas><canvas name="golem2.png" width="1020" height="1020"><vector name="origin" x="376" y="447"/><int name="z" value="0"/><string name="_hash" value="7f51396ab2650d7546b106e0b513f8c0996fc16e1854e7295b7d713c54ed3ed5"/></canvas><canvas name="golem3.png" width="1019" height="1019"><vector name="origin" x="509" y="509"/><int name="z" value="0"/><string name="_hash" value="5f0b46e4f81f0e7a66ac102f9142348c031b7b4d29801ecd4dbe4ce0b3108e2a"/></canvas><canvas name="golem4.png" width="1014" height="1020"><vector name="origin" x="761" y="952"/><int name="z" value="0"/><string name="_hash" value="5166515d8444483a38b80c2b7b5e2473bbb7b2b66bd2939fee2a8a2c246b81ce"/></canvas><canvas name="golem5.png" width="1020" height="996"><vector name="origin" x="424" y="688"/><int name="z" value="0"/><string name="_hash" value="f3a30c5820079db689bf529f821f301331568d2212fc2a8e359c5a6e0496aca8"/></canvas><canvas name="golem6.png" width="1015" height="996"><vector name="origin" x="598" y="927"/><int name="z" value="0"/><string name="_hash" value="4344ecaca728d30cb5a0942961d22811818cd3ab724f5de063cafc8f6ac6f546"/></canvas><canvas name="golem7.png" width="1010" height="1019"><vector name="origin" x="505" y="509"/><int name="z" value="0"/><string name="_hash" value="75c480a3b391ee235926bffa3b6dc80b50efed7616c7ce262ae5241228f64e65"/></canvas><canvas name="golem8.png" width="1009" height="1011"><vector name="origin" x="515" y="479"/><int name="z" value="0"/><string name="_hash" value="9f9dce5fe4f080bb06b24df39385c5c06382f57747eaa54048735477948d014a"/></canvas><canvas name="golem9.png" width="1009" height="1011"><vector name="origin" x="536" y="467"/><int name="z" value="0"/><string name="_hash" value="26d25af877c403c495af14c38416d627ae52685142785104185ebf60985f9049"/></canvas><canvas name="golem10.png" width="1009" height="1011"><vector name="origin" x="536" y="478"/><int name="z" value="0"/><string name="_hash" value="32aecacb583fe672b8a001332dbfa92554060f6b6a7e994a38020a0900facf99"/></canvas><canvas name="golem11.png" width="1009" height="1017"><vector name="origin" x="403" y="530"/><int name="z" value="0"/><string name="_hash" value="f4f17e9b97cd7fba19ea7bcf9c889558b3c686897732e0869d5b8ded0120f4c0"/></canvas><canvas name="golem12.png" width="1008" height="1019"><vector name="origin" x="504" y="509"/><int name="z" value="0"/><string name="_hash" value="948bed4ed8d451a739cbbe337923fbe4bf08f0b606c3401ad8ff04c72ead0c74"/></canvas><canvas name="golem13.png" width="401" height="200"><vector name="origin" x="200" y="100"/><int name="z" value="0"/><string name="_hash" value="1bb569ad90694cdc5e6b7c5ca18e27ed087dbe190f3851b9c1176e0e091d3cb0"/></canvas></imgdir>

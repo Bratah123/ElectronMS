@@ -1,0 +1,2856 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><imgdir name="9402273.img"><imgdir name="info"><int name="boss" value="1"/><int name="level" value="120"/><string name="mobType" value="7N"/><int name="category" value="8"/><string name="elemAttr" value="P2H2F2I2S2L2D2"/><int name="skeleton" value="1"/><int name="ignoreFieldOut" value="1"/><int name="ignoreMoveImpact" value="1"/><int name="useReaction" value="1"/><int name="firstAttack" value="1"/><int name="maxHP" value="1000000000"/><int name="maxMP" value="2000000"/><int name="PADamage" value="4600"/><int name="MADamage" value="3600"/><int name="PDRate" value="30"/><int name="MDRate" value="30"/><int name="acc" value="9999"/><int name="eva" value="750"/><int name="pushed" value="1000000000"/><float name="fs" value="10.0"/><imgdir name="attack"><imgdir name="0"><int name="action" value="1"/><int name="attackRatio" value="100"/><int name="type" value="0"/><int name="fixDamR" value="2"/><int name="disease" value="123"/><int name="level" value="81"/><int name="fixAttack" value="1"/></imgdir><imgdir name="1"><int name="action" value="2"/><int name="attackRatio" value="100"/><int name="type" value="0"/><int name="knockback" value="1"/><int name="ignoreStance" value="100"/><int name="fixDamR" value="100"/><int name="fixDamRType" value="1"/><int name="fixAttack" value="1"/></imgdir><imgdir name="2"><int name="action" value="3"/><int name="attackRatio" value="100"/><int name="type" value="0"/><int name="fixAttack" value="1"/></imgdir></imgdir><int name="bodyAttack" value="1"/><int name="isRemoteRange" value="1"/><int name="hpTagColor" value="1"/><int name="hpTagBgcolor" value="5"/><int name="wp" value="120"/><int name="publicReward" value="1"/><int name="explosiveReward" value="1"/><int name="charismaEXP" value="125"/><int name="useCreateScript" value="1"/><string name="default_skin" value="phase0"/><int name="invincible" value="1"/><int name="ignoreMovable" value="1"/><int name="DamageScale_PL" value="1"/><int name="speed" value="-99"/><int name="notLevelPenalty" value="1"/></imgdir><imgdir name="move"></imgdir><imgdir name="stand"></imgdir><imgdir name="die1"><string name="aniName" value="Attack_05_1"/></imgdir><imgdir name="attack1"><imgdir name="info"><imgdir name="range"><vector name="lt" x="-1500" y="-600"/><vector name="rb" x="1500" y="140"/></imgdir></imgdir><string name="aniName" value="idle0"/></imgdir><imgdir name="attack2"><imgdir name="info"><imgdir name="range"><vector name="lt" x="0" y="0"/><vector name="rb" x="0" y="0"/></imgdir></imgdir><imgdir name="AttackParts"><imgdir name="info"><int name="fixDamR" value="100"/><vector name="impactX" x="200" y="250"/><vector name="impactY" x="1" y="20"/></imgdir><imgdir name="bbox_head"></imgdir><imgdir name="bbox_body"></imgdir><imgdir name="bbox_tail1"></imgdir><imgdir name="bbox_tail2"></imgdir><imgdir name="bbox_hand_r"></imgdir><imgdir name="bbox_hand_l"></imgdir></imgdir><string name="aniName" value="RegenMove2"/></imgdir><imgdir name="attack3"><imgdir name="info"><imgdir name="range"><vector name="lt" x="0" y="0"/><vector name="rb" x="0" y="0"/></imgdir></imgdir><string name="aniName" value="idle1"/></imgdir><imgdir name="HitParts"><imgdir name="bbox_tail2"><imgdir name="0"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="durability" value="100"/><int name="hardness" value="40"/></imgdir><imgdir name="hitEvent"><string name="info" value="해당 부위 타격시 처리해야할 내용들"/></imgdir></imgdir></imgdir><imgdir name="bbox_tail1"><imgdir name="0"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="durability" value="100"/><int name="hardness" value="40"/></imgdir><imgdir name="hitEvent"><string name="info" value="해당 부위 타격시 처리해야할 내용들"/></imgdir></imgdir></imgdir><imgdir name="bbox_attack"><imgdir name="0"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="durability" value="100"/><int name="hardness" value="40"/></imgdir><imgdir name="hitEvent"><string name="info" value="해당 부위 타격시 처리해야할 내용들"/></imgdir></imgdir></imgdir><imgdir name="bbox_body"><imgdir name="0"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="durability" value="100"/><int name="hardness" value="40"/></imgdir><imgdir name="hitEvent"><string name="info" value="해당 부위 타격시 처리해야할 내용들"/></imgdir></imgdir></imgdir><imgdir name="bbox_head"><imgdir name="0"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="durability" value="100"/><int name="hardness" value="40"/></imgdir><imgdir name="hitEvent"><string name="info" value="해당 부위 타격시 처리해야할 내용들"/></imgdir></imgdir></imgdir><imgdir name="bbox_Attack_01_1_t2_8"><imgdir name="0"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="durability" value="100"/><int name="hardness" value="40"/></imgdir><imgdir name="hitEvent"><string name="info" value="해당 부위 타격시 처리해야할 내용들"/></imgdir></imgdir></imgdir><imgdir name="bbox_Attack_01_1_t1_8"><imgdir name="0"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="durability" value="100"/><int name="hardness" value="40"/></imgdir><imgdir name="hitEvent"><string name="info" value="해당 부위 타격시 처리해야할 내용들"/></imgdir></imgdir></imgdir><imgdir name="bbox_Attack_01_1_t2_7"><imgdir name="0"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="durability" value="100"/><int name="hardness" value="40"/></imgdir><imgdir name="hitEvent"><string name="info" value="해당 부위 타격시 처리해야할 내용들"/></imgdir></imgdir></imgdir><imgdir name="bbox_Attack_01_1_t1_7"><imgdir name="0"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="durability" value="100"/><int name="hardness" value="40"/></imgdir><imgdir name="hitEvent"><string name="info" value="해당 부위 타격시 처리해야할 내용들"/></imgdir></imgdir></imgdir><imgdir name="bbox_Attack_01_1_t0_8"><imgdir name="0"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="durability" value="100"/><int name="hardness" value="40"/></imgdir><imgdir name="hitEvent"><string name="info" value="해당 부위 타격시 처리해야할 내용들"/></imgdir></imgdir></imgdir><imgdir name="bbox_Attack_01_1_t0_7"><imgdir name="0"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="durability" value="100"/><int name="hardness" value="40"/></imgdir><imgdir name="hitEvent"><string name="info" value="해당 부위 타격시 처리해야할 내용들"/></imgdir></imgdir></imgdir><imgdir name="bbox_hand_r"><imgdir name="0"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="durability" value="100"/><int name="hardness" value="40"/></imgdir><imgdir name="hitEvent"><string name="info" value="해당 부위 타격시 처리해야할 내용들"/></imgdir></imgdir></imgdir><imgdir name="bbox_hand_l"><imgdir name="0"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="durability" value="100"/><int name="hardness" value="40"/></imgdir><imgdir name="hitEvent"><string name="info" value="해당 부위 타격시 처리해야할 내용들"/></imgdir></imgdir></imgdir></imgdir><canvas name="boss_normal_body.png" width="1024" height="1023"><vector name="origin" x="512" y="511"/><int name="z" value="0"/><string name="_hash" value="570e7a1e0c12a3c424652d7f474b18bf04835de17190c5b12359e22dbdef9828"/></canvas><canvas name="boss_normal_body2.png" width="1024" height="1024"><vector name="origin" x="512" y="512"/><int name="z" value="0"/><string name="_hash" value="dddd2f71d41b2c1c1ac9cc3ca736dc2538db9d5412fbd838eaaa0f254b3f6be0"/></canvas><canvas name="boss_normal_body3.png" width="1024" height="1024"><vector name="origin" x="512" y="512"/><int name="z" value="0"/><string name="_hash" value="f051e04e84693240004243186664d3a5b353a6de152bd32f7009f12fbf538202"/></canvas><canvas name="boss_normal_body4.png" width="1024" height="1024"><vector name="origin" x="512" y="512"/><int name="z" value="0"/><string name="_hash" value="e5e506c71a0c654a1dd2976cf81fe24e889e43972aa34e53bf61078b7b94a286"/></canvas><canvas name="boss_normal_body5.png" width="1024" height="1024"><vector name="origin" x="512" y="512"/><int name="z" value="0"/><string name="_hash" value="e78151bb5f747dc13494ff198cf4f419a084977a5b9c38e92b1705ca8215fae3"/></canvas><canvas name="boss_normal_body6.png" width="1024" height="1024"><vector name="origin" x="903" y="34"/><int name="z" value="0"/><string name="_hash" value="b81f35d6a485bc9a4ddfb5580d14e74531d099675883260e0209d963ed62a51f"/></canvas><canvas name="boss_normal_body7.png" width="1024" height="1018"><vector name="origin" x="121" y="378"/><int name="z" value="0"/><string name="_hash" value="c4bbac6f11bfba36d692c775bcedbd3410244be59b87f299bbc8189de17cdf16"/></canvas><canvas name="boss_normal_body8.png" width="1024" height="1023"><vector name="origin" x="998" y="180"/><int name="z" value="0"/><string name="_hash" value="9d4d5948da07e147f7661f707665c77b072d3d826138e57ea821fbe637970a7c"/></canvas><canvas name="boss_normal_body9.png" width="1024" height="1023"><vector name="origin" x="846" y="27"/><int name="z" value="0"/><string name="_hash" value="4cfaef32f697fb642faae2783fdbd93d34dcd14fd59db58552c31aab517825a1"/></canvas><canvas name="boss_normal_body10.png" width="1022" height="1017"><vector name="origin" x="511" y="508"/><int name="z" value="0"/><string name="_hash" value="320fe9e5b73f03787425e57a326bfafb1e643bcb921f64a6a4b9fab1e56b3a52"/></canvas><canvas name="boss_normal_body11.png" width="995" height="1006"><vector name="origin" x="493" y="23"/><int name="z" value="0"/><string name="_hash" value="d3b622f77c876f5e08ad1d11430df18a62bad4ef51a3f26318646f0236008eb2"/></canvas><canvas name="boss_normal_body12.png" width="1020" height="1024"><vector name="origin" x="517" y="184"/><int name="z" value="0"/><string name="_hash" value="bd46cc8edafb07415bc22cd8f394fd11c1126154c2fa6441c15a2d083f72a800"/></canvas><canvas name="boss_normal_body13.png" width="993" height="1021"><vector name="origin" x="115" y="468"/><int name="z" value="0"/><string name="_hash" value="8f376f6d8f1dc24788ea9a86ba10dfd40ebc4ee1fbd2585fe48c0b476c7eb9d7"/></canvas><canvas name="boss_normal_body14.png" width="1022" height="1020"><vector name="origin" x="520" y="136"/><int name="z" value="0"/><string name="_hash" value="a49a78ef830d9047b38b2ec38e35eeb399d8acf96288fe62f754bca0fef8bce7"/></canvas><canvas name="boss_normal_body15.png" width="1022" height="1022"><vector name="origin" x="511" y="511"/><int name="z" value="0"/><string name="_hash" value="a32c803826ab6d2339ff0e24d7b22202f5250c1586c5c5070a44b889e27dbbb7"/></canvas><canvas name="boss_normal_body16.png" width="1019" height="1019"><vector name="origin" x="509" y="509"/><int name="z" value="0"/><string name="_hash" value="4800f37a32e201aaddc9c48790dd778351cd89d97e8371dfccfe1836d93c8408"/></canvas><canvas name="boss_normal_body17.png" width="1020" height="1011"><vector name="origin" x="899" y="92"/><int name="z" value="0"/><string name="_hash" value="2bdc0efd71481f5036807127c3c60e3873d60a9dfafbac3591f595b1ce26f08b"/></canvas><canvas name="boss_normal_body18.png" width="1004" height="1018"><vector name="origin" x="532" y="943"/><int name="z" value="0"/><string name="_hash" value="e287e69b1d300cfab74b86f8c85abda9b6874b3646e555cdc51bf774fceecc39"/></canvas><canvas name="boss_normal_body19.png" width="1013" height="1004"><vector name="origin" x="506" y="502"/><int name="z" value="0"/><string name="_hash" value="9aaa914cf19e46807c44d7e9cd91ab689cdbe884df1c2278b0fed16d03a138d9"/></canvas><canvas name="boss_normal_body20.png" width="960" height="985"><vector name="origin" x="358" y="142"/><int name="z" value="0"/><string name="_hash" value="e982cd6a23bbf3c7a996851a25e7598f9264f029a7d2f47f59cb7f04f9853b4d"/></canvas><canvas name="boss_normal_body21.png" width="1007" height="1006"><vector name="origin" x="503" y="503"/><int name="z" value="0"/><string name="_hash" value="72aaa6693abe6ac1e91de74913dac09802d3374e3406d6cacda5ffc7bc511fab"/></canvas><canvas name="boss_normal_body22.png" width="892" height="847"><vector name="origin" x="446" y="423"/><int name="z" value="0"/><string name="_hash" value="fe4cebf59578165efa0be8316c2760f72daea9df90647840474b171036768394"/></canvas><string name="9402273.atlas" value="
+boss_normal_body.png
+size: 1024,1023
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+attackt0
+  rotate: false
+  xy: 2, 949
+  size: 820, 72
+  orig: 820, 72
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 2, 200
+  size: 747, 582
+  orig: 747, 582
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0021_b6
+  rotate: true
+  xy: 971, 324
+  size: 129, 51
+  orig: 129, 51
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_breakhead (4)
+  rotate: false
+  xy: 415, 2
+  size: 25, 18
+  orig: 25, 18
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_head_gear_particle_0002_-
+  rotate: false
+  xy: 824, 786
+  size: 197, 235
+  orig: 197, 235
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_head_gear_particle_0003_-
+  rotate: false
+  xy: 906, 138
+  size: 113, 181
+  orig: 113, 181
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_head_gear_particle_0008_-
+  rotate: false
+  xy: 906, 4
+  size: 98, 132
+  orig: 98, 132
+  offset: 0, 0
+  index: -1
+eff_die/eff_smoke4
+  rotate: false
+  xy: 586, 787
+  size: 218, 160
+  orig: 218, 160
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0000_32
+  rotate: true
+  xy: 415, 22
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0001_31
+  rotate: true
+  xy: 415, 22
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0000_spark
+  rotate: false
+  xy: 2, 9
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+head_inner
+  rotate: true
+  xy: 586, 7
+  size: 312, 318
+  orig: 312, 318
+  offset: 0, 0
+  index: -1
+shoulder
+  rotate: true
+  xy: 586, 321
+  size: 463, 383
+  orig: 463, 383
+  offset: 0, 0
+  index: -1
+tail_3
+  rotate: true
+  xy: 971, 455
+  size: 329, 51
+  orig: 329, 51
+  offset: 0, 0
+  index: -1
+
+boss_normal_body2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_r1_1
+  rotate: true
+  xy: 751, 373
+  size: 210, 78
+  orig: 210, 78
+  offset: 0, 0
+  index: -1
+attackt1
+  rotate: false
+  xy: 2, 950
+  size: 820, 72
+  orig: 820, 72
+  offset: 0, 0
+  index: -1
+attackt2
+  rotate: false
+  xy: 2, 876
+  size: 820, 72
+  orig: 820, 72
+  offset: 0, 0
+  index: -1
+body0
+  rotate: false
+  xy: 2, 292
+  size: 747, 582
+  orig: 747, 582
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0003_b15
+  rotate: false
+  xy: 857, 282
+  size: 164, 89
+  orig: 164, 89
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0013_b10
+  rotate: true
+  xy: 751, 733
+  size: 141, 71
+  orig: 141, 71
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0014_9
+  rotate: true
+  xy: 814, 327
+  size: 44, 38
+  orig: 44, 38
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_head_gear_particle_0001_-
+  rotate: false
+  xy: 751, 585
+  size: 104, 146
+  orig: 104, 146
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_head_gear_particle_0006_-
+  rotate: true
+  xy: 751, 292
+  size: 79, 61
+  orig: 79, 61
+  offset: 0, 0
+  index: -1
+eff_press/eff_press_0006
+  rotate: true
+  xy: 857, 2
+  size: 278, 149
+  orig: 278, 149
+  offset: 0, 0
+  index: -1
+eff_press/eff_press_0009
+  rotate: true
+  xy: 857, 594
+  size: 256, 165
+  orig: 256, 165
+  offset: 0, 0
+  index: -1
+eff_press/eff_press_0010
+  rotate: true
+  xy: 857, 373
+  size: 219, 165
+  orig: 219, 165
+  offset: 0, 0
+  index: -1
+eff_press_new2/eff_press_0000
+  rotate: true
+  xy: 2, 6
+  size: 284, 283
+  orig: 284, 283
+  offset: 0, 0
+  index: -1
+eff_press_new2/eff_press_0001
+  rotate: true
+  xy: 287, 6
+  size: 284, 283
+  orig: 284, 283
+  offset: 0, 0
+  index: -1
+eff_press_new2/eff_press_0002
+  rotate: true
+  xy: 572, 6
+  size: 284, 283
+  orig: 284, 283
+  offset: 0, 0
+  index: -1
+hand_r0
+  rotate: false
+  xy: 824, 938
+  size: 194, 84
+  orig: 194, 84
+  offset: 0, 0
+  index: -1
+hand_r0_d
+  rotate: false
+  xy: 824, 852
+  size: 194, 84
+  orig: 194, 84
+  offset: 0, 0
+  index: -1
+
+boss_normal_body3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_r0
+  rotate: false
+  xy: 751, 787
+  size: 264, 235
+  orig: 264, 235
+  offset: 0, 0
+  index: -1
+arm_r0a
+  rotate: false
+  xy: 751, 550
+  size: 264, 235
+  orig: 264, 235
+  offset: 0, 0
+  index: -1
+arm_r0b
+  rotate: false
+  xy: 751, 313
+  size: 264, 235
+  orig: 264, 235
+  offset: 0, 0
+  index: -1
+body1
+  rotate: false
+  xy: 2, 440
+  size: 747, 582
+  orig: 747, 582
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0008_12
+  rotate: true
+  xy: 259, 363
+  size: 75, 88
+  orig: 75, 88
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0012_10
+  rotate: false
+  xy: 751, 245
+  size: 66, 66
+  orig: 66, 66
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0015_b9
+  rotate: true
+  xy: 2, 319
+  size: 119, 44
+  orig: 119, 44
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0018_7
+  rotate: true
+  xy: 728, 4
+  size: 68, 89
+  orig: 68, 89
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0024_4
+  rotate: false
+  xy: 980, 155
+  size: 42, 45
+  orig: 42, 45
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0028_2
+  rotate: false
+  xy: 574, 3
+  size: 152, 69
+  orig: 152, 69
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_breakhead (3)
+  rotate: false
+  xy: 980, 86
+  size: 35, 67
+  orig: 35, 67
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_head_gear_particle_0009_-
+  rotate: true
+  xy: 819, 202
+  size: 109, 202
+  orig: 109, 202
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_head_gear_particle_0011_-
+  rotate: true
+  xy: 259, 314
+  size: 47, 54
+  orig: 47, 54
+  offset: 0, 0
+  index: -1
+eff_press/eff_press_0001
+  rotate: false
+  xy: 48, 320
+  size: 209, 118
+  orig: 209, 118
+  offset: 0, 0
+  index: -1
+eff_shout/eff_shout (01)
+  rotate: false
+  xy: 350, 74
+  size: 399, 364
+  orig: 399, 364
+  offset: 0, 0
+  index: -1
+eff_shout/eff_shout (02)
+  rotate: false
+  xy: 350, 74
+  size: 399, 364
+  orig: 399, 364
+  offset: 0, 0
+  index: -1
+face1
+  rotate: false
+  xy: 2, 13
+  size: 346, 298
+  orig: 346, 298
+  offset: 0, 0
+  index: -1
+hand_r0_f1
+  rotate: true
+  xy: 819, 5
+  size: 67, 100
+  orig: 67, 100
+  offset: 0, 0
+  index: -1
+hand_r0_f1_d
+  rotate: true
+  xy: 921, 5
+  size: 67, 100
+  orig: 67, 100
+  offset: 0, 0
+  index: -1
+head_t3
+  rotate: false
+  xy: 751, 74
+  size: 227, 126
+  orig: 227, 126
+  offset: 0, 0
+  index: -1
+head_t5
+  rotate: true
+  xy: 350, 2
+  size: 70, 110
+  orig: 70, 110
+  offset: 0, 0
+  index: -1
+head_t5_d
+  rotate: true
+  xy: 462, 2
+  size: 70, 110
+  orig: 70, 110
+  offset: 0, 0
+  index: -1
+
+boss_normal_body4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_r0c
+  rotate: false
+  xy: 751, 787
+  size: 264, 235
+  orig: 264, 235
+  offset: 0, 0
+  index: -1
+arm_r0c_d
+  rotate: false
+  xy: 751, 550
+  size: 264, 235
+  orig: 264, 235
+  offset: 0, 0
+  index: -1
+body2
+  rotate: false
+  xy: 2, 440
+  size: 747, 582
+  orig: 747, 582
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0002_15
+  rotate: true
+  xy: 861, 3
+  size: 90, 74
+  orig: 90, 74
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0007_b13
+  rotate: false
+  xy: 630, 3
+  size: 229, 90
+  orig: 229, 90
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0027_b3
+  rotate: true
+  xy: 910, 101
+  size: 153, 111
+  orig: 153, 111
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0000_35
+  rotate: true
+  xy: 751, 315
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_head_gear_particle_0013_-
+  rotate: true
+  xy: 910, 256
+  size: 57, 112
+  orig: 57, 112
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_head_gear_particle_0014_-
+  rotate: true
+  xy: 937, 2
+  size: 97, 83
+  orig: 97, 83
+  offset: 0, 0
+  index: -1
+eff_die/eff_smoke5
+  rotate: true
+  xy: 748, 95
+  size: 218, 160
+  orig: 218, 160
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0000_Frame-63
+  rotate: true
+  xy: 2, 16
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0001_Frame-61
+  rotate: true
+  xy: 229, 16
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+hand_r2
+  rotate: false
+  xy: 456, 2
+  size: 172, 91
+  orig: 172, 91
+  offset: 0, 0
+  index: -1
+head_t0
+  rotate: true
+  xy: 456, 95
+  size: 343, 290
+  orig: 343, 290
+  offset: 0, 0
+  index: -1
+
+boss_normal_body5.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body2_d
+  rotate: false
+  xy: 2, 440
+  size: 747, 582
+  orig: 747, 582
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0001_b16
+  rotate: true
+  xy: 748, 98
+  size: 219, 156
+  orig: 219, 156
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0004_14
+  rotate: false
+  xy: 906, 216
+  size: 116, 101
+  orig: 116, 101
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0016_8
+  rotate: false
+  xy: 964, 2
+  size: 53, 54
+  orig: 53, 54
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0001_34
+  rotate: true
+  xy: 751, 789
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0002_33
+  rotate: true
+  xy: 751, 554
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0003_32
+  rotate: true
+  xy: 751, 319
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_head_gear_particle_0005_-
+  rotate: true
+  xy: 906, 114
+  size: 100, 55
+  orig: 100, 55
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0002_Frame-59
+  rotate: true
+  xy: 2, 16
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0003_Frame-57
+  rotate: true
+  xy: 229, 16
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+hand_l0
+  rotate: false
+  xy: 456, 5
+  size: 179, 88
+  orig: 179, 88
+  offset: 0, 0
+  index: -1
+hand_l0_d
+  rotate: false
+  xy: 637, 5
+  size: 179, 88
+  orig: 179, 88
+  offset: 0, 0
+  index: -1
+hand_l0_f1
+  rotate: false
+  xy: 818, 2
+  size: 71, 94
+  orig: 71, 94
+  offset: 0, 0
+  index: -1
+hand_l0_f1_d
+  rotate: false
+  xy: 891, 2
+  size: 71, 94
+  orig: 71, 94
+  offset: 0, 0
+  index: -1
+hand_l0_f2
+  rotate: false
+  xy: 964, 137
+  size: 58, 77
+  orig: 58, 77
+  offset: 0, 0
+  index: -1
+hand_l0_f2_d
+  rotate: false
+  xy: 964, 58
+  size: 58, 77
+  orig: 58, 77
+  offset: 0, 0
+  index: -1
+head_t0_d
+  rotate: true
+  xy: 456, 95
+  size: 343, 290
+  orig: 343, 290
+  offset: 0, 0
+  index: -1
+
+boss_normal_body6.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_l1
+  rotate: true
+  xy: 229, 250
+  size: 177, 154
+  orig: 177, 154
+  offset: 0, 0
+  index: -1
+arm_r1_0
+  rotate: false
+  xy: 848, 236
+  size: 106, 73
+  orig: 106, 73
+  offset: 0, 0
+  index: -1
+back_t0
+  rotate: true
+  xy: 517, 288
+  size: 604, 114
+  orig: 604, 114
+  offset: 0, 0
+  index: -1
+eff_assult/eff_assult_0000s_0000_15
+  rotate: false
+  xy: 780, 5
+  size: 242, 43
+  orig: 242, 43
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0020_6
+  rotate: true
+  xy: 633, 837
+  size: 55, 45
+  orig: 55, 45
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0031_b1
+  rotate: true
+  xy: 956, 236
+  size: 73, 61
+  orig: 73, 61
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_breakhead (2)
+  rotate: true
+  xy: 848, 311
+  size: 76, 174
+  orig: 76, 174
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_head_gear_particle_0012_-
+  rotate: true
+  xy: 633, 778
+  size: 57, 44
+  orig: 57, 44
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0000_32
+  rotate: false
+  xy: 780, 50
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0010_22
+  rotate: false
+  xy: 780, 50
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0004_Frame-55
+  rotate: true
+  xy: 2, 5
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0001_spark
+  rotate: false
+  xy: 367, 20
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+head_gear
+  rotate: true
+  xy: 685, 668
+  size: 354, 337
+  orig: 354, 337
+  offset: 0, 0
+  index: -1
+head_t2
+  rotate: true
+  xy: 633, 307
+  size: 359, 209
+  orig: 359, 209
+  offset: 0, 0
+  index: -1
+shoulder_d
+  rotate: true
+  xy: 2, 429
+  size: 463, 383
+  orig: 463, 383
+  offset: 0, 0
+  index: -1
+shoulder_t1
+  rotate: true
+  xy: 848, 389
+  size: 277, 168
+  orig: 277, 168
+  offset: 0, 0
+  index: -1
+shoulder_t2
+  rotate: true
+  xy: 229, 2
+  size: 246, 136
+  orig: 246, 136
+  offset: 0, 0
+  index: -1
+tail_1
+  rotate: false
+  xy: 2, 894
+  size: 681, 128
+  orig: 681, 128
+  offset: 0, 0
+  index: -1
+tail_1_d
+  rotate: true
+  xy: 387, 211
+  size: 681, 128
+  orig: 681, 128
+  offset: 0, 0
+  index: -1
+tail_3_d
+  rotate: false
+  xy: 517, 235
+  size: 329, 51
+  orig: 329, 51
+  offset: 0, 0
+  index: -1
+
+boss_normal_body7.png
+size: 1024,1018
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back_t0_d
+  rotate: false
+  xy: 2, 902
+  size: 604, 114
+  orig: 604, 114
+  offset: 0, 0
+  index: -1
+back_t1
+  rotate: false
+  xy: 2, 818
+  size: 521, 82
+  orig: 521, 82
+  offset: 0, 0
+  index: -1
+back_t1_d
+  rotate: false
+  xy: 2, 734
+  size: 521, 82
+  orig: 521, 82
+  offset: 0, 0
+  index: -1
+eff_assult/eff_assult_0000s_0001_14
+  rotate: false
+  xy: 2, 349
+  size: 242, 43
+  orig: 242, 43
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0023_b5
+  rotate: false
+  xy: 375, 4
+  size: 182, 157
+  orig: 182, 157
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0029_b2
+  rotate: true
+  xy: 958, 263
+  size: 77, 64
+  orig: 77, 64
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_head_gear_particle_0010_-
+  rotate: false
+  xy: 958, 11
+  size: 63, 104
+  orig: 63, 104
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_dust
+  rotate: true
+  xy: 375, 163
+  size: 251, 225
+  orig: 251, 225
+  offset: 0, 0
+  index: -1
+face2
+  rotate: true
+  xy: 2, 2
+  size: 338, 371
+  orig: 338, 371
+  offset: 0, 0
+  index: -1
+face2_d
+  rotate: true
+  xy: 2, 394
+  size: 338, 371
+  orig: 338, 371
+  offset: 0, 0
+  index: -1
+hand_r0_f0
+  rotate: false
+  xy: 958, 190
+  size: 64, 71
+  orig: 64, 71
+  offset: 0, 0
+  index: -1
+hand_r0_f0_d
+  rotate: false
+  xy: 958, 117
+  size: 64, 71
+  orig: 64, 71
+  offset: 0, 0
+  index: -1
+head_gear1
+  rotate: false
+  xy: 602, 3
+  size: 354, 337
+  orig: 354, 337
+  offset: 0, 0
+  index: -1
+head_t1
+  rotate: false
+  xy: 608, 680
+  size: 412, 336
+  orig: 412, 336
+  offset: 0, 0
+  index: -1
+head_t1_d
+  rotate: false
+  xy: 605, 342
+  size: 412, 336
+  orig: 412, 336
+  offset: 0, 0
+  index: -1
+head_t3_d
+  rotate: false
+  xy: 375, 416
+  size: 227, 126
+  orig: 227, 126
+  offset: 0, 0
+  index: -1
+shoulder_t0
+  rotate: true
+  xy: 375, 639
+  size: 93, 148
+  orig: 93, 148
+  offset: 0, 0
+  index: -1
+shoulder_t0_d
+  rotate: true
+  xy: 375, 544
+  size: 93, 148
+  orig: 93, 148
+  offset: 0, 0
+  index: -1
+tail_2
+  rotate: true
+  xy: 525, 544
+  size: 356, 78
+  orig: 356, 78
+  offset: 0, 0
+  index: -1
+
+boss_normal_body8.png
+size: 1024,1023
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_r1
+  rotate: false
+  xy: 2, 7
+  size: 209, 87
+  orig: 209, 87
+  offset: 0, 0
+  index: -1
+arm_r1b
+  rotate: false
+  xy: 213, 7
+  size: 209, 87
+  orig: 209, 87
+  offset: 0, 0
+  index: -1
+arm_r1c
+  rotate: false
+  xy: 424, 7
+  size: 209, 87
+  orig: 209, 87
+  offset: 0, 0
+  index: -1
+eff_assult/eff_assult_0000s_0002_13
+  rotate: true
+  xy: 974, 52
+  size: 242, 43
+  orig: 242, 43
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0010_11
+  rotate: false
+  xy: 850, 799
+  size: 170, 102
+  orig: 170, 102
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0026_3
+  rotate: true
+  xy: 847, 441
+  size: 77, 106
+  orig: 77, 106
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_head_gear_particle_0004_-
+  rotate: true
+  xy: 674, 384
+  size: 54, 62
+  orig: 54, 62
+  offset: 0, 0
+  index: -1
+eff_die/eff_smoke0
+  rotate: true
+  xy: 741, 2
+  size: 252, 231
+  orig: 252, 231
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0002_30
+  rotate: true
+  xy: 678, 618
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0003_29
+  rotate: true
+  xy: 678, 440
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0005_Frame-53
+  rotate: false
+  xy: 2, 796
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0006_Frame-51
+  rotate: false
+  xy: 426, 796
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0007_Frame-49
+  rotate: true
+  xy: 2, 96
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0008_Frame-47
+  rotate: true
+  xy: 229, 96
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_press/eff_press_0002
+  rotate: false
+  xy: 456, 383
+  size: 216, 135
+  orig: 216, 135
+  offset: 0, 0
+  index: -1
+eff_press_new2/eff_press_0003
+  rotate: true
+  xy: 456, 97
+  size: 284, 283
+  orig: 284, 283
+  offset: 0, 0
+  index: -1
+face0
+  rotate: false
+  xy: 2, 520
+  size: 336, 274
+  orig: 336, 274
+  offset: 0, 0
+  index: -1
+face0_d
+  rotate: false
+  xy: 340, 520
+  size: 336, 274
+  orig: 336, 274
+  offset: 0, 0
+  index: -1
+hand_l0_f0
+  rotate: true
+  xy: 741, 321
+  size: 63, 72
+  orig: 63, 72
+  offset: 0, 0
+  index: -1
+hand_l0_f0_d
+  rotate: true
+  xy: 741, 256
+  size: 63, 72
+  orig: 63, 72
+  offset: 0, 0
+  index: -1
+hand_r1
+  rotate: false
+  xy: 815, 296
+  size: 207, 142
+  orig: 207, 142
+  offset: 0, 0
+  index: -1
+hand_r3
+  rotate: false
+  xy: 850, 903
+  size: 170, 118
+  orig: 170, 118
+  offset: 0, 0
+  index: -1
+hand_r3_f0
+  rotate: false
+  xy: 955, 441
+  size: 65, 77
+  orig: 65, 77
+  offset: 0, 0
+  index: -1
+hand_r3_f1
+  rotate: false
+  xy: 635, 38
+  size: 99, 57
+  orig: 99, 57
+  offset: 0, 0
+  index: -1
+hand_r3_f2
+  rotate: true
+  xy: 738, 386
+  size: 52, 75
+  orig: 52, 75
+  offset: 0, 0
+  index: -1
+shoulder_t1_d
+  rotate: true
+  xy: 850, 520
+  size: 277, 168
+  orig: 277, 168
+  offset: 0, 0
+  index: -1
+
+boss_normal_body9.png
+size: 1024,1023
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff_assult/eff_assult_0000s_0003_12
+  rotate: false
+  xy: 720, 3
+  size: 242, 43
+  orig: 242, 43
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0005_b14
+  rotate: true
+  xy: 910, 118
+  size: 191, 107
+  orig: 191, 107
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0011_b11
+  rotate: true
+  xy: 910, 311
+  size: 245, 108
+  orig: 245, 108
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0017_b8
+  rotate: true
+  xy: 2, 667
+  size: 127, 60
+  orig: 127, 60
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0022_5
+  rotate: true
+  xy: 276, 687
+  size: 107, 137
+  orig: 107, 137
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0025_b4
+  rotate: true
+  xy: 223, 677
+  size: 117, 51
+  orig: 117, 51
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0004_31
+  rotate: true
+  xy: 188, 8
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0005_30
+  rotate: true
+  xy: 454, 8
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_head_gear_particle_0000_-
+  rotate: true
+  xy: 910, 558
+  size: 107, 110
+  orig: 107, 110
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_head_gear_particle_0007_-
+  rotate: false
+  xy: 964, 45
+  size: 58, 71
+  orig: 58, 71
+  offset: 0, 0
+  index: -1
+eff_die/eff_smoke3
+  rotate: true
+  xy: 2, 2
+  size: 239, 184
+  orig: 239, 184
+  offset: 0, 0
+  index: -1
+eff_die/eff_smoke6
+  rotate: false
+  xy: 64, 676
+  size: 157, 118
+  orig: 157, 118
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0004_28
+  rotate: true
+  xy: 850, 845
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0005_27
+  rotate: true
+  xy: 850, 667
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0009_Frame-45
+  rotate: false
+  xy: 2, 796
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0010_Frame-43
+  rotate: false
+  xy: 426, 796
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0011_Frame-41
+  rotate: true
+  xy: 2, 243
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0012_Frame-39
+  rotate: true
+  xy: 229, 243
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0013_Frame-37
+  rotate: true
+  xy: 456, 243
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0014_Frame-35
+  rotate: true
+  xy: 683, 243
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_press/eff_press_0000
+  rotate: false
+  xy: 647, 707
+  size: 201, 87
+  orig: 201, 87
+  offset: 0, 0
+  index: -1
+girl/girl_0000_9
+  rotate: true
+  xy: 720, 48
+  size: 193, 187
+  orig: 193, 187
+  offset: 0, 0
+  index: -1
+shoulder_t3
+  rotate: false
+  xy: 415, 688
+  size: 230, 106
+  orig: 230, 106
+  offset: 0, 0
+  index: -1
+
+boss_normal_body10.png
+size: 1022,1017
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff_crash/eff_crash_0009_b12
+  rotate: false
+  xy: 494, 690
+  size: 150, 98
+  orig: 150, 98
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0019_b7
+  rotate: false
+  xy: 646, 693
+  size: 143, 95
+  orig: 143, 95
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0006_29
+  rotate: true
+  xy: 2, 2
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0007_28
+  rotate: true
+  xy: 268, 2
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_smoke1
+  rotate: false
+  xy: 362, 688
+  size: 130, 100
+  orig: 130, 100
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0006_26
+  rotate: true
+  xy: 850, 839
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0007_25
+  rotate: true
+  xy: 850, 661
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0015_Frame-33
+  rotate: false
+  xy: 2, 790
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0016_Frame-31
+  rotate: false
+  xy: 426, 790
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0017_Frame-29
+  rotate: true
+  xy: 2, 237
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0018_Frame-27
+  rotate: true
+  xy: 229, 237
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0019_Frame-25
+  rotate: true
+  xy: 456, 237
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+face0a
+  rotate: false
+  xy: 683, 29
+  size: 336, 274
+  orig: 336, 274
+  offset: 0, 0
+  index: -1
+hand_r0_f2
+  rotate: false
+  xy: 791, 704
+  size: 51, 84
+  orig: 51, 84
+  offset: 0, 0
+  index: -1
+head_gear2
+  rotate: true
+  xy: 683, 305
+  size: 354, 337
+  orig: 354, 337
+  offset: 0, 0
+  index: -1
+head_t4
+  rotate: false
+  xy: 234, 682
+  size: 62, 106
+  orig: 62, 106
+  offset: 0, 0
+  index: -1
+head_t4_d
+  rotate: false
+  xy: 298, 682
+  size: 62, 106
+  orig: 62, 106
+  offset: 0, 0
+  index: -1
+shoulder_t3_d
+  rotate: false
+  xy: 2, 682
+  size: 230, 106
+  orig: 230, 106
+  offset: 0, 0
+  index: -1
+tail_0
+  rotate: false
+  xy: 534, 134
+  size: 147, 101
+  orig: 147, 101
+  offset: 0, 0
+  index: -1
+tail_0_d
+  rotate: false
+  xy: 534, 31
+  size: 147, 101
+  orig: 147, 101
+  offset: 0, 0
+  index: -1
+
+boss_normal_body11.png
+size: 995,1006
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff_assult/eff_assult_0000s_0004_11
+  rotate: false
+  xy: 2, 2
+  size: 242, 43
+  orig: 242, 43
+  offset: 0, 0
+  index: -1
+eff_assult/eff_assult_0000s_0005_10
+  rotate: false
+  xy: 246, 2
+  size: 242, 43
+  orig: 242, 43
+  offset: 0, 0
+  index: -1
+eff_assult/eff_assult_0000s_0006_9
+  rotate: false
+  xy: 490, 2
+  size: 242, 43
+  orig: 242, 43
+  offset: 0, 0
+  index: -1
+eff_assult/eff_assult_0000s_0007_8
+  rotate: false
+  xy: 734, 2
+  size: 242, 43
+  orig: 242, 43
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0020_Frame-23
+  rotate: false
+  xy: 2, 47
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0021_Frame-21
+  rotate: false
+  xy: 426, 47
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_press/eff_press_0008
+  rotate: true
+  xy: 804, 301
+  size: 290, 180
+  orig: 290, 180
+  offset: 0, 0
+  index: -1
+eff_shout/eff_shout (03)
+  rotate: false
+  xy: 2, 640
+  size: 399, 364
+  orig: 399, 364
+  offset: 0, 0
+  index: -1
+eff_shout/eff_shout (04)
+  rotate: false
+  xy: 2, 274
+  size: 399, 364
+  orig: 399, 364
+  offset: 0, 0
+  index: -1
+eff_shout/eff_shout (05)
+  rotate: false
+  xy: 403, 640
+  size: 399, 364
+  orig: 399, 364
+  offset: 0, 0
+  index: -1
+eff_shout/eff_shout (06)
+  rotate: false
+  xy: 403, 274
+  size: 399, 364
+  orig: 399, 364
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0002_spark
+  rotate: true
+  xy: 804, 593
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+shoulder_t5
+  rotate: true
+  xy: 850, 48
+  size: 251, 143
+  orig: 251, 143
+  offset: 0, 0
+  index: -1
+
+boss_normal_body12.png
+size: 1020,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff_assult/eff_assult_0000s_0008_7
+  rotate: false
+  xy: 2, 20
+  size: 242, 43
+  orig: 242, 43
+  offset: 0, 0
+  index: -1
+eff_assult/eff_assult_0000s_0009_6
+  rotate: true
+  xy: 930, 116
+  size: 242, 43
+  orig: 242, 43
+  offset: 0, 0
+  index: -1
+eff_assult/eff_assult_0000s_0010_5
+  rotate: false
+  xy: 246, 20
+  size: 242, 43
+  orig: 242, 43
+  offset: 0, 0
+  index: -1
+eff_assult/eff_assult_0000s_0011_4
+  rotate: false
+  xy: 490, 20
+  size: 242, 43
+  orig: 242, 43
+  offset: 0, 0
+  index: -1
+eff_assult/eff_assult_0000s_0012_3
+  rotate: true
+  xy: 975, 116
+  size: 242, 43
+  orig: 242, 43
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_headgear_break_light
+  rotate: true
+  xy: 804, 360
+  size: 249, 184
+  orig: 249, 184
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0022_Frame-19
+  rotate: false
+  xy: 2, 65
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0023_Frame-17
+  rotate: false
+  xy: 426, 65
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_shout/eff_shout (07)
+  rotate: false
+  xy: 2, 658
+  size: 399, 364
+  orig: 399, 364
+  offset: 0, 0
+  index: -1
+eff_shout/eff_shout (08)
+  rotate: false
+  xy: 2, 292
+  size: 399, 364
+  orig: 399, 364
+  offset: 0, 0
+  index: -1
+eff_shout/eff_shout (09)
+  rotate: false
+  xy: 403, 658
+  size: 399, 364
+  orig: 399, 364
+  offset: 0, 0
+  index: -1
+eff_shout/eff_shout (10)
+  rotate: false
+  xy: 403, 292
+  size: 399, 364
+  orig: 399, 364
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0003_spark
+  rotate: true
+  xy: 804, 611
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+hand_r0_f2_d
+  rotate: false
+  xy: 930, 30
+  size: 51, 84
+  orig: 51, 84
+  offset: 0, 0
+  index: -1
+tail_2_d
+  rotate: true
+  xy: 850, 2
+  size: 356, 78
+  orig: 356, 78
+  offset: 0, 0
+  index: -1
+
+boss_normal_body13.png
+size: 993,1021
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_l0
+  rotate: false
+  xy: 759, 363
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+eff_assult/eff_assult_0000s_0013_2
+  rotate: false
+  xy: 2, 17
+  size: 242, 43
+  orig: 242, 43
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0024_Frame-15
+  rotate: true
+  xy: 759, 597
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0025_Frame-13
+  rotate: false
+  xy: 2, 62
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_shout/eff_shout (11)
+  rotate: false
+  xy: 2, 655
+  size: 399, 364
+  orig: 399, 364
+  offset: 0, 0
+  index: -1
+eff_shout/eff_shout (12)
+  rotate: false
+  xy: 2, 289
+  size: 399, 364
+  orig: 399, 364
+  offset: 0, 0
+  index: -1
+head_gear3
+  rotate: false
+  xy: 403, 682
+  size: 354, 337
+  orig: 354, 337
+  offset: 0, 0
+  index: -1
+head_gear4
+  rotate: false
+  xy: 403, 343
+  size: 354, 337
+  orig: 354, 337
+  offset: 0, 0
+  index: -1
+head_gear_d
+  rotate: false
+  xy: 426, 4
+  size: 354, 337
+  orig: 354, 337
+  offset: 0, 0
+  index: -1
+head_t2_d
+  rotate: true
+  xy: 782, 2
+  size: 359, 209
+  orig: 359, 209
+  offset: 0, 0
+  index: -1
+
+boss_normal_body14.png
+size: 1022,1020
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_r1c_d
+  rotate: false
+  xy: 255, 2
+  size: 209, 87
+  orig: 209, 87
+  offset: 0, 0
+  index: -1
+eff_assult/eff_assult_0000s_0014_1
+  rotate: true
+  xy: 977, 15
+  size: 242, 43
+  orig: 242, 43
+  offset: 0, 0
+  index: -1
+eff_assult/eff_assult_0000s_0015_0
+  rotate: false
+  xy: 2, 31
+  size: 242, 43
+  orig: 242, 43
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0006_13
+  rotate: false
+  xy: 466, 5
+  size: 156, 84
+  orig: 156, 84
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0008_27
+  rotate: true
+  xy: 711, 24
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0026_Frame-11
+  rotate: false
+  xy: 2, 793
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0027_Frame-9
+  rotate: false
+  xy: 287, 318
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0028_Frame-7
+  rotate: false
+  xy: 287, 91
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_press_new2/eff_press_0004
+  rotate: true
+  xy: 426, 734
+  size: 284, 283
+  orig: 284, 283
+  offset: 0, 0
+  index: -1
+eff_press_new2/eff_press_0005
+  rotate: true
+  xy: 2, 507
+  size: 284, 283
+  orig: 284, 283
+  offset: 0, 0
+  index: -1
+eff_press_new2/eff_press_0006
+  rotate: true
+  xy: 2, 221
+  size: 284, 283
+  orig: 284, 283
+  offset: 0, 0
+  index: -1
+eff_press_new2/eff_press_0007
+  rotate: false
+  xy: 711, 735
+  size: 284, 283
+  orig: 284, 283
+  offset: 0, 0
+  index: -1
+eff_press_new2/eff_press_0008
+  rotate: true
+  xy: 711, 259
+  size: 284, 283
+  orig: 284, 283
+  offset: 0, 0
+  index: -1
+girl/girl_0001_8
+  rotate: false
+  xy: 425, 545
+  size: 193, 187
+  orig: 193, 187
+  offset: 0, 0
+  index: -1
+girl/girl_0002_7
+  rotate: false
+  xy: 620, 545
+  size: 193, 187
+  orig: 193, 187
+  offset: 0, 0
+  index: -1
+girl/girl_0003_6
+  rotate: false
+  xy: 815, 546
+  size: 193, 187
+  orig: 193, 187
+  offset: 0, 0
+  index: -1
+shoulder_t2_d
+  rotate: true
+  xy: 287, 545
+  size: 246, 136
+  orig: 246, 136
+  offset: 0, 0
+  index: -1
+shoulder_t5_d
+  rotate: false
+  xy: 2, 76
+  size: 251, 143
+  orig: 251, 143
+  offset: 0, 0
+  index: -1
+
+boss_normal_body15.png
+size: 1022,1022
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_l1b
+  rotate: false
+  xy: 423, 580
+  size: 177, 154
+  orig: 177, 154
+  offset: 0, 0
+  index: -1
+arm_l1c
+  rotate: false
+  xy: 602, 580
+  size: 177, 154
+  orig: 177, 154
+  offset: 0, 0
+  index: -1
+arm_l1c_d
+  rotate: false
+  xy: 180, 6
+  size: 177, 154
+  orig: 177, 154
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_0030_1
+  rotate: true
+  xy: 711, 873
+  size: 147, 66
+  orig: 147, 66
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0008_24
+  rotate: false
+  xy: 2, 2
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0029_Frame-5
+  rotate: false
+  xy: 2, 795
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0030_Frame-3
+  rotate: false
+  xy: 287, 353
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_particle/eff_particle_0000s_0031_Frame-1
+  rotate: true
+  xy: 781, 598
+  size: 422, 225
+  orig: 422, 225
+  offset: 0, 0
+  index: -1
+eff_press/eff_press_0003
+  rotate: true
+  xy: 287, 580
+  size: 213, 134
+  orig: 213, 134
+  offset: 0, 0
+  index: -1
+eff_press/eff_press_0007
+  rotate: false
+  xy: 691, 61
+  size: 329, 179
+  orig: 329, 179
+  offset: 0, 0
+  index: -1
+eff_press_new2/eff_press_0009
+  rotate: true
+  xy: 426, 736
+  size: 284, 283
+  orig: 284, 283
+  offset: 0, 0
+  index: -1
+eff_press_new2/eff_press_0010
+  rotate: true
+  xy: 2, 509
+  size: 284, 283
+  orig: 284, 283
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0004_spark
+  rotate: false
+  xy: 278, 162
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+face0b
+  rotate: true
+  xy: 2, 171
+  size: 336, 274
+  orig: 336, 274
+  offset: 0, 0
+  index: -1
+face0c
+  rotate: true
+  xy: 711, 242
+  size: 336, 274
+  orig: 336, 274
+  offset: 0, 0
+  index: -1
+shoulder_t4
+  rotate: false
+  xy: 359, 14
+  size: 319, 146
+  orig: 319, 146
+  offset: 0, 0
+  index: -1
+
+boss_normal_body16.png
+size: 1019,1019
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff_die/eff_die_breakhead (1)
+  rotate: false
+  xy: 681, 100
+  size: 82, 153
+  orig: 82, 153
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0009_26
+  rotate: true
+  xy: 415, 20
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0001_31
+  rotate: false
+  xy: 765, 8
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0005_spark
+  rotate: false
+  xy: 2, 828
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0006_dust
+  rotate: false
+  xy: 415, 828
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0007_dust
+  rotate: true
+  xy: 828, 606
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0008_dust
+  rotate: true
+  xy: 2, 193
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0009_dust
+  rotate: false
+  xy: 2, 637
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0010_dust
+  rotate: false
+  xy: 2, 2
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0011_dust
+  rotate: true
+  xy: 193, 224
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0012_dust
+  rotate: false
+  xy: 384, 446
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0013_dust
+  rotate: false
+  xy: 415, 637
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0014_dust
+  rotate: true
+  xy: 797, 193
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0015_dust
+  rotate: false
+  xy: 384, 255
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+
+boss_normal_body17.png
+size: 1020,1011
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff_crash/eff_crash_body
+  rotate: false
+  xy: 828, 2
+  size: 190, 181
+  orig: 190, 181
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0016_dust
+  rotate: false
+  xy: 2, 820
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0017_trail
+  rotate: false
+  xy: 2, 629
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0018_trail
+  rotate: false
+  xy: 415, 820
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0019_trail
+  rotate: false
+  xy: 2, 438
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0020_trail
+  rotate: false
+  xy: 415, 629
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0021_trail
+  rotate: false
+  xy: 2, 247
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0022_stone
+  rotate: false
+  xy: 415, 438
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0023_stone
+  rotate: true
+  xy: 828, 598
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0024_stone
+  rotate: false
+  xy: 2, 56
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0025_stone
+  rotate: false
+  xy: 415, 247
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0026_stone
+  rotate: false
+  xy: 415, 56
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0027_stone
+  rotate: true
+  xy: 828, 185
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+
+boss_normal_body18.png
+size: 1004,1018
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff_die/eff_die_girl_0000s_0010_25
+  rotate: true
+  xy: 2, 592
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0011_24
+  rotate: true
+  xy: 268, 592
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0012_23
+  rotate: true
+  xy: 534, 592
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0013_22
+  rotate: false
+  xy: 2, 187
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0014_21
+  rotate: false
+  xy: 237, 194
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0015_20
+  rotate: true
+  xy: 472, 357
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0016_19
+  rotate: true
+  xy: 738, 218
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_smoke2
+  rotate: false
+  xy: 472, 218
+  size: 178, 137
+  orig: 178, 137
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0002_30
+  rotate: true
+  xy: 800, 453
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0003_29
+  rotate: false
+  xy: 2, 2
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0004_28
+  rotate: false
+  xy: 246, 9
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0005_27
+  rotate: false
+  xy: 490, 33
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0006_26
+  rotate: false
+  xy: 734, 33
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_press/eff_press_0004
+  rotate: false
+  xy: 2, 460
+  size: 208, 130
+  orig: 208, 130
+  offset: 0, 0
+  index: -1
+eff_press/eff_press_0005
+  rotate: false
+  xy: 212, 460
+  size: 201, 130
+  orig: 201, 130
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0028_stone
+  rotate: false
+  xy: 2, 827
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+eff_swing/eff_swing_0029_stone
+  rotate: false
+  xy: 415, 827
+  size: 411, 189
+  orig: 411, 189
+  offset: 0, 0
+  index: -1
+shoulder_t4_d
+  rotate: true
+  xy: 828, 697
+  size: 319, 146
+  orig: 319, 146
+  offset: 0, 0
+  index: -1
+
+boss_normal_body19.png
+size: 1013,1004
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff_die/eff_die_girl_0000s_0017_18
+  rotate: false
+  xy: 2, 738
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0018_17
+  rotate: true
+  xy: 2, 503
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0019_16
+  rotate: true
+  xy: 237, 769
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0020_15
+  rotate: false
+  xy: 268, 503
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0021_14
+  rotate: true
+  xy: 2, 268
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0022_13
+  rotate: true
+  xy: 268, 268
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0023_12
+  rotate: true
+  xy: 503, 769
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0024_11
+  rotate: true
+  xy: 503, 534
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0025_10
+  rotate: false
+  xy: 534, 268
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0026_9
+  rotate: false
+  xy: 769, 738
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0027_8
+  rotate: false
+  xy: 769, 472
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0028_7
+  rotate: false
+  xy: 769, 206
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0029_6
+  rotate: true
+  xy: 2, 33
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0030_5
+  rotate: true
+  xy: 268, 33
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0031_4
+  rotate: false
+  xy: 534, 2
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0007_25
+  rotate: false
+  xy: 769, 21
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0023_9
+  rotate: false
+  xy: 769, 21
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+
+boss_normal_body20.png
+size: 960,985
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_l0a
+  rotate: false
+  xy: 237, 485
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+arm_l0b
+  rotate: false
+  xy: 472, 751
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+arm_l0c
+  rotate: false
+  xy: 237, 251
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+arm_l0c_d
+  rotate: false
+  xy: 706, 751
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+eff_crash/eff_crash_body2
+  rotate: false
+  xy: 246, 25
+  size: 224, 224
+  orig: 224, 224
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0032_3
+  rotate: false
+  xy: 2, 719
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0033_2
+  rotate: false
+  xy: 2, 453
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0034_1
+  rotate: false
+  xy: 237, 719
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_die/eff_die_girl_0000s_0035_0
+  rotate: false
+  xy: 2, 187
+  size: 233, 264
+  orig: 233, 264
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0008_24
+  rotate: false
+  xy: 2, 2
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0009_23
+  rotate: false
+  xy: 472, 566
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0011_21
+  rotate: false
+  xy: 471, 381
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0012_20
+  rotate: false
+  xy: 716, 566
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0013_19
+  rotate: false
+  xy: 715, 381
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0014_18
+  rotate: false
+  xy: 472, 196
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0015_17
+  rotate: false
+  xy: 716, 196
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0016_16
+  rotate: false
+  xy: 472, 11
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0017_15
+  rotate: false
+  xy: 716, 11
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+
+boss_normal_body21.png
+size: 1007,1006
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff_crash/eff_crash_0000_16
+  rotate: false
+  xy: 860, 188
+  size: 145, 150
+  orig: 145, 150
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0009_23
+  rotate: true
+  xy: 431, 9
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0010_22
+  rotate: true
+  xy: 809, 340
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0018_14
+  rotate: false
+  xy: 2, 821
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0019_13
+  rotate: false
+  xy: 191, 626
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0020_12
+  rotate: false
+  xy: 380, 431
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0021_11
+  rotate: true
+  xy: 624, 762
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0022_10
+  rotate: true
+  xy: 624, 518
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0024_8
+  rotate: true
+  xy: 624, 274
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0025_7
+  rotate: false
+  xy: 2, 246
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0026_6
+  rotate: true
+  xy: 246, 187
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0027_5
+  rotate: true
+  xy: 2, 2
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0028_4
+  rotate: true
+  xy: 431, 187
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0029_3
+  rotate: false
+  xy: 616, 89
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0030_2
+  rotate: false
+  xy: 187, 2
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0031_1
+  rotate: true
+  xy: 809, 762
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_more_0000s_0032_0
+  rotate: true
+  xy: 809, 518
+  size: 242, 183
+  orig: 242, 183
+  offset: 0, 0
+  index: -1
+girl/girl_0004_5
+  rotate: true
+  xy: 246, 811
+  size: 193, 187
+  orig: 193, 187
+  offset: 0, 0
+  index: -1
+girl/girl_0005_4
+  rotate: true
+  xy: 2, 626
+  size: 193, 187
+  orig: 193, 187
+  offset: 0, 0
+  index: -1
+girl/girl_0006_3
+  rotate: true
+  xy: 435, 811
+  size: 193, 187
+  orig: 193, 187
+  offset: 0, 0
+  index: -1
+girl/girl_0007_2
+  rotate: true
+  xy: 435, 616
+  size: 193, 187
+  orig: 193, 187
+  offset: 0, 0
+  index: -1
+girl/girl_0008_1
+  rotate: true
+  xy: 2, 431
+  size: 193, 187
+  orig: 193, 187
+  offset: 0, 0
+  index: -1
+girl/girl_0009_0
+  rotate: true
+  xy: 191, 431
+  size: 193, 187
+  orig: 193, 187
+  offset: 0, 0
+  index: -1
+
+boss_normal_body22.png
+size: 892,847
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff_gross_pink/eff_gross_pink_0011_21
+  rotate: false
+  xy: 2, 678
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0012_20
+  rotate: false
+  xy: 2, 509
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0013_19
+  rotate: false
+  xy: 180, 678
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0014_18
+  rotate: false
+  xy: 2, 340
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0015_17
+  rotate: false
+  xy: 180, 509
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0016_16
+  rotate: false
+  xy: 358, 678
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0017_15
+  rotate: false
+  xy: 2, 171
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0018_14
+  rotate: false
+  xy: 180, 340
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0019_13
+  rotate: false
+  xy: 358, 509
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0020_12
+  rotate: false
+  xy: 536, 678
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0021_11
+  rotate: false
+  xy: 714, 678
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0022_10
+  rotate: false
+  xy: 2, 2
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0023_9
+  rotate: false
+  xy: 180, 171
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0024_8
+  rotate: false
+  xy: 358, 340
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0025_7
+  rotate: false
+  xy: 536, 509
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0026_6
+  rotate: false
+  xy: 714, 509
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0027_5
+  rotate: false
+  xy: 180, 2
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0028_4
+  rotate: false
+  xy: 358, 171
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0029_3
+  rotate: false
+  xy: 536, 340
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0030_2
+  rotate: false
+  xy: 714, 340
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0031_1
+  rotate: false
+  xy: 358, 2
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+eff_gross_pink/eff_gross_pink_0032_0
+  rotate: false
+  xy: 536, 171
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+"/><sound name="9402273"/></imgdir>

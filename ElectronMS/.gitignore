@@ -1,0 +1,15 @@
+.idea/*
+out*
+nbdist/*
+build/*
+Action/*
+Log/*
+ClientErrorPacket.txt
+property/Logs*
+property/Logs/*
+build/*
+Action/*
+Log/*
+property/ServerSettings.properties
+out/*
+AzureSrc.iml

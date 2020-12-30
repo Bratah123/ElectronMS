@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><imgdir name="9400086.img"><imgdir name="info"><int name="level" value="190"/><string name="mobType" value="1N"/><int name="summonType" value="1"/><int name="category" value="8"/><int name="ignoreMoveImpact" value="1"/><int name="mpRecovery" value="10000"/><int name="maxHP" value="2000000000"/><int name="maxMP" value="100000"/><int name="PADamage" value="1"/><int name="MADamage" value="1"/><int name="noFlip" value="1"/><int name="pushed" value="1000000000"/><float name="fs" value="10.0"/><int name="removeAfter" value="22"/><int name="skeleton" value="1"/><int name="boss" value="1"/><int name="invincible" value="1"/></imgdir><imgdir name="stand"><string name="aniName" value="20_wind"/></imgdir><imgdir name="die1"><string name="aniName" value="00_idle"/></imgdir><imgdir name="HitParts"><imgdir name="bbox_wind"><imgdir name="0"><imgdir name="stat"><string name="info" value="부위의 속성값"/><int name="durability" value="100"/><int name="hardness" value="40"/></imgdir><imgdir name="hitEvent"><string name="info" value="해당 부위 타격시 처리해야할 내용들"/><string name="replaceHitEffect" value="Mob/9400080.img/HitEffect/0"/><string name="replaceHitSound" value="Sound/SoundEff.img/urus/midHit"/></imgdir></imgdir></imgdir></imgdir><string name="9400086.atlas" value="
+eff_wind.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/eff_wind_attack_0
+  rotate: false
+  xy: 2, 337
+  size: 514, 659
+  orig: 514, 659
+  offset: 0, 0
+  index: -1
+effect/eff_wind_over_0
+  rotate: true
+  xy: 2, 118
+  size: 217, 365
+  orig: 217, 365
+  offset: 0, 0
+  index: -1
+effect/eff_wind_over_1
+  rotate: false
+  xy: 518, 631
+  size: 217, 365
+  orig: 217, 365
+  offset: 0, 0
+  index: -1
+effect/eff_wind_over_2
+  rotate: false
+  xy: 737, 631
+  size: 217, 365
+  orig: 217, 365
+  offset: 0, 0
+  index: -1
+effect/eff_wind_over_3
+  rotate: true
+  xy: 518, 412
+  size: 217, 365
+  orig: 217, 365
+  offset: 0, 0
+  index: -1
+effect/eff_wind_tail_0
+  rotate: false
+  xy: 479, 2
+  size: 279, 59
+  orig: 279, 59
+  offset: 0, 0
+  index: -1
+effect/eff_wind_tail_1
+  rotate: true
+  xy: 956, 668
+  size: 328, 57
+  orig: 328, 57
+  offset: 0, 0
+  index: -1
+effect/eff_wind_tail_2
+  rotate: false
+  xy: 479, 244
+  size: 360, 89
+  orig: 360, 89
+  offset: 0, 0
+  index: -1
+effect/eff_wind_tail_3
+  rotate: false
+  xy: 518, 335
+  size: 412, 75
+  orig: 412, 75
+  offset: 0, 0
+  index: -1
+effect/eff_wind_tail_4
+  rotate: false
+  xy: 2, 25
+  size: 475, 91
+  orig: 475, 91
+  offset: 0, 0
+  index: -1
+effect/eff_wind_tail_5
+  rotate: true
+  xy: 479, 63
+  size: 179, 231
+  orig: 179, 231
+  offset: 0, 0
+  index: -1
+
+eff_wind2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/eff_wind_attack_1
+  rotate: false
+  xy: 2, 2
+  size: 514, 659
+  orig: 514, 659
+  offset: 0, 0
+  index: -1
+
+eff_wind3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/eff_wind_attack_2
+  rotate: false
+  xy: 2, 2
+  size: 514, 659
+  orig: 514, 659
+  offset: 0, 0
+  index: -1
+
+eff_wind4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/eff_wind_attack_3
+  rotate: false
+  xy: 2, 2
+  size: 514, 659
+  orig: 514, 659
+  offset: 0, 0
+  index: -1
+"/><sound name="9400086"/><canvas name="eff_wind.png" width="1024" height="1024"><vector name="origin" x="512" y="512"/><int name="z" value="0"/><string name="_hash" value="4bc9e8c77fff37a109b23e4411d72a9c4c66ed574d2adcc77b5d54c215125274"/></canvas><canvas name="eff_wind2.png" width="1024" height="1024"><vector name="origin" x="512" y="512"/><int name="z" value="0"/><string name="_hash" value="2ba9f0071f15229a6477d191d7e4cb84f33c9bfc7f89f1c37bb361a1b876abfb"/></canvas><canvas name="eff_wind3.png" width="1024" height="1024"><vector name="origin" x="512" y="512"/><int name="z" value="0"/><string name="_hash" value="c9d433a0f7b2ad4229849e012263ae9015eeab0831a3f3bf49ab7353148089ca"/></canvas><canvas name="eff_wind4.png" width="1024" height="1024"><vector name="origin" x="512" y="512"/><int name="z" value="0"/><string name="_hash" value="3fc74b81de04a96688b098a2c0e776f2ab876fadbe898f20301f78b458f74290"/></canvas></imgdir>
