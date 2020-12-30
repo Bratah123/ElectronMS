@@ -437,7 +437,7 @@ public class MapleMonster extends AbstractLoadedMapleLife {
             // @Author Brandon
             exp = ((((attacker.getLevel()) - (attacker.getLevel() % 10)) / 10) * 3) + 3;
         }
-        
+
          if (exp > 0) { // Exp Rate?
             // Experience level || exp rate || exp
 

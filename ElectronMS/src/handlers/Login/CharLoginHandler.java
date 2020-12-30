@@ -20,6 +20,7 @@ import client.ItemInventory.Inventory.MapleInventory;
 import client.ItemInventory.Inventory.MapleInventoryType;
 import client.ItemInventory.ItemPotential.MapleItempotMain;
 import client.Skills.SkillFactory;
+import com.sun.security.ntlm.Server;
 import constants.GameConstants;
 import constants.ServerConstants;
 import connections.Database.MYSQL;
@@ -64,8 +65,10 @@ public class CharLoginHandler {
                 case 0:
                     //생성 가능한 아이디일때
                     if (canjoin == 1) {
-                        //AutoRegister.registerAccount(c, login, pwd);
-                        c.send(MainPacketCreator.serverNotice(1, ServerConstants.serverName + " Successful account creation !\r\nPlease log in again."));
+                        if(ServerConstants.AUTO_REGISTER) {
+                            AutoRegister.registerAccount(c, login, pwd);
+                            c.send(MainPacketCreator.serverNotice(1, ServerConstants.SERVER_NAME + " Successful account creation !\r\nPlease log in again."));
+                        }
                         c.send(LoginPacket.getLoginFailed(20));
                         return;
                     } else {

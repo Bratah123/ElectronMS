@@ -148,6 +148,7 @@ public class ServerConstants {
     public static final char ADMIN_COMMAND_PREFIX = '!';
 
     public static final String SERVER_NAME = "ElectronMS";
+    public static final boolean AUTO_REGISTER = true;
     
     static {
         try {

@@ -61,4 +61,20 @@ public class AutoRegister {
        }
        return 5;
    }
+
+    public static void registerAccount(MapleClient c, String login, String pwd) {
+       Connection connect = null;
+       PreparedStatement ps = null;
+       try {
+           connect = MYSQL.getConnection();
+           ps = connect.prepareStatement("INSERT INTO accounts (name, password) VALUES (?, ?)");
+           ps.setString(1, login);
+           ps.setString(2, pwd);
+           ps.execute();
+           connect.close();
+
+       } catch (Exception e) {
+           e.printStackTrace();
+       }
+    }
 }
