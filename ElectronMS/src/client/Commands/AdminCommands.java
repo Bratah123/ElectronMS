@@ -82,7 +82,7 @@ import tools.Timer.MapTimer;
 
 public class AdminCommands {
 
-		@Command(names = {"fsay"}, parameters = "<name> <message>", requiredType = AccountType.ADMIN)
+    @Command(names = {"fsay"}, parameters = "<name> <message>", requiredType = AccountType.ADMIN)
 	public static class ForceSay extends AdminCommand {
 		@Override
 		public int execute(MapleCharacter c, String[] splitted) {

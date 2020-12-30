@@ -1,5 +1,3 @@
-package launcher;
-
 /**
  *
  * @author SoulGirlJP

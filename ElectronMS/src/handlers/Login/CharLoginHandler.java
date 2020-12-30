@@ -24,7 +24,7 @@ import constants.GameConstants;
 import constants.ServerConstants;
 import connections.Database.MYSQL;
 import launcher.ServerPortInitialize.LoginServer;
-import launcher.Start;
+import Start;
 import launcher.LauncherHandlers.MapleLoginHelper;
 import launcher.LauncherHandlers.MapleLoginWorker;
 import launcher.LauncherHandlers.MapleNewCharJobType.JobType;
