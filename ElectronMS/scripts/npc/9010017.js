@@ -39,11 +39,11 @@ function action(mode, type, selection) {
 	{
 		if(cm.getChar().isGM())
 		{
-		cm.sendGetText("This is the inventory checker. Please enter the player you'd like to search.");
+		    cm.sendGetText("This is the inventory checker. Please enter the player you'd like to search.");
 		}
 		else
 		{
-		cm.sendOk("Listen here you fucker.");
+		    cm.sendOk("Listen here you fucker.");
 		}
     }
 	else if(status == 1)
@@ -119,8 +119,8 @@ function action(mode, type, selection) {
 		deleteDiag += "Flame Stat: " + equip.getFireStatToString() + "\r\n";
 		cm.sendYesNo(deleteDiag);
 		}
-		else{
-		cm.sendYesNo(deleteDiag);
+		else {
+		    cm.sendYesNo(deleteDiag);
 		}
 	}
 	else if(status == 4)
