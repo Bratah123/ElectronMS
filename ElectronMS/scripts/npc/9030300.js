@@ -38,8 +38,8 @@ var combination;
 var isBpot = false;
 
 /* Prices of Auto Cube Per Cube */
-var autoCubePriceRed = 450000;
-var autoCubePriceBonus = 900000;
+var autoCubePriceRed = 10000000;
+var autoCubePriceBonus = 15000000;
 
 var equipment; //cm.getChar().getInventory(MapleInventoryType.EQUIP).getItem(bagIndex);	
 
