@@ -67,10 +67,11 @@ public class AutoRegister {
        PreparedStatement ps = null;
        try {
            connect = MYSQL.getConnection();
-           ps = connect.prepareStatement("INSERT INTO accounts (name, password) VALUES (?, ?)");
+           ps = connect.prepareStatement("INSERT INTO accounts (name, password, ip) VALUES (?, ?, ?)");
            ps.setString(1, login);
            ps.setString(2, pwd);
-           ps.execute();
+           ps.setString(3, c.getSessionIPAddress());
+           ps.executeUpdate();
            connect.close();
 
        } catch (Exception e) {
