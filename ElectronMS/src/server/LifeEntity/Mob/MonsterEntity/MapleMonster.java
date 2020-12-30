@@ -433,70 +433,11 @@ public class MapleMonster extends AbstractLoadedMapleLife {
             highestDamageChar = attacker;
         }
         // Elite Monster Exp
-        /*if(isEliteMonster())
-        {
+        if(isEliteMonster()) {
+            // @Author Brandon
             exp = ((((attacker.getLevel()) - (attacker.getLevel() % 10)) / 10) * 3) + 3;
-        }*/
-        if (isEliteMonster() && attacker.getLevel() < 10) // SOUL LOL WTF IS THIS -Brandon
-            exp *= 3;
-        else if (isEliteMonster() && attacker.getLevel() < 20)
-            exp *= 6;
-        else if (isEliteMonster() && attacker.getLevel() < 30)
-            exp *= 9;
-        else  if (isEliteMonster() && attacker.getLevel() < 40)
-            exp *= 12;
-        else if (isEliteMonster() && attacker.getLevel() < 50)
-            exp *= 15;
-        else if (isEliteMonster() && attacker.getLevel() < 60)
-            exp *= 18;
-        else  if (isEliteMonster() && attacker.getLevel() < 70)
-            exp *= 21;
-        else if (isEliteMonster() && attacker.getLevel() < 80)
-            exp *= 24;
-        else if (isEliteMonster() && attacker.getLevel() < 90)
-            exp *= 27;
-        else if (isEliteMonster() && attacker.getLevel() < 100)
-            exp *= 30;
-        else  if (isEliteMonster() && attacker.getLevel() < 110)
-            exp *= 33;
-        else if (isEliteMonster() && attacker.getLevel() < 120)
-            exp *= 36;
-        else if (isEliteMonster() && attacker.getLevel() < 130)
-            exp *= 39;
-        else if (isEliteMonster() && attacker.getLevel() < 140)
-            exp *= 42;
-        else if (isEliteMonster() && attacker.getLevel() < 150)
-            exp *= 45;
-        else if (isEliteMonster() && attacker.getLevel() < 160)
-            exp *= 48;
-        else if (isEliteMonster() && attacker.getLevel() < 170)
-            exp *= 51;
-        else if (isEliteMonster() && attacker.getLevel() < 180)
-            exp *= 54;
-        else  if (isEliteMonster() && attacker.getLevel() < 190)
-            exp *= 57;
-        else  if (isEliteMonster() && attacker.getLevel() < 200)
-            exp *= 60;
-        else if (isEliteMonster() && attacker.getLevel() < 210)
-            exp *= 63;
-        else  if (isEliteMonster() && attacker.getLevel() < 220)
-            exp *= 66;
-        else if (isEliteMonster() && attacker.getLevel() < 230)
-            exp *= 69;
-        else if (isEliteMonster() && attacker.getLevel() < 240)
-            exp *= 72;
-        else if (isEliteMonster() && attacker.getLevel() < 250)
-            exp *= 75;
-        else if (isEliteMonster() && attacker.getLevel() < 260)
-            exp *= 78;
-        else if (isEliteMonster() && attacker.getLevel() < 270)
-            exp *= 81;
-        else
-            if (isEliteMonster() && attacker.getLevel() < 275)
-                exp *= 84;
-
-
-
+        }
+        
          if (exp > 0) { // Exp Rate?
             // Experience level || exp rate || exp
 
