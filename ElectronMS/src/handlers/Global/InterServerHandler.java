@@ -658,6 +658,8 @@ public class InterServerHandler {
             c.getSession().close();
             return;
         }
+        c.getSession().close();
+        c.disconnect(true, false);
         c.getSession().writeAndFlush(MainPacketCreator.serverNotice(4, ""));
         c.getSession().writeAndFlush(LoginPacket.getKeyGuardResponse((account) + "," + (c.getPassword(account))));
     }

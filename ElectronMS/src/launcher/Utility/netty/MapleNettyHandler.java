@@ -52,6 +52,7 @@ public class MapleNettyHandler extends SimpleChannelInboundHandler<ReadingMaple>
 
         if (client != null) {
             System.out.println(client.getIp() + " disconnected.");
+            client.getSession().close();
             client.disconnect(true, false);
         }
         ctx.channel().attr(MapleClient.CLIENTKEY).set(null);
