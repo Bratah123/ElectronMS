@@ -7,6 +7,7 @@ import java.sql.ResultSet;
 import client.MapleClient;
 import constants.ServerConstants;
 import connections.Database.MYSQL;
+import org.mindrot.jbcrypt.BCrypt;
 
 public class AutoRegister {
 
@@ -65,11 +66,14 @@ public class AutoRegister {
     public static void registerAccount(MapleClient c, String login, String pwd) {
        Connection connect = null;
        PreparedStatement ps = null;
+
+       String hashedPassword = BCrypt.hashpw(pwd, BCrypt.gensalt(ServerConstants.BCRYPT_ITERATIONS));
+
        try {
            connect = MYSQL.getConnection();
            ps = connect.prepareStatement("INSERT INTO accounts (name, password, ip) VALUES (?, ?, ?)");
            ps.setString(1, login);
-           ps.setString(2, pwd);
+           ps.setString(2, hashedPassword);
            ps.setString(3, c.getSessionIPAddress());
            ps.executeUpdate();
            connect.close();

@@ -175,10 +175,14 @@ public class Start {
             System.out.println("[Notice] " + ServerConstants.AutoHotTimeSystemHour + " Hour " + ServerConstants.AutoHotTimeSystemMinute + "Automatically pay hot time items in minutes.");
         }
         long END = System.currentTimeMillis();
+
         if(ServerConstants.isDev)
-        System.out.println("[Notice] Server is opened in dev mode");
+            System.out.println("[Notice] Server is opened in dev mode");
+
         System.out.println("System time to launch -> " + END);
-        AdminToolStart.main(args);
+        if (ServerConstants.ENABLE_ADMIN_TOOL) {
+            AdminToolStart.main(args);
+        }
         MemoryUsageDisplay.main(args);
     }
 

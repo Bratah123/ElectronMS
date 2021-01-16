@@ -149,6 +149,8 @@ public class ServerConstants {
 
     public static final String SERVER_NAME = "ElectronMS";
     public static final boolean AUTO_REGISTER = true;
+    public static final int BCRYPT_ITERATIONS = 10;
+    public static final boolean ENABLE_ADMIN_TOOL = false;
     
     static {
         try {

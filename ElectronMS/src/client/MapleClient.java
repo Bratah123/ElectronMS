@@ -44,6 +44,7 @@ import launcher.AdminGUI.AdminToolStart;
 import launcher.ServerPortInitialize.CashShopServer;
 import launcher.ServerPortInitialize.ChannelServer;
 import launcher.LauncherHandlers.MapleItemHolder;
+import launcher.Utility.Util;
 import launcher.Utility.WorldBroadcasting;
 import launcher.Utility.WorldCommunity;
 import connections.Packets.LoginPacket;
@@ -51,6 +52,7 @@ import connections.Packets.MainPacketCreator;
 import connections.Crypto.MapleCrypto;
 import connections.Packets.PacketUtility.ReadingMaple;
 import launcher.AdminGUI.AdminTool;
+import org.mindrot.jbcrypt.BCrypt;
 import server.LifeEntity.Npc.NpcScript.NPCScriptManager;
 import server.Shops.IMapleCharacterShop;
 import tools.FileoutputUtil;
@@ -714,6 +716,17 @@ public class MapleClient {
 				usingSecondPassword = rs.getByte("using2ndpassword") == 1;
 				ps.close();
 
+                boolean hashed = Util.isStringBCrypt(password);
+
+                if(!hashed) {
+                    // If the password is not hashed, we hash it right here
+                    PreparedStatement preparedStatement = con.prepareStatement("UPDATE accounts SET password = ? WHERE name = ?");
+                    preparedStatement.setString(1, BCrypt.hashpw(password, BCrypt.gensalt(ServerConstants.BCRYPT_ITERATIONS)));
+                    preparedStatement.setString(2, login);
+                    preparedStatement.executeUpdate();
+                    preparedStatement.close();
+                }
+
 				if (banned > 0) {
 					loginok = 3;
 				} else {
@@ -726,7 +739,7 @@ public class MapleClient {
 						loggedIn = false;
 						loginok = 7;
 
-					} else if (pwd.equals(password)) {
+					} else if (hashed && BCrypt.checkpw(pwd, password) || !hashed && pwd.equals(password)) {
 						if (ServerConstants.isDev) { // Change if in dev
 							if (gm) {
 								loggedIn = true;
