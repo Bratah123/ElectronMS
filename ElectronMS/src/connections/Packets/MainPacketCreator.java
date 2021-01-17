@@ -87,7 +87,7 @@ import tools.RandomStream.Randomizer;
 
 public class MainPacketCreator {
 
-    public final static byte[] Host = new byte[]{(byte) 175, (byte) 207, (byte) 0, (byte) 33}; //본 메이플 서버 IPA.
+    public final static byte[] Host = new byte[]{(byte) 175, (byte) 207, (byte) 0, (byte) 33}; //본 메이플 서버 IPA. (Copy Maple server IPA - I assume it's copying the IP address)
     public final static List<Pair<PlayerStatList, Integer>> EMPTY_STATUPDATE = Collections.emptyList();
 
     public static byte[] getServerIP(final MapleClient c, final int port, final int buddyport, final int clientId) {
@@ -262,7 +262,7 @@ public class MainPacketCreator {
                 } else if (value >= PlayerStatList.HP.getValue() && value <= PlayerStatList.MAXMP.getValue()) {
                     packet.writeInt(statupdate.getRight().intValue());
                 } else if (value == PlayerStatList.AVAILABLESP.getValue()) { // availablesp
-                    if (!GameConstants.isPinkBean(evan)) { // 핑크빈 제외 모든직업 Extended SP.
+                    if (!GameConstants.isPinkBean(evan)) { // 핑크빈 제외 모든직업 Extended SP. (All jobs except Pink Bean have Extended SP)
                         packet.write(0);
                     } else {
                         packet.writeShort(statupdate.getRight().shortValue());
@@ -297,9 +297,9 @@ public class MainPacketCreator {
     public static byte[] updateHyperSp(String value, int array, int mode, int gainCount) {
         WritingPacket packet = new WritingPacket();
         packet.writeShort(SendPacketOpcode.HYPER.getValue());
-        packet.writeMapleAsciiString(value); // 이것도 어떤 값이 있는거같음.
-        packet.writeInt(array); // 값이 16진수로 1씩 늘어남.
-        packet.writeInt(mode); // 0: 처음, 1: 두번째, 2: 세번째
+        packet.writeMapleAsciiString(value); // 이것도 어떤 값이 있는거같음. (It seems to have some value.)
+        packet.writeInt(array); // 값이 16진수로 1씩 늘어남. (Value is increased by 1 in hex)
+        packet.writeInt(mode); // 0: 처음, 1: 두번째, 2: 세번째 (0: first, 1: second, 2: third)
         packet.write(gainCount);
         packet.writeInt(0);
 
@@ -322,7 +322,7 @@ public class MainPacketCreator {
         packet.writeShort(SendPacketOpcode.HEAD_TITLE_NEW.getValue());
         for (Integer num_ : num) {
             packet.writeMapleAsciiString("");
-            packet.write(num_ == 0 ? -1 : num_); // 존재하면 num_
+            packet.write(num_ == 0 ? -1 : num_); // 존재하면 num_ (if num_ is present)
         }
         return packet.getPacket();
     }
@@ -341,7 +341,7 @@ public class MainPacketCreator {
         packet.write(itemReaction ? 1 : 0);
         packet.write(0);
         packet.writeInt(PlayerStatList.AVAILABLESP.getValue());
-        if (!GameConstants.isPinkBean(chr.getJob())) { // 핑크빈 제외 모든직업 Extended SP.
+        if (!GameConstants.isPinkBean(chr.getJob())) { // 핑크빈 제외 모든직업 Extended SP. (All jobs except Pink Bean have Extended SP)
             packet.write(chr.getRemainingSpSize());
             for (int i = 0; i < chr.getRemainingSps().length; i++) {
                 if (chr.getRemainingSp(i) > 0) {
@@ -370,8 +370,8 @@ public class MainPacketCreator {
         packet.write(0);
         packet.writeInt(PlayerStatList.SAINT_SABER.getValue());
         packet.writeInt(chr.getStat().getSaintSaver());
-        packet.write(0xFF); // 1.2.220+ 스타포스 관련 패킷 추정.
-        packet.writeInt(0); // 1.2.220+ 스타포스 관련 패킷 추정.
+        packet.write(0xFF); // 1.2.220+ 스타포스 관련 패킷 추정. (1.2.220+ Star Force related packet estimation.)
+        packet.writeInt(0); // 1.2.220+ 스타포스 관련 패킷 추정. (1.2.220+ Star Force related packet estimation.)
 
         return packet.getPacket();
     }
@@ -382,7 +382,7 @@ public class MainPacketCreator {
         packet.write(0);
         packet.write(0);
         packet.writeInt(PlayerStatList.TRAIT_LIMIT.getValue());
-        packet.writeShort(chr.getTodayCharisma()); // 오늘의 카리스마
+        packet.writeShort(chr.getTodayCharisma()); // 오늘의 카리스마 (literally translating these 6 method names to Korean)
         packet.writeShort(chr.getTodayInsight()); // 오늘의 통찰력
         packet.writeShort(chr.getTodayWillPower()); // 오늘의 의지
         packet.writeShort(chr.getTodayDiligence()); // 오늘의 손재주
@@ -390,8 +390,8 @@ public class MainPacketCreator {
         packet.writeShort(chr.getTodayCharm()); // 오늘의 매력
         packet.writeShort(0);
         packet.writeLong(PacketProvider.getTime(-2));
-        packet.write(0xFF); // 1.2.220+ 스타포스 관련 패킷 추정.
-        packet.writeInt(0); // 1.2.220+ 스타포스 관련 패킷 추정.
+        packet.write(0xFF); // 1.2.220+ 스타포스 관련 패킷 추정. (1.2.220+ Star Force related packet estimation.)
+        packet.writeInt(0); // 1.2.220+ 스타포스 관련 패킷 추정. (1.2.220+ Star Force related packet estimation.)
 
         return packet.getPacket();
     }
@@ -505,7 +505,7 @@ public class MainPacketCreator {
         packet.writeInt(0);
         MapleCharacter player = summon.getOwnerChr();
         boolean AvatarLook = (summon.getSkill() == 4341006 || summon.getSkill() == 14111024 || summon.getSkill() == 14121054 || summon.getSkill() == 14121055 || summon.getSkill() == 14121056 || summon.getSkill() == 400011005 || summon.getSkill() == 400041028 || summon.getSkill() == 400031007 || summon.getSkill() == 400031008 || summon.getSkill() == 400031009);
-        packet.write(AvatarLook ? 1 : 0); // 미러 이미징, 쉐도우 서번트
+        packet.write(AvatarLook ? 1 : 0); // 미러 이미징, 쉐도우 서번트 (Mirror Image (DB 3rd Job), Greater Shadow Servant (NW V Skill))
         if (AvatarLook) {
             PacketProvider.addPlayerLooks(packet, player, true, player.getGender() == 1);
         }
@@ -679,31 +679,31 @@ public class MainPacketCreator {
         packet.writeInt(summon.getObjectId());
         if (animated) {
             switch (summon.getSkill()) {
-                case 35121003:
-                case 14000027:
-                case 14111024: // 쉐도우 서번트
-                case 14121054: // 쉐도우 일루전
+                case 35121003: // Giant Robot SG-88 (Mech)
+                case 14000027: // Shadow Bat (NW)
+                case 14111024: // 쉐도우 서번트 (Greater Shadow Servant - NW V Skill)
+                case 14121054: // 쉐도우 일루전 (Shadow Illusion - NW Hyper Skill)
                     packet.write(10);
                     break;
-                case 35111001:
-                case 35111010:
-                case 35111009:
-                case 35111002:
-                case 35111005:
-                case 35111011:
-                case 35121009:
-                case 35121010:
-                case 35121011:
-                case 33101008:
+                case 35111001: // Satellite (Mech)
+                case 35111010: // Satellite (Mech)
+                case 35111009: // Satellite (Mech)
+                case 35111002: // Rock 'n Shock (Mech)
+                case 35111005: // Acceleration Bot EX-7 (Mech)
+                case 35111011: // Healing Robot H-LX (Mech)
+                case 35121009: // Bots 'n Tots (Mech)
+                case 35121010: // Amplifier Robot AF-11 (Mech)
+                case 35121011: // Bots 'n Tots (Mech)
+                case 33101008: // It's Raining Mines (WH)
                     packet.write(5);
                     break;
-                case 101100100:
-                case 101100101:
-                case 14121003: // 다크니스 오멘
-                case 36121002: // 홀로그램 그래피티 : 관통
-                case 36121013: // 홀로그램 그래피티 : 역장
-                case 36121014: // 홀로그램 그래피티 : 지원
-                case 5321052: // 롤링 캐논 레인보우
+                case 101100100: // Throwing Weapon (Zero)
+                case 101100101: // Advanced Throwing Weapon (Zero)
+                case 14121003: // 다크니스 오멘 (Dark Omen - NW 4th Job)
+                case 36121002: // 홀로그램 그래피티 : 관통 (Hypogram Field: Penetrate - Xenon 4th Job)
+                case 36121013: // 홀로그램 그래피티 : 역장 (Hypogram Field: Force Field - Xenon 4th Job)
+                case 36121014: // 홀로그램 그래피티 : 지원 (Hypogram Field: Support - Xenon 4th Job)
+                case 5321052: // 롤링 캐논 레인보우 (Rolling Rainbow - Cannoneer Hyper Skill)
                     packet.write(0);
                     break;
                 default:
@@ -711,7 +711,7 @@ public class MainPacketCreator {
                     break;
             }
         } else if (summon.getSkill() == 14000027 || summon.getSkill() == 14100027 || summon.getSkill() == 14110029
-                || summon.getSkill() == 14120008) {
+                || summon.getSkill() == 14120008) { // Shadow Bat & Bat Affinity I/II/III (NW)
             packet.write(16);
         } else {
             packet.write(1);
@@ -932,8 +932,8 @@ public class MainPacketCreator {
 
                 PacketProvider.encodePackedCharacterLook(packet, c);
             } else {
-                packet.write(0); // 타입
-                // 데이터 (전광판같은거)
+                packet.write(0); // 타입 (type)
+                // 데이터 (전광판같은거) (data. no idea what that bracket part is)
             }
         }
         return packet.getPacket();
@@ -1021,7 +1021,7 @@ public class MainPacketCreator {
         packet.writeInt(cWeapon != null ? cWeapon : 0);
         packet.writeInt(weapon != null ? weapon : 0);
         packet.writeInt(sWeapon != null ? sWeapon : 0);
-        packet.write(0); // 엘프귀
+        packet.write(0); // 엘프귀 (Elf ears)
         for (int i = 0; i < 3; i++) {
             packet.writeInt(0);
         }
@@ -1095,6 +1095,7 @@ public class MainPacketCreator {
         packet.write(limited ? 0x14 : 0x13); // 1.2.250+ (+2)
         /*
 		 * 0 : 카리스마 1 : 통찰력 2 : 의지 3 : 손재주 4 : 감성 5 : 매력
+		 * 0 : Ambition 1 : Insight 2 : Willpower 3 : Diligence 4 : Empathy 5 : Charm
          */
         switch (type) {
             case 0:
@@ -1435,16 +1436,16 @@ public class MainPacketCreator {
         if ((drop.getItemId() / 1000000 == 1) && (drop.getMeso() == 0) && (drop.getEquip() != null)) {
             Equip item = (Equip) drop.getItem();
             switch (item.getState()) {
-                case 17: // 레어
+                case 17: // 레어 (Rare)
                     packet.write(1);
                     break;
-                case 18: // 에픽
+                case 18: // 에픽 (Epic)
                     packet.write(2);
                     break;
-                case 19: // 유니크
+                case 19: // 유니크 (Unique)
                     packet.write(3);
                     break;
-                case 20: // 레전드리
+                case 20: // 레전드리 (Legendary)
                     packet.write(4);
                     break;
                 default:
@@ -1494,7 +1495,7 @@ public class MainPacketCreator {
                 packet.write(i.left.byteValue());
             }
         }
-        /* 버프마스크 종료 */
+        /* 버프마스크 종료 (Buff mask end) */
         packet.write(0);
         packet.write(0);
         packet.write(0);
@@ -1589,10 +1590,10 @@ public class MainPacketCreator {
         if (chr.getSkillLevel(1320016) > 0 && chr.getJob() == 132 && !chr.skillisCooling(1320019)) {
             flag |= 1;
         }
-        // flag |= 1; 에반이면서 용 있을때
+        // flag |= 1; 에반이면서 용 있을때 (Evan and Mir)
         // flag |= 2;
-        // flag |= 8; // PVP 분노효과 시간 int로 보내줘야됨
-        // flag |= 0x10; 8과 else로 처리됨. PVP 챔피언 효과. int로 보내줘야됨
+        // flag |= 8; // PVP 분노효과 시간 int로 보내줘야됨 (PVP rage effect time must be sent as Int)
+        // flag |= 0x10; 8과 else로 처리됨. PVP 챔피언 효과. int로 보내줘야됨 (Treated as 8 and else. PVP champion effect should be sent as int)
         // flag | 0x20 HitPeriodRemain_Revive int로 보내줌.
         packet.write(flag); // Flag
 
@@ -1613,9 +1614,9 @@ public class MainPacketCreator {
         packet.writeInt(0); // if 1 > CustomizeEffect
         packet.write(chr.soulEffect); // soulEffect
 
-        // 라이딩일시
-        // 아이템 코드가 1932249 일시
-        // int로 갯수 보내줌. 갯수만큼 int로 커스텀 라이딩 보내줌.
+        // 라이딩일시 (Mount date & time)
+        // 아이템 코드가 1932249 일시 (Item ID is 1932249)
+        // int로 갯수 보내줌. 갯수만큼 int로 커스텀 라이딩 보내줌. (First Part: Send the number as int. NOTE: no idea what the second part means.)
         packet.write(0);
         if (false) {
             packet.write(0);
@@ -1629,11 +1630,12 @@ public class MainPacketCreator {
 
         packet.write(0);
         if (false) {
-            // 스타플래닛 정보
+            // 스타플래닛 정보 (Star Planet info)
             packet.writeInt(0); // round id
-            packet.write(0); // 랭킹?
+            packet.write(0); // 랭킹? (ranking?)
             /*
-			 * 위에 보낸값이 10보다 크다면 10만큼만 아니면 그 갯수대로
+			 * 위에 보낸값이 10보다 크다면 10만큼만 아니면 그 갯수대로 ()
+			 * No idea what ^that is supposed to mean, but `int i = 0; i < 0;` below looks really weird D;
              */
             for (int i = 0; i < 0; i++) {
                 packet.writeInt(0); // point
@@ -2567,10 +2569,10 @@ public class MainPacketCreator {
         packet.writeShort(hp.getJob());
         packet.writeShort(hp.getSubcategory());
         packet.write(0);
-        packet.writeInt(hp.getFame()); // 인기도
-        packet.write(0); // 결혼
+        packet.writeInt(hp.getFame()); // 인기도 (fame)
+        packet.write(0); // 결혼 (Marriage)
         List<Integer> professions = hp.getProfessions();
-        packet.write(professions.size()); // 전문기술갯수
+        packet.write(professions.size()); // 전문기술갯수 (Number of professions)
         for (Integer i : professions) {
             packet.writeShort(i);
         }
@@ -3035,7 +3037,7 @@ public class MainPacketCreator {
             }
         }
 
-        /* Stack Buff 처리 구간, 종료 */
+        /* Stack Buff 처리 구간, 종료 (stack buff processing block, end) */
         for (Triple<BuffStats, Integer, Boolean> statup : statups) {
             if (statup.getThird()) {
                 packet.writeInt(stacks.get(statup.getFirst()).size());
@@ -3049,7 +3051,7 @@ public class MainPacketCreator {
             }
         }
 
-        /* 스킬 딜레이 시작 */
+        /* 스킬 딜레이 시작 (Skill delay - start) */
         if ((animationTime > 0) && (buffid != 101120109)) {
             packet.writeShort(animationTime * 10);
         } else if (buffid == 101120109) {
@@ -3063,12 +3065,12 @@ public class MainPacketCreator {
         } else {
             packet.writeShort(0);
         }
-        /* 스킬 딜레이 종료 */
+        /* 스킬 딜레이 종료 (Skill delay - end) */
         packet.writeShort(0);
-        /* SkillType 시작 */
+        /* SkillType 시작 (Skill type - start) */
         packet.write(1);
-        /* SkillType 종료 */
-        packet.writeLong(0); // 1.2.251+, 모든 버프 팅김 방지.
+        /* SkillType 종료 (Skill type - end) */
+        packet.writeLong(0); // 1.2.251+, 모든 버프 팅김 방지. (Prevents all buffs?)
         return packet.getPacket();
     }
 
@@ -3163,7 +3165,7 @@ public class MainPacketCreator {
         } else if (stats.SEDUCE != null) {
             packet.writeShort(2400); // 1.2.239+
         } else if (stats.TELEPORT != null || stats.WEAKEN != null) {
-            packet.writeShort(2350); // 머리위에 뜨기까지의 시간
+            packet.writeShort(2350); // 머리위에 뜨기까지의 시간 (Overhead duration?)
         } else if (stats.ZOMBIFY != null) {
             packet.writeShort(2280);
         } else {
@@ -3863,7 +3865,7 @@ public class MainPacketCreator {
         for (int i = 0; i < args.length; i++) {
             packet.writeInt(args[i]);
         }
-        if (isZero) { // 임시처리, 추후 수정바람.
+        if (isZero) { // 임시처리, 추후 수정바람. TODO: temporary solution, please modify later
             packet.write(args.length);
             for (int i = 0; i < args.length; i++) {
                 packet.writeInt(args[i]);
@@ -3968,10 +3970,10 @@ public class MainPacketCreator {
         boolean create = false;
         switch (skillid) {
             case 22170074:
-                packet.write(create ? 1 : 0);// 에반 용 이펙트
+                packet.write(create ? 1 : 0);// 에반 용 이펙트 (Mir effect - Dragon Fury)
                 break;
             case 1320016:
-                packet.write(create ? 1 : 0);// 리인카네이션 이펙트
+                packet.write(create ? 1 : 0);// 리인카네이션 이펙트 (Final Pact effect)
                 break;
             case 4331006:
                 packet.write(0);
@@ -4104,7 +4106,7 @@ public class MainPacketCreator {
     }
 
     /**
-     * 운영자 채팅 색상 코드
+     * 운영자 채팅 색상 코드 (Moderator chat color code)
      *
      * <code>색상 코드</code>:<br>
      * 0 : 일반 채팅(흰색) 1 : 귓속말 채팅(초록색) 2 : 파티 채팅(분홍색) 3 : 친구 채팅(주황색) 4 : 길드
@@ -4113,6 +4115,14 @@ public class MainPacketCreator {
      * (빨간바탕에 검은색) 17 : (진보라색) 18 : (연한파란색바탕에 분홍색) 19 : (갈색바탕에 검은색) 20 : (갈색바탕에
      * 흰색) 21 : (노란색바탕에 검은색) 22 : (초록색바탕에 흰색) 23 : (초록색바탕에 갈색[W:-1]) 25 : (노란색)
      * 26 : (하늘색) 27 : (작은 글씨체)
+     *
+     * <code>Colour Codes</code>:<br>
+     * 0 : Normal (White) 1 : Whispers (Green) 2 : Party (Pink) 3 : Buddy (Orange) 4 : Guild (Purple)
+     * 5 : (Pale Green) 6 : (Slightly Darker Pink) 7 : (Grey) 8 : (Yellow) 9 : (Light Yellow)
+     * 10 : (Blue) 11 : GM (Black on White) 12 : (Brown) 13 : (Blue on Pale Blue) 15 : (Black on Red)
+     * 17 : (Aubergine) 18 : (Pink on Light Blue) 19 : (Black on Brown) 20 : (White on Brown
+     * 21 : (Black on Yellow) 22 : (White on Green) 23 : (Brown on Green[W:-1]) 25 : (Yellow)
+     * 26 : (Sky Blue) 27 : (Fine Print)
      */
     public static byte[] getGMText(int type, String text) {
         WritingPacket packet = new WritingPacket();
@@ -4123,11 +4133,13 @@ public class MainPacketCreator {
     }
 
     /*
-	 * 추가로 매개변수가 필요하지 않은 이펙트 *
+	 * 추가로 매개변수가 필요하지 않은 이펙트 (Effects that require no additional parameters)
 	 * 
 	 * 0x01 : 레벨업 0x0A : RESIST 0x0C : 포탈사운드 0x0D : 직업변경 0x12 : 몬스터북 0x14 : 장비제작 (또는
 	 * 대난투) 레벨업
-	 * 
+	 *
+	 * 0x01 : Level-up 0x0A : RESIST 0x0C : Portal Sound 0x0D : Job Change 0x12 : Monster Book 0x14 : Crafting level-up
+	 *
      */
     public static byte[] showSpecialEffect(int effect) {
         WritingPacket packet = new WritingPacket();
@@ -4363,7 +4375,7 @@ public class MainPacketCreator {
         return packet.getPacket();
     }
 
-    /* 창고 패킷 시작 */
+    /* 창고 패킷 시작 (Storage packet start) */
     public static byte[] getStorage(int npcId, int slots, Collection<IItem> items, long meso) {
         WritingPacket packet = new WritingPacket();
         packet.writeShort(SendPacketOpcode.OPEN_STORAGE.getValue());
@@ -4473,7 +4485,7 @@ public class MainPacketCreator {
         return packet.getPacket();
     }
 
-    /* 창고 패킷 종료 */
+    /* 창고 패킷 종료 (Storage packet end) */
     public static byte[] fairyPendantMessage(int type, int percent) {
         WritingPacket packet = new WritingPacket();
         packet.writeShort(SendPacketOpcode.FAIRY_PEND_MSG.getValue());
@@ -4931,7 +4943,7 @@ public class MainPacketCreator {
                 packet.writeAsciiString(StringUtil.getRightPaddedStr(buddy.getGroup(), '\0', 18));
                 packet.writeInt(buddy.getCharacterId()); // AccID Packets
                 packet.writeAsciiString(StringUtil.getRightPaddedStr(buddy.getName(), '\0', 13)); // NICKNAME
-                packet.write0(260); // 메모 + 그룹
+                packet.write0(260); // 메모 + 그룹 (Memo + Group)
             }
         }
         return packet.getPacket();
@@ -4953,19 +4965,19 @@ public class MainPacketCreator {
             packet.writeAsciiString(StringUtil.getRightPaddedStr(nameFrom, '\0', 13));
             packet.write(1);
             packet.writeInt(c.getChannel());
-            packet.writeAsciiString("그룹 미지정", 18);
-            packet.write0(280); //메모 + 그룹.
+            packet.writeAsciiString("Group not specified", 18); // Original: 그룹 미지정
+            packet.write0(280); //메모 + 그룹. (Memo + Group)
         } else {
             packet.write(39); //
             packet.writeInt(cidFrom);
             packet.writeAsciiString(StringUtil.getRightPaddedStr(nameFrom, '\0', 13));
             packet.write(1);
             packet.writeInt(c.getChannel());
-            packet.writeAsciiString("그룹 미지정", 18);
+            packet.writeAsciiString("Group not specified", 18); // Original: 그룹 미지정
             packet.write(0);
-            packet.writeInt(0); //IP, 계정친구 등록.
-            packet.writeAsciiString(" ", 13); //닉네임
-            packet.writeAsciiString(" ", 270); //메모
+            packet.writeInt(0); //IP, 계정친구 등록. (IP, account friend registration)
+            packet.writeAsciiString(" ", 13); //닉네임 (Nickname)
+            packet.writeAsciiString(" ", 270); //메모 (Memo)
         }
         return packet.getPacket();
     }
@@ -5224,8 +5236,8 @@ public class MainPacketCreator {
         packet.writeShort(g.getLogo());
         packet.write(g.getLogoColor());
         packet.writeMapleAsciiString(g.getNotice());
-        packet.writeInt(g.getAccruedGP()); //명성치
-        packet.writeInt(500); //명성치
+        packet.writeInt(g.getAccruedGP()); //명성치 (it says reputation... But I think it's Guild GP)
+        packet.writeInt(500); //명성치 (it says reputation... But I think it's Guild GP)
         packet.writeInt(g.getAllianceId());
         packet.write(25);
         packet.writeShort(1);
@@ -5276,8 +5288,8 @@ public class MainPacketCreator {
             packet.writeShort(g.getLogo());
             packet.write(g.getLogoColor());
             packet.writeMapleAsciiString(g.getNotice());
-            packet.writeInt(1); //명성치
-            packet.writeInt(1); //명성치
+            packet.writeInt(1); //명성치 (it says reputation... But I think it's Guild GP)
+            packet.writeInt(1); //명성치 (it says reputation... But I think it's Guild GP)
             packet.writeInt(g.getAllianceId());
             packet.write(25);
             packet.writeShort(1);
@@ -5491,8 +5503,8 @@ public class MainPacketCreator {
         packet.writeShort(expelledGuild.getLogo());
         packet.write(expelledGuild.getLogoColor());
         packet.writeMapleAsciiString(expelledGuild.getNotice());
-        packet.writeInt(expelledGuild.getAccruedGP()); //명성치
-        packet.writeInt(500); //명성치
+        packet.writeInt(expelledGuild.getAccruedGP()); //명성치 (it says reputation... But I think it's Guild GP)
+        packet.writeInt(500); //명성치 (it says reputation... But I think it's Guild GP)
         packet.writeInt(expelledGuild.getAllianceId());
         packet.write(expelledGuild.getLevel()); // GuildLevel
         packet.writeShort(1); // GuildRank
@@ -5542,7 +5554,7 @@ public class MainPacketCreator {
         packet.writeInt(newGuild.getAccruedGP());
         packet.writeInt(newGuild.getAccruedGP());
         packet.writeInt(newGuild.getAllianceId());
-        packet.write(newGuild.getLevel()); //길드레벨
+        packet.write(newGuild.getLevel()); //길드레벨 (Guild Level)
         packet.writeShort(0); // guild rank
         packet.writeInt(newGuild.getGP()); // GGP
         packet.writeShort(newGuild.getSkills().size());
@@ -5745,7 +5757,7 @@ public class MainPacketCreator {
                 packet.writeInt(gg.getAccruedGP());
                 packet.writeInt(gg.getAccruedGP());
                 packet.writeInt(gg.getAllianceId());
-                packet.write(gg.getLevel()); //길드레벨
+                packet.write(gg.getLevel()); //길드레벨 (Guild Level)
                 packet.writeShort(0); // guild rank
                 packet.writeInt(gg.getGP()); // GGP
                 packet.writeShort(gg.getSkills().size());
@@ -5814,7 +5826,7 @@ public class MainPacketCreator {
                 packet.writeInt(gg.getAccruedGP());
                 packet.writeInt(gg.getAccruedGP());
                 packet.writeInt(gg.getAllianceId());
-                packet.write(gg.getLevel()); //길드레벨
+                packet.write(gg.getLevel()); //길드레벨 (Guild Level)
                 packet.writeShort(0); // guild rank
                 packet.writeInt(gg.getGP()); // GGP
                 packet.writeShort(gg.getSkills().size());
@@ -5950,7 +5962,7 @@ public class MainPacketCreator {
         packet.writeShort(SendPacketOpcode.GUILD_OPERATION.getValue());
         packet.write(49);
 
-        packet.writeInt(g.getId()); // 검색한 길드 id
+        packet.writeInt(g.getId()); // 검색한 길드 id (Searched Guild ID)
 
         if (g == null) { //failed to read from DB - don't show a guild
             packet.write(0);
@@ -5968,8 +5980,8 @@ public class MainPacketCreator {
         packet.writeShort(g.getLogo());
         packet.write(g.getLogoColor());
         packet.writeMapleAsciiString(g.getNotice());
-        packet.writeInt(g.getAccruedGP()); //명성치
-        packet.writeInt(500); //명성치
+        packet.writeInt(g.getAccruedGP()); //명성치 (says reputation, but I think it's GP)
+        packet.writeInt(500); //명성치 (says reputation, but I think it's GP
         packet.writeInt(g.getAllianceId());
         packet.write(g.getLevel()); // GuildLevel
         packet.writeShort(1); // GuildRank
@@ -6003,7 +6015,7 @@ public class MainPacketCreator {
             packet.writeInt(0);
             return packet.getPacket();
         }
-        packet.writeInt(guilds.size()); //검색 결과 갯수
+        packet.writeInt(guilds.size()); //검색 결과 갯수 (Number of search results)
 
         guilds.forEach(guild -> {
             packet.writeInt(guild.getId());
@@ -7312,7 +7324,7 @@ public class MainPacketCreator {
         packet.writeInt(oid);
         packet.writeInt(skillid);
 
-        /* 스킬 도입부 시작 */
+        /* 스킬 도입부 시작 (Skill intro - start) */
         packet.write(1);
         packet.writeInt((0x6 + i));
         packet.writeInt(0);
@@ -7323,7 +7335,7 @@ public class MainPacketCreator {
         packet.writeInt(0);
         packet.writeInt(0);
         packet.writeInt(Randomizer.nextInt());
-        /* 스킬 도입부 종료 */
+        /* 스킬 도입부 종료 (Skill intro - end) */
 
         packet.write(0);
 
@@ -7766,7 +7778,7 @@ public class MainPacketCreator {
     public static byte[] showGageUI(int i) {
         WritingPacket packet = new WritingPacket();
         packet.writeShort(SendPacketOpcode.SHOW_FEVER_GAUGE.getValue());
-        packet.writeInt(70);// 최대게이지
+        packet.writeInt(70);// 최대게이지 (Gauge Max)
         packet.writeInt(i);
 
         return packet.getPacket();
@@ -7878,7 +7890,7 @@ public class MainPacketCreator {
         packet.write(0x6);
         packet.write(count);
         packet.writeShort(0x0C);
-        packet.writeShort(514); // 02 02, 의미가 있을 듯.
+        packet.writeShort(514); // 02 02, 의미가 있을 듯. (02 02, it seems to have meaning)
         packet.write0(13);
 
         return packet.getPacket();
@@ -8143,7 +8155,7 @@ public class MainPacketCreator {
             packet.writeInt(0);
             packet.writeInt(0);
             packet.writeInt(0);
-            packet.writeInt(Randomizer.nextInt()); // 1.2.220+ 그리고 유동
+            packet.writeInt(Randomizer.nextInt()); // 1.2.220+ 그리고 유동 (and flow)
             packet.writeInt(0);
             packet.writeInt(0);
             packet.writeInt(0);
@@ -8214,7 +8226,7 @@ public class MainPacketCreator {
         packet.writeInt(oid);
         packet.writeInt(skillid);
 
-        /* 스킬 도입부 시작 */
+        /* 스킬 도입부 시작 (Skill intro - start) */
         packet.write(1);
         packet.writeInt(6 + i);
         packet.writeInt(Randomizer.rand(1, 3));
@@ -8228,7 +8240,7 @@ public class MainPacketCreator {
         packet.writeInt(0);
         packet.writeInt(0);
         packet.writeInt(0);
-        /* 스킬 도입부 종료 */
+        /* 스킬 도입부 종료 (Skill intro - end) */
 
         packet.write(0);
 
@@ -8247,7 +8259,7 @@ public class MainPacketCreator {
             packet.writeInt(useDamageSkin);
             packet.writeInt(GameConstants.getDamageSkinItemByNumber(useDamageSkin));
             packet.write(0);
-            packet.writeMapleAsciiString("데미지스킨");
+            packet.writeMapleAsciiString("Damage Skin"); // Original: 데미지스킨
             packet.writeInt(0);
 
             packet.writeInt(-1);
@@ -8264,7 +8276,7 @@ public class MainPacketCreator {
                 packet.writeInt(GameConstants.getDamageSkinNumberByItem(Integer.parseInt(v2)));
                 packet.writeInt(Integer.parseInt(v2));
                 packet.write(0);
-                packet.writeMapleAsciiString("데미지스킨");
+                packet.writeMapleAsciiString("Damage Skin"); // Original: 데미지스킨
                 packet.writeInt(0);
             }
         }
@@ -8994,7 +9006,8 @@ public class MainPacketCreator {
         return mplew.getPacket();
     }
 
-    public static byte[] 스플릿미스텔(MapleCharacter chr, List<MapleMonster> monsters, int skillid) {
+    public static byte[] splitMistel(MapleCharacter chr, List<MapleMonster> monsters, int skillid) {
+        // Split Mistel (Ancient Force) is Pathfinder's 2nd Job skill
         WritingPacket mplew = new WritingPacket();
         mplew.writeShort(SendPacketOpcode.ABSORB_DF.getValue());
         mplew.write(1);
@@ -9033,7 +9046,8 @@ public class MainPacketCreator {
         return mplew.getPacket();
     }
 
-    public static byte[] 에디셔널디스차지(MapleCharacter chr, List<MapleMonster> monsters, int skillid) {
+    public static byte[] additionalDischarge(MapleCharacter chr, List<MapleMonster> monsters, int skillid) {
+        // Additional Discharge is Pathfinder's 2nd Job skill
         WritingPacket mplew = new WritingPacket();
         mplew.writeShort(SendPacketOpcode.ABSORB_DF.getValue());
         mplew.write(0);
@@ -9070,7 +9084,8 @@ public class MainPacketCreator {
         return mplew.getPacket();
     }
 
-    public static byte[] 에디셔널블래스트(MapleCharacter chr, List<MapleMonster> monsters, int skillid) {
+    public static byte[] additionalBlast(MapleCharacter chr, List<MapleMonster> monsters, int skillid) {
+        // Additional Blast is Pathfinder's 3rd Job Skill
         WritingPacket mplew = new WritingPacket();
         mplew.writeShort(SendPacketOpcode.ABSORB_DF.getValue());
         mplew.write(0);
@@ -9107,7 +9122,8 @@ public class MainPacketCreator {
         return mplew.getPacket();
     }
 
-    public static byte[] 에인션트가이던스이펙트(int skillid) {
+    public static byte[] ancientGuidanceEffect(int skillid) {
+        // Ancient Guidance is Pathfinder's 3rd Job Skill
         WritingPacket mplew = new WritingPacket();
         mplew.writeShort(SendPacketOpcode.SHOW_ITEM_GAIN_INCHAT.getValue());
         mplew.write(1);
@@ -9331,7 +9347,8 @@ public class MainPacketCreator {
         return mplew.getPacket();
     }
 
-    public static byte[] 퀴버풀버스트(MapleCharacter player, MapleMonster mob, int skillid) {
+    public static byte[] quiverBarrage(MapleCharacter player, MapleMonster mob, int skillid) {
+        // Quiver Barrage is Bowmaster's V Skill (original method name used an old name)
         WritingPacket mplew = new WritingPacket();
 
         mplew.writeShort(SendPacketOpcode.ABSORB_DF.getValue());
