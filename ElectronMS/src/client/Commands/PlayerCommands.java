@@ -400,12 +400,12 @@ public class PlayerCommands {
 					|| jobid == 2004 || jobid == 3000 || jobid == 3001 || jobid == 5000 || jobid == 6000
 					|| jobid == 6001 || jobid == 6002
 					|| (jobid == 10112 && c.getMapId() == ServerConstants.startMap)) {
-				c.dropMessage(5, "[System] novice can not go to the square.");
+				c.dropMessage(5, "[System] Beginners are not permitted in the lobby.");
 				return 0;
 			}
 
 			if (c.getDojoStartTime() > 0) {
-				c.dropMessage(5, "[System] Mureung Dojang is in progress. Please go out through NPC");
+				c.dropMessage(5, "[System] Please exit Mulung Dojo first.");
 				return 0;
 			}
 			MapleMap target = c.getClient().getChannelServer().getMapFactory().getMap(100000000);
@@ -414,7 +414,7 @@ public class PlayerCommands {
 				try {
 					targetPortal = target.getPortal(Integer.parseInt(splitted[1]));
 				} catch (IndexOutOfBoundsException e) {
-					c.dropMessage(5, "There is a value of the missing portal.");
+					c.dropMessage(5, "The portal is missing.");
 				}
 			}
 			if (targetPortal == null) {
@@ -439,11 +439,11 @@ public class PlayerCommands {
 					|| jobid == 2004 || jobid == 3000 || jobid == 3001 || jobid == 5000 || jobid == 6000
 					|| jobid == 6001 || jobid == 6002
 					|| (jobid == 10112 && c.getMapId() == ServerConstants.startMap)) {
-				c.dropMessage(5, "[System] beginners can not move to the boss room.");
+				c.dropMessage(5, "[System] Beginners are not permitted in the boss room.");
 				return 0;
 			}
 			if (c.getDojoStartTime() > 0) {
-				c.dropMessage(5, "[System] Mureung Dojang is in progress. Please go out through NPC");
+				c.dropMessage(5, "[System] Please exit Mulung Dojo first.");
 				return 0;
 			}
 			MapleMap target = c.getClient().getChannelServer().getMapFactory().getMap(970060000);
@@ -452,7 +452,7 @@ public class PlayerCommands {
 				try {
 					targetPortal = target.getPortal(Integer.parseInt(splitted[1]));
 				} catch (IndexOutOfBoundsException e) {
-					c.dropMessage(5, "There is a value of the missing portal.");
+					c.dropMessage(5, "The portal is missing.");
 				}
 			}
 			if (targetPortal == null) {
@@ -477,7 +477,7 @@ public class PlayerCommands {
 					|| jobid == 2004 || jobid == 3000 || jobid == 3001 || jobid == 5000 || jobid == 6000
 					|| jobid == 6001 || jobid == 6002
 					|| (jobid == 10112 && c.getMapId() == ServerConstants.startMap)) {
-				c.dropMessage(5, "Beginners can not go to the fishing spot.");
+				c.dropMessage(5, "Beginners are not permitted in the fishing map.");
 				return 0;
 			}
 			int[] mapcode = {925060100, 925060200, 925060300, 925060400, 925060500, 925060700, 925060800, 925060900,
@@ -488,7 +488,7 @@ public class PlayerCommands {
 
 			for (int i = 0; i < mapcode.length; i++) {
 				if (c.getMapId() == mapcode[i]) {
-					c.dropMessage(5, "[System] Can't move in Mureungdowon.");
+					c.dropMessage(5, "[System] Please exit Mulung Dojo first.");
 					return 0;
 				}
 				if (c.getMapId() == 100000055) {
@@ -496,7 +496,7 @@ public class PlayerCommands {
 					return 0;
 				}
 				if (c.getDojoStartTime() > 0) {
-					c.dropMessage(5, "[System] Mureung Dojang is in progress. Please go out through NPC");
+					c.dropMessage(5, "[System] Please exit Mulung Dojo first.");
 					return 0;
 				}
 			}
@@ -506,7 +506,7 @@ public class PlayerCommands {
 				try {
 					targetPortal = target.getPortal(Integer.parseInt(splitted[1]));
 				} catch (IndexOutOfBoundsException e) {
-					c.dropMessage(5, "There is a value of the missing portal.");
+					c.dropMessage(5, "The portal is missing.");
 				} catch (NumberFormatException ignored) {
 				}
 			}
@@ -532,7 +532,7 @@ public class PlayerCommands {
 					|| jobid == 2004 || jobid == 3000 || jobid == 3001 || jobid == 5000 || jobid == 6000
 					|| jobid == 6001 || jobid == 6002
 					|| (jobid == 10112 && c.getMapId() == ServerConstants.startMap)) {
-				c.dropMessage(5, "[System] beginners can not go to the gambling house.");
+				c.dropMessage(5, "[System] Beginners are not permitted in the gambling den.");
 				return 0;
 			}
 			MapleMap target = c.getClient().getChannelServer().getMapFactory().getMap(323000101);
@@ -541,7 +541,7 @@ public class PlayerCommands {
 				try {
 					targetPortal = target.getPortal(Integer.parseInt(splitted[1]));
 				} catch (IndexOutOfBoundsException e) {
-					c.dropMessage(5, "There is a value of the missing portal.");
+					c.dropMessage(5, "The portal is missing.");
 				}
 			}
 			if (targetPortal == null) {
@@ -566,11 +566,11 @@ public class PlayerCommands {
 					|| jobid == 2004 || jobid == 3000 || jobid == 3001 || jobid == 5000 || jobid == 6000
 					|| jobid == 6001 || jobid == 6002
 					|| (jobid == 10112 && c.getMapId() == ServerConstants.startMap)) {
-				c.dropMessage(5, "[System] beginners can not go to work.");
+				c.dropMessage(5, "[System] Beginners are not allowed in the composition map.");
 				return 0;
 			}
 			if (c.getDojoStartTime() > 0) {
-				c.dropMessage(5, "[System] Mureung Dojang is in progress. Please go out through NPC");
+				c.dropMessage(5, "[System] Please exit Mulung Dojo first.");
 				return 0;
 			}
 			MapleMap target = c.getClient().getChannelServer().getMapFactory().getMap(100000001);
@@ -579,7 +579,7 @@ public class PlayerCommands {
 				try {
 					targetPortal = target.getPortal(Integer.parseInt(splitted[1]));
 				} catch (IndexOutOfBoundsException e) {
-					c.dropMessage(5, "There is a value of the missing portal.");
+					c.dropMessage(5, "The portal is missing.");
 				}
 			}
 			if (targetPortal == null) {
@@ -646,7 +646,7 @@ public class PlayerCommands {
 		@Override
 		public int execute(MapleCharacter chr, String[] args) {
 			if (args.length <= 1) {
-				chr.dropMessage(6, "@callgm <message> Please only use this for emergencies or to report somebody, Please report bugs on the forums, also do not ask if you can receive help, just state your issue.");
+				chr.dropMessage(6, "@callgm <message> Please only use this for emergencies, or to report somebody. Please do not ask if you can receive help; just state your issue.");
 			}
 			String message = "";
 			for (int i = 1; i < args.length; i++) {

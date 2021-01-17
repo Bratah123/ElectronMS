@@ -185,9 +185,9 @@ public class MapleUserTrade {
                 local.cancel();
 
                 c.getClient().getSession()
-                        .writeAndFlush(MainPacketCreator.serverNotice(5, "Not enough inventory space to complete trade."));
+                        .writeAndFlush(MainPacketCreator.serverNotice(5, "Not enough inventory space to complete the trade."));
                 partner.getChr().getClient().getSession()
-                        .writeAndFlush(MainPacketCreator.serverNotice(5, "Not enough inventory space to complete trade."));
+                        .writeAndFlush(MainPacketCreator.serverNotice(5, "Not enough inventory space to complete the trade."));
             } else {
                 LoggerChatting.writeTradeLog(LoggerChatting.tradeLog, LoggerChatting.getTradeLogType(local, partner),
                         local.getChr().getName() + "&" + partner.getChr().getName());
@@ -215,7 +215,7 @@ public class MapleUserTrade {
 
     public static void startTrade(final MapleCharacter c, boolean isTrade, byte type) {
         if (c.getLevel() < 60) {
-            c.getClient().getSession().writeAndFlush(MainPacketCreator.serverNotice(5, "Trades available from level 60 and above."));
+            c.getClient().getSession().writeAndFlush(MainPacketCreator.serverNotice(5, "Trading is available from level 60 and above."));
             return;
         }
         if (c.getTrade() == null) {
@@ -225,13 +225,13 @@ public class MapleUserTrade {
                     .writeAndFlush(MainPacketCreator.getTradeStart(c.getClient(), c.getTrade(), (byte) 0, type));
             c.isTrade = isTrade;
         } else {
-            c.getClient().getSession().writeAndFlush(MainPacketCreator.serverNotice(5, "Already trading."));
+            c.getClient().getSession().writeAndFlush(MainPacketCreator.serverNotice(5, "Already in a trade."));
         }
     }
 
     public static void inviteTrade(final MapleCharacter c1, final MapleCharacter c2, boolean isTrade, byte type) {
         if (c2.getLevel() < 60 || c1.getLevel() < 60) {
-            c1.getClient().getSession().writeAndFlush(MainPacketCreator.serverNotice(5, "Trades available from level 60 and above."));
+            c1.getClient().getSession().writeAndFlush(MainPacketCreator.serverNotice(5, "Trading is available for players level 60 and above."));
             cancelTrade(c1.getTrade());
             return;
         }
@@ -243,7 +243,7 @@ public class MapleUserTrade {
             c1.isTrade = isTrade;
             c2.isTrade = isTrade;
         } else {
-            c1.getClient().getSession().writeAndFlush(MainPacketCreator.serverNotice(5, "I'm already trading with someone."));
+            c1.getClient().getSession().writeAndFlush(MainPacketCreator.serverNotice(5, "You are already trading with someone."));
             cancelTrade(c1.getTrade());
         }
     }
@@ -257,7 +257,7 @@ public class MapleUserTrade {
             c1.getClient().getSession()
                     .writeAndFlush(MainPacketCreator.getTradeStart(c1.getClient(), c1.getTrade(), (byte) 1, type));
         } else {
-            c1.getClient().getSession().writeAndFlush(MainPacketCreator.serverNotice(5, "The opponent has already closed the trade."));
+            c1.getClient().getSession().writeAndFlush(MainPacketCreator.serverNotice(5, "The other player has already closed the trade."));
         }
     }
 
@@ -269,7 +269,7 @@ public class MapleUserTrade {
                 other.getTrade().cancel();
                 other.setTrade(null);
                 other.getClient().getSession()
-                        .writeAndFlush(MainPacketCreator.serverNotice(5, c.getName() + " Has declined your exchange request."));
+                        .writeAndFlush(MainPacketCreator.serverNotice(5, c.getName() + " has declined your trade request."));
             }
             trade.cancel();
             c.setTrade(null);

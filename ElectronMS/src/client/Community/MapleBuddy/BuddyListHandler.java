@@ -152,7 +152,7 @@ public class BuddyListHandler {
                 if (ble != null && !ble.isVisible()) { //You are already registered as a friend
                     c.getSession().writeAndFlush(MainPacketCreator.serverNotice(1, "You are already registered as a friend."));
                 } else if (buddylist.isFull()) { //Friends list is full.
-                    c.getSession().writeAndFlush(MainPacketCreator.serverNotice(1, "Friends list is full."));
+                    c.getSession().writeAndFlush(MainPacketCreator.serverNotice(1, "Buddy list is full."));
                 } else {
                     try {
                         CharacterIdNameBuddyCapacity charWithId = null;
@@ -276,6 +276,7 @@ public class BuddyListHandler {
                             otherName = otherChar.getName();
                         }
                         if (otherName != null) {
+                            // Group name on the line below is "group not specified"
                             buddylist.put(new BuddylistEntry(otherName, otherCid, "그룹 미지정", channel, true, otherLevel, otherJob));
                             c.getSession().writeAndFlush(MainPacketCreator.requestBuddylistAdd(c, otherCid, otherName, 0, 0, true));
                             c.getSession().writeAndFlush(MainPacketCreator.updateBuddylist(buddylist.getBuddies(), 10, 0));

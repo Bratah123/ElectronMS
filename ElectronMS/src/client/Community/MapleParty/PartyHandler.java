@@ -32,14 +32,14 @@ public class PartyHandler {
                             .getCharacterById(party.getLeader().getId());
                     if (cfrom != null) {
                         cfrom.getClient().getSession().writeAndFlush(
-                                MainPacketCreator.serverNotice(5, c.getPlayer().getName() + " Has declined your party invitation."));
+                                MainPacketCreator.serverNotice(5, c.getPlayer().getName() + " has declined your party invitation."));
                     }
                 }
             } else {
-                c.getPlayer().dropMessage(5, "The party does not already exist.");
+                c.getPlayer().dropMessage(5, "The party does not exist.");
             }
         } else {
-            c.getPlayer().dropMessage(5, "You can't join the party because you are already joined.");
+            c.getPlayer().dropMessage(5, "You can't join the party because you are already in a party.");
         }
     }
 
@@ -59,7 +59,7 @@ public class PartyHandler {
                     party.setPartyTitle(rh.readMapleAsciiString());
                     c.getSession().writeAndFlush(MainPacketCreator.partyCreated(party));
                 } else {
-                    c.getPlayer().dropMessage(5, "You can't create a party because you are already signed up.");
+                    c.getPlayer().dropMessage(5, "You can't create a party because you are already in a party.");
                     return;
                 }
                 break;
@@ -109,10 +109,10 @@ public class PartyHandler {
                             c.getPlayer().dropMessage(5, "The party is already full.");
                         }
                     } else {
-                        c.getPlayer().dropMessage(5, "The party you are trying to join does not already exist.");
+                        c.getPlayer().dropMessage(5, "The party you are trying to join does not exist.");
                     }
                 } else {
-                    c.getPlayer().dropMessage(5, "You can't join the party because you are already joined.");
+                    c.getPlayer().dropMessage(5, "You can't join the party because you are already in a party.");
                 }
                 break;
             case 4: // invite
@@ -121,17 +121,17 @@ public class PartyHandler {
                     if (invited.getParty() == null) {
                         if (party.getMembers().size() < 6) {
                             if (c.getPlayer().getMapId() == invited.getMapId()) {
-                                c.getPlayer().dropMessage(1, invited.getName() + " Has invited you to a party.");
+                                c.getPlayer().dropMessage(1, invited.getName() + " has invited you to a party.");
                                 invited.getClient().getSession()
                                         .writeAndFlush(MainPacketCreator.partyInvite(c.getPlayer()));
                             } else {
-                                c.getPlayer().dropMessage(1, "If you're not in the same place, you can't invite them.");
+                                c.getPlayer().dropMessage(1, "You may only invite players in the same map.");
                             }
                         } else {
                             c.getPlayer().dropMessage(5, "The party is already full.");
                         }
                     } else {
-                        c.getPlayer().dropMessage(5, "You are already a party.");
+                        c.getPlayer().dropMessage(5, "You are already in a party.");
                     }
                 } else {
                     c.getPlayer().dropMessage(5, "No target found.");
@@ -150,7 +150,7 @@ public class PartyHandler {
                 break;
             case 7: // change leader
                 if (party.getExpedition() != null) {
-                    c.getPlayer().message(1, "You can't give a party leader while on the expedition.");
+                    c.getPlayer().message(1, "You can't give pass the party leader while on an expedition.");
                     return;
                 }
                 final MaplePartyCharacter newleader = party.getMemberById(rh.readInt());
@@ -163,7 +163,7 @@ public class PartyHandler {
                     c.send(MainPacketCreator.updateParty(c.getChannel(), party, MaplePartyOperation.CHANGE_PARTY_TITLE,
                             partyplayer));
                 } else {
-                    c.getPlayer().message(1, "Please enter the party name you wish to change.");
+                    c.getPlayer().message(1, "Please enter a party name.");
                     return;
                 }
                 break;
@@ -187,7 +187,7 @@ public class PartyHandler {
                     CommunityHandler.getInstance().createExpedition(MapleExpeditionType.getById(rh.readInt()), party);
                     c.send(MainPacketCreator.updateExpedition(false, c.getPlayer().getParty().getExpedition()));
                 } else {
-                    c.getPlayer().dropMessage(5, "You can't create a party because you are already signed up.");
+                    c.getPlayer().dropMessage(5, "You can't create a party because you are already in a party.");
                 }
                 break;
             case 79: { // Expedition Invitation
@@ -199,11 +199,11 @@ public class PartyHandler {
                 } else {
                     MapleExpeditionType type = c.getPlayer().getParty().getExpedition().getType();
                     if (hp.getLevel() < type.minlv || hp.getLevel() > type.maxlv) {
-                        c.getPlayer().message(1, "Target is not a level to join this expedition.");
+                        c.getPlayer().message(1, "The target is not the right level to join this expedition.");
                     } else if (c.getPlayer().getParty().getExpedition().getAllMemberSize() >= type.maxplayer) {
-                        c.getPlayer().message(1, "The maximum number of expeditions is full.");
+                        c.getPlayer().message(1, "The expedition is already full.");
                     } else if (hp.getParty() != null) {
-                        c.getPlayer().message(1, "Target is already subscribed to the party.");
+                        c.getPlayer().message(1, "The target is already in the party.");
                     } else {
                         hp.send(MainPacketCreator.inviteExpedition(c.getPlayer().getParty().getExpedition().getType(),
                                 c.getPlayer()));
@@ -221,14 +221,14 @@ public class PartyHandler {
                     if (hp == null) {
                         c.getPlayer().message(1, "You are not currently invited to this channel.");
                     } else {
-                        hp.send(MainPacketCreator.serverNotice(1, c.getPlayer().getName() + " Invited you to the expedition."));
+                        hp.send(MainPacketCreator.serverNotice(1, c.getPlayer().getName() + " invited you to the expedition."));
                     }
                 } else if (subAction == 0x09) { // Decline invitation
                     hp = c.getChannelServer().getPlayerStorage().getCharacterByName(origin);
                     if (hp == null) {
                         c.getPlayer().message(1, "You are not currently invited to this channel.");
                     } else {
-                        hp.send(MainPacketCreator.serverNotice(5, c.getPlayer().getName() + " Has rescinded the Fellowship invitation."));
+                        hp.send(MainPacketCreator.serverNotice(5, c.getPlayer().getName() + " has declined the invitation."));
                     }
                 } else if (subAction == 0x08) { // Accept invitation
                     hp = c.getChannelServer().getPlayerStorage().getCharacterByName(origin);
@@ -237,7 +237,7 @@ public class PartyHandler {
                     } else {
                         MapleExpedition exp = hp.getParty().getExpedition();
                         if (exp == null) {
-                            c.getPlayer().message(1, "Invitee is not currently on expedition.");
+                            c.getPlayer().message(1, "The target is not currently on expedition.");
                             return;
                         }
                         if (exp.getAllMemberSize() < exp.getType().maxplayer) {

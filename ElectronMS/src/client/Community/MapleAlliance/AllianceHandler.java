@@ -63,7 +63,7 @@ public class AllianceHandler {
                         chr.getClient().getSession().writeAndFlush(MainPacketCreator.sendAllianceInvite(ChannelServer.getAlliance(gs.getAllianceId()).getName(), c.getPlayer()));
                         ChannelServer.setInvitedId(chr.getGuildId(), gs.getAllianceId());
                     } else {
-                        c.getPlayer().dropMessage(1, "Guild ground of target guild is not connected.");
+                        c.getPlayer().dropMessage(1, "Guild leader of target guild is not connected.");
                     }
                 } else {
                     c.getPlayer().dropMessage(1, "" + leaderid + "  / " + name + " / " + c.getPlayer().getAllianceRank() + " / Target Guild Not Found.");

@@ -95,7 +95,7 @@ public class MapleSquadLegacy {
         } else {
             if (members.contains(member)) {
                 members.remove(member);
-                getLeader().dropMessage(5, member.getName() + " have withdrawed from the fight.");
+                getLeader().dropMessage(5, member.getName() + " have withdrawn from the fight.");
                 return 1;
             }
             return -1;
