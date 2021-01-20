@@ -74,6 +74,7 @@ import client.Skills.SkillEffectEntry;
 import client.Skills.PhantomStealSkill.StealSkillEntry;
 import constants.GameConstants;
 import constants.ServerConstants;
+import constants.JobConstants;
 import connections.Database.MYSQL;
 import connections.Database.MYSQLException;
 import handlers.Global.MapleMechDoor;
@@ -9309,9 +9310,9 @@ public class MapleCharacter extends AnimatedHinaMapObjectExtend implements Inven
     public void handleOrbconsume(int amount) {
         ISkill combo;
         switch (getJob()) {
-            case 1110:
-            case 1111:
-            case 1112:
+            case JobConstants.DAWN_WARRIOR_II:
+            case JobConstants.DAWN_WARRIOR_III:
+            case JobConstants.DAWN_WARRIOR_IIII:
                 combo = SkillFactory.getSkill(11111001);
                 break;
             default:
@@ -9368,521 +9369,83 @@ public class MapleCharacter extends AnimatedHinaMapObjectExtend implements Inven
         return num_;
     }
 
+    private boolean advancementWrapper(String jobID) {
+        // Send job advancement message; concat generic prefix with job name
+        getClient().send(UIPacket.showInfo(JobConstants.advancePrefix + JobConstants.JOB_NAME.get(Short.valueOf(jobID))));
+        changeJob(Short.parseShort(jobID));  // Change job
+        return true;
+    }
+
     public boolean AutoJob() {
-        // TODO: Use a Dictionary for all ID to Name conversions
-        // TODO: Make DRY by using vars (e.g. changeJob(getKeyValue("AutoJob")))
-        if (getKeyValue("AutoJob") != null) {
-            if (level == 20) {
-                switch (getKeyValue("AutoJob")) {
-                    case "430":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Dual Blade."));
-                        changeJob(430);
-                        setKeyValue("AutoJob", "430");
-                        return true;
-                }
+        // Experimental; please roll back if this breaks auto-job advancement
+        if (getKeyValue("AutoJob") != null && !GameConstants.isZero(getJob())) {  // Rebirth breaks Zero's lv100 start point
+            if (level == 20 &&
+                getKeyValue("AutoJob").equals(String.valueOf(JobConstants.BLADE_RECRUIT))) {
+                // Only DB Job advances at lv 20
+                advancementWrapper(String.valueOf(JobConstants.BLADE_RECRUIT));
+                setKeyValue("AutoJob", String.valueOf(JobConstants.BLADE_RECRUIT));
+                return true;
             } else if (level == 30) {
-                switch (getKeyValue("AutoJob")) {
-                    case "110":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Fighter."));
-                        changeJob(110);
-                        return true;
-                    case "120":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Page."));
-                        changeJob(120);
-                        return true;
-                    case "130":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Spearman."));
-                        changeJob(130);
-                        return true;
-                    case "210":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Fire/Poison Wizard."));
-                        changeJob(210);
-                        return true;
-                    case "220":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Ice/Lighting Wizard."));
-                        changeJob(220);
-                        return true;
-                    case "230":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Cleric."));
-                        changeJob(230);
-                        return true;
-                    case "310":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Hunter."));
-                        changeJob(310);
-                        return true;
-                    case "320":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Cross Bowman."));
-                        changeJob(320);
-                        return true;
-                    case "330":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Pathfinder."));
-                        changeJob(330);
-                        return true;
-                    case "410":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Assassin."));
-                        changeJob(410);
-                        return true;
-                    case "420":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Bandit."));
-                        changeJob(420);
-                        return true;
-                    case "510":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Brawler."));
-                        changeJob(510);
-                        return true;
-                    case "520":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Gunslinger."));
-                        changeJob(520);
-                        return true;
-                    case "430":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Blade Acolyte."));
-                        changeJob(431);
-                        return true;
-                    case "530":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Cannoneer."));
-                        changeJob(530);
-                        return true;
-                    case "1110":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Dawn Warrior."));
-                        changeJob(1110);
-                        return true;
-                    case "1210":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Blaze Wizard."));
-                        changeJob(1210);
-                        return true;
-                    case "1310":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Wind Archer."));
-                        changeJob(1310);
-                        return true;
-                    case "1410":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Night Walker."));
-                        changeJob(1410);
-                        return true;
-                    case "1510":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Thunder Breaker."));
-                        changeJob(1510);
-                        return true;
-                    case "2110":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Aran."));
-                        changeJob(2110);
-                        return true;
-                    case "2210":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Evan."));
-                        changeJob(2211);
-                        return true;
-                    case "2310":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Mercedes."));
-                        changeJob(2310);
-                        return true;
-                    case "2410":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Phantom."));
-                        changeJob(2410);
-                        return true;
-                    case "2510":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Shade."));
-                        changeJob(2510);
-                        return true;
-                    case "2710":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Luminous."));
-                        changeJob(2710);
-                        return true;
-                    case "3110":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Demon Slayer."));
-                        changeJob(3110);
-                        return true;
-                    case "3120":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Demon Avenger."));
-                        changeJob(3120);
-                        return true;
-                    case "3210":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Battle Mage."));
-                        changeJob(3210);
-                        return true;
-                    case "3310":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Wild Hunter."));
-                        changeJob(3310);
-                        return true;
-                    case "3510":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Mechanic."));
-                        changeJob(3510);
-                        return true;
-                    case "3610":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Xenon."));
-                        changeJob(3610);
-                        return true;
-                    case "3710":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Blaster."));
-                        changeJob(3710);
-                        return true;
-                    case "5110":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Mihile."));
-                        changeJob(5110);
-                        return true;
-                    case "6110":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Kaiser."));
-                        changeJob(6110);
-                        return true;
-                    case "6510":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Angelic Buster."));
-                        changeJob(6510);
-                        return true;
-                    case "14200":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Kinesis."));
-                        changeJob(14210);
-                        return true;
-                    case "6400":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Cadena."));
-                        changeJob(6410);
-                        return true;
-                    case "15210":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Illium."));
-                        changeJob(15210);
-                        return true;
-                    case "15510":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Ark."));
-                        changeJob(15510);
-                        return true;
-                    default:
-                        return true;
+                if (!getKeyValue("AutoJob").equals(String.valueOf(JobConstants.BLADE_RECRUIT))) {
+                    // All non-Zero classes advance at lv 30
+                    // Evan and DB have odd advancement levels/job IDs
+                    if (!getKeyValue("AutoJob").equals(String.valueOf(JobConstants.EVAN_I))) {
+                        return advancementWrapper(String.valueOf(JobConstants.EVAN_III));
+                    }
+                    else {
+                        // Send job advancement message; concat generic prefix with job name
+                        return advancementWrapper(getKeyValue("AutoJob"));
+                    }
                 }
-            } else if (level == 45) {
-                switch (getKeyValue("AutoJob")) {
-                    case "430":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Blade Specialist."));
-                        changeJob(432);
-                        return true;
-                    default:
-                        return true;
+                else {
+                    advancementWrapper(String.valueOf(JobConstants.BLADE_ACOLYTE));
                 }
+            } else if (level == 45 &&
+                getKeyValue("AutoJob").equals(String.valueOf(JobConstants.BLADE_RECRUIT))) {
+                // Only DB Job advances at lv 45
+                return advancementWrapper(String.valueOf(JobConstants.BLADE_SPECIALIST));
             } else if (level == 60) {
-                switch (getKeyValue("AutoJob")) {
-                    case "110":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Crusader."));
-                        changeJob(111);
-                        return true;
-                    case "120":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to White Knight."));
-                        changeJob(121);
-                        return true;
-                    case "130":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Dragon knight."));
-                        changeJob(131);
-                        return true;
-                    case "210":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Fire/Poison Mage."));
-                        changeJob(211);
-                        return true;
-                    case "220":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Ice/Lighting Mage."));
-                        changeJob(221);
-                        return true;
-                    case "230":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Priest."));
-                        changeJob(231);
-                        return true;
-                    case "310":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Ranger."));
-                        changeJob(311);
-                        return true;
-                    case "320":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Sniper."));
-                        changeJob(321);
-                        return true;
-                    case "330":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Pathfinder."));
-                        changeJob(331);
-                        return true;
-                    case "410":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Hermit."));
-                        changeJob(411);
-                        return true;
-                    case "420":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Chief Bandit."));
-                        changeJob(421);
-                        return true;
-                    case "510":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Marauder."));
-                        changeJob(511);
-                        return true;
-                    case "520":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Outlaw."));
-                        changeJob(521);
-                        return true;
-                    case "430":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Blade Lord."));
-                        changeJob(433);
-                        return true;
-                    case "530":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Cannon Trooper."));
-                        changeJob(531);
-                        return true;
-                    case "2110":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Aran."));
-                        changeJob(2111);
-                        return true;
-                    case "2210":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Evan."));
-                        changeJob(2214);
-                        return true;
-                    case "2310":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Mercedes."));
-                        changeJob(2311);
-                        return true;
-                    case "2410":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Phantom."));
-                        changeJob(2411);
-                        return true;
-                    case "2510":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Shade."));
-                        changeJob(2511);
-                        return true;
-                    case "2710":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Luminous."));
-                        changeJob(2711);
-                        return true;
-                    case "3110":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Demon Slayer."));
-                        changeJob(3111);
-                        return true;
-                    case "3120":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Demon Avenger."));
-                        changeJob(3121);
-                        return true;
-                    case "3210":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Battle Mage."));
-                        changeJob(3211);
-                        return true;
-                    case "3310":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Wild Hunter."));
-                        changeJob(3311);
-                        return true;
-                    case "3510":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Mechanic."));
-                        changeJob(3511);
-                        return true;
-                    case "3610":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Xenon."));
-                        changeJob(3611);
-                        return true;
-                    case "3710":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Blaster."));
-                        changeJob(3711);
-                        return true;
-                    case "5110":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Mihile."));
-                        changeJob(5111);
-                        return true;
-                    case "6110":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Kaiser."));
-                        changeJob(6111);
-                        return true;
-                    case "6510":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Angelic Buster."));
-                        changeJob(6511);
-                        return true;
-                    case "1110":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Dawn Warrior."));
-                        changeJob(1111);
-                        return true;
-                    case "1210":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Blaze Wizard."));
-                        changeJob(1211);
-                        return true;
-                    case "1310":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Wind Archer."));
-                        changeJob(1311);
-                        return true;
-                    case "1410":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Night Walker."));
-                        changeJob(1411);
-                        return true;
-                    case "1510":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Thunder Breaker."));
-                        changeJob(1511);
-                        return true;
-                    case "14200":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Kinesis."));
-                        changeJob(14211);
-                        return true;
-                    case "6400":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Cadena."));
-                        changeJob(6411);
-                        return true;
-                    case "15210":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Illium."));
-                        changeJob(15211);
-                        return true;
-                    case "15510":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Ark."));
-                        changeJob(15511);
-                        return true;
+                if (!getKeyValue("AutoJob").equals(String.valueOf(JobConstants.BLADE_RECRUIT))) {
+                    // All non-Zero classes advance at lv 60
+                    // Evan and DB have odd advancement levels/job IDs
+                    if (!getKeyValue("AutoJob").equals(String.valueOf(JobConstants.EVAN_I))) {
+                        advancementWrapper(String.valueOf(JobConstants.EVAN_VI));
+                    }
+                    else {
+                        short targetID = Short.parseShort(getKeyValue("AutoJob"));
+                        targetID += 1;  // raise to target job ID
+                        // Send job advancement message; concat generic prefix with job name
+                        advancementWrapper(String.valueOf(targetID));
+                    }
+                }
+                else {
+                    advancementWrapper(String.valueOf(JobConstants.BLADE_LORD));
                 }
             } else if (level == 100) {
-                switch (getKeyValue("AutoJob")) {
-                    case "110":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Hero."));
-                        changeJob(112);
-                        return true;
-                    case "120":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Paladin."));
-                        changeJob(122);
-                        return true;
-                    case "130":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Dark Knight."));
-                        changeJob(132);
-                        return true;
-                    case "210":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Fire/Poison Archmage."));
-                        changeJob(212);
-                        return true;
-                    case "220":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Ice/Lighting Archmage."));
-                        changeJob(222);
-                        return true;
-                    case "230":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Bishop."));
-                        changeJob(232);
-                        return true;
-                    case "310":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Bowmaster."));
-                        changeJob(312);
-                        return true;
-                    case "320":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Marksman."));
-                        changeJob(322);
-                        return true;
-                    case "330":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Pathfinder."));
-                        changeJob(332);
-                        return true;
-                    case "410":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Night Lord."));
-                        changeJob(412);
-                        return true;
-                    case "420":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Shadower."));
-                        changeJob(422);
-                        return true;
-                    case "510":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Buccaneer."));
-                        changeJob(512);
-                        return true;
-                    case "520":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Corsair."));
-                        changeJob(522);
-                        return true;
+                switch (getKeyValue("AutoJob")) {  // opt for Switch since there's more than 3 cases here
                     case "430":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Blade Master."));
-                        changeJob(434);
-                        return true;
-                    case "530":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Cannon Master."));
-                        changeJob(532);
-                        return true;
-                    case "2110":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Aran."));
-                        changeJob(2112);
-                        return true;
+                        return advancementWrapper(String.valueOf(JobConstants.BLADE_MASTER));
                     case "2210":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Evan."));
-                        changeJob(2217);
-                        return true;
-                    case "2310":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Mercedes."));
-                        changeJob(2312);
-                        return true;
-                    case "2410":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Phantom."));
-                        changeJob(2412);
-                        return true;
-                    case "2510":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Shade."));
-                        changeJob(2512);
-                        return true;
-                    case "2710":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Luminous."));
-                        changeJob(2712);
-                        return true;
-                    case "3110":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Demon Slayer."));
-                        changeJob(3112);
-                        return true;
-                    case "3120":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Demon Avenger."));
-                        changeJob(3122);
-                        return true;
-                    case "3210":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Battle Mage."));
-                        changeJob(3212);
-                        return true;
-                    case "3310":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Wild Hunter."));
-                        changeJob(3312);
-                        return true;
-                    case "3510":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Mechanic."));
-                        changeJob(3512);
-                        return true;
-                    case "3610":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Xenon."));
-                        changeJob(3612);
-                        return true;
-                    case "3710":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Blaster."));
-                        changeJob(3712);
-                        return true;
-                    case "5110":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Mihile."));
-                        changeJob(5112);
-                        return true;
-                    case "6110":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Kaiser."));
-                        changeJob(6112);
-                        return true;
-                    case "6510":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Angelic Buster."));
-                        changeJob(6512);
-                        return true;
+                        return advancementWrapper(String.valueOf(JobConstants.EVAN_IX));
                     case "1110":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Dawn Warrior."));
-                        changeJob(1112);
+                        advancementWrapper(String.valueOf(JobConstants.DAWN_WARRIOR_IIII));
                         changeSkillLevel(11121000, (byte) 30, (byte) 30);
                         return true;
                     case "1210":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Blaze Wizard."));
-                        changeJob(1212);
+                        advancementWrapper(String.valueOf(JobConstants.BLAZE_WIZARD_IIII));
                         changeSkillLevel(12121000, (byte) 30, (byte) 30);
                         return true;
                     case "1310":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Wind Archer."));
-                        changeJob(1312);
+                        advancementWrapper(String.valueOf(JobConstants.WIND_ARCHER_IIII));
                         changeSkillLevel(13121000, (byte) 30, (byte) 30);
                         return true;
                     case "1410":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Night Walker."));
-                        changeJob(1412);
+                        advancementWrapper(String.valueOf(JobConstants.NIGHT_WALKER_IIII));
                         changeSkillLevel(14121000, (byte) 30, (byte) 30);
                         return true;
                     case "1510":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Thunder Breaker."));
-                        changeJob(1512);
+                        advancementWrapper(String.valueOf(JobConstants.THUNDER_BREAKER_IIII));
                         changeSkillLevel(15121000, (byte) 30, (byte) 30);
-                        return true;
-                    case "14200":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Kinesis."));
-                        changeJob(14212);
-                        return true;
-                    case "6400":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Cadena."));
-                        changeJob(6412);
-                        return true;
-                    case "15210":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Illium."));
-                        changeJob(15212);
-                        return true;
-                    case "15510":
-                        getClient().send(UIPacket.showInfo("You have made the job advancement to Ark."));
-                        changeJob(15512);
                         return true;
                 }
             }

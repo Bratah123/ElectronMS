@@ -115,9 +115,19 @@ public class JobConstants {
     public final static short RANGER = 311;
     public final static short BOWMASTER = 312;
 
+    // DB
+    public final static short BLADE_RECRUIT = 430;
+    public final static short BLADE_ACOLYTE = 431;
+    public final static short BLADE_SPECIALIST = 432;
+    public final static short BLADE_LORD = 433;
+    public final static short BLADE_MASTER = 434;
+
+    // ZERO
+    public final static short ZERO = 430;
+
     // Allows conversion from (Short) ID to (String) Job Name
     // Contains all known classes including GMS exclusives (for posterity)
-    public static final Map<Short, String> jobName = new HashMap<Short, String>(){{
+    public static final Map<Short, String> JOB_NAME = new HashMap<Short, String>(){{
         put(BEGINNER, "Beginner");
 
         put(WARRIOR, "Warrior");
@@ -357,4 +367,7 @@ public class JobConstants {
         put((short) 13000, "Pink Bean");
         put((short) 13100, "Pink Bean");
     }};
+
+    // Job Advancement message prefix
+    public final static String advancePrefix = "You have made the job advancement to ";
 }
