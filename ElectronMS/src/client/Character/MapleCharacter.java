@@ -9389,7 +9389,7 @@ public class MapleCharacter extends AnimatedHinaMapObjectExtend implements Inven
                 if (!getKeyValue("AutoJob").equals(String.valueOf(JobConstants.BLADE_RECRUIT))) {
                     // All non-Zero classes advance at lv 30
                     // Evan and DB have odd advancement levels/job IDs
-                    if (!getKeyValue("AutoJob").equals(String.valueOf(JobConstants.EVAN_I))) {
+                    if (getKeyValue("AutoJob").equals(String.valueOf(JobConstants.EVAN_I))) {
                         return advancementWrapper(String.valueOf(JobConstants.EVAN_III));
                     }
                     else {
@@ -9408,7 +9408,7 @@ public class MapleCharacter extends AnimatedHinaMapObjectExtend implements Inven
                 if (!getKeyValue("AutoJob").equals(String.valueOf(JobConstants.BLADE_RECRUIT))) {
                     // All non-Zero classes advance at lv 60
                     // Evan and DB have odd advancement levels/job IDs
-                    if (!getKeyValue("AutoJob").equals(String.valueOf(JobConstants.EVAN_I))) {
+                    if (getKeyValue("AutoJob").equals(String.valueOf(JobConstants.EVAN_I))) {
                         advancementWrapper(String.valueOf(JobConstants.EVAN_VI));
                     }
                     else {
