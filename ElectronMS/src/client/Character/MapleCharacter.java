@@ -9398,7 +9398,7 @@ public class MapleCharacter extends AnimatedHinaMapObjectExtend implements Inven
                     }
                 }
                 else {
-                    advancementWrapper(String.valueOf(JobConstants.BLADE_ACOLYTE));
+                    return advancementWrapper(String.valueOf(JobConstants.BLADE_ACOLYTE));
                 }
             } else if (level == 45 &&
                 getKeyValue("AutoJob").equals(String.valueOf(JobConstants.BLADE_RECRUIT))) {
@@ -9409,17 +9409,17 @@ public class MapleCharacter extends AnimatedHinaMapObjectExtend implements Inven
                     // All non-Zero classes advance at lv 60
                     // Evan and DB have odd advancement levels/job IDs
                     if (getKeyValue("AutoJob").equals(String.valueOf(JobConstants.EVAN_I))) {
-                        advancementWrapper(String.valueOf(JobConstants.EVAN_VI));
+                        return advancementWrapper(String.valueOf(JobConstants.EVAN_VI));
                     }
                     else {
                         short targetID = Short.parseShort(getKeyValue("AutoJob"));
                         targetID += 1;  // raise to target job ID
                         // Send job advancement message; concat generic prefix with job name
-                        advancementWrapper(String.valueOf(targetID));
+                        return advancementWrapper(String.valueOf(targetID));
                     }
                 }
                 else {
-                    advancementWrapper(String.valueOf(JobConstants.BLADE_LORD));
+                    return advancementWrapper(String.valueOf(JobConstants.BLADE_LORD));
                 }
             } else if (level == 100) {
                 switch (getKeyValue("AutoJob")) {  // opt for Switch since there's more than 3 cases here
