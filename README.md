@@ -20,6 +20,7 @@ This project is based on AzureMS v316 (see more under AzureMS History below).
 - ***See the AzureMS [Wiki](https://github.com/SoulGirlJP/AzureV316/wiki/Setup) for a detailed guide (with screenshots).***
 - The AzureMS guide should work for this project, given the history of ElectronMS (see below)
 - We may choose to write a dedicated wiki at a later time, if there is sufficient demand.
+- [Discord Link](https://discord.gg/FJ5aed3Rde) for any discussion or help with ElectronMS
 
 ---
 ## ElectronMS
