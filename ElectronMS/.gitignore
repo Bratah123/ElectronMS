@@ -13,4 +13,5 @@ Log/*
 property/ServerSettings.properties
 out/*
 AzureSrc.iml
+ElectronMS.iml
 target
