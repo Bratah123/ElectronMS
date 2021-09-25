@@ -55,8 +55,10 @@ Some time later (with v343 still not ready for testing), **SoulGirlJP** elected 
 This date was brought forward to the night of 21st Sept 2021 (Korean time), in line with the [chuseok holidays](https://en.wikipedia.org/wiki/Chuseok).  
 The v352.3 pre-alpha launch brought many new features to the table (courtesy of Brandon), including the use of Auth Hook, Discord RPC, and auto-registration upon login. Nonetheless, the launch was marred by numerous critical issues plaguing the gameplay. This included a faulty damage calculation system that prevented players from killing monsters (unless the player has SP put into a mastery skill, has a working weapon, and can one-shot the monster - this was further compounded by the fact that players started at level 1 in Henesys making it impossible to progress past level 1 without GM intervention), numerous improperly-handled weapons/equipment, lack of methods to obtain equipment, lack of methods to obtain potions, numerous unhandled portals, lack of mobility options (hyper teleport rocks were not coded, warp NPC was not coded, and at initial launch the taxi only had Henesys and Hotel Arc which was level 270+ content), as well as obvious signs of memory leaks. As a consequence of the latter issue, the game gradually slowed down and grinded to a halt (i.e. players could no longer log in) in less than 24 hours after its launch. This was later circumvented by **SoulGirlJP** specifying the process to utilise more memory.  
 
+Within a week of the pre-alpha launch, **SoulGirlJP** made the announcement that AzureMS is once again upgrading versions. This time, it is a migration to v354.4 for the 64-bit client, as **SoulGirlJP** "(is) 95% sure the upgrade will fix all launching problems". Most notably in the announcement, **SoulGirlJP** mentioned that the new client would mean "no unnecessary crashes (if there's too much (sic) mobs in 1 map, leveling to (sic) fast, etc.)", whilst also noting that they are "currently upgrading/fixing (their) tools because of the 64 bit client".  
+
 ```
-Timeline: 284 -> 316 -> 329 -> 337 -> 329 -> 342 -> 343 -> 352  
+Timeline: 284 -> 316 -> 329 -> 337 -> 329 -> 342 -> 343 -> 352 -> 354  
 ```
 *Note: There was a brief period of v334 development but it was short-lived, without significant surviving documentation, and is thus left out of this timeline sequence.*
 
