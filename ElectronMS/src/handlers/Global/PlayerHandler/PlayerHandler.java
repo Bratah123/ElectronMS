@@ -1249,7 +1249,7 @@ public class PlayerHandler {
                     }
                     chr.Pointxy.clear();
                     chr.acaneAim = 0;
-                    chr.마법잔해 = 0;
+                    chr.magicDebris = 0;
                 }
                 break;
             }
@@ -1390,7 +1390,7 @@ public class PlayerHandler {
                             }
                         }
                     }
-                    chr.getMap().broadcastMessage(MainPacketCreator.에디셔널블래스트(c.getPlayer(), monsters, 3310004));
+                    chr.getMap().broadcastMessage(MainPacketCreator.additionalBlast(c.getPlayer(), monsters, 3310004));
                 }
                 c.getPlayer().GivePassPinderShape(skillid);
                 chr.getMap().broadcastMessage(MainPacketCreator.카디널디스차지(chr, moblist, skillid));
@@ -2005,7 +2005,7 @@ public class PlayerHandler {
                 }
                 case 400051022: {
                     chr.summonxy = new Point(chr.getPosition().x, chr.getPosition().y);
-                    chr.귀문진시작(effect);
+                    chr.startSpiritGate(effect);
                     effect.applyTo(c.getPlayer(), chr.getTruePosition());
                     return;
                 }

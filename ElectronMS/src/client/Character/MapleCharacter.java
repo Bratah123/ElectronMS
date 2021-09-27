@@ -74,6 +74,7 @@ import client.Skills.SkillEffectEntry;
 import client.Skills.PhantomStealSkill.StealSkillEntry;
 import constants.GameConstants;
 import constants.ServerConstants;
+import constants.JobConstants;
 import connections.Database.MYSQL;
 import connections.Database.MYSQLException;
 import handlers.Global.MapleMechDoor;
@@ -176,7 +177,7 @@ public class MapleCharacter extends AnimatedHinaMapObjectExtend implements Inven
     public ScheduledFuture<?> rapidtimer2 = null;
     public ScheduledFuture<?> willtimer1 = null, willtimer2 = null;
     public int RapidTimeCount = 0;
-    public boolean Å½Áö±â = false;
+    public boolean detector = false;
     public Point summonxy = null;
     private boolean canDoor, smega, hidden, petLoot, followinitiator, followon, hasSummon;
     private int[] wishlist, savedLocations;
@@ -953,7 +954,7 @@ public class MapleCharacter extends AnimatedHinaMapObjectExtend implements Inven
                 }
 
                 while (true) {
-                    //    System.out.println("[Notice] Ä³¸¯ÅÍ ÀÎº¥Åä¸®¸® ºÒ·¯¿À´ÂÁß");
+                    //    System.out.println("[Notice] Ä³¸¯ÅÍ ÀÎº¥Åä¸®¸® ºÒ·¯¿À´ÂÁß"); // (it says: Loading character inventory)
                     try {
                         for (MapleInventory inv : ret.getInventorys()) {
                             inv.list().clear();
@@ -2654,11 +2655,11 @@ public class MapleCharacter extends AnimatedHinaMapObjectExtend implements Inven
                 if (period > 0) {
                     item.setExpiration(System.currentTimeMillis() + period);
                 }
-                item.setGMLog(CurrentTime.getAllCurrentTime() + "¿¡ " + gm_log);
+                item.setGMLog(gm_log + "on" + CurrentTime.getAllCurrentTime());
                 InventoryManipulator.addbyItem(client, item);
             } else {
                 InventoryManipulator.addById(client, id, quantity, "", null, period,
-                        CurrentTime.getAllCurrentTime() + "¿¡ " + getName() + "Items obtained by the gainItem script called on.");
+                        "Items obtained by the gainItem script called by" + getName() + "on" + CurrentTime.getAllCurrentTime());
             }
         } else {
             InventoryManipulator.removeById(client, GameConstants.getInventoryType(id), id, -quantity, true, false);
@@ -3349,7 +3350,7 @@ public class MapleCharacter extends AnimatedHinaMapObjectExtend implements Inven
         return allBuffs;
     }
 
-    public List<MapleBuffValueHolder> getAllBuffs() { // ÈÄ¿ø ¹öÇÁ
+    public List<MapleBuffValueHolder> getAllBuffs() { // ÈÄ¿ø ¹öÇÁ (Donor (?) buffs)
         List<MapleBuffValueHolder> ret = new ArrayList<>();
         LinkedList<BuffStatsValueHolder> allBuffs = new LinkedList<>();
         for (List<BuffStatsValueHolder> holders : effects.values()) {
@@ -6978,7 +6979,7 @@ public class MapleCharacter extends AnimatedHinaMapObjectExtend implements Inven
         this.combo = combo;
     }
 
-    public void updateCombo(short combo, long curr) { //¾Æ¶õ ÄÞº¸
+    public void updateCombo(short combo, long curr) { //¾Æ¶õ ÄÞº¸ (Aran Combo)
         if (combo > 1000) {
             combo = 1000;
         }
@@ -7834,8 +7835,8 @@ public class MapleCharacter extends AnimatedHinaMapObjectExtend implements Inven
         String str = "";
         int o = 0;
         for (Pair<Integer, Integer> d : getRewardDB()) {
-            str += "#L" + (o++) + "#" + "#z" + d.getLeft() + "# " + d.getRight() + "°³#l\r\n";
-        }
+            str += "#L" + (o++) + "#" + "#z" + d.getLeft() + "# " + d.getRight() + "#l\r\n";
+        } // KOOKIIE deleted the counting particle '°³' from the line
         return str;
     }
 
@@ -7944,6 +7945,7 @@ public class MapleCharacter extends AnimatedHinaMapObjectExtend implements Inven
     // ret.getStat().setWillPower(rs.getInt("willpower"));
     /*
 	 * 0 : Ä«¸®½º¸¶ 1 : ÅëÂû·Â 2 : ÀÇÁö 3 : ¼ÕÀçÁÖ 4 : °¨¼º 5 : ¸Å·Â
+	 * 0 : Ambition 1 : Insight 2 : Willpower 3 : Diligence 4 : Empathy 5 : Charm
      */
     public void addAmbition(int amount) {
         addCharisma(amount);
@@ -9060,7 +9062,7 @@ public class MapleCharacter extends AnimatedHinaMapObjectExtend implements Inven
 										changeSkillLevel(SkillFactory.getSkill(Integer.parseInt(skillId.getName())), maxLevel, maxLevel);
 									}
                                 } catch (NumberFormatException ex) {
-									System.out.println(ex + "Skillmaster error occurred!");
+									System.out.println(ex + "Skill-maxer error occurred!");
                                 }
                             }
                         }
@@ -9308,9 +9310,9 @@ public class MapleCharacter extends AnimatedHinaMapObjectExtend implements Inven
     public void handleOrbconsume(int amount) {
         ISkill combo;
         switch (getJob()) {
-            case 1110:
-            case 1111:
-            case 1112:
+            case JobConstants.DAWN_WARRIOR_II:
+            case JobConstants.DAWN_WARRIOR_III:
+            case JobConstants.DAWN_WARRIOR_IIII:
                 combo = SkillFactory.getSkill(11111001);
                 break;
             default:
@@ -9367,519 +9369,83 @@ public class MapleCharacter extends AnimatedHinaMapObjectExtend implements Inven
         return num_;
     }
 
+    private boolean advancementWrapper(String jobID) {
+        // Send job advancement message; concat generic prefix with job name
+        getClient().send(UIPacket.showInfo(JobConstants.advancePrefix + JobConstants.JOB_NAME.get(Short.valueOf(jobID))));
+        changeJob(Short.parseShort(jobID));  // Change job
+        return true;
+    }
+
     public boolean AutoJob() {
-        if (getKeyValue("AutoJob") != null) {
-            if (level == 20) {
-                switch (getKeyValue("AutoJob")) {
-                    case "430":
-                        getClient().send(UIPacket.showInfo("[Rememberer of darkness] I changed to semi-dudor."));
-                        changeJob(430);
-                        setKeyValue("AutoJob", "430");
-                        return true;
-                }
+        // Experimental; please roll back if this breaks auto-job advancement
+        if (getKeyValue("AutoJob") != null && !GameConstants.isZero(getJob())) {  // Rebirth breaks Zero's lv100 start point
+            if (level == 20 &&
+                getKeyValue("AutoJob").equals(String.valueOf(JobConstants.BLADE_RECRUIT))) {
+                // Only DB Job advances at lv 20
+                advancementWrapper(String.valueOf(JobConstants.BLADE_RECRUIT));
+                setKeyValue("AutoJob", String.valueOf(JobConstants.BLADE_RECRUIT));
+                return true;
             } else if (level == 30) {
-                switch (getKeyValue("AutoJob")) {
-                    case "110":
-                        getClient().send(UIPacket.showInfo("[Two-handed swordsman] Changed to Fighter."));
-                        changeJob(110);
-                        return true;
-                    case "120":
-                        getClient().send(UIPacket.showInfo("[One-handed Sword Knight] Changed to Page."));
-                        changeJob(120);
-                        return true;
-                    case "130":
-                        getClient().send(UIPacket.showInfo("[Knight] Changed to Spearman."));
-                        changeJob(130);
-                        return true;
-                    case "210":
-                        getClient().send(UIPacket.showInfo("[Fire*Poison] Changed to Wizard."));
-                        changeJob(210);
-                        return true;
-                    case "220":
-                        getClient().send(UIPacket.showInfo("[Ice*lightning] Changed to Wizard."));
-                        changeJob(220);
-                        return true;
-                    case "230":
-                        getClient().send(UIPacket.showInfo("[Heal*Buff] Changed to Cleric."));
-                        changeJob(230);
-                        return true;
-                    case "310":
-                        getClient().send(UIPacket.showInfo("[Shooter] I changed to Hunter."));
-                        changeJob(310);
-                        return true;
-                    case "320":
-                        getClient().send(UIPacket.showInfo("[Next shooter] Changed to shooter."));
-                        changeJob(320);
-                        return true;
-                    case "330":
-                        getClient().send(UIPacket.showInfo("[Action] I changed to Ancient Archer."));
-                        changeJob(330);
-                        return true;
-                    case "410":
-                        getClient().send(UIPacket.showInfo("[Recognition assassination Beginner] Changed to Assassin."));
-                        changeJob(410);
-                        return true;
-                    case "420":
-                        getClient().send(UIPacket.showInfo("[Sword assassination initiation period] shifted to Seef."));
-                        changeJob(420);
-                        return true;
-                    case "510":
-                        getClient().send(UIPacket.showInfo("[Knuckle Beginner] Changed to Infinite."));
-                        changeJob(510);
-                        return true;
-                    case "520":
-                        getClient().send(UIPacket.showInfo("[Gun Beginner] Changed to Gunslinger."));
-                        changeJob(520);
-                        return true;
-                    case "430":
-                        getClient().send(UIPacket.showInfo("[The Dark Past] Changed to Durer."));
-                        changeJob(431);
-                        return true;
-                    case "530":
-                        getClient().send(UIPacket.showInfo("[Introductory Cannon] Changed to Cannon Shooter."));
-                        changeJob(530);
-                        return true;
-                    case "1110":
-                        getClient().send(UIPacket.showInfo("[Introductory Cygnus] Changed to Light Knight."));
-                        changeJob(1110);
-                        return true;
-                    case "1210":
-                        getClient().send(UIPacket.showInfo("[Introductory Cygnus] Changed to Fire Knight."));
-                        changeJob(1210);
-                        return true;
-                    case "1310":
-                        getClient().send(UIPacket.showInfo("[Introductory Cygnus] Changed to Knight of the Wind."));
-                        changeJob(1310);
-                        return true;
-                    case "1410":
-                        getClient().send(UIPacket.showInfo("[Initiator for Cygnus] Changed to Dark Knight."));
-                        changeJob(1410);
-                        return true;
-                    case "1510":
-                        getClient().send(UIPacket.showInfo("[Introductory Cygnus] Changed to Lightning Knight."));
-                        changeJob(1510);
-                        return true;
-                    case "2110":
-                        getClient().send(UIPacket.showInfo("[Heroic Instinct] Changed to Aran."));
-                        changeJob(2110);
-                        return true;
-                    case "2210":
-                        getClient().send(UIPacket.showInfo("[Second Step] Changed to Evan."));
-                        changeJob(2211);
-                        return true;
-                    case "2310":
-                        getClient().send(UIPacket.showInfo("[Heroic Instinct] Changed to Mercedes."));
-                        changeJob(2310);
-                        return true;
-                    case "2410":
-                        getClient().send(UIPacket.showInfo("[Heroic Instinct] Changed to Phantom."));
-                        changeJob(2410);
-                        return true;
-                    case "2510":
-                        getClient().send(UIPacket.showInfo("[Heroic Instinct] Changed to Eunwol."));
-                        changeJob(2510);
-                        return true;
-                    case "2710":
-                        getClient().send(UIPacket.showInfo("Hero's Instinct] Changed to Luminous."));
-                        changeJob(2710);
-                        return true;
-                    case "3110":
-                        getClient().send(UIPacket.showInfo("[Introduction to Resistance] Changed to Daemon Slayer."));
-                        changeJob(3110);
-                        return true;
-                    case "3120":
-                        getClient().send(UIPacket.showInfo("[Introduction to Resistance] Changed to Daemon Avenger."));
-                        changeJob(3120);
-                        return true;
-                    case "3210":
-                        getClient().send(UIPacket.showInfo("[Introduction to Resistance] Changed to Battle Mage."));
-                        changeJob(3210);
-                        return true;
-                    case "3310":
-                        getClient().send(UIPacket.showInfo("[Introduction to Resistance] Changed to Wild Hunter."));
-                        changeJob(3310);
-                        return true;
-                    case "3510":
-                        getClient().send(UIPacket.showInfo("[Introduction to Resistance] Changed to Mechanic."));
-                        changeJob(3510);
-                        return true;
-                    case "3610":
-                        getClient().send(UIPacket.showInfo("[Introduction to Resistance] Moved to Xenon."));
-                        changeJob(3610);
-                        return true;
-                    case "3710":
-                        getClient().send(UIPacket.showInfo("[Introduction to Resistance] He changed to Blaster."));
-                        changeJob(3710);
-                        return true;
-                    case "5110":
-                        getClient().send(UIPacket.showInfo("[Director of Cygnus] Changed to Light Knight."));
-                        changeJob(5110);
-                        return true;
-                    case "6110":
-                        getClient().send(UIPacket.showInfo("[Nova trainee] Changed to Kaiser."));
-                        changeJob(6110);
-                        return true;
-                    case "6510":
-                        getClient().send(UIPacket.showInfo("[Nova trainee] Changed to Angelic Buster."));
-                        changeJob(6510);
-                        return true;
-                    case "14200":
-                        getClient().send(UIPacket.showInfo("[Enlightenment of Super Power] Changed to Kinesis."));
-                        changeJob(14210);
-                        return true;
-                    case "6400":
-                        getClient().send(UIPacket.showInfo("[Enlightenment of Weapon] Changed to Cadena."));
-                        changeJob(6410);
-                        return true;
-                    case "15210":
-                        getClient().send(UIPacket.showInfo("[Magic Enlightenment] Changed to Illium."));
-                        changeJob(15210);
-                        return true;
-                    case "15510":
-                        getClient().send(UIPacket.showInfo("[Copper of Specter] Changed to Ark."));
-                        changeJob(15510);
-                        return true;
-                    default:
-                        return true;
+                if (!getKeyValue("AutoJob").equals(String.valueOf(JobConstants.BLADE_RECRUIT))) {
+                    // All non-Zero classes advance at lv 30
+                    // Evan and DB have odd advancement levels/job IDs
+                    if (getKeyValue("AutoJob").equals(String.valueOf(JobConstants.EVAN_I))) {
+                        return advancementWrapper(String.valueOf(JobConstants.EVAN_III));
+                    }
+                    else {
+                        // Send job advancement message; concat generic prefix with job name
+                        return advancementWrapper(getKeyValue("AutoJob"));
+                    }
                 }
-            } else if (level == 45) {
-                switch (getKeyValue("AutoJob")) {
-                    case "430":
-                        getClient().send(UIPacket.showInfo("Dark Identity Changed to Dualmaster."));
-                        changeJob(432);
-                        return true;
-                    default:
-                        return true;
+                else {
+                    return advancementWrapper(String.valueOf(JobConstants.BLADE_ACOLYTE));
                 }
+            } else if (level == 45 &&
+                getKeyValue("AutoJob").equals(String.valueOf(JobConstants.BLADE_RECRUIT))) {
+                // Only DB Job advances at lv 45
+                return advancementWrapper(String.valueOf(JobConstants.BLADE_SPECIALIST));
             } else if (level == 60) {
-                switch (getKeyValue("AutoJob")) {
-                    case "110":
-                        getClient().send(UIPacket.showInfo("[Soul Fencing Knight] Changed to Crusader."));
-                        changeJob(111);
-                        return true;
-                    case "120":
-                        getClient().send(UIPacket.showInfo("[Professional Sword of Knight] Changed to Knight."));
-                        changeJob(121);
-                        return true;
-                    case "130":
-                        getClient().send(UIPacket.showInfo("[Dragon Sword Knight] was a dragon knight."));
-                        changeJob(131);
-                        return true;
-                    case "210":
-                        getClient().send(UIPacket.showInfo("[Fire*Poison] Changed to Meiji."));
-                        changeJob(211);
-                        return true;
-                    case "220":
-                        getClient().send(UIPacket.showInfo("[Ice*Lightning] Changed to Meiji."));
-                        changeJob(221);
-                        return true;
-                    case "230":
-                        getClient().send(UIPacket.showInfo("[Heal*Buff] I'm a former priest."));
-                        changeJob(231);
-                        return true;
-                    case "310":
-                        getClient().send(UIPacket.showInfo("[Series shooter] Changed to Ranger."));
-                        changeJob(311);
-                        return true;
-                    case "320":
-                        getClient().send(UIPacket.showInfo("[Brown-backed shooter] Changed to sniper."));
-                        changeJob(321);
-                        return true;
-                    case "330":
-                        getClient().send(UIPacket.showInfo("[Master of Ancients] Changed to Chaser."));
-                        changeJob(331);
-                        return true;
-                    case "410":
-                        getClient().send(UIPacket.showInfo("[Assassination Specialist] I changed to Hermit."));
-                        changeJob(411);
-                        return true;
-                    case "420":
-                        getClient().send(UIPacket.showInfo("[The Darkman] Changed to Sheep Master."));
-                        changeJob(421);
-                        return true;
-                    case "510":
-                        getClient().send(UIPacket.showInfo("[Dragon Knuckle Fighter] Changed to Buccaneer."));
-                        changeJob(511);
-                        return true;
-                    case "520":
-                        getClient().send(UIPacket.showInfo("[Gun Mastery] I changed to Valkyrie."));
-                        changeJob(521);
-                        return true;
-                    case "430":
-                        getClient().send(UIPacket.showInfo("[Knowing the Darkness] She changed to Slasher."));
-                        changeJob(433);
-                        return true;
-                    case "530":
-                        getClient().send(UIPacket.showInfo("[Canon Mastery] Changed to Cannon Shooter."));
-                        changeJob(531);
-                        return true;
-                    case "2110":
-                        getClient().send(UIPacket.showInfo("[Hero's Enlightenment] Changed to Aran."));
-                        changeJob(2111);
-                        return true;
-                    case "2210":
-                        getClient().send(UIPacket.showInfo("[Evolutionary Dragon] Changed to Evan."));
-                        changeJob(2214);
-                        return true;
-                    case "2310":
-                        getClient().send(UIPacket.showInfo("[Hero's Enlightenment] Changed to Mercedes."));
-                        changeJob(2311);
-                        return true;
-                    case "2410":
-                        getClient().send(UIPacket.showInfo("[Hero's Enlightenment] Changed to Phantom."));
-                        changeJob(2411);
-                        return true;
-                    case "2510":
-                        getClient().send(UIPacket.showInfo("[Hero's Enlightenment] Changed to Eunwol."));
-                        changeJob(2511);
-                        return true;
-                    case "2710":
-                        getClient().send(UIPacket.showInfo("[Hero's Enlightenment] Changed to Luminous."));
-                        changeJob(2711);
-                        return true;
-                    case "3110":
-                        getClient().send(UIPacket.showInfo("[Resistence Agent] Changed to Daemon Slayer."));
-                        changeJob(3111);
-                        return true;
-                    case "3120":
-                        getClient().send(UIPacket.showInfo("[Resistence Agent] Changed to Daemon Avenger."));
-                        changeJob(3121);
-                        return true;
-                    case "3210":
-                        getClient().send(UIPacket.showInfo("[Resistence Agent] Changed to Battle Mage."));
-                        changeJob(3211);
-                        return true;
-                    case "3310":
-                        getClient().send(UIPacket.showInfo("[Resistence Agent] Changed to Wild Hunter."));
-                        changeJob(3311);
-                        return true;
-                    case "3510":
-                        getClient().send(UIPacket.showInfo("[Resistence Agent] Changed to Mechanic."));
-                        changeJob(3511);
-                        return true;
-                    case "3610":
-                        getClient().send(UIPacket.showInfo("[Resistence Agent] Changed to Xenon."));
-                        changeJob(3611);
-                        return true;
-                    case "3710":
-                        getClient().send(UIPacket.showInfo("[Resistence Agent] Changed to Blaster."));
-                        changeJob(3711);
-                        return true;
-                    case "5110":
-                        getClient().send(UIPacket.showInfo("[Director of Cygnus] Changed to Light Knight."));
-                        changeJob(5111);
-                        return true;
-                    case "6110":
-                        getClient().send(UIPacket.showInfo("[Guardian of Nova] Changed to Kaiser."));
-                        changeJob(6111);
-                        return true;
-                    case "6510":
-                        getClient().send(UIPacket.showInfo("[Guardian of Nova] Changed to Angelic Buster."));
-                        changeJob(6511);
-                        return true;
-                    case "1110":
-                        getClient().send(UIPacket.showInfo("[Cygnus Official Article] Changed to Soul Master."));
-                        changeJob(1111);
-                        return true;
-                    case "1210":
-                        getClient().send(UIPacket.showInfo("[Cygnus Official Article] Changed to Flame Wizard."));
-                        changeJob(1211);
-                        return true;
-                    case "1310":
-                        getClient().send(UIPacket.showInfo("[Cygnus Official Article] Changed to Windbreaker."));
-                        changeJob(1311);
-                        return true;
-                    case "1410":
-                        getClient().send(UIPacket.showInfo("[Cygnus Official Article] Changed to Night Walker."));
-                        changeJob(1411);
-                        return true;
-                    case "1510":
-                        getClient().send(UIPacket.showInfo("[Cygnus Official Article] Striker Changed."));
-                        changeJob(1511);
-                        return true;
-                    case "14200":
-                        getClient().send(UIPacket.showInfo("[Enlightenment of Super Power] I changed to Kinesis."));
-                        changeJob(14211);
-                        return true;
-                    case "6400":
-                        getClient().send(UIPacket.showInfo("[Weapon master] Changed to Cadena."));
-                        changeJob(6411);
-                        return true;
-                    case "15210":
-                        getClient().send(UIPacket.showInfo("[Magic Master] Changed to Illium."));
-                        changeJob(15211);
-                        return true;
-                    case "15510":
-                        getClient().send(UIPacket.showInfo("[The Spectator] Ex-Arc."));
-                        changeJob(15511);
-                        return true;
+                if (!getKeyValue("AutoJob").equals(String.valueOf(JobConstants.BLADE_RECRUIT))) {
+                    // All non-Zero classes advance at lv 60
+                    // Evan and DB have odd advancement levels/job IDs
+                    if (getKeyValue("AutoJob").equals(String.valueOf(JobConstants.EVAN_I))) {
+                        return advancementWrapper(String.valueOf(JobConstants.EVAN_VI));
+                    }
+                    else {
+                        short targetID = Short.parseShort(getKeyValue("AutoJob"));
+                        targetID += 1;  // raise to target job ID
+                        // Send job advancement message; concat generic prefix with job name
+                        return advancementWrapper(String.valueOf(targetID));
+                    }
+                }
+                else {
+                    return advancementWrapper(String.valueOf(JobConstants.BLADE_LORD));
                 }
             } else if (level == 100) {
-                switch (getKeyValue("AutoJob")) {
-                    case "110":
-                        getClient().send(UIPacket.showInfo("[Master of Chain Swordsman] Changed to Hero."));
-                        changeJob(112);
-                        return true;
-                    case "120":
-                        getClient().send(UIPacket.showInfo("[Master of Fantasy Swordsman] Changed to Paladin."));
-                        changeJob(122);
-                        return true;
-                    case "130":
-                        getClient().send(UIPacket.showInfo("[Master of Dark Dragon Spear] Changed to Dark Knight."));
-                        changeJob(132);
-                        return true;
-                    case "210":
-                        getClient().send(UIPacket.showInfo("[Fire*Poison Master] Changed to Archmage."));
-                        changeJob(212);
-                        return true;
-                    case "220":
-                        getClient().send(UIPacket.showInfo("[Ice*Lightning Master] Changed to Archmage."));
-                        changeJob(222);
-                        return true;
-                    case "230":
-                        getClient().send(UIPacket.showInfo("[Heal*Buff Master] Changed to Bishop."));
-                        changeJob(232);
-                        return true;
-                    case "310":
-                        getClient().send(UIPacket.showInfo("[Arrow Speaker Master] Changed to Bow Master."));
-                        changeJob(312);
-                        return true;
-                    case "320":
-                        getClient().send(UIPacket.showInfo("[Master of Arrow Power] Changed to Shrine."));
-                        changeJob(322);
-                        return true;
-                    case "330":
-                        getClient().send(UIPacket.showInfo("[Ancient Master] Changed to Pathfinder."));
-                        changeJob(332);
-                        return true;
-                    case "410":
-                        getClient().send(UIPacket.showInfo("[Master of Chain Assassination] Changed to Knight Road."));
-                        changeJob(412);
-                        return true;
-                    case "420":
-                        getClient().send(UIPacket.showInfo("Dark Assassination Master Changed to Shadow."));
-                        changeJob(422);
-                        return true;
-                    case "510":
-                        getClient().send(UIPacket.showInfo("[Knuckle Fighter of Spirits] Changed to Viper."));
-                        changeJob(512);
-                        return true;
-                    case "520":
-                        getClient().send(UIPacket.showInfo("[Battle Gun Mastery] Former Captain."));
-                        changeJob(522);
-                        return true;
+                switch (getKeyValue("AutoJob")) {  // opt for Switch since there's more than 3 cases here
                     case "430":
-                        getClient().send(UIPacket.showInfo("[Adjuster of Darkness] Changed to Dual Blade."));
-                        changeJob(434);
-                        return true;
-                    case "530":
-                        getClient().send(UIPacket.showInfo("[Canon Mastery of Destruction] Changed to Cannon Shooter."));
-                        changeJob(532);
-                        return true;
-                    case "2110":
-                        getClient().send(UIPacket.showInfo("[Hero's Resurrection] Changed to Aran."));
-                        changeJob(2112);
-                        return true;
+                        return advancementWrapper(String.valueOf(JobConstants.BLADE_MASTER));
                     case "2210":
-                        getClient().send(UIPacket.showInfo("[Legendary Dragon] Changed to Evan."));
-                        changeJob(2217);
-                        return true;
-                    case "2310":
-                        getClient().send(UIPacket.showInfo("[Hero's Resurrection]."));
-                        changeJob(2312);
-                        return true;
-                    case "2410":
-                        getClient().send(UIPacket.showInfo("[Hero's Resurrection] Changed to Phantom."));
-                        changeJob(2412);
-                        return true;
-                    case "2510":
-                        getClient().send(UIPacket.showInfo("[Hero's Resurrection] Changed to Eunwol."));
-                        changeJob(2512);
-                        return true;
-                    case "2710":
-                        getClient().send(UIPacket.showInfo("[Hero's Resurrection] Changed to Luminous."));
-                        changeJob(2712);
-                        return true;
-                    case "3110":
-                        getClient().send(UIPacket.showInfo("[Hero of Resistance] Changed to Daemon Slayer."));
-                        changeJob(3112);
-                        return true;
-                    case "3120":
-                        getClient().send(UIPacket.showInfo("[Resistence Hero] Changed to Daemon Avenger."));
-                        changeJob(3122);
-                        return true;
-                    case "3210":
-                        getClient().send(UIPacket.showInfo("[Hero of Resistance] Changed to Battle Mage."));
-                        changeJob(3212);
-                        return true;
-                    case "3310":
-                        getClient().send(UIPacket.showInfo("[Hero of Resistance] Changed to Wild Hunter."));
-                        changeJob(3312);
-                        return true;
-                    case "3510":
-                        getClient().send(UIPacket.showInfo("[Hero of Resistance] Moved to Mechanic."));
-                        changeJob(3512);
-                        return true;
-                    case "3610":
-                        getClient().send(UIPacket.showInfo("[Hero of Resistance] Moved to Xenon."));
-                        changeJob(3612);
-                        return true;
-                    case "3710":
-                        getClient().send(UIPacket.showInfo("[Heroes of Resistance] Changed to Blaster."));
-                        changeJob(3712);
-                        return true;
-                    case "5110":
-                        getClient().send(UIPacket.showInfo("[Director of Cygnus] Changed to Light Knight."));
-                        changeJob(5112);
-                        return true;
-                    case "6110":
-                        getClient().send(UIPacket.showInfo("[Dragon Knight] Changed to Kaiser."));
-                        changeJob(6112);
-                        return true;
-                    case "6510":
-                        getClient().send(UIPacket.showInfo("[Idol of Battlefield] Changed to Angelic Buster."));
-                        changeJob(6512);
-                        return true;
+                        return advancementWrapper(String.valueOf(JobConstants.EVAN_IX));
                     case "1110":
-                        getClient().send(UIPacket.showInfo("[Cygnus Hero] Changed to Great Spirit of Light."));
-                        changeJob(1112);
+                        advancementWrapper(String.valueOf(JobConstants.DAWN_WARRIOR_IIII));
                         changeSkillLevel(11121000, (byte) 30, (byte) 30);
                         return true;
                     case "1210":
-                        getClient().send(UIPacket.showInfo("[Cygnus Hero] Changed to Great Spirit of Fire."));
-                        changeJob(1212);
+                        advancementWrapper(String.valueOf(JobConstants.BLAZE_WIZARD_IIII));
                         changeSkillLevel(12121000, (byte) 30, (byte) 30);
                         return true;
                     case "1310":
-                        getClient().send(UIPacket.showInfo("[Cygnus Hero] Changed to Great Spirit of the Wind."));
-                        changeJob(1312);
+                        advancementWrapper(String.valueOf(JobConstants.WIND_ARCHER_IIII));
                         changeSkillLevel(13121000, (byte) 30, (byte) 30);
                         return true;
                     case "1410":
-                        getClient().send(UIPacket.showInfo("[Cygnus Hero] Changed to Dark Spirit."));
-                        changeJob(1412);
+                        advancementWrapper(String.valueOf(JobConstants.NIGHT_WALKER_IIII));
                         changeSkillLevel(14121000, (byte) 30, (byte) 30);
                         return true;
                     case "1510":
-                        getClient().send(UIPacket.showInfo("[Cygnus Heroes] Changed to Great Spirit of Lightning."));
-                        changeJob(1512);
+                        advancementWrapper(String.valueOf(JobConstants.THUNDER_BREAKER_IIII));
                         changeSkillLevel(15121000, (byte) 30, (byte) 30);
-                        return true;
-                    case "14200":
-                        getClient().send(UIPacket.showInfo("[Superhero] Changed to Kinesis."));
-                        changeJob(14212);
-                        return true;
-                    case "6400":
-                        getClient().send(UIPacket.showInfo("[Hero of Nova] Changed to Cadena."));
-                        changeJob(6412);
-                        return true;
-                    case "15210":
-                        getClient().send(UIPacket.showInfo("[Magic Transcendence] Changed to Illium."));
-                        changeJob(15212);
-                        return true;
-                    case "15510":
-                        getClient().send(UIPacket.showInfo("[King of Specter] Advance to Ark."));
-                        changeJob(15512);
                         return true;
                 }
             }
@@ -10339,10 +9905,10 @@ public class MapleCharacter extends AnimatedHinaMapObjectExtend implements Inven
             public void run() {
                 if (fishings != null) {
                     if (map.getAllMonster().size() > 0) {
-                        if (!Å½Áö±â) {
+                        if (!detector) {
                             dropMessage(5, "After an hour, the detector was activated. Enter <~ detector> in the chat window.");
                             send(MainPacketCreator.sendHint("After an hour, the detector was activated. In chat #e<~detector>#nPlease enter.", 500, 5));
-                            Å½Áö±â = true;
+                            detector = true;
                         } else {
                             warp(910001000);
                         }
@@ -11601,7 +11167,7 @@ public class MapleCharacter extends AnimatedHinaMapObjectExtend implements Inven
         }
     }
 
-    public void ±Í¹®Áø½ÃÀÛ(SkillStatEffect eff) {
+    public void startSpiritGate(SkillStatEffect eff) { // Original: startSpiritGate
         MapleCharacter chr = this;
 
         BuffTimer tMan = BuffTimer.getInstance();
@@ -11613,7 +11179,7 @@ public class MapleCharacter extends AnimatedHinaMapObjectExtend implements Inven
             public void run() {
                 if (chr.isActiveBuffedValue(400051022)) {
                     SkillStatEffect a = Objects.requireNonNull(SkillFactory.getSkill(400051023)).getEffect(chr.getSkillLevel(400051022));
-                    MapleSummon summon = new MapleSummon(chr, 400051023, a.getDuration(), chr.summonxy, SummonMovementType.±Í¹®Áø, System.currentTimeMillis());
+                    MapleSummon summon = new MapleSummon(chr, 400051023, a.getDuration(), chr.summonxy, SummonMovementType.SPIRIT_GATE, System.currentTimeMillis());
                     chr.getMap().spawnSummon(summon, true, a.getDuration());
                 } else {
                     ej.cancel(true);
@@ -11702,7 +11268,7 @@ public class MapleCharacter extends AnimatedHinaMapObjectExtend implements Inven
         this.infinityStack = infinityStack;
     }
 
-    public int ¸¶¹ýÀÜÇØ = 0;
+    public int magicDebris = 0;
     public List<Point> Pointxy = new ArrayList<>();
 
     public int getBlessMarkSkillID() {
@@ -12217,21 +11783,21 @@ public class MapleCharacter extends AnimatedHinaMapObjectExtend implements Inven
         }
         String[] data = stat.getCustomData().split(";");
         for (String s : data) {
-            if (s.startsWith(key + "=")) { // ê¸°ì¡´??ì¡´ì???? ?°ì??????
+            if (s.startsWith(key + "=")) { // ê¸°ì¡´??ì¡´ì???? ?°ì?????? (looks like Japanese being wrongly decoded as Korean)
                 String newkey = stat.getCustomData().replace(s + ";", "");
                 stat.setCustomData(newkey);
                 updateInfoQuest(type, stat.getCustomData());
                 return;
             }
         }
-        stat.setCustomData(stat.getCustomData()); // ê¸°ì¡´ ?¤ë²¨ë¥?? ???°ì???ì¶??.
+        stat.setCustomData(stat.getCustomData()); // ê¸°ì¡´ ?¤ë²¨ë¥?? ???°ì???ì¶??. (looks like Japanese being wrongly decoded as Korean)
         updateInfoQuest(type, stat.getCustomData());
     }
 
     public void removeKeyValue_new(int type) {
         MapleQuest quest = MapleQuest.getInstance(type);
         final MapleQuestStatus stat = quests.get(quest);
-        if (stat == null) { // key ?°ì??°ê?  null
+        if (stat == null) { // key ?°ì??°ê?  null (looks like Japanese being wrongly decoded as Korean)
             return;
         }
         if (stat.getCustomData() == null) {
@@ -12285,7 +11851,7 @@ public class MapleCharacter extends AnimatedHinaMapObjectExtend implements Inven
                 return dd;
             }
         }
-        return -1; // ë¯¸ì¡´?¬ì? -1
+        return -1; // ë¯¸ì¡´?¬ì? -1 (looks like Japanese being wrongly decoded as Korean)
     }
 
     public long getDojoStartTime() {

@@ -611,9 +611,9 @@ public class CommunityHandler {
                 if (guild != null) {
                     if (g_ != null) {
                         if (expelled) {
-                            guild.broadcast(MainPacketCreator.serverNotice(5, "[" + g_.getName() + "] The guild was expelled from coalition."));
+                            guild.broadcast(MainPacketCreator.serverNotice(5, "[" + g_.getName() + "] The guild was expelled from alliance."));
                         } else {
-                            guild.broadcast(MainPacketCreator.serverNotice(5, "[" + g_.getName() + "] Guild has left the Union."));
+                            guild.broadcast(MainPacketCreator.serverNotice(5, "[" + g_.getName() + "] guild has left the alliance."));
                         }
                         guild.broadcast(MainPacketCreator.removeGuildFromAlliance(alliance, g_, expelled));
                     } else {
@@ -628,12 +628,12 @@ public class CommunityHandler {
                 g_.broadcast(MainPacketCreator.disbandAlliance(allianceid));
                 g_.broadcast(MainPacketCreator.removeGuildFromAlliance(alliance, g_, expelled));
                 if (expelled) {
-                    g_.broadcast(MainPacketCreator.serverNotice(5, "Exiled from the Union."));
+                    g_.broadcast(MainPacketCreator.serverNotice(5, "You have been expelled from the alliance."));
                 } else {
-                    g_.broadcast(MainPacketCreator.serverNotice(5, "You left the Union."));
+                    g_.broadcast(MainPacketCreator.serverNotice(5, "You have left the alliance."));
                 }
             } else {
-                alliance.broadcast(MainPacketCreator.serverNotice(5, "Union is disbanded."));
+                alliance.broadcast(MainPacketCreator.serverNotice(5, "The alliance has disbanded."));
                 alliance.broadcast(MainPacketCreator.disbandAlliance(allianceid));
             }
         }
@@ -787,7 +787,7 @@ public class CommunityHandler {
                     MapleCharacter chr = cserv.getPlayerStorage().getCharacterByName(hpcz.getName());
                     if (chr != null) {
                         if (chr.getId() != ch.getId()) {
-                            chr.send(MainPacketCreator.serverNotice(5, "'" + ch.getName() + "' Has joined the Fellowship."));
+                            chr.send(MainPacketCreator.serverNotice(5, "'" + ch.getName() + "' has joined the expedition."));
                             chr.send(MainPacketCreator.updateExpedition(true, exp));
                         } else {
                             chr.send(MainPacketCreator.updateExpedition(false, exp));

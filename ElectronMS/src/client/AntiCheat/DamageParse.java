@@ -65,7 +65,7 @@ public class DamageParse {
 
         player.getMap().broadcastMessage(MainPacketCreator.showGatherComplete(player.getId(), true));
         player.getMap().broadcastMessage(MainPacketCreator.serverNotice(6,
-                "[Tagging] Wolves " + player.getName() + "This sheep " + catched.getName() + "You have caught."));
+                "[Tagging] " + player.getName() + " the Wolf has caught " + catched.getName() + "the Sheep."));
         catched.getStat().setHp(0, catched);
         catched.updateSingleStat(PlayerStatList.HP, 0);
         boolean alliveCatched = false;
@@ -293,7 +293,7 @@ public class DamageParse {
                     break;
                 }
             }
-            player.getMap().broadcastMessage(MainPacketCreator.½ºÇÃ¸´¹Ì½ºÅÚ(player, monsters, 3301009));
+            player.getMap().broadcastMessage(MainPacketCreator.splitMistel(player, monsters, 3301009));
         }
         if (attack.skill == 3321005) {
             if (player.shape == 1 && Randomizer.isSuccess(60)) {
@@ -316,7 +316,7 @@ public class DamageParse {
                         }
                     }
                 }
-                player.getMap().broadcastMessage(MainPacketCreator.¿¡µð¼Å³Îµð½ºÂ÷Áö(player, monsters, 3300005));
+                player.getMap().broadcastMessage(MainPacketCreator.additionalDischarge(player, monsters, 3300005));
             }
         }
         if (attack.skill == 3321036) {
@@ -330,7 +330,7 @@ public class DamageParse {
                     break;
                 }
             }
-            player.getClient().send(MainPacketCreator.½ºÇÃ¸´¹Ì½ºÅÚ(player, monsters, 3321037));
+            player.getClient().send(MainPacketCreator.splitMistel(player, monsters, 3321037));
         }
 
         if (attack.skill == 400041042) {
@@ -430,7 +430,7 @@ public class DamageParse {
                 }
                 if (player.isActiveBuffedValue(400031028) && attack.skill != 3100010 && attack.skill != 400031029) {
                     for (int i = 0; i < 6; i++) {
-                        player.getMap().broadcastMessage(MainPacketCreator.Äû¹öÇ®¹ö½ºÆ®(player, monster, 400031029));
+                        player.getMap().broadcastMessage(MainPacketCreator.quiverBarrage(player, monster, 400031029));
                     }
                 }
                 if (player.isActiveBuffedValue(400031030) && attack.skill != 400031031 && attack.skill != 400031001 && attack.skill != 13121054 && attack.skill != 13101022 && attack.skill != 13110022 && attack.skill != 13120003 && attack.skill != 13111020) {
@@ -1286,7 +1286,7 @@ public class DamageParse {
                     int oakid = player.getBuffedValue(BuffStats.Roulette);
                     SkillStatEffect eff = SkillFactory.getSkill(5311004).getEffect(player.getSkillLevel(5311004));
                     if (!monster.getStats().isBoss()) {
-                        if (oakid == 4) { // ¾ÏÈæ È®·ü »ó½Â
+                        if (oakid == 4) { // ¾ÏÈæ È®·ü »ó½Â (Darkness (Blind?) chance increase)
                             if (Randomizer.nextInt(100) < eff.getX()) {
                                 monsterStatusEffect = new MonsterStatusEffect(
                                         Collections.singletonMap(MonsterStatus.DARKNESS, 1),
@@ -1472,8 +1472,8 @@ public class DamageParse {
                         break;
                     }
                     case 21000004: // Combo Smash
-                    case 21000006:
-                    case 21001010:
+                    case 21000006: // Smash Swing
+                    case 21001010: // Smash Swing
                     case 21100007: // Combo Fenrir
                     case 21000002: // Double attack
                     case 21100001: // Triple Attack
@@ -1645,14 +1645,14 @@ public class DamageParse {
                 }
                 if (attack.skill == 22110025 || attack.skill == 22110024 || attack.skill == 22110014 || attack.skill == 22140015 || attack.skill == 22140024 || attack.skill == 22140014 || attack.skill == 22140023 || attack.skill == 22170066 || attack.skill == 22170065 || attack.skill == 22170067 || attack.skill == 22170094 || attack.skill == 400020046) {
                     if (player.getSkillLevel(22170070) > 0) {
-                        if (player.¸¶¹ýÀÜÇØ >= 0 && player.¸¶¹ýÀÜÇØ < 15) {
-                            player.¸¶¹ýÀÜÇØ++;
-                            player.getMap().broadcastMessage(MainPacketCreator.Evanruins(player, monster.getPosition(), 22170070, player.¸¶¹ýÀÜÇØ));
+                        if (player.magicDebris >= 0 && player.magicDebris < 15) {
+                            player.magicDebris++;
+                            player.getMap().broadcastMessage(MainPacketCreator.Evanruins(player, monster.getPosition(), 22170070, player.magicDebris));
                         }
                     } else {
-                        if (player.¸¶¹ýÀÜÇØ >= 0 && player.¸¶¹ýÀÜÇØ < 15) {
-                            player.¸¶¹ýÀÜÇØ++;
-                            player.getMap().broadcastMessage(MainPacketCreator.Evanruins(player, monster.getPosition(), 22141017, player.¸¶¹ýÀÜÇØ));
+                        if (player.magicDebris >= 0 && player.magicDebris < 15) {
+                            player.magicDebris++;
+                            player.getMap().broadcastMessage(MainPacketCreator.Evanruins(player, monster.getPosition(), 22141017, player.magicDebris));
                         }
                     }
                 }
@@ -2356,14 +2356,14 @@ public class DamageParse {
                         }
                         if (attack.skill == 22110025 || attack.skill == 22110024 || attack.skill == 22110014 || attack.skill == 22140015 || attack.skill == 22140024 || attack.skill == 22140014 || attack.skill == 22140023 || attack.skill == 22170066 || attack.skill == 22170065 || attack.skill == 22170067 || attack.skill == 22170094 || attack.skill == 400020046) {
                             if (player.getSkillLevel(22170070) > 0) {
-                                if (player.¸¶¹ýÀÜÇØ >= 0 && player.¸¶¹ýÀÜÇØ < 15) {
-                                    player.¸¶¹ýÀÜÇØ++;
-                                    player.getMap().broadcastMessage(MainPacketCreator.Evanruins(player, monster.getPosition(), 22170070, player.¸¶¹ýÀÜÇØ));
+                                if (player.magicDebris >= 0 && player.magicDebris < 15) {
+                                    player.magicDebris++;
+                                    player.getMap().broadcastMessage(MainPacketCreator.Evanruins(player, monster.getPosition(), 22170070, player.magicDebris));
                                 }
                             } else {
-                                if (player.¸¶¹ýÀÜÇØ >= 0 && player.¸¶¹ýÀÜÇØ < 15) {
-                                    player.¸¶¹ýÀÜÇØ++;
-                                    player.getMap().broadcastMessage(MainPacketCreator.Evanruins(player, monster.getPosition(), 22141017, player.¸¶¹ýÀÜÇØ));
+                                if (player.magicDebris >= 0 && player.magicDebris < 15) {
+                                    player.magicDebris++;
+                                    player.getMap().broadcastMessage(MainPacketCreator.Evanruins(player, monster.getPosition(), 22141017, player.magicDebris));
                                 }
                             }
                         }
