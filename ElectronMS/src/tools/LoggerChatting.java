@@ -47,10 +47,15 @@ public class LoggerChatting {
         try {
             Calendar currentTime = Calendar.getInstance(TimeZone.getTimeZone("KST"), Locale.KOREAN);
             File file = new File("property/Logs/" + log);
-
+            if (!file.exists()) {
+                boolean success = file.createNewFile();
+                if (!success) {
+                    throw new Exception("Error trying to create a log file for " + log);
+                }
+            }
             FileOutputStream fos = new FileOutputStream(file, true);
 
-            fos.write((currentTime.getTime().toString() + " " + text + "" + System.getProperty("line.separator"))
+            fos.write((currentTime.getTime() + " " + text + "" + System.getProperty("line.separator"))
                     .getBytes());
             fos.close();
         } catch (Exception e) {
