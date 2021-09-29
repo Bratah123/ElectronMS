@@ -57,6 +57,9 @@ The v352.3 pre-alpha launch brought many new features to the table (courtesy of 
 
 Within a week of the pre-alpha launch, **SoulGirlJP** made the announcement that AzureMS is once again upgrading versions. This time, it is a migration to v354.4 for the 64-bit client, as **SoulGirlJP** "(is) 95% sure the upgrade will fix all launching problems". Most notably in the announcement, **SoulGirlJP** mentioned that the new client would mean "no unnecessary crashes (if there's too much (sic) mobs in 1 map, leveling to (sic) fast, etc.)", whilst also noting that they are "currently upgrading/fixing (their) tools because of the 64 bit client".  
 
+On the 30th of September, **SoulGirlJP** announced an upgrade to v354.5, rather than the previously stated v354.4, for "better performance in the loading of the characters". The upgrade to 64-bit is supposedly meant to gfive "more performance in every way", and players' "will see a very big difference of performance, (and their) client will go faster no lagg at all (sic)".  
+
+
 ```
 Timeline: 284 -> 316 -> 329 -> 337 -> 329 -> 342 -> 343 -> 352 -> 354  
 ```
