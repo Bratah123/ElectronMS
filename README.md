@@ -25,6 +25,13 @@ This project is based on AzureMS v316 (see more under AzureMS History below).
 - We may choose to write a dedicated wiki at a later time, if there is sufficient demand.
 - [Discord Link](https://discord.gg/FJ5aed3Rde) - feel free to join our community if you need any help!
 
+#### About Database Management Systems
+*A clarification placed here, since the maintainers of this project no longer have access to modify the AzureMS Wiki*
+- You may need [WAMP](https://www.wampserver.com/en/)/[XAMP](https://www.apachefriends.org/download.html)/[LAMP](https://en.wikipedia.org/wiki/LAMP_(software_bundle)) if you choose to use [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) as your database administration tool.
+    - If you choose to use WAMP, you do not need to install MariaDB/MySQL Server separately - they will be installed as part of the WAMP installation process.
+    - The AzureMS Wiki contains only references for WAMP with MySQL Workbench, because that was how the author(s) had their project set up.
+- You do *not* need WAMP/XAMP/LAMP, if you choose to use either [MySQL Server](https://dev.mysql.com/downloads/mysql/) (with MySQL Workbench), or, [MariaDB](https://mariadb.org/download/) with HeidiSQL (which is bundled with the Windows version of MariaDB).
+
 ---
 ## ElectronMS
 This project is based on (a snapshot of) a later build of AzureMS v316 than the official open-source repository made available by **SoulGirlJP**. This includes many of the fixes and feature updates that were the work of the other developers of the time, like **Brandon**, **Dipi**, and **Desc**. Considering that the v316 source is no longer in use, and that **SoulGirlJP** has other ideas in mind with AzureMS v352, **Brandon** thought it would be too much of a waste that the work of these Azure/ex-Azure developers never saw the light of day.  
@@ -57,7 +64,7 @@ The v352.3 pre-alpha launch brought many new features to the table (courtesy of 
 
 Within a week of the pre-alpha launch, **SoulGirlJP** made the announcement that AzureMS is once again upgrading versions. This time, it is a migration to v354.4 for the 64-bit client, as **SoulGirlJP** "(is) 95% sure the upgrade will fix all launching problems". Most notably in the announcement, **SoulGirlJP** mentioned that the new client would mean "no unnecessary crashes (if there's too much (sic) mobs in 1 map, leveling to (sic) fast, etc.)", whilst also noting that they are "currently upgrading/fixing (their) tools because of the 64 bit client".  
 
-On the 30th of September, **SoulGirlJP** announced an upgrade to v354.5, rather than the previously stated v354.4, for "better performance in the loading of the characters". The upgrade to 64-bit is supposedly meant to gfive "more performance in every way", and players' "will see a very big difference of performance, (and their) client will go faster no lagg at all (sic)".  
+On the 30th of September, **SoulGirlJP** announced an upgrade to v354.5, rather than the previously stated v354.4, for "better performance in the loading of the characters". The upgrade to 64-bit is supposedly meant to give "more performance in every way", and players "will see a very big difference of performance, (and their) client will go faster no lagg at all (sic)".  
 
 
 ```
