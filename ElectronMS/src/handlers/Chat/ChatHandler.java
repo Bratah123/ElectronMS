@@ -23,8 +23,10 @@ public class ChatHandler {
 	private static void updateChatCount() {
 		if (ServerConstants.chatlimit >= 500) {
 			ServerConstants.chatlimit = 0;
-	        AdminToolStart.ChatList.clear();
-	        AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+            if (ServerConstants.ENABLE_ADMIN_TOOL) {
+                AdminToolStart.ChatList.clear();
+                AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+            }
         }
         ServerConstants.chatlimit++;
 	}
@@ -97,10 +99,12 @@ public class ChatHandler {
             	
             	outputMsg = "[Normal][Ch." + chr.getClient().getChannel() + "] " + chr.getName() + ": " + text;
             }
-            
-            AdminTool.broadcastMessage(AdminToolPacket.sendChatText(outputMsg));
-            AdminToolStart.ChatList.addElement(outputMsg);
-            AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+
+            if (ServerConstants.ENABLE_ADMIN_TOOL) {
+                AdminTool.broadcastMessage(AdminToolPacket.sendChatText(outputMsg));
+                AdminToolStart.ChatList.addElement(outputMsg);
+                AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+            }
     	}
         LoggerChatting.writeLog(LoggerChatting.chatLog, LoggerChatting.getChatLogType("General chat: ", chr, text));
     }
@@ -133,38 +137,50 @@ public class ChatHandler {
         	switch (type) {
 	            case 0:
 	                ServerConstants.chatlimit++;
-	                AdminTool.broadcastMessage(AdminToolPacket.sendChatText("[Friend][Ch." + chr.getClient().getChannel() + "]" + chr.getName() + " : " + chattext));
+                    if (ServerConstants.ENABLE_ADMIN_TOOL) {
+                        AdminTool.broadcastMessage(AdminToolPacket.sendChatText("[Friend][Ch." + chr.getClient().getChannel() + "]" + chr.getName() + " : " + chattext));
+                    }
 	                WorldCommunity.buddyChat(recipients, chr.getId(), chr.getName(), chattext);
 	                LoggerChatting.writeLog(LoggerChatting.chatLog, LoggerChatting.getChatLogType("Friend : ", chr, chattext));
 	                break;
 	            case 1:
 	                if (ServerConstants.chatlimit >= 500) {
 	                    ServerConstants.chatlimit = 0;
-	                    AdminToolStart.ChatList.clear();
-	                    AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+                        if (ServerConstants.ENABLE_ADMIN_TOOL) {
+                            AdminToolStart.ChatList.clear();
+                            AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+                        }
 	                }
 	                ServerConstants.chatlimit++;
-	                AdminTool.broadcastMessage(AdminToolPacket.sendChatText("[Party][Ch." + chr.getClient().getChannel() + "]" + chr.getName() + " : " + chattext));
 	                WorldCommunity.partyChat(chr.getParty(), chattext, chr.getName());
-	                AdminToolStart.ChatList.addElement("[Party][Ch." + chr.getClient().getChannel() + "]" + chr.getName() + " : " + chattext);
-	                AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+                    if (ServerConstants.ENABLE_ADMIN_TOOL) {
+                        AdminTool.broadcastMessage(AdminToolPacket.sendChatText("[Party][Ch." + chr.getClient().getChannel() + "]" + chr.getName() + " : " + chattext));
+                        AdminToolStart.ChatList.addElement("[Party][Ch." + chr.getClient().getChannel() + "]" + chr.getName() + " : " + chattext);
+                        AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+                    }
 	                LoggerChatting.writeLog(LoggerChatting.chatLog, LoggerChatting.getChatLogType("Party : ", chr, chattext));
 	                break;
 	            case 2:
 	                ServerConstants.chatlimit++;
-	                AdminTool.broadcastMessage(AdminToolPacket.sendChatText("[Guild][Ch." + chr.getClient().getChannel() + "]" + chr.getName() + " : " + chattext));
+                    if (ServerConstants.ENABLE_ADMIN_TOOL) {
+                        AdminTool.broadcastMessage(AdminToolPacket.sendChatText("[Guild][Ch." + chr.getClient().getChannel() + "]" + chr.getName() + " : " + chattext));
+                    }
 	                ChannelServer.guildChat(chr.getGuildId(), chr.getName(), chr.getId(), chattext);
 	                LoggerChatting.writeLog(LoggerChatting.chatLog, LoggerChatting.getChatLogType("Guild : ", chr, chattext));
 	                break;
 	            case 3:
 	                ServerConstants.chatlimit++;
-	                AdminTool.broadcastMessage(AdminToolPacket.sendChatText("[Union][Ch." + chr.getClient().getChannel() + "]" + chr.getName() + " : " + chattext));
+                    if (ServerConstants.ENABLE_ADMIN_TOOL) {
+                        AdminTool.broadcastMessage(AdminToolPacket.sendChatText("[Union][Ch." + chr.getClient().getChannel() + "]" + chr.getName() + " : " + chattext));
+                    }
 	                WorldCommunity.allianceChat(chr.getGuildId(), chr.getName(), chr.getId(), chattext);
 	                LoggerChatting.writeLog(LoggerChatting.chatLog, LoggerChatting.getChatLogType("Union : ", chr, chattext));
 	                break;
 	            case 4:
 	                ServerConstants.chatlimit++;
-	                AdminTool.broadcastMessage(AdminToolPacket.sendChatText("[Expedition][Ch." + chr.getClient().getChannel() + "]" + chr.getName() + " : " + chattext));
+                    if (ServerConstants.ENABLE_ADMIN_TOOL) {
+                        AdminTool.broadcastMessage(AdminToolPacket.sendChatText("[Expedition][Ch." + chr.getClient().getChannel() + "]" + chr.getName() + " : " + chattext));
+                    }
 	                chr.getParty().getExpedition().broadcastMessage(chr, MainPacketCreator.multiChat(chr.getName(), chattext, 4));
 	                LoggerChatting.writeLog(LoggerChatting.chatLog, LoggerChatting.getChatLogType("Expedition : ", chr, chattext));
 	                break;
@@ -326,7 +342,9 @@ public class ChatHandler {
                 String recipient = rh.readMapleAsciiString();
                 String text = rh.readMapleAsciiString();
                 ServerConstants.chatlimit++;
-                AdminTool.broadcastMessage(AdminToolPacket.sendChatText("[Whisper][Ch." + c.getChannel() + "]" + c.getPlayer().getName() + " : " + text));
+                if (ServerConstants.ENABLE_ADMIN_TOOL) {
+                    AdminTool.broadcastMessage(AdminToolPacket.sendChatText("[Whisper][Ch." + c.getChannel() + "]" + c.getPlayer().getName() + " : " + text));
+                }
                 
                 boolean isCommand = text.startsWith(String.valueOf(ServerConstants.ADMIN_COMMAND_PREFIX)) ||
                 					text.startsWith(String.valueOf(ServerConstants.PLAYER_COMMAND_PREFIX));

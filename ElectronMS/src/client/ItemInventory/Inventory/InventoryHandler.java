@@ -2627,12 +2627,16 @@ public class InventoryHandler {
 
                     if (ServerConstants.chatlimit >= 500) {
                         ServerConstants.chatlimit = 0;
-                        AdminToolStart.ChatList.clear();
-                        AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+                        if (ServerConstants.ENABLE_ADMIN_TOOL) {
+                            AdminToolStart.ChatList.clear();
+                            AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+                        }
                     }
                     ServerConstants.chatlimit++;
-                    AdminToolStart.ChatList.addElement("[Loud speaker] :  " + sb.toString() + "");
-                    AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+                    if (ServerConstants.ENABLE_ADMIN_TOOL) {
+                        AdminToolStart.ChatList.addElement("[Loud speaker] :  " + sb.toString() + "");
+                        AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+                    }
                     c.getPlayer().getMap().broadcastMessage(MainPacketCreator.serverNotice(2, sb.toString()));
                     used = true;
                 } else {
@@ -2670,14 +2674,18 @@ public class InventoryHandler {
 
                     if (ServerConstants.chatlimit >= 500) {
                         ServerConstants.chatlimit = 0;
-                        AdminToolStart.ChatList.clear();
-                        AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+                        if (ServerConstants.ENABLE_ADMIN_TOOL) {
+                            AdminToolStart.ChatList.clear();
+                            AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+                        }
                     }
                     ServerConstants.chatlimit++;
-                    AdminToolStart.ChatList.addElement("[Three-line loudspeaker] : " + messages.get(0) + "");
-                    AdminToolStart.ChatList.addElement("[Three-line loudspeaker] : " + messages.get(1) + "");
-                    AdminToolStart.ChatList.addElement("[Three-line loudspeaker] : " + messages.get(2) + "");
-                    AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+                    if (ServerConstants.ENABLE_ADMIN_TOOL) {
+                        AdminToolStart.ChatList.addElement("[Three-line loudspeaker] : " + messages.get(0) + "");
+                        AdminToolStart.ChatList.addElement("[Three-line loudspeaker] : " + messages.get(1) + "");
+                        AdminToolStart.ChatList.addElement("[Three-line loudspeaker] : " + messages.get(2) + "");
+                        AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+                    }
                     used = true;
                 } else {
                     c.getPlayer().dropMessage(5, "Loudspeakers are currently unavailable.");
@@ -2710,12 +2718,16 @@ public class InventoryHandler {
 
                     if (ServerConstants.chatlimit >= 500) {
                         ServerConstants.chatlimit = 0;
-                        AdminToolStart.ChatList.clear();
-                        AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+                        if (ServerConstants.ENABLE_ADMIN_TOOL) {
+                            AdminToolStart.ChatList.clear();
+                            AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+                        }
                     }
                     ServerConstants.chatlimit++;
-                    AdminToolStart.ChatList.addElement("[Loud speaker] :  " + sb.toString() + "");
-                    AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+                    if (ServerConstants.ENABLE_ADMIN_TOOL) {
+                        AdminToolStart.ChatList.addElement("[Loud speaker] :  " + sb.toString() + "");
+                        AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+                    }
 
                     boolean ear = rh.readByte() != 0;
                     WorldBroadcasting.broadcastSmega(MainPacketCreator.serverNotice(3, c.getChannel(), sb.toString(), ear));
@@ -2750,12 +2762,16 @@ public class InventoryHandler {
 
                     if (ServerConstants.chatlimit >= 500) {
                         ServerConstants.chatlimit = 0;
-                        AdminToolStart.ChatList.clear();
-                        AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+                        if (ServerConstants.ENABLE_ADMIN_TOOL) {
+                            AdminToolStart.ChatList.clear();
+                            AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+                        }
                     }
                     ServerConstants.chatlimit++;
-                    AdminToolStart.ChatList.addElement("[Loud speaker] :  " + sb.toString() + "");
-                    AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+                    if (ServerConstants.ENABLE_ADMIN_TOOL) {
+                        AdminToolStart.ChatList.addElement("[Loud speaker] :  " + sb.toString() + "");
+                        AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+                    }
 
                     boolean ear = rh.readByte() > 0;
 

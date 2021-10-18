@@ -106,12 +106,16 @@ public class MapleUserTrade {
     public final void chat(final String message) {
         if (ServerConstants.chatlimit >= 500) {
             ServerConstants.chatlimit = 0;
-            AdminToolStart.ChatList.clear();
-            AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+            if (ServerConstants.ENABLE_ADMIN_TOOL) {
+                AdminToolStart.ChatList.clear();
+                AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+            }
         }
         ServerConstants.chatlimit++;
-        AdminToolStart.ChatList.addElement("[Exchange] : " + chr.getName() + " : " + message + "");
-        AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+        if (ServerConstants.ENABLE_ADMIN_TOOL) {
+            AdminToolStart.ChatList.addElement("[Exchange] : " + chr.getName() + " : " + message + "");
+            AdminToolStart.Chat.setModel(AdminToolStart.ChatList);
+        }
         chr.getClient().send(MainPacketCreator.getPlayerShopChat(chr, message, true));
         if (partner != null) {
             partner.getChr().getClient().send(MainPacketCreator.getPlayerShopChat(chr, message, false));

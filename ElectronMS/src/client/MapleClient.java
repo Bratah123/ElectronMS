@@ -1282,8 +1282,10 @@ public class MapleClient {
 			getSession().writeAndFlush(MainPacketCreator.serverMessage(""));
 			removalTask();
 			MapleItemHolder.registerInv(player.getId(), player.getInventorys());
-			AdminToolStart.悼立力芭(player.getName());
-			AdminToolStart.立加磊荐.setText(String.valueOf(Integer.parseInt(AdminToolStart.立加磊荐.getText()) - 1));
+            if (ServerConstants.ENABLE_ADMIN_TOOL) {
+                AdminToolStart.悼立力芭(player.getName());
+                AdminToolStart.立加磊荐.setText(String.valueOf(Integer.parseInt(AdminToolStart.立加磊荐.getText()) - 1));
+            }
 			// WorldAuction.save(); //Save auction hall when in-game ends
 			player.saveToDB(true, fromCS);
 			if (!fromCS) {
@@ -1326,7 +1328,9 @@ public class MapleClient {
 						SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHH");
 						updateLastConnection(sdf.format(Calendar.getInstance().getTime()));
 						ch.removePlayer(player);
-						AdminTool.broadcastMessage(AdminToolPacket.Info());
+                        if (ServerConstants.ENABLE_ADMIN_TOOL) {
+                            AdminTool.broadcastMessage(AdminToolPacket.Info());
+                        }
 					}
 					player = null;
 				}

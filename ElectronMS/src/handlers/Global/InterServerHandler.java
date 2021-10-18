@@ -186,7 +186,7 @@ public class InterServerHandler {
             c.getSession().close();
             return;
         }
-        if (!AdminToolStart.현재접속자.contains(player.getName())) {
+        if (ServerConstants.ENABLE_ADMIN_TOOL && !AdminToolStart.현재접속자.contains(player.getName())) {
             AdminToolStart.동접(player.getName());
             AdminToolStart.접속자수.setText(String.valueOf(Integer.parseInt(AdminToolStart.접속자수.getText()) + 1));
         }
@@ -536,7 +536,9 @@ public class InterServerHandler {
         for (MapleCharacter ch : player.getMap().getCharacters()) {
             if (player != ch) {
                 player.send(MainPacketCreator.spawnPlayerMapobject(ch));
-                AdminTool.broadcastMessage(AdminToolPacket.Info());
+                if (ServerConstants.ENABLE_ADMIN_TOOL) {
+                    AdminTool.broadcastMessage(AdminToolPacket.Info());
+                }
             }
         }
     }
