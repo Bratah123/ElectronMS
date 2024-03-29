@@ -1,6 +1,7 @@
 # ElectronMS
 
-<img src="https://cdn.discordapp.com/attachments/729217437966270464/793686384387817503/image0.png" width="250" height="250">  
+![image](https://github.com/Bratah123/ElectronMS/assets/58405975/7e3df0d3-cf1e-4662-8fa6-0f2b9544ca22)
+ 
 
 ElectronMS is an open-source project that aims to emulate [KMS v316](https://orangemushroom.net/2019/05/22/kms-ver-1-2-316-16th-anniversary-pt-2-job-balancing) servers.  
 This project is currently a Minimum Viable Product - it is plug-n-play, and compatible with a whole suite of other **[TeamSPIRIT](https://github.com/TEAM-SPIRIT-Productions)** products.  
